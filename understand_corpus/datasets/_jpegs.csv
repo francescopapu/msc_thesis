@@ -1,0 +1,527 @@
+Kind,Name,File,CountInput,CountLineInactive,CountLinePreprocessor,CountOutput,CountPath,CountPathLog,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,INJECTED
+Static Function,"access_virt_barray(int *,j_common_ptr,jvirt_barray_ptr,JDIMENSION,JDIMENSION,boolean)",jmemmgr-pre.c,17,0,0,9,1300,3,15,15,18,1,3,0,3,0,0
+Static Function,"access_virt_sarray(int *,j_common_ptr,jvirt_sarray_ptr,JDIMENSION,JDIMENSION,boolean)",jmemmgr-pre.c,17,0,0,9,1300,3,15,15,18,1,3,0,3,0,0
+Static Function,"add_huff_table(int *,j_compress_ptr,JHUFF_TBL **,const UINT8 *,const UINT8 *)",jcparam-pre.c,9,0,0,7,8,1,4,4,5,1,0,0,1,0,0
+Static Function,"add_map_entry(j_decompress_ptr,int,int,int)",rdcolmap-pre.c,9,0,0,6,5,1,4,4,6,3,3,3,2,3,0
+Static Function,"adjust_exif_parameters(JOCTET *,unsigned int,JDIMENSION,JDIMENSION)",transupp-pre.c,5,0,0,1,4450,4,36,36,39,29,53,48,3,47,0
+Static Function,"alloc_barray(int *,j_common_ptr,int,JDIMENSION,JDIMENSION)",jmemmgr-pre.c,8,0,0,7,12,1,6,6,6,1,1,0,2,0,0
+Static Function,"alloc_fs_workspace(int *,j_decompress_ptr)",jquant1-pre.c,8,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"alloc_funny_pointers(int *,j_decompress_ptr)",jdmainct-pre.c,11,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"alloc_large(int *,j_common_ptr,int,size_t)",jmemmgr-pre.c,9,0,0,14,16,1,5,5,6,1,0,0,1,0,0
+Static Function,"alloc_sarray(int *,j_common_ptr,int,JDIMENSION,JDIMENSION)",jmemmgr-pre.c,8,0,0,7,12,1,6,6,6,1,1,0,2,0,1
+Static Function,"alloc_small(int *,j_common_ptr,int,size_t)",jmemmgr-pre.c,17,0,0,14,984,3,13,13,14,6,6,6,3,4,1
+Static Function,"arith_decode(int *,j_decompress_ptr,unsigned char *)",jdarith-pre.c,14,0,0,7,70,2,13,13,13,1,5,0,5,0,0
+Static Function,"arith_encode(int *,j_compress_ptr,unsigned char *,int)",jcarith-pre.c,17,0,0,8,77,2,21,21,21,3,6,3,6,3,0
+Static Function,"build_bg_ycc_rgb_table(int *,j_decompress_ptr)",jdcolor-pre.c,5,0,0,5,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"build_bg_ycc_rgb_table(int *,j_decompress_ptr)",jdmerge-pre.c,5,0,0,5,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"build_rgb_y_table(int *,j_decompress_ptr)",jdcolor-pre.c,5,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"build_ycc_rgb_table(int *,j_decompress_ptr)",jdcolor-pre.c,5,0,0,5,2,0,2,2,2,1,0,0,1,0,1
+Static Function,"build_ycc_rgb_table(int *,j_decompress_ptr)",jdmerge-pre.c,5,0,0,5,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"cmyk_ycck_convert(int *,j_compress_ptr,JSAMPARRAY,JSAMPIMAGE,JDIMENSION,int)",jccolor-pre.c,8,0,0,0,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"color_quantize(int *,j_decompress_ptr,JSAMPARRAY,JSAMPARRAY,int)",jquant1-pre.c,8,0,0,0,4,1,4,4,4,1,0,0,3,0,0
+Static Function,"color_quantize3(int *,j_decompress_ptr,JSAMPARRAY,JSAMPARRAY,int)",jquant1-pre.c,7,0,0,0,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"compress_data(int *,j_compress_ptr,JSAMPIMAGE)",jccoefct-pre.c,23,0,0,8,16,1,11,11,12,4,6,6,7,5,0
+Static Function,"compress_first_pass(int *,j_compress_ptr,JSAMPIMAGE)",jccoefct-pre.c,17,0,0,4,121,2,12,12,12,1,1,0,5,0,0
+Static Function,"compress_output(int *,j_compress_ptr,JSAMPIMAGE)",jctrans-pre.c,21,0,0,7,36,2,11,11,12,4,6,6,6,5,0
+Static Function,"compress_output(int *,j_compress_ptr,JSAMPIMAGE)",jccoefct-pre.c,19,0,0,8,20,1,8,8,8,4,5,5,5,5,0
+Static Function,"compute_color(int *,j_decompress_ptr,boxptr,int)",jquant2-pre.c,12,0,0,1,5,1,5,5,5,1,0,0,4,0,0
+Static Function,"consume_data(int *,j_decompress_ptr)",jdcoefct-pre.c,20,0,0,9,32,2,9,9,9,5,6,6,5,6,0
+Static Function,"consume_markers(int *,j_decompress_ptr)",jdinput-pre.c,13,0,0,11,16,1,14,12,14,9,31,31,4,30,1
+Static Function,copy_rest_of_file(),wrjpgcom-pre.c,3,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,copy_variable(),wrjpgcom-pre.c,2,0,0,6,4,1,3,3,3,1,0,0,1,0,0
+Static Function,"create_colorindex(int *,j_decompress_ptr)",jquant1-pre.c,11,0,0,4,38,2,8,8,8,1,1,0,3,0,0
+Static Function,"create_colormap(int *,j_decompress_ptr)",jquant1-pre.c,10,0,0,10,10,1,7,7,7,1,1,0,4,0,0
+Static Function,"create_context_buffer(int *,j_compress_ptr)",jcprepct-pre.c,12,0,0,4,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"create_odither_tables(int *,j_decompress_ptr)",jquant1-pre.c,7,0,0,2,7,1,5,5,5,4,2,2,3,2,0
+Static Function,"decode_mcu_AC_first(int *,j_decompress_ptr,JBLOCKROW *)",jdhuff-pre.c,27,0,0,16,166,2,20,20,20,19,40,40,8,40,0
+Static Function,"decode_mcu_AC_first(int *,j_decompress_ptr,JBLOCKROW *)",jdarith-pre.c,17,0,0,8,465,3,17,17,17,11,18,18,5,18,0
+Static Function,"decode_mcu_AC_refine(int *,j_decompress_ptr,JBLOCKROW *)",jdhuff-pre.c,28,0,0,19,299926,5,39,39,39,29,62,59,8,59,0
+Static Function,"decode_mcu_AC_refine(int *,j_decompress_ptr,JBLOCKROW *)",jdarith-pre.c,16,0,0,8,453,3,16,16,16,11,19,18,5,17,0
+Static Function,"decode_mcu_DC_first(int *,j_decompress_ptr,JBLOCKROW *)",jdhuff-pre.c,28,0,0,16,91,2,15,15,15,14,23,23,5,23,0
+Static Function,"decode_mcu_DC_first(int *,j_decompress_ptr,JBLOCKROW *)",jdarith-pre.c,18,0,0,10,174,2,14,14,14,7,11,11,5,9,0
+Static Function,"decode_mcu_DC_refine(int *,j_decompress_ptr,JBLOCKROW *)",jdhuff-pre.c,18,0,0,13,19,1,8,8,8,7,7,7,3,7,0
+Static Function,"decode_mcu_DC_refine(int *,j_decompress_ptr,JBLOCKROW *)",jdarith-pre.c,8,0,0,4,9,1,5,5,5,1,0,0,2,0,0
+Static Function,"decode_mcu_sub(int *,j_decompress_ptr,JBLOCKROW *)",jdhuff-pre.c,29,0,0,16,49735,5,40,40,40,38,101,101,7,101,0
+Static Function,"decode_mcu(int *,j_decompress_ptr,JBLOCKROW *)",jdhuff-pre.c,28,0,0,17,72739,5,41,41,41,38,101,101,7,101,1
+Static Function,"decode_mcu(int *,j_decompress_ptr,JBLOCKROW *)",jdarith-pre.c,23,0,0,10,50829,5,28,28,28,17,34,34,6,32,0
+Static Function,"decompress_data(int *,j_decompress_ptr,JSAMPIMAGE)",jdcoefct-pre.c,22,0,0,4,77,2,10,10,12,6,6,6,3,5,0
+Static Function,"decompress_onepass(int *,j_decompress_ptr,JSAMPIMAGE)",jdcoefct-pre.c,29,0,0,9,42,2,12,12,13,7,7,7,6,7,1
+Static Function,"decompress_smooth_data(int *,j_decompress_ptr,JSAMPIMAGE)",jdcoefct-pre.c,27,0,0,5,2400491,6,37,37,55,8,18,12,6,9,0
+Static Function,"default_decompress_parms(int *,j_decompress_ptr)",jdapimin-pre.c,13,0,0,23,15,1,16,12,24,1,19,0,3,0,0
+Static Function,"do_barray_io(int *,j_common_ptr,jvirt_barray_ptr,boolean)",jmemmgr-pre.c,13,0,0,2,5,1,7,7,7,3,3,3,2,2,0
+Static Function,"do_crop_ext(j_decompress_ptr,j_compress_ptr,JDIMENSION,JDIMENSION,jvirt_barray_ptr *,jvirt_barray_ptr *)",transupp-pre.c,22,0,0,3,26,1,10,10,11,5,4,4,5,3,0
+Static Function,"do_crop(j_decompress_ptr,j_compress_ptr,JDIMENSION,JDIMENSION,jvirt_barray_ptr *,jvirt_barray_ptr *)",transupp-pre.c,14,0,0,2,4,1,4,4,4,1,0,0,3,0,0
+Static Function,"do_flatten(j_decompress_ptr,j_compress_ptr,JDIMENSION,JDIMENSION,jvirt_barray_ptr *,JDIMENSION,JDIMENSION)",transupp-pre.c,14,0,0,2,11,1,8,8,8,6,5,5,5,4,0
+Static Function,"do_flip_h_no_crop(j_decompress_ptr,j_compress_ptr,JDIMENSION,jvirt_barray_ptr *)",transupp-pre.c,15,0,0,2,12,1,8,8,8,1,0,0,5,0,0
+Static Function,"do_flip_h(j_decompress_ptr,j_compress_ptr,JDIMENSION,JDIMENSION,jvirt_barray_ptr *,jvirt_barray_ptr *)",transupp-pre.c,17,0,0,2,7,1,7,7,7,1,1,0,6,0,0
+Static Function,"do_flip_v(j_decompress_ptr,j_compress_ptr,JDIMENSION,JDIMENSION,jvirt_barray_ptr *,jvirt_barray_ptr *)",transupp-pre.c,17,0,0,2,18,1,10,10,10,1,2,0,7,0,0
+Static Function,"do_rot_180(j_decompress_ptr,j_compress_ptr,JDIMENSION,JDIMENSION,jvirt_barray_ptr *,jvirt_barray_ptr *)",transupp-pre.c,20,0,0,2,34,2,17,17,17,1,4,0,8,0,0
+Static Function,"do_rot_270(j_decompress_ptr,j_compress_ptr,JDIMENSION,JDIMENSION,jvirt_barray_ptr *,jvirt_barray_ptr *)",transupp-pre.c,17,0,0,1,11,1,11,11,11,1,1,0,8,0,0
+Static Function,"do_rot_90(j_decompress_ptr,j_compress_ptr,JDIMENSION,JDIMENSION,jvirt_barray_ptr *,jvirt_barray_ptr *)",transupp-pre.c,17,0,0,1,22,1,13,13,13,1,2,0,8,0,0
+Static Function,"do_sarray_io(int *,j_common_ptr,jvirt_sarray_ptr,boolean)",jmemmgr-pre.c,13,0,0,2,5,1,7,7,7,3,3,3,2,2,0
+Static Function,"do_transpose(j_decompress_ptr,j_compress_ptr,JDIMENSION,JDIMENSION,jvirt_barray_ptr *,jvirt_barray_ptr *)",transupp-pre.c,14,0,0,1,8,1,8,8,8,1,0,0,7,0,0
+Static Function,"do_transverse(j_decompress_ptr,j_compress_ptr,JDIMENSION,JDIMENSION,jvirt_barray_ptr *,jvirt_barray_ptr *)",transupp-pre.c,20,0,0,1,38,2,20,20,20,1,4,0,9,0,0
+Static Function,"do_wipe(j_decompress_ptr,j_compress_ptr,JDIMENSION,JDIMENSION,jvirt_barray_ptr *,JDIMENSION,JDIMENSION)",transupp-pre.c,13,0,0,2,4,1,4,4,4,1,0,0,3,0,0
+Static Function,"dummy_consume_data(int *,j_decompress_ptr)",jdcoefct-pre.c,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"dump_buffer_e(int *,huff_entropy_ptr)",jchuff-pre.c,9,0,0,7,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"dump_buffer_s(int *,working_state *)",jchuff-pre.c,8,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"emit_2bytes(int *,j_compress_ptr,int)",jcmarker-pre.c,14,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"emit_ac_symbol(int *,huff_entropy_ptr,int,int)",jchuff-pre.c,11,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"emit_adobe_app14(int *,j_compress_ptr)",jcmarker-pre.c,4,0,0,3,3,0,3,2,3,1,3,0,1,0,0
+Static Function,"emit_bits_e(int *,huff_entropy_ptr,unsigned int,int)",jchuff-pre.c,20,0,0,10,16,1,7,7,7,1,1,0,3,0,0
+Static Function,"emit_bits_s(int *,working_state *,unsigned int,int)",jchuff-pre.c,12,0,0,12,20,1,8,8,8,7,9,9,4,9,0
+Static Function,"emit_buffered_bits(int *,huff_entropy_ptr,char *,unsigned int)",jchuff-pre.c,7,0,0,1,3,0,3,3,3,1,1,0,1,0,0
+Static Function,"emit_byte(int *,int,j_compress_ptr)",jcarith-pre.c,9,0,0,6,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"emit_byte(int *,j_compress_ptr,int)",jcmarker-pre.c,18,0,0,6,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"emit_dac(int *,j_compress_ptr)",jcmarker-pre.c,13,0,0,3,120,2,10,10,11,1,0,0,3,0,0
+Static Function,"emit_dc_symbol(int *,huff_entropy_ptr,int,int)",jchuff-pre.c,9,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"emit_dht(int *,j_compress_ptr,int,boolean)",jcmarker-pre.c,12,0,0,9,36,2,7,7,7,1,1,0,2,0,0
+Static Function,"emit_dqt(int *,j_compress_ptr,int)",jcmarker-pre.c,11,0,0,10,24,1,8,8,8,1,0,0,3,0,0
+Static Function,"emit_dri(int *,j_compress_ptr)",jcmarker-pre.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"emit_eobrun(int *,huff_entropy_ptr)",jchuff-pre.c,13,0,0,9,9,1,5,5,5,1,0,0,2,0,0
+Static Function,"emit_jfif_app0(int *,j_compress_ptr)",jcmarker-pre.c,8,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"emit_lse_ict(int *,j_compress_ptr)",jcmarker-pre.c,8,0,0,6,2,0,2,2,3,1,0,0,1,0,0
+Static Function,"emit_marker(int *,j_compress_ptr,JPEG_MARKER)",jcmarker-pre.c,17,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"emit_message(int *,j_common_ptr,int)",jerror-pre.c,6,0,0,2,4,1,4,4,5,1,1,0,2,0,0
+Static Function,"emit_pseudo_sos(int *,j_compress_ptr)",jcmarker-pre.c,4,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"emit_restart_e(int *,huff_entropy_ptr,int)",jchuff-pre.c,12,0,0,9,15,1,6,6,6,1,1,0,2,0,0
+Static Function,"emit_restart_s(int *,working_state *,int)",jchuff-pre.c,7,0,0,7,12,1,7,7,7,6,5,5,2,5,0
+Static Function,"emit_restart(int *,j_compress_ptr,int)",jcarith-pre.c,18,0,0,11,5,1,4,4,5,1,0,0,2,0,0
+Static Function,"emit_sof(int *,j_compress_ptr,JPEG_MARKER)",jcmarker-pre.c,14,0,0,8,4,1,3,3,4,1,0,0,1,0,0
+Static Function,"emit_sos(int *,j_compress_ptr)",jcmarker-pre.c,12,0,0,3,2,0,4,4,5,1,0,0,1,0,0
+Static Function,"empty_mem_output_buffer(int *,j_compress_ptr)",jdatadst-pre.c,7,0,0,15,4,1,3,3,3,1,0,0,1,0,0
+Static Function,"empty_output_buffer(int *,j_compress_ptr)",jdatadst-pre.c,6,0,0,8,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"encode_mcu_AC_first(int *,j_compress_ptr,JBLOCKROW *)",jchuff-pre.c,19,0,0,16,3483,4,15,15,15,4,3,3,2,2,0
+Static Function,"encode_mcu_AC_first(int *,j_compress_ptr,JBLOCKROW *)",jcarith-pre.c,16,0,0,5,984,3,19,19,19,10,14,14,4,14,0
+Static Function,"encode_mcu_AC_refine(int *,j_compress_ptr,JBLOCKROW *)",jchuff-pre.c,20,0,0,15,1215,3,15,15,18,4,2,2,2,2,0
+Static Function,"encode_mcu_AC_refine(int *,j_compress_ptr,JBLOCKROW *)",jcarith-pre.c,16,0,0,5,1800,3,20,20,20,14,23,23,5,21,0
+Static Function,"encode_mcu_DC_first(int *,j_compress_ptr,JBLOCKROW *)",jchuff-pre.c,20,0,0,16,153,2,10,10,10,1,0,0,2,0,0
+Static Function,"encode_mcu_DC_first(int *,j_compress_ptr,JBLOCKROW *)",jcarith-pre.c,17,0,0,7,114,2,12,12,12,1,3,0,4,0,0
+Static Function,"encode_mcu_DC_refine(int *,j_compress_ptr,JBLOCKROW *)",jchuff-pre.c,14,0,0,10,18,1,6,6,6,1,0,0,2,0,0
+Static Function,"encode_mcu_DC_refine(int *,j_compress_ptr,JBLOCKROW *)",jcarith-pre.c,10,0,0,5,6,1,4,4,4,1,0,0,2,0,0
+Static Function,"encode_mcu_gather(int *,j_compress_ptr,JBLOCKROW *)",jchuff-pre.c,16,0,0,5,8,1,5,5,5,1,0,0,3,0,0
+Static Function,"encode_mcu_huff(int *,j_compress_ptr,JBLOCKROW *)",jchuff-pre.c,22,0,0,14,22,1,8,8,8,6,6,6,3,6,0
+Static Function,"encode_mcu(int *,j_compress_ptr,JBLOCKROW *)",jcarith-pre.c,22,0,0,7,29307,4,25,25,25,5,7,5,5,3,0
+Static Function,"encode_one_block(int *,working_state *,JCOEFPTR,int,c_derived_tbl *,c_derived_tbl *)",jchuff-pre.c,13,0,0,7,1408,3,18,18,18,12,20,20,4,20,0
+Static Function,"error_exit(int *,j_common_ptr)",jerror-pre.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"examine_app0(int *,j_decompress_ptr,JOCTET *,unsigned int,INT32)",jdmarker-pre.c,15,0,0,12,26,1,11,9,22,1,8,0,2,0,0
+Static Function,"examine_app14(int *,j_decompress_ptr,JOCTET *,unsigned int,INT32)",jdmarker-pre.c,10,0,0,7,2,0,3,3,8,1,1,0,2,0,0
+Static Function,"expand_bottom_edge(int *,JSAMPARRAY,JDIMENSION,int,int)",jcprepct-pre.c,7,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"expand_right_edge(int *,JSAMPARRAY,int,JDIMENSION,JDIMENSION)",jcsample-pre.c,10,0,0,0,4,1,4,4,4,1,0,0,3,0,0
+Static Function,"fill_a_scan(int *,jpeg_scan_info *,int,int,int,int,int)",jcparam-pre.c,7,0,0,8,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"fill_dc_scans(int *,jpeg_scan_info *,int,int,int)",jcparam-pre.c,6,0,0,9,3,0,3,3,3,1,1,0,2,0,0
+Static Function,"fill_input_buffer(int *,j_decompress_ptr)",jdatasrc-pre.c,7,0,0,11,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"fill_inverse_cmap(int *,j_decompress_ptr,int,int,int)",jquant2-pre.c,9,0,0,2,4,1,4,4,4,1,0,0,3,0,0
+Static Function,"fill_mem_input_buffer(int *,j_decompress_ptr)",jdatasrc-pre.c,3,0,0,7,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"fill_scans(int *,jpeg_scan_info *,int,int,int,int,int)",jcparam-pre.c,8,0,0,8,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"find_best_colors(int *,j_decompress_ptr,int,int,int,int,JSAMPLE [],JSAMPLE [])",jquant2-pre.c,9,0,0,0,12,1,7,7,7,1,0,0,5,0,0
+Static Function,"find_biggest_color_pop(int *,boxptr,int)",jquant2-pre.c,5,0,0,1,3,0,3,3,4,1,0,0,2,0,0
+Static Function,"find_biggest_volume(int *,boxptr,int)",jquant2-pre.c,4,0,0,1,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"find_nearby_colors(int *,j_decompress_ptr,int,int,int,JSAMPLE [])",jquant2-pre.c,7,0,0,1,387,3,14,14,14,1,9,0,3,0,0
+Static Function,"finish_input_pass(int *,j_decompress_ptr)",jdinput-pre.c,3,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"finish_output_pass(int *,j_decompress_ptr)",jdmaster-pre.c,5,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"finish_pass_1_quant(int *,j_decompress_ptr)",jquant1-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"finish_pass_gather(int *,j_compress_ptr)",jchuff-pre.c,15,0,0,4,34,2,9,9,10,1,0,0,4,0,0
+Static Function,"finish_pass_huff(int *,j_compress_ptr)",jchuff-pre.c,14,0,0,16,3,0,3,3,3,1,1,0,2,0,0
+Static Function,"finish_pass_huff(int *,j_decompress_ptr)",jdhuff-pre.c,5,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"finish_pass_master(int *,j_compress_ptr)",jcmaster-pre.c,6,0,0,4,6,1,6,4,6,1,3,0,2,0,0
+Static Function,"finish_pass(int *,j_compress_ptr)",jcarith-pre.c,10,0,0,4,442,3,21,21,21,1,3,0,4,0,0
+Static Function,"finish_pass(int *,j_decompress_ptr)",jdarith-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"finish_pass1(int *,j_decompress_ptr)",jquant2-pre.c,5,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"finish_pass2(int *,j_decompress_ptr)",jquant2-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Static Function,first_marker(),rdjpgcom-pre.c,3,0,0,4,2,0,2,2,3,1,0,0,1,0,0
+Static Function,first_marker(),wrjpgcom-pre.c,3,0,0,4,2,0,2,2,3,1,0,0,1,0,0
+Static Function,"first_marker(int *,j_decompress_ptr)",jdmarker-pre.c,7,0,0,11,131,2,12,12,13,7,6,6,3,6,0
+Static Function,"flush_bits_e(int *,huff_entropy_ptr)",jchuff-pre.c,4,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"flush_bits_s(int *,working_state *)",jchuff-pre.c,4,0,0,6,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"format_message(int *,j_common_ptr,char *)",jerror-pre.c,12,0,0,3,48,2,8,8,11,3,4,3,3,2,0
+Static Function,"forward_DCT_float(int *,j_compress_ptr,jpeg_component_info *,JSAMPARRAY,JBLOCKROW,JDIMENSION,JDIMENSION,JDIMENSION)",jcdctmgr-pre.c,13,0,0,0,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"forward_DCT(int *,j_compress_ptr,jpeg_component_info *,JSAMPARRAY,JBLOCKROW,JDIMENSION,JDIMENSION,JDIMENSION)",jcdctmgr-pre.c,13,0,0,0,6,1,6,6,6,1,3,0,4,0,0
+Static Function,"free_pool(int *,j_common_ptr,int)",jmemmgr-pre.c,24,0,0,15,80,2,9,9,10,1,0,0,3,0,0
+Static Function,"fullsize_downsample(int *,j_compress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY)",jcsample-pre.c,9,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"fullsize_smooth_downsample(int *,j_compress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY)",jcsample-pre.c,10,0,0,1,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"fullsize_upsample(int *,j_decompress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY *)",jdsample-pre.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"get_byte(int *,j_decompress_ptr)",jdarith-pre.c,7,0,0,7,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"get_dac(int *,j_decompress_ptr)",jdmarker-pre.c,9,0,0,13,215,2,17,17,18,13,17,17,4,16,0
+Static Function,"get_dht(int *,j_decompress_ptr)",jdmarker-pre.c,13,0,0,14,999999999,11,50,50,52,18,26,26,5,25,1
+Static Function,"get_dqt(int *,j_decompress_ptr)",jdmarker-pre.c,19,0,0,14,6488115,7,45,40,45,20,60,38,6,36,1
+Static Function,"get_dri(int *,j_decompress_ptr)",jdmarker-pre.c,7,0,0,11,59,2,12,12,12,11,12,12,3,12,0
+Static Function,"get_interesting_appn(int *,j_decompress_ptr)",jdmarker-pre.c,7,0,0,13,152180745,8,35,34,35,10,16,12,4,11,1
+Static Function,"get_lse(int *,j_decompress_ptr)",jdmarker-pre.c,15,0,0,11,999999999,13,83,83,83,80,272,272,3,272,0
+Static Function,"get_sof(int *,j_decompress_ptr,boolean,boolean,boolean)",jdmarker-pre.c,24,0,0,25,43500519,8,50,50,52,34,41,41,5,41,1
+Static Function,"get_soi(int *,j_decompress_ptr)",jdmarker-pre.c,6,0,0,22,4,1,3,3,3,1,0,0,1,0,0
+Static Function,"get_sos(int *,j_decompress_ptr)",jdmarker-pre.c,23,0,0,23,16859438,7,45,45,48,29,33,33,5,33,1
+Static Function,"gray_rgb_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,6,0,0,0,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"grayscale_convert(int *,j_compress_ptr,JSAMPARRAY,JSAMPIMAGE,JDIMENSION,int)",jccolor-pre.c,7,0,0,0,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"grayscale_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,7,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"h2v1_downsample(int *,j_compress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY)",jcsample-pre.c,9,0,0,1,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"h2v1_merged_upsample(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY)",jdmerge-pre.c,11,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Static Function,"h2v1_upsample(int *,j_decompress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY *)",jdsample-pre.c,5,0,0,0,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"h2v2_downsample(int *,j_compress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY)",jcsample-pre.c,9,0,0,1,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"h2v2_merged_upsample(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY)",jdmerge-pre.c,11,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Static Function,"h2v2_smooth_downsample(int *,j_compress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY)",jcsample-pre.c,10,0,0,1,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"h2v2_upsample(int *,j_decompress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY *)",jdsample-pre.c,6,0,0,1,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"htest_one_block(int *,j_compress_ptr,JCOEFPTR,int,long [],long [])",jchuff-pre.c,8,0,0,3,288,2,11,11,11,1,1,0,3,0,0
+Static Function,"init_destination(int *,j_compress_ptr)",jdatadst-pre.c,5,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"init_error_limit(int *,j_decompress_ptr)",jquant2-pre.c,6,0,0,2,8,1,5,5,5,1,0,0,1,0,0
+Static Function,"init_mem_destination(int *,j_compress_ptr)",jdatadst-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"init_mem_source(int *,j_decompress_ptr)",jdatasrc-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"init_source(int *,j_decompress_ptr)",jdatasrc-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"initial_setup(int *,j_compress_ptr)",jcmaster-pre.c,26,0,0,19,8736,4,24,19,34,1,22,0,2,0,0
+Static Function,"initial_setup(int *,j_decompress_ptr)",jdinput-pre.c,28,0,0,24,1728,3,27,12,35,1,138,0,2,0,1
+Static Function,"int_downsample(int *,j_compress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY)",jcsample-pre.c,13,0,0,1,5,1,5,5,5,1,0,0,4,0,0
+Static Function,"int_upsample(int *,j_decompress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY *)",jdsample-pre.c,11,0,0,1,7,1,5,5,5,1,0,0,3,0,0
+Function,is_char_signed(int),ckconfig-pre.c,2,0,0,2,3,0,3,3,3,1,1,0,1,0,0
+Function,is_shifting_signed(long),ckconfig-pre.c,2,0,0,2,3,0,3,3,3,3,2,2,1,2,0
+Function,"jcopy_block_row(int *,JBLOCKROW,JBLOCKROW,JDIMENSION)",jutils-pre.c,10,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jcopy_markers_execute(j_decompress_ptr,j_compress_ptr,JCOPY_OPTION)",transupp-pre.c,10,0,0,1,5,1,4,4,18,4,2,2,2,2,0
+Function,"jcopy_markers_setup(j_decompress_ptr,JCOPY_OPTION)",transupp-pre.c,3,0,0,1,6,1,4,4,4,1,0,0,2,0,0
+Function,"jcopy_sample_rows(int *,JSAMPARRAY,int,JSAMPARRAY,int,int,JDIMENSION)",jutils-pre.c,13,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"jdiv_round_up(int *,long,long)",jutils-pre.c,10,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jinit_1pass_quantizer(int *,j_decompress_ptr)",jquant1-pre.c,8,0,0,16,8,1,4,4,4,1,0,0,1,0,0
+Function,"jinit_2pass_quantizer(int *,j_decompress_ptr)",jquant2-pre.c,10,0,0,20,80,2,8,8,8,1,1,0,2,0,0
+Function,"jinit_arith_decoder(int *,j_decompress_ptr)",jdarith-pre.c,9,0,0,9,8,1,5,5,5,1,0,0,3,0,0
+Function,"jinit_arith_encoder(int *,j_compress_ptr)",jcarith-pre.c,6,0,0,8,2,0,2,2,2,1,0,0,1,0,0
+Function,"jinit_c_coef_controller(int *,j_compress_ptr,boolean)",jccoefct-pre.c,11,0,0,9,4,1,4,4,4,1,1,0,2,0,0
+Function,"jinit_c_main_controller(int *,j_compress_ptr,boolean)",jcmainct-pre.c,14,0,0,9,4,1,4,4,4,1,2,0,2,0,0
+Function,"jinit_c_master_control(int *,j_compress_ptr,boolean)",jcmaster-pre.c,13,0,0,18,54,2,8,8,11,1,5,0,2,0,0
+Function,"jinit_c_prep_controller(int *,j_compress_ptr,boolean)",jcprepct-pre.c,15,0,0,11,6,1,4,4,4,1,1,0,2,0,0
+Function,"jinit_color_converter(int *,j_compress_ptr)",jccolor-pre.c,11,0,0,10,800,3,43,23,46,10,49,25,3,25,0
+Function,"jinit_color_deconverter(int *,j_decompress_ptr)",jdcolor-pre.c,12,0,0,15,704,3,37,18,39,1,44,0,3,0,1
+Function,"jinit_compress_master(int *,j_compress_ptr)",jcinit-pre.c,14,0,0,18,32,2,6,6,9,1,1,0,1,0,0
+Function,"jinit_d_coef_controller(int *,j_decompress_ptr,boolean)",jdcoefct-pre.c,15,0,0,15,7,1,6,6,6,1,1,0,3,0,1
+Function,"jinit_d_main_controller(int *,j_decompress_ptr,boolean)",jdmainct-pre.c,16,0,0,11,12,1,5,5,5,1,1,0,2,0,1
+Function,"jinit_d_post_controller(int *,j_decompress_ptr,boolean)",jdpostct-pre.c,11,0,0,10,3,0,3,3,3,1,1,0,2,0,1
+Function,"jinit_downsampler(int *,j_compress_ptr)",jcsample-pre.c,17,0,0,14,32,2,10,10,15,1,6,0,3,0,0
+Function,"jinit_forward_dct(int *,j_compress_ptr)",jcdctmgr-pre.c,7,0,0,5,2,0,2,2,2,1,0,0,1,0,0
+Function,"jinit_huff_decoder(int *,j_decompress_ptr)",jdhuff-pre.c,9,0,0,9,8,1,6,6,6,1,1,0,3,0,1
+Function,"jinit_huff_encoder(int *,j_compress_ptr)",jchuff-pre.c,7,0,0,9,4,1,3,3,3,1,0,0,1,0,0
+Function,"jinit_input_controller(int *,j_decompress_ptr)",jdinput-pre.c,5,0,0,10,1,0,1,1,1,1,0,0,0,0,1
+Function,"jinit_inverse_dct(int *,j_decompress_ptr)",jddctmgr-pre.c,8,0,0,7,2,0,2,2,2,1,0,0,1,0,1
+Function,"jinit_marker_reader(int *,j_decompress_ptr)",jdmarker-pre.c,5,0,0,11,2,0,2,2,2,1,0,0,1,0,1
+Function,"jinit_marker_writer(int *,j_compress_ptr)",jcmarker-pre.c,7,0,0,11,1,0,1,1,1,1,0,0,0,0,0
+Function,"jinit_master_decompress(int *,j_decompress_ptr)",jdmaster-pre.c,5,0,0,7,1,0,1,1,1,1,0,0,0,0,1
+Function,"jinit_memory_mgr(int *,j_common_ptr)",jmemmgr-pre.c,6,0,0,30,64,2,8,8,10,1,0,0,3,0,1
+Function,"jinit_merged_upsampler(int *,j_decompress_ptr)",jdmerge-pre.c,10,0,0,12,4,1,3,3,3,1,2,0,1,0,0
+Function,"jinit_upsampler(int *,j_decompress_ptr)",jdsample-pre.c,19,0,0,16,34,2,8,8,12,4,5,5,2,2,1
+Function,"jpeg_abort_compress(int *,j_compress_ptr)",jcapimin-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_abort_decompress(int *,j_decompress_ptr)",jdapimin-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_abort(int *,j_common_ptr)",jcomapi-pre.c,9,0,0,3,5,1,4,4,4,1,2,0,1,0,1
+Function,"jpeg_add_quant_table(int *,j_compress_ptr,int,const unsigned int *,int,boolean)",jcparam-pre.c,12,0,0,8,72,2,8,8,10,1,0,0,2,0,0
+Function,"jpeg_alloc_huff_table(int *,j_common_ptr)",jcomapi-pre.c,6,0,0,3,1,0,1,1,1,1,0,0,0,0,1
+Function,"jpeg_alloc_quant_table(int *,j_common_ptr)",jcomapi-pre.c,6,0,0,3,1,0,1,1,1,1,0,0,0,0,1
+Function,"jpeg_calc_jpeg_dimensions(int *,j_compress_ptr)",jcinit-pre.c,9,0,0,10,32,2,17,17,18,1,15,0,1,0,0
+Function,"jpeg_calc_output_dimensions(int *,j_decompress_ptr)",jdmaster-pre.c,22,0,0,15,520,3,19,13,21,1,12,0,2,0,1
+Static Function,"jpeg_calc_trans_dimensions(int *,j_compress_ptr)",jctrans-pre.c,6,0,0,6,2,0,2,2,2,1,0,0,1,0,0
+Function,"jpeg_consume_input(int *,j_decompress_ptr)",jdapimin-pre.c,7,0,0,11,7,1,12,3,12,5,6,6,2,6,1
+Function,"jpeg_copy_critical_parameters(int *,j_decompress_ptr,j_compress_ptr)",jctrans-pre.c,34,0,0,32,432,3,14,14,18,1,0,0,4,0,0
+Function,"jpeg_core_output_dimensions(int *,j_decompress_ptr)",jdinput-pre.c,14,0,0,7,32,2,17,17,17,1,15,0,1,0,1
+Function,"jpeg_CreateCompress(int *,j_compress_ptr,int,size_t)",jcapimin-pre.c,10,0,0,23,16,1,5,5,5,1,0,0,1,0,0
+Function,"jpeg_CreateDecompress(int *,j_decompress_ptr,int,size_t)",jdapimin-pre.c,10,0,0,19,16,1,5,5,5,1,0,0,1,0,1
+Function,"jpeg_default_colorspace(int *,j_compress_ptr)",jcparam-pre.c,6,0,0,4,9,1,9,2,9,1,36,0,1,0,0
+Function,"jpeg_default_qtables(int *,j_compress_ptr,boolean)",jcparam-pre.c,7,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_destroy_compress(int *,j_compress_ptr)",jcapimin-pre.c,5,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_destroy_decompress(int *,j_decompress_ptr)",jdapimin-pre.c,6,0,0,1,1,0,1,1,1,1,0,0,0,0,1
+Function,"jpeg_destroy(int *,j_common_ptr)",jcomapi-pre.c,6,0,0,3,2,0,2,2,2,1,0,0,1,0,1
+Function,"jpeg_fdct_10x10(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4,0
+Function,"jpeg_fdct_10x5(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_fdct_11x11(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4,0
+Function,"jpeg_fdct_12x12(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4,0
+Function,"jpeg_fdct_12x6(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_fdct_13x13(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4,0
+Function,"jpeg_fdct_14x14(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4,0
+Function,"jpeg_fdct_14x7(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_fdct_15x15(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4,0
+Function,"jpeg_fdct_16x16(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4,0
+Function,"jpeg_fdct_16x8(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_fdct_1x1(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_fdct_1x2(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_fdct_2x1(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_fdct_2x2(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_fdct_2x4(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_fdct_3x3(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_fdct_3x6(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_fdct_4x2(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_fdct_4x4(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_fdct_4x8(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_fdct_5x10(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,8,1,5,5,5,4,4,4,3,4,0
+Function,"jpeg_fdct_5x5(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_fdct_6x12(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,8,1,5,5,5,4,4,4,3,4,0
+Function,"jpeg_fdct_6x3(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_fdct_6x6(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_fdct_7x14(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,8,1,5,5,5,4,4,4,3,4,0
+Function,"jpeg_fdct_7x7(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_fdct_8x16(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4,0
+Function,"jpeg_fdct_8x4(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_fdct_9x9(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4,0
+Function,"jpeg_fdct_float(int *,float *,JSAMPARRAY,JDIMENSION)",jfdctflt-pre.c,3,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_fdct_ifast(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctfst-pre.c,3,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_fdct_islow(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Static Function,"jpeg_fill_bit_buffer(int *,bitread_working_state *,bit_buf_type,int,int)",jdhuff-pre.c,22,0,0,14,53,2,14,14,15,10,20,20,6,20,0
+Function,"jpeg_finish_compress(int *,j_compress_ptr)",jcapimin-pre.c,16,0,0,15,24,1,8,8,9,1,1,0,3,0,0
+Function,"jpeg_finish_decompress(int *,j_decompress_ptr)",jdapimin-pre.c,15,0,0,11,15,1,7,7,9,3,5,4,2,3,0
+Function,"jpeg_finish_output(int *,j_decompress_ptr)",jdapistd-pre.c,10,0,0,9,9,1,5,5,8,3,4,4,2,3,0
+Function,"jpeg_free_large(int *,j_common_ptr,void *,size_t)",jmemnobs-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_free_small(int *,j_common_ptr,void *,size_t)",jmemnobs-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"jpeg_gen_optimal_table(int *,j_compress_ptr,JHUFF_TBL *,long [])",jchuff-pre.c,7,0,0,8,18688,4,20,20,23,3,2,2,3,2,0
+Function,"jpeg_get_large(int *,j_common_ptr,size_t)",jmemnobs-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_get_small(int *,j_common_ptr,size_t)",jmemnobs-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jpeg_getc(j_decompress_ptr),djpeg-pre.c,6,0,0,7,3,0,3,3,3,1,0,0,2,0,0
+Function,"jpeg_has_multiple_scans(int *,j_decompress_ptr)",jdapimin-pre.c,6,0,0,6,2,0,2,2,3,1,0,0,1,0,0
+Static Function,"jpeg_huff_decode(int *,bitread_working_state *,bit_buf_type,int,d_derived_tbl *,int)",jdhuff-pre.c,20,0,0,9,15,1,7,7,7,7,7,7,3,7,0
+Function,"jpeg_idct_10x10(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_10x5(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_11x11(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_12x12(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_12x6(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_13x13(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_14x14(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_14x7(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_15x15(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_16x16(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,8,0,0,0,4,1,3,3,3,1,0,0,1,0,1
+Function,"jpeg_idct_16x8(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,6,1,4,4,10,3,1,1,2,1,0
+Function,"jpeg_idct_1x1(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,6,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_idct_1x2(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,6,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_idct_2x1(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_idct_2x2(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_idct_2x4(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_3x3(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_3x6(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_4x2(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_4x4(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_4x8(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,6,1,4,4,10,3,1,1,2,1,0
+Function,"jpeg_idct_5x10(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_5x5(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_6x12(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_6x3(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_6x6(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_7x14(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_7x7(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_8x16(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_8x4(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_9x9(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Function,"jpeg_idct_float(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctflt-pre.c,7,0,0,0,6,1,4,4,10,3,1,1,2,1,0
+Function,"jpeg_idct_ifast(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctfst-pre.c,7,0,0,0,9,1,5,5,17,5,2,2,2,2,0
+Function,"jpeg_idct_islow(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,8,0,0,0,9,1,5,5,17,5,2,2,2,2,1
+Function,"jpeg_input_complete(int *,j_decompress_ptr)",jdapimin-pre.c,6,0,0,6,2,0,2,2,3,1,0,0,1,0,0
+Static Function,"jpeg_make_c_derived_tbl(int *,j_compress_ptr,boolean,int,c_derived_tbl **)",jchuff-pre.c,13,0,0,10,600,3,14,14,18,1,0,0,2,0,0
+Static Function,"jpeg_make_d_derived_tbl(int *,j_decompress_ptr,boolean,int,d_derived_tbl **)",jdhuff-pre.c,14,0,0,14,587520,6,26,26,50,1,1,0,4,0,1
+Function,"jpeg_mem_available(int *,j_common_ptr,long,long,long)",jmemnobs-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_mem_dest(int *,j_compress_ptr,unsigned char **,unsigned long *)",jdatadst-pre.c,8,0,0,21,12,1,5,5,7,1,0,0,2,0,0
+Function,"jpeg_mem_init(int *,j_common_ptr)",jmemnobs-pre.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_mem_src(int *,j_decompress_ptr,const unsigned char *,unsigned long)",jdatasrc-pre.c,8,0,0,13,16,1,5,5,6,1,0,0,1,0,1
+Function,"jpeg_mem_term(int *,j_common_ptr)",jmemnobs-pre.c,2,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_new_colormap(int *,j_decompress_ptr)",jdmaster-pre.c,10,0,0,9,4,1,3,3,5,1,1,0,1,0,0
+Function,"jpeg_open_backing_store(int *,j_common_ptr,backing_store_ptr,long)",jmemnobs-pre.c,4,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_quality_scaling(int *,int)",jcparam-pre.c,3,0,0,1,8,1,4,4,4,1,1,0,1,0,0
+Function,"jpeg_read_coefficients(int *,j_decompress_ptr)",jdtrans-pre.c,13,0,0,13,60,2,10,10,14,6,7,7,4,7,0
+Function,"jpeg_read_header(int *,j_decompress_ptr,boolean)",jdapimin-pre.c,9,0,0,8,10,1,6,4,7,1,3,0,2,0,1
+Function,"jpeg_read_raw_data(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION)",jdapistd-pre.c,12,0,0,13,18,1,6,6,6,3,2,2,1,2,0
+Function,"jpeg_read_scanlines(int *,j_decompress_ptr,JSAMPARRAY,JDIMENSION)",jdapistd-pre.c,13,0,0,13,6,1,4,4,4,1,1,0,1,0,0
+Function,"jpeg_resync_to_restart(int *,j_decompress_ptr,int)",jdmarker-pre.c,5,0,0,8,26,1,10,8,13,6,16,13,3,12,0
+Function,"jpeg_save_markers(int *,j_decompress_ptr,int,unsigned int)",jdmarker-pre.c,9,0,0,9,30,1,8,8,12,1,4,0,2,0,0
+Function,"jpeg_set_colorspace(int *,j_compress_ptr,J_COLOR_SPACE)",jcparam-pre.c,13,0,0,16,24,1,20,13,21,1,36,0,2,0,0
+Function,"jpeg_set_defaults(int *,j_compress_ptr)",jcparam-pre.c,10,0,0,33,8,1,5,5,5,1,0,0,1,0,0
+Function,"jpeg_set_linear_quality(int *,j_compress_ptr,int,boolean)",jcparam-pre.c,7,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_set_marker_processor(int *,j_decompress_ptr,int,jpeg_marker_parser_method)",jdmarker-pre.c,7,0,0,7,3,0,3,3,4,1,2,0,1,0,0
+Function,"jpeg_set_quality(int *,j_compress_ptr,int,boolean)",jcparam-pre.c,6,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_simple_progression(int *,j_compress_ptr)",jcparam-pre.c,11,0,0,13,24,1,7,7,12,1,3,0,2,0,0
+Function,"jpeg_start_compress(int *,j_compress_ptr,boolean)",jcapistd-pre.c,10,0,0,12,4,1,4,4,4,1,0,0,1,0,0
+Function,"jpeg_start_decompress(int *,j_decompress_ptr)",jdapistd-pre.c,15,0,0,15,37,2,12,12,14,8,10,10,5,10,0
+Function,"jpeg_start_output(int *,j_decompress_ptr,int)",jdapistd-pre.c,8,0,0,8,8,1,4,4,6,1,0,0,1,0,0
+Function,"jpeg_std_error(int *,struct jpeg_error_mgr *)",jerror-pre.c,8,0,0,15,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_stdio_dest(int *,j_compress_ptr,FILE *)",jdatadst-pre.c,8,0,0,7,2,0,2,2,2,1,0,0,1,0,0
+Function,"jpeg_stdio_src(int *,j_decompress_ptr,FILE *)",jdatasrc-pre.c,8,0,0,12,2,0,2,2,2,1,0,0,1,0,0
+Function,"jpeg_suppress_tables(int *,j_compress_ptr,boolean)",jcapimin-pre.c,7,0,0,2,15,1,6,6,6,1,0,0,2,0,0
+Function,"jpeg_write_coefficients(int *,j_compress_ptr,jvirt_barray_ptr *)",jctrans-pre.c,7,0,0,11,2,0,2,2,2,1,0,0,1,0,0
+Function,"jpeg_write_m_byte(int *,j_compress_ptr,int)",jcapimin-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jpeg_write_m_header(int *,j_compress_ptr,int,unsigned int)",jcapimin-pre.c,8,0,0,6,2,0,2,2,5,1,0,0,1,0,0
+Function,"jpeg_write_marker(int *,j_compress_ptr,int,const JOCTET *,unsigned int)",jcapimin-pre.c,11,0,0,6,4,1,3,3,6,1,0,0,1,0,0
+Function,"jpeg_write_raw_data(int *,j_compress_ptr,JSAMPIMAGE,JDIMENSION)",jcapistd-pre.c,14,0,0,14,34,2,7,7,7,3,2,2,1,2,0
+Function,"jpeg_write_scanlines(int *,j_compress_ptr,JSAMPARRAY,JDIMENSION)",jcapistd-pre.c,14,0,0,14,32,2,6,6,6,1,0,0,1,0,0
+Function,"jpeg_write_tables(int *,j_compress_ptr)",jcapimin-pre.c,6,0,0,10,2,0,2,2,2,1,0,0,1,0,0
+Function,"jround_up(int *,long,long)",jutils-pre.c,6,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"jt_read_integer(const char **,JDIMENSION *)",transupp-pre.c,2,0,0,4,4,1,3,3,3,1,1,0,1,0,0
+Function,"jtransform_adjust_parameters(j_decompress_ptr,j_compress_ptr,jvirt_barray_ptr *,jpeg_transform_info *)",transupp-pre.c,29,0,0,14,48,2,11,8,26,1,4,0,2,0,0
+Function,"jtransform_execute_transform(j_decompress_ptr,j_compress_ptr,jvirt_barray_ptr *,jpeg_transform_info *)",transupp-pre.c,16,0,0,12,14,1,14,6,16,1,39,0,2,0,0
+Function,"jtransform_parse_crop_spec(jpeg_transform_info *,const char *)",transupp-pre.c,7,0,0,9,103,2,14,14,19,10,11,9,2,9,0
+Function,"jtransform_perfect_transform(JDIMENSION,JDIMENSION,int,int,JXFORM_CODE)",transupp-pre.c,6,0,0,1,9,1,11,6,11,1,6,0,2,0,0
+Function,"jtransform_request_workspace(j_decompress_ptr,jpeg_transform_info *)",transupp-pre.c,36,0,0,26,14776684,7,53,42,69,5,62,7,4,7,0
+Function,"keymatch(char *,const char *,int)",cdjpeg-pre.c,6,0,0,3,9,1,6,6,6,5,7,7,2,7,0
+Static Function,"keymatch(char *,const char *,int)",rdjpgcom-pre.c,4,0,0,3,9,1,6,6,6,5,7,7,2,7,0
+Static Function,"keymatch(char *,const char *,int)",wrjpgcom-pre.c,4,0,0,3,9,1,6,6,6,5,7,7,2,7,0
+Static Function,"largest_input_value(int *,j_decompress_ptr,int,int,int)",jquant1-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"latch_quant_tables(int *,j_decompress_ptr)",jdinput-pre.c,10,0,0,8,5,1,4,4,6,3,1,1,2,1,1
+Function,"main(int,char *[])",memdjpeg-pre.c,8,0,0,23,76034,5,21,21,21,4,3,3,2,3,1
+Function,"main(int,char **)",rdjpgcom-pre.c,5,0,0,9,84,2,9,9,10,5,7,6,2,5,0
+Function,"main(int,char **)",wrjpgcom-pre.c,6,0,0,20,49704,5,31,31,36,18,48,48,5,48,0
+Function,"main(int,char **)",djpeg-pre.c,15,0,0,29,140,2,11,11,12,5,6,6,2,6,0
+Function,"main(int,char **)",cjpeg-pre.c,12,0,0,29,140,2,11,11,12,5,6,6,2,6,0
+Function,"main(int,char **)",ckconfig-pre.c,0,0,0,7,5,1,4,4,4,1,3,0,1,0,0
+Function,"main(int,char **)",jpegtran-pre.c,16,0,0,34,268,2,13,13,14,6,7,7,2,7,0
+Static Function,"make_funny_pointers(int *,j_decompress_ptr)",jdmainct-pre.c,10,0,0,0,9,1,5,5,5,1,0,0,2,0,0
+Static Function,"make_odither_array(int *,j_decompress_ptr,int)",jquant1-pre.c,6,0,0,2,3,0,4,4,4,1,0,0,2,0,0
+Static Function,"master_selection(int *,j_decompress_ptr)",jdmaster-pre.c,27,0,0,34,19008,4,19,19,26,1,6,0,2,0,1
+Static Function,"median_cut(int *,j_decompress_ptr,boxptr,int,int)",jquant2-pre.c,12,0,0,10,65,2,9,7,9,3,6,3,2,2,0
+Static Function,"merged_1v_upsample(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION *,JDIMENSION,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdmerge-pre.c,7,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"merged_2v_upsample(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION *,JDIMENSION,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdmerge-pre.c,12,0,0,4,18,1,6,6,6,1,2,0,2,0,0
+Static Function,my_error_exit(j_common_ptr),example-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"new_color_map_1_quant(int *,j_decompress_ptr)",jquant1-pre.c,3,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"new_color_map_2_quant(int *,j_decompress_ptr)",jquant2-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,next_marker(),rdjpgcom-pre.c,2,0,0,3,4,1,4,4,4,1,0,0,1,0,0
+Static Function,next_marker(),wrjpgcom-pre.c,2,0,0,3,4,1,4,4,4,1,0,0,1,0,0
+Static Function,"next_marker(int *,j_decompress_ptr)",jdmarker-pre.c,11,0,0,12,59,2,15,15,15,14,20,20,5,20,0
+Static Function,"noop_upsample(int *,j_decompress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY *)",jdsample-pre.c,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"null_convert(int *,j_compress_ptr,JSAMPARRAY,JSAMPIMAGE,JDIMENSION,int)",jccolor-pre.c,7,0,0,0,4,1,4,4,4,1,0,0,3,0,0
+Static Function,"null_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,7,0,0,0,4,1,4,4,4,1,0,0,3,0,0
+Static Function,"null_method(int *,j_compress_ptr)",jccolor-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"out_of_memory(int *,j_common_ptr,int)",jmemmgr-pre.c,6,0,0,6,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"output_message(int *,j_common_ptr)",jerror-pre.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"output_pass_setup(int *,j_decompress_ptr)",jdapistd-pre.c,12,0,0,10,12,1,7,7,7,4,5,5,3,5,0
+Static Function,"output_value(int *,j_decompress_ptr,int,int,int)",jquant1-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"parse_switches(j_compress_ptr,int,char **,int,boolean)",cjpeg-pre.c,9,0,0,27,111523,5,65,65,74,4,30,6,3,4,0
+Static Function,"parse_switches(j_compress_ptr,int,char **,int,boolean)",jpegtran-pre.c,10,0,0,27,1426,3,53,53,61,25,62,55,3,53,0
+Static Function,"parse_switches(j_decompress_ptr,int,char **,int,boolean)",djpeg-pre.c,11,0,0,22,166,2,44,44,51,16,44,31,4,29,0
+Static Function,"pass_startup(int *,j_compress_ptr)",jcmaster-pre.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"pass2_fs_dither(int *,j_decompress_ptr,JSAMPARRAY,JSAMPARRAY,int)",jquant2-pre.c,13,0,0,2,7,1,5,5,5,1,1,0,3,0,0
+Static Function,"pass2_no_dither(int *,j_decompress_ptr,JSAMPARRAY,JSAMPARRAY,int)",jquant2-pre.c,8,0,0,1,4,1,4,4,4,1,0,0,3,0,0
+Static Function,pbm_getc(FILE *),rdcolmap-pre.c,2,0,0,2,2,0,3,3,4,1,0,0,2,0,0
+Static Function,"per_scan_setup(int *,j_compress_ptr)",jcmaster-pre.c,22,0,0,17,72,2,11,11,12,1,1,0,3,0,0
+Static Function,"per_scan_setup(int *,j_decompress_ptr)",jdinput-pre.c,20,0,0,16,36,2,9,9,10,1,1,0,3,0,0
+Function,possibly_dupli_function(),ckconfig-pre.c,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,possibly_duplicate_function(),ckconfig-pre.c,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"post_process_1pass(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION *,JDIMENSION,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdpostct-pre.c,13,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"post_process_2pass(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION *,JDIMENSION,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdpostct-pre.c,14,0,0,5,16,1,5,5,5,1,0,0,1,0,0
+Static Function,"post_process_prepass(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION *,JDIMENSION,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdpostct-pre.c,14,0,0,6,8,1,4,4,4,1,0,0,1,0,0
+Static Function,"pre_process_context(int *,j_compress_ptr,JSAMPARRAY,JDIMENSION *,JDIMENSION,JSAMPIMAGE,JDIMENSION *,JDIMENSION)",jcprepct-pre.c,20,0,0,8,51,2,13,13,13,4,4,4,5,4,0
+Static Function,"pre_process_data(int *,j_compress_ptr,JSAMPARRAY,JDIMENSION *,JDIMENSION,JSAMPIMAGE,JDIMENSION *,JDIMENSION)",jcprepct-pre.c,23,0,0,5,19,1,8,8,11,3,2,2,3,2,0
+Static Function,"prepare_for_output_pass(int *,j_decompress_ptr)",jdmaster-pre.c,27,0,0,16,63,2,13,13,16,1,3,0,3,0,1
+Static Function,"prepare_for_pass(int *,j_compress_ptr)",jcmaster-pre.c,21,0,0,22,34,2,11,9,12,5,8,7,2,7,0
+Static Function,"prepare_range_limit_table(int *,j_decompress_ptr)",jdmaster-pre.c,4,0,0,3,4,1,3,3,3,1,0,0,1,0,1
+Static Function,"prescan_quantize(int *,j_decompress_ptr,JSAMPARRAY,JSAMPARRAY,int)",jquant2-pre.c,6,0,0,0,4,1,4,4,4,1,0,0,3,0,0
+Static Function,print_text_marker(j_decompress_ptr),djpeg-pre.c,5,0,0,5,48,2,11,11,11,1,5,0,4,0,0
+Static Function,process_COM(int),rdjpgcom-pre.c,4,0,0,8,16,1,9,9,9,1,5,0,3,0,0
+Static Function,"process_data_context_main(int *,j_decompress_ptr,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdmainct-pre.c,17,0,0,10,43,2,11,9,11,9,12,12,2,12,0
+Static Function,"process_data_crank_post(int *,j_decompress_ptr,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdmainct-pre.c,6,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"process_data_simple_main(int *,j_compress_ptr,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jcmainct-pre.c,14,0,0,5,11,1,7,7,7,4,4,4,3,4,0
+Static Function,"process_data_simple_main(int *,j_decompress_ptr,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdmainct-pre.c,11,0,0,3,3,0,3,3,3,3,2,2,2,2,1
+Static Function,"process_restart(int *,j_decompress_ptr)",jdhuff-pre.c,13,0,0,8,5,1,4,4,4,1,1,0,1,0,0
+Static Function,"process_restart(int *,j_decompress_ptr)",jdarith-pre.c,21,0,0,11,10,1,5,5,10,1,0,0,2,0,0
+Static Function,process_SOFn(int),rdjpgcom-pre.c,3,0,0,5,56,2,16,4,16,1,91,0,1,0,0
+Static Function,"quantize_fs_dither(int *,j_decompress_ptr,JSAMPARRAY,JSAMPARRAY,int)",jquant1-pre.c,12,0,0,2,6,1,6,6,6,1,1,0,3,0,0
+Static Function,"quantize_ord_dither(int *,j_decompress_ptr,JSAMPARRAY,JSAMPARRAY,int)",jquant1-pre.c,10,0,0,2,4,1,4,4,4,1,0,0,3,0,0
+Static Function,"quantize3_ord_dither(int *,j_decompress_ptr,JSAMPARRAY,JSAMPARRAY,int)",jquant1-pre.c,9,0,0,1,3,0,3,3,3,1,0,0,2,0,0
+Static Function,read_1_byte(),rdjpgcom-pre.c,6,0,0,4,2,0,2,2,2,1,0,0,1,0,0
+Static Function,read_1_byte(),wrjpgcom-pre.c,5,0,0,4,2,0,2,2,2,1,0,0,1,0,0
+Static Function,read_2_bytes(),rdjpgcom-pre.c,5,0,0,4,4,1,3,3,3,1,0,0,1,0,0
+Static Function,read_2_bytes(),wrjpgcom-pre.c,4,0,0,4,4,1,3,3,3,1,0,0,1,0,0
+Function,"read_color_map(j_decompress_ptr,FILE *)",rdcolmap-pre.c,5,0,0,9,3,0,3,2,3,1,3,0,1,0,0
+Static Function,"read_gif_map(j_decompress_ptr,FILE *)",rdcolmap-pre.c,4,0,0,5,36,2,7,7,10,1,0,0,2,0,0
+Function,read_JPEG_file(char *),example-pre.c,9,0,0,18,4,1,4,4,4,3,2,2,1,2,0
+Static Function,"read_markers(int *,j_decompress_ptr)",jdmarker-pre.c,6,0,0,21,105,2,70,22,70,39,480,480,4,480,1
+Static Function,"read_pbm_integer(j_decompress_ptr,FILE *)",rdcolmap-pre.c,4,0,0,5,8,1,5,5,10,1,0,0,2,0,0
+Static Function,"read_ppm_map(j_decompress_ptr,FILE *)",rdcolmap-pre.c,4,0,0,6,32,2,10,9,14,1,3,0,4,0,0
+Function,"read_quant_tables(j_compress_ptr,char *,boolean)",rdswitch-pre.c,6,0,0,6,9,1,7,7,7,7,10,10,3,10,0
+Static Function,"read_restart_marker(int *,j_decompress_ptr)",jdmarker-pre.c,7,0,0,11,7,1,5,5,5,5,5,5,2,5,0
+Static Function,"read_scan_integer(FILE *,long *,int *)",rdswitch-pre.c,4,0,0,6,9,1,6,6,9,4,4,4,2,4,0
+Function,"read_scan_script(j_compress_ptr,char *)",rdswitch-pre.c,6,0,0,15,210,2,15,15,19,14,30,30,3,30,0
+Function,read_stdin(),cdjpeg-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"read_text_integer(FILE *,long *,int *)",rdswitch-pre.c,3,0,0,5,5,1,6,6,6,6,5,5,2,5,0
+Static Function,"realize_virt_arrays(int *,j_common_ptr)",jmemmgr-pre.c,21,0,0,18,441,3,14,14,14,1,4,0,3,0,0
+Static Function,"reduce_script(int *,j_compress_ptr)",jcmaster-pre.c,7,0,0,2,9,1,5,5,5,3,1,1,2,1,0
+Static Function,"request_virt_barray(int *,j_common_ptr,int,boolean,JDIMENSION,JDIMENSION,JDIMENSION)",jmemmgr-pre.c,10,0,0,15,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"request_virt_sarray(int *,j_common_ptr,int,boolean,JDIMENSION,JDIMENSION,JDIMENSION)",jmemmgr-pre.c,10,0,0,15,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"reset_error_mgr(int *,j_common_ptr)",jerror-pre.c,0,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"reset_input_controller(int *,j_decompress_ptr)",jdinput-pre.c,5,0,0,8,1,0,1,1,1,1,0,0,0,0,1
+Static Function,"reset_marker_reader(int *,j_decompress_ptr)",jdmarker-pre.c,3,0,0,8,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"rgb_convert(int *,j_compress_ptr,JSAMPARRAY,JSAMPIMAGE,JDIMENSION,int)",jccolor-pre.c,6,0,0,0,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"rgb_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,6,0,0,0,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"rgb_gray_convert(int *,j_compress_ptr,JSAMPARRAY,JSAMPIMAGE,JDIMENSION,int)",jccolor-pre.c,8,0,0,0,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"rgb_gray_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,8,0,0,0,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"rgb_rgb1_convert(int *,j_compress_ptr,JSAMPARRAY,JSAMPIMAGE,JDIMENSION,int)",jccolor-pre.c,6,0,0,0,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"rgb_ycc_convert(int *,j_compress_ptr,JSAMPARRAY,JSAMPIMAGE,JDIMENSION,int)",jccolor-pre.c,8,0,0,0,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"rgb_ycc_start(int *,j_compress_ptr)",jccolor-pre.c,4,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"rgb1_gray_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,8,0,0,0,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"rgb1_rgb_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,6,0,0,0,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"save_marker(int *,j_decompress_ptr)",jdmarker-pre.c,18,0,0,21,2544,3,20,19,21,10,19,14,4,13,0
+Static Function,"scan_JPEG_header(int,int)",rdjpgcom-pre.c,4,0,0,9,18,1,22,6,22,7,21,20,3,19,0
+Static Function,scan_JPEG_header(int),wrjpgcom-pre.c,3,0,0,8,14,1,20,5,20,6,14,14,3,13,0
+Static Function,"select_colors(int *,j_decompress_ptr,int)",jquant2-pre.c,6,0,0,16,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"select_file_type(j_compress_ptr,FILE *)",cjpeg-pre.c,5,0,0,6,8,1,4,4,4,1,0,0,1,0,0
+Static Function,"select_ncolors(int *,j_decompress_ptr,int [])",jquant1-pre.c,8,0,0,6,24,1,9,9,9,4,2,2,3,2,0
+Static Function,"select_scan_parameters(int *,j_compress_ptr)",jcmaster-pre.c,17,0,0,11,8,1,6,6,6,3,3,3,2,3,0
+Static Function,select_transform(JXFORM_CODE),jpegtran-pre.c,6,0,0,4,2,0,2,2,3,1,1,0,1,0,0
+Static Function,"self_destruct(int *,j_common_ptr)",jmemmgr-pre.c,3,0,0,4,2,0,2,2,2,1,0,0,1,0,1
+Static Function,"sep_downsample(int *,j_compress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPIMAGE,JDIMENSION)",jcsample-pre.c,10,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"sep_upsample(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION *,JDIMENSION,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdsample-pre.c,16,0,0,4,24,1,6,6,6,1,0,0,2,0,1
+Static Function,"set_bottom_pointers(int *,j_decompress_ptr)",jdmainct-pre.c,11,0,0,1,9,1,5,5,5,1,0,0,2,0,0
+Function,"set_quality_ratings(j_compress_ptr,char *,boolean)",rdswitch-pre.c,4,0,0,5,6,1,6,6,7,5,9,9,3,9,0
+Function,"set_quant_slots(j_compress_ptr,char *)",rdswitch-pre.c,3,0,0,5,7,1,7,7,9,6,13,13,3,13,0
+Function,"set_sample_factors(j_compress_ptr,char *)",rdswitch-pre.c,3,0,0,6,7,1,7,7,13,6,13,13,3,13,0
+Static Function,"set_wraparound_pointers(int *,j_decompress_ptr)",jdmainct-pre.c,9,0,0,0,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"skip_input_data(int *,j_decompress_ptr,long)",jdatasrc-pre.c,5,0,0,3,3,0,3,3,3,1,0,0,2,0,0
+Static Function,skip_variable(),rdjpgcom-pre.c,2,0,0,4,4,1,3,3,3,1,0,0,1,0,0
+Static Function,skip_variable(),wrjpgcom-pre.c,2,0,0,4,4,1,3,3,3,1,0,0,1,0,0
+Static Function,"skip_variable(int *,j_decompress_ptr)",jdmarker-pre.c,8,0,0,10,11,1,7,7,7,6,6,6,3,6,0
+Static Function,"smoothing_ok(int *,j_decompress_ptr)",jdcoefct-pre.c,12,0,0,3,15,1,9,9,15,6,10,10,3,10,0
+Static Function,"start_iMCU_row(int *,j_compress_ptr)",jctrans-pre.c,10,0,0,3,3,0,3,3,3,1,2,0,2,0,0
+Static Function,"start_iMCU_row(int *,j_compress_ptr)",jccoefct-pre.c,11,0,0,3,3,0,3,3,3,1,2,0,2,0,0
+Static Function,"start_iMCU_row(int *,j_decompress_ptr)",jdcoefct-pre.c,11,0,0,3,3,0,3,3,3,1,2,0,2,0,0
+Static Function,"start_input_pass(int *,j_decompress_ptr)",jdcoefct-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,1
+Static Function,"start_input_pass(int *,j_decompress_ptr)",jdinput-pre.c,6,0,0,6,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"start_output_pass(int *,j_decompress_ptr)",jdcoefct-pre.c,6,0,0,4,3,0,3,3,4,1,1,0,2,0,0
+Static Function,"start_pass_1_quant(int *,j_decompress_ptr,boolean)",jquant1-pre.c,12,0,0,13,15,1,10,8,10,1,8,0,2,0,0
+Static Function,"start_pass_2_quant(int *,j_decompress_ptr,boolean)",jquant2-pre.c,13,0,0,15,246,2,11,11,11,1,2,0,3,0,0
+Static Function,"start_pass_coef(int *,j_compress_ptr,J_BUF_MODE)",jctrans-pre.c,5,0,0,5,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"start_pass_coef(int *,j_compress_ptr,J_BUF_MODE)",jccoefct-pre.c,6,0,0,7,7,1,7,5,7,1,6,0,2,0,0
+Static Function,"start_pass_dcolor(int *,j_decompress_ptr)",jdcolor-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"start_pass_downsample(int *,j_compress_ptr)",jcsample-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"start_pass_dpost(int *,j_decompress_ptr,J_BUF_MODE)",jdpostct-pre.c,12,0,0,9,8,1,8,6,8,1,7,0,3,0,0
+Static Function,"start_pass_fdctmgr(int *,j_compress_ptr)",jcdctmgr-pre.c,14,0,0,9,577,3,49,14,51,1,540,0,4,0,0
+Static Function,"start_pass_huff_decoder(int *,j_decompress_ptr)",jdhuff-pre.c,33,0,0,21,4404,4,47,41,68,9,48,14,5,14,1
+Static Function,"start_pass_huff(int *,j_compress_ptr,boolean)",jchuff-pre.c,20,0,0,25,518,3,17,17,20,1,8,0,4,0,0
+Static Function,"start_pass_main(int *,j_compress_ptr,J_BUF_MODE)",jcmainct-pre.c,6,0,0,9,3,0,3,3,3,1,2,0,1,0,0
+Static Function,"start_pass_main(int *,j_decompress_ptr,J_BUF_MODE)",jdmainct-pre.c,8,0,0,11,4,1,4,3,4,1,4,0,2,0,0
+Static Function,"start_pass_merged_upsample(int *,j_decompress_ptr)",jdmerge-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"start_pass_prep(int *,j_compress_ptr,J_BUF_MODE)",jcprepct-pre.c,7,0,0,7,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"start_pass_upsample(int *,j_decompress_ptr)",jdsample-pre.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"start_pass(int *,j_compress_ptr,boolean)",jcarith-pre.c,17,0,0,21,260,2,13,13,16,1,4,0,3,0,0
+Static Function,"start_pass(int *,j_decompress_ptr)",jddctmgr-pre.c,14,0,0,8,1153,3,46,11,47,4,542,5,4,2,1
+Static Function,"start_pass(int *,j_decompress_ptr)",jdarith-pre.c,20,0,0,18,26260,4,25,25,38,9,17,14,4,14,0
+Static Function,"std_huff_tables(int *,j_compress_ptr)",jcparam-pre.c,5,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"term_destination(int *,j_compress_ptr)",jdatadst-pre.c,8,0,0,6,6,1,4,4,4,1,0,0,2,0,0
+Static Function,"term_mem_destination(int *,j_compress_ptr)",jdatadst-pre.c,6,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"term_source(int *,j_decompress_ptr)",jdatasrc-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Function,test2function(),ckconfig-pre.c,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"test3function(void_ptr,void_func)",ckconfig-pre.c,1,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Function,test4function(const int),ckconfig-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"testfunction(int,int *)",ckconfig-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,text_getc(FILE *),rdswitch-pre.c,3,0,0,2,2,0,3,3,4,1,0,0,2,0,0
+Static Function,"transdecode_master_selection(int *,j_decompress_ptr)",jdtrans-pre.c,11,0,0,12,8,1,5,5,5,1,3,0,2,0,0
+Static Function,"transencode_coef_controller(int *,j_compress_ptr,jvirt_barray_ptr *)",jctrans-pre.c,6,0,0,9,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"transencode_master_selection(int *,j_compress_ptr,jvirt_barray_ptr *)",jctrans-pre.c,7,0,0,8,2,0,2,2,2,1,1,0,1,0,0
+Static Function,transpose_critical_parameters(j_compress_ptr),transupp-pre.c,12,0,0,7,10,1,6,6,6,1,0,0,4,0,0
+Static Function,"trim_bottom_edge(jpeg_transform_info *,JDIMENSION)",transupp-pre.c,6,0,0,2,2,0,2,2,3,1,0,0,1,0,0
+Static Function,"trim_right_edge(jpeg_transform_info *,JDIMENSION)",transupp-pre.c,6,0,0,2,2,0,2,2,3,1,0,0,1,0,0
+Static Function,"update_box(int *,j_decompress_ptr,boxptr)",jquant2-pre.c,12,0,0,8,233280,5,35,35,35,31,48,48,5,48,0
+Static Function,usage(),rdjpgcom-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,usage(),wrjpgcom-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,usage(),djpeg-pre.c,4,0,0,2,1,0,4,4,4,1,0,0,0,0,0
+Static Function,usage(),cjpeg-pre.c,4,0,0,2,1,0,4,4,4,1,0,0,0,0,0
+Static Function,usage(),jpegtran-pre.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"use_merged_upsample(int *,j_decompress_ptr)",jdmaster-pre.c,16,0,0,1,5,1,5,5,20,5,4,4,1,4,0
+Static Function,"validate_script(int *,j_compress_ptr)",jcmaster-pre.c,15,0,0,6,56460,5,32,32,48,1,5,0,6,0,0
+Static Function,write_1_byte(int),wrjpgcom-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,write_2_bytes(unsigned int),wrjpgcom-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"write_file_header(int *,j_compress_ptr)",jcmarker-pre.c,5,0,0,4,4,1,3,3,3,1,0,0,1,0,0
+Static Function,"write_file_trailer(int *,j_compress_ptr)",jcmarker-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"write_frame_header(int *,j_compress_ptr)",jcmarker-pre.c,13,0,0,7,280,2,12,12,18,1,5,0,3,0,0
+Function,"write_JPEG_file(char *,int)",example-pre.c,8,0,0,18,3,0,3,3,3,1,1,0,1,0,0
+Static Function,"write_marker_byte(int *,j_compress_ptr,int)",jcmarker-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"write_marker_header(int *,j_compress_ptr,int,unsigned int)",jcmarker-pre.c,5,0,0,5,2,0,2,2,2,1,0,0,1,0,0
+Static Function,write_marker(int),wrjpgcom-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"write_scan_header(int *,j_compress_ptr)",jcmarker-pre.c,13,0,0,5,12,1,6,6,7,1,1,0,3,0,0
+Function,write_stdout(),cdjpeg-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"write_tables_only(int *,j_compress_ptr)",jcmarker-pre.c,6,0,0,3,18,1,7,7,7,1,0,0,3,0,0
+Static Function,"ycc_rgb_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,12,0,0,0,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"ycck_cmyk_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,12,0,0,0,3,0,3,3,3,1,0,0,2,0,0

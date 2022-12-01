@@ -1,0 +1,320 @@
+Kind,Name,File,CountInput,CountLineInactive,CountLinePreprocessor,CountOutput,CountPath,CountPathLog,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,INJECTED
+Static Function,_cdf_tole2(uint16_t),cdf-pre.c,9,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,_cdf_tole4(uint32_t),cdf-pre.c,16,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,_cdf_tole8(uint64_t),cdf-pre.c,6,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"_strncasecmp(const char *,const char *,size_t)",strcasestr-pre.c,4,0,0,2,4,1,5,5,5,5,5,5,3,5,0
+Static Function,"add_mlist(struct mlist *,struct magic_map *,size_t)",apprentice-pre.c,8,0,0,8,2,0,3,3,3,1,1,0,1,0,0
+Static Function,"addentry(struct magic_set *,struct magic_entry *,struct magic_entry_set *)",apprentice-pre.c,9,0,0,7,3,0,4,4,4,3,2,2,2,2,0
+Static Function,applyparam(magic_t),file-pre.c,7,0,0,2,5,1,4,4,4,3,1,1,2,1,0
+Static Function,"apprentice_1(struct magic_set *,const char *,int)",apprentice-pre.c,8,0,0,10,27,1,12,12,12,9,10,10,2,10,0
+Static Function,"apprentice_buf(struct magic_set *,struct magic *,size_t)",apprentice-pre.c,4,0,0,8,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"apprentice_compile(struct magic_set *,struct magic_map *,const char *)",apprentice-pre.c,7,0,0,12,48,2,7,7,7,6,6,6,2,6,0
+Static Function,"apprentice_list(struct mlist *,int)",apprentice-pre.c,11,0,0,2,8,1,6,6,10,4,1,1,4,1,0
+Static Function,"apprentice_load(struct magic_set *,const char *,int)",apprentice-pre.c,14,0,0,22,31409,4,21,21,23,16,21,21,4,21,0
+Static Function,apprentice_magic_strength(const struct magic *),apprentice-pre.c,12,0,0,5,684,3,65,11,65,21,100,100,2,100,0
+Static Function,"apprentice_map(struct magic_set *,const char *)",apprentice-pre.c,5,0,0,18,256,2,11,11,12,9,16,16,1,16,0
+Static Function,"apprentice_sort(const void *,const void *)",apprentice-pre.c,3,0,0,2,3,0,3,3,3,3,2,2,1,2,0
+Static Function,apprentice_unmap(struct magic_map *),apprentice-pre.c,10,0,0,3,8,1,8,6,10,7,11,11,3,11,0
+Function,"asctime_r(const struct tm *,char *)",asctime_r-pre.c,3,0,0,4,2,0,2,2,2,1,1,0,1,0,1
+Function,"asprintf(char **,const char *)",asprintf-pre.c,6,0,0,5,1,0,1,1,1,1,0,0,0,0,1
+Static Function,"bad_link(struct magic_set *,int,char *)",fsmagic-pre.c,5,0,0,3,5,1,5,5,6,5,5,5,2,5,0
+Static Function,bs1(struct magic *),apprentice-pre.c,14,0,0,15,2,0,2,2,10,1,1,0,1,0,0
+Function,"buffer_apprentice(struct magic_set *,struct magic **,size_t *,size_t)",apprentice-pre.c,6,0,0,10,22,1,9,9,9,8,15,15,3,15,0
+Function,buffer_fill(const struct buffer *),buffer-pre.c,10,0,0,7,9,1,7,7,7,5,7,7,1,7,0
+Function,buffer_fini(struct buffer *),buffer-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"buffer_init(struct buffer *,int,const void *,size_t)",buffer-pre.c,9,0,0,9,2,0,2,2,3,1,0,0,1,0,0
+Static Function,"byteswap(struct magic *,uint32_t)",apprentice-pre.c,3,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"cdf_app_to_mime(const char *,const struct nv *)",readcdf-pre.c,6,0,0,6,3,0,5,5,5,3,2,2,2,2,0
+Static Function,"cdf_calloc(const char *,size_t,size_t,size_t)",cdf-pre.c,7,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"cdf_check_stream_offset(const cdf_stream_t *,const cdf_header_t *,const void *,size_t,int)",cdf-pre.c,10,0,0,3,2,0,2,2,3,1,1,0,1,0,0
+Static Function,"cdf_check_stream(const cdf_stream_t *,const cdf_header_t *)",cdf-pre.c,9,0,0,2,1,0,3,3,3,1,0,0,0,0,0
+Static Function,"cdf_check_summary_info(struct magic_set *,const cdf_info_t *,const cdf_header_t *,const cdf_sat_t *,const cdf_sat_t *,const cdf_stream_t *,const cdf_dir_t *,cdf_stream_t *,const cdf_directory_t *,const char **)",readcdf-pre.c,16,0,0,7,41,2,13,13,14,8,9,9,3,9,0
+Static Function,"cdf_clsid_to_mime(const uint64_t [2],const struct cv *)",readcdf-pre.c,6,0,0,1,3,0,3,3,4,3,3,3,2,3,0
+Static Function,"cdf_copy_info(cdf_property_info_t *,const void *,const void *,size_t)",cdf-pre.c,12,0,0,11,6,1,9,7,9,6,11,11,1,11,0
+Function,"cdf_count_chain(const cdf_sat_t *,cdf_secid_t,size_t)",cdf-pre.c,11,0,0,3,11,1,7,7,7,6,11,11,2,11,0
+Function,"cdf_ctime(const time_t *,char *)",cdf_time-pre.c,3,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"cdf_file_catalog_info(struct magic_set *,const cdf_info_t *,const cdf_header_t *,const cdf_sat_t *,const cdf_sat_t *,const cdf_stream_t *,const cdf_dir_t *,cdf_stream_t *)",readcdf-pre.c,9,0,0,3,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"cdf_file_catalog(struct magic_set *,const cdf_header_t *,const cdf_stream_t *)",readcdf-pre.c,9,0,0,5,8,1,9,9,9,8,12,12,3,12,0
+Static Function,"cdf_file_dir_info(struct magic_set *,const cdf_dir_t *)",readcdf-pre.c,9,0,0,3,31,1,9,9,9,9,12,12,3,12,0
+Static Function,"cdf_file_property_info(struct magic_set *,const cdf_property_info_t *,size_t,const cdf_directory_t *)",readcdf-pre.c,22,0,0,10,802,3,36,27,48,29,167,167,6,167,0
+Static Function,"cdf_file_summary_info(struct magic_set *,const cdf_header_t *,const cdf_stream_t *,const cdf_directory_t *)",readcdf-pre.c,11,0,0,6,19,1,15,14,15,13,24,24,4,24,0
+Function,"cdf_find_stream(const cdf_dir_t *,const char *,int)",cdf-pre.c,9,0,0,4,6,1,4,4,5,3,3,3,2,2,0
+Static Function,"cdf_get_property_info_pos(const cdf_stream_t *,const cdf_header_t *,const uint8_t *,const uint8_t *,size_t)",cdf-pre.c,6,0,0,4,5,1,5,5,5,5,4,4,1,4,0
+Static Function,"cdf_getday(int,int)",cdf_time-pre.c,4,0,0,1,3,0,3,3,6,3,3,3,2,3,0
+Static Function,cdf_getdays(int),cdf_time-pre.c,2,0,0,1,2,0,2,2,4,1,0,0,1,0,0
+Static Function,"cdf_getmonth(int,int)",cdf_time-pre.c,4,0,0,1,5,1,4,4,7,3,3,3,2,3,0
+Static Function,"cdf_getuint32(const uint8_t *,size_t)",cdf-pre.c,6,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Static Function,"cdf_grow_info(cdf_property_info_t **,size_t *,size_t)",cdf-pre.c,4,0,0,5,4,1,3,3,3,3,4,4,1,4,0
+Static Function,"cdf_malloc(const char *,size_t,size_t)",cdf-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"cdf_namecmp(const char *,const uint16_t *,size_t)",cdf-pre.c,6,0,0,2,3,0,5,5,5,3,3,3,2,3,0
+Static Function,"cdf_offset(const void *,size_t)",cdf-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"cdf_print_classid(char *,size_t,const cdf_classid_t *)",cdf-pre.c,7,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"cdf_print_elapsed_time(char *,size_t,cdf_timestamp_t)",cdf-pre.c,4,0,0,2,11,1,6,6,7,6,5,5,2,5,0
+Function,"cdf_print_property_name(char *,size_t,uint32_t)",cdf-pre.c,7,0,0,2,3,0,3,3,3,3,3,3,2,3,0
+Function,"cdf_read_dir(const cdf_info_t *,const cdf_header_t *,const cdf_sat_t *,cdf_dir_t *)",cdf-pre.c,12,0,0,13,30,1,11,11,11,7,11,11,2,11,0
+Function,"cdf_read_doc_summary_info(const cdf_info_t *,const cdf_header_t *,const cdf_sat_t *,const cdf_sat_t *,const cdf_stream_t *,const cdf_dir_t *,cdf_stream_t *)",cdf-pre.c,8,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"cdf_read_header(const cdf_info_t *,cdf_header_t *)",cdf-pre.c,15,0,0,7,8705,4,19,19,32,5,7,7,2,7,0
+Function,"cdf_read_long_sector_chain(const cdf_info_t *,const cdf_header_t *,const cdf_sat_t *,cdf_secid_t,size_t,cdf_stream_t *)",cdf-pre.c,15,0,0,12,29,1,11,11,13,9,24,24,3,24,0
+Function,"cdf_read_property_info(const cdf_stream_t *,const cdf_header_t *,uint32_t,cdf_property_info_t **,size_t *,size_t *)",cdf-pre.c,14,0,0,21,189568,5,41,28,43,30,138,138,4,138,0
+Function,"cdf_read_sat(const cdf_info_t *,cdf_header_t *,cdf_sat_t *)",cdf-pre.c,12,0,0,9,2196,3,19,19,21,17,48,48,3,48,0
+Function,"cdf_read_sector_chain(const cdf_info_t *,const cdf_header_t *,const cdf_sat_t *,const cdf_sat_t *,const cdf_stream_t *,cdf_secid_t,size_t,cdf_stream_t *)",cdf-pre.c,11,0,0,3,2,0,2,2,3,1,1,0,1,0,0
+Function,"cdf_read_sector(const cdf_info_t *,void *,size_t,size_t,const cdf_header_t *,cdf_secid_t)",cdf-pre.c,11,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Function,"cdf_read_short_sector_chain(const cdf_header_t *,const cdf_sat_t *,const cdf_stream_t *,cdf_secid_t,size_t,cdf_stream_t *)",cdf-pre.c,14,0,0,12,20,1,8,8,8,7,16,16,2,16,0
+Function,"cdf_read_short_sector(const cdf_stream_t *,void *,size_t,size_t,const cdf_header_t *,cdf_secid_t)",cdf-pre.c,11,0,0,4,2,0,3,3,3,1,2,0,1,0,0
+Function,"cdf_read_short_stream(const cdf_info_t *,const cdf_header_t *,const cdf_sat_t *,const cdf_dir_t *,cdf_stream_t *,const cdf_directory_t **)",cdf-pre.c,11,0,0,6,12,1,5,5,5,5,6,6,2,6,0
+Function,"cdf_read_ssat(const cdf_info_t *,const cdf_header_t *,const cdf_sat_t *,cdf_sat_t *)",cdf-pre.c,11,0,0,10,36,2,8,8,8,7,20,20,2,20,0
+Function,"cdf_read_summary_info(const cdf_info_t *,const cdf_header_t *,const cdf_sat_t *,const cdf_sat_t *,const cdf_stream_t *,const cdf_dir_t *,cdf_stream_t *)",cdf-pre.c,8,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"cdf_read_user_stream(const cdf_info_t *,const cdf_header_t *,const cdf_sat_t *,const cdf_sat_t *,const cdf_stream_t *,const cdf_dir_t *,const char *,cdf_stream_t *)",cdf-pre.c,15,0,0,4,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"cdf_read(const cdf_info_t *,off_t,void *,size_t)",cdf-pre.c,9,0,0,4,10,1,5,5,6,5,9,9,1,9,0
+Static Function,"cdf_realloc(const char *,size_t,void *,size_t)",cdf-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,cdf_swap_class(cdf_classid_t *),cdf-pre.c,6,0,0,5,1,0,4,4,4,1,0,0,0,0,0
+Function,cdf_swap_dir(cdf_directory_t *),cdf-pre.c,14,0,0,14,1,0,12,12,12,1,0,0,0,0,0
+Function,cdf_swap_header(cdf_header_t *),cdf-pre.c,21,0,0,21,999999999,16,71,71,121,1,0,0,1,0,1
+Function,"cdf_timespec_to_timestamp(cdf_timestamp_t *,const struct timespec *)",cdf_time-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"cdf_timestamp_to_timespec(struct timespec *,cdf_timestamp_t)",cdf_time-pre.c,6,0,0,19,2,0,2,2,2,1,1,0,1,0,0
+Function,cdf_tole2(uint16_t),cdf-pre.c,4,0,0,2,1,0,2,2,2,1,0,0,0,0,0
+Function,cdf_tole4(uint32_t),cdf-pre.c,3,0,0,2,1,0,2,2,2,1,0,0,0,0,0
+Function,cdf_tole8(uint64_t),cdf-pre.c,3,0,0,2,1,0,2,2,2,1,0,0,0,0,0
+Function,"cdf_u16tos8(char *,size_t,const uint16_t *)",cdf-pre.c,4,0,0,2,2,0,2,2,3,1,0,0,1,0,0
+Function,"cdf_unpack_catalog(const cdf_header_t *,const cdf_stream_t *,cdf_catalog_t **)",cdf-pre.c,13,0,0,14,655,3,30,30,30,12,18,18,2,18,0
+Function,"cdf_unpack_dir(cdf_directory_t *,char *)",cdf-pre.c,17,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"cdf_unpack_header(cdf_header_t *,char *)",cdf-pre.c,20,0,0,3,999999999,20,68,68,121,1,0,0,1,0,1
+Function,"cdf_unpack_summary_info(const cdf_stream_t *,const cdf_header_t *,cdf_summary_info_header_t *,cdf_property_info_t **,size_t *)",cdf-pre.c,15,0,0,14,3,0,8,8,9,3,2,2,1,2,0
+Function,cdf_zero_stream(cdf_stream_t *),cdf-pre.c,6,0,0,7,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"check_buffer(struct magic_set *,struct magic_map *,const char *)",apprentice-pre.c,9,0,0,7,89,2,12,12,12,6,8,6,2,6,0
+Static Function,"check_cond(struct magic_set *,int,uint32_t)",apprentice-pre.c,8,0,0,6,11,1,11,8,14,8,21,21,3,21,0
+Static Function,"check_fmt(struct magic_set *,const char *)",softmagic-pre.c,3,0,0,7,3,0,3,3,3,1,2,0,1,0,1
+Static Function,"check_format_type(const char *,int,const char **)",apprentice-pre.c,4,0,0,4,32827667,8,60,35,64,26,113,113,3,113,0
+Static Function,"check_format(struct magic_set *,struct magic *)",apprentice-pre.c,9,0,0,4,21,1,10,10,10,9,9,9,2,9,0
+Static Function,"checkdone(struct magic_set *,int *)",funcs-pre.c,3,0,0,3,3,0,3,3,3,1,1,0,1,0,0
+Static Function,"close_and_restore(const struct magic_set *,const char *,int,const struct stat *)",magic-pre.c,9,0,0,4,3,0,3,3,4,1,1,0,1,0,0
+Static Function,"closefd(int *,size_t)",compress-pre.c,5,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Static Function,closep(int *),compress-pre.c,3,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"cmpstrp(const void *,const void *)",apprentice-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"coalesce_entries(struct magic_set *,struct magic_entry *,uint32_t,struct magic **,uint32_t *)",apprentice-pre.c,7,0,0,6,6,1,4,4,4,1,1,0,1,0,0
+Static Function,"copydesc(int,int *)",compress-pre.c,3,0,0,3,3,0,4,4,4,3,2,2,1,2,0
+Static Function,core(xprintf_struct *),vasprintf-pre.c,7,0,0,13,111,2,11,11,11,10,18,18,2,18,1
+Function,"ctime_r(const time_t *,char *)",ctime_r-pre.c,3,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"cvt_16(union VALUETYPE *,const struct magic *)",softmagic-pre.c,7,0,0,2,22,1,13,6,13,12,48,48,3,48,0
+Static Function,"cvt_32(union VALUETYPE *,const struct magic *)",softmagic-pre.c,7,0,0,2,22,1,13,6,13,12,48,48,3,48,0
+Static Function,"cvt_64(union VALUETYPE *,const struct magic *)",softmagic-pre.c,7,0,0,2,22,1,13,6,13,12,48,48,3,48,0
+Static Function,"cvt_8(union VALUETYPE *,const struct magic *)",softmagic-pre.c,7,0,0,2,22,1,13,6,13,12,48,48,3,48,0
+Static Function,"cvt_double(union VALUETYPE *,const struct magic *)",softmagic-pre.c,5,0,0,2,7,1,7,4,7,7,12,12,3,12,0
+Static Function,"cvt_flip(int,int)",softmagic-pre.c,4,0,0,1,22,1,22,3,22,22,211,211,1,211,0
+Static Function,"cvt_float(union VALUETYPE *,const struct magic *)",softmagic-pre.c,5,0,0,2,7,1,7,4,7,7,12,12,3,12,0
+Static Function,"cvt_id3(struct magic_set *,uint32_t)",softmagic-pre.c,5,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,defprint(int),file-pre.c,4,0,0,2,3,0,3,3,6,1,1,0,1,0,0
+Function,"der_cmp(struct magic_set *,struct magic *)",der-pre.c,11,0,0,11,36,2,13,12,14,9,15,15,2,15,0
+Static Function,"der_data(char *,size_t,uint32_t,const void *,uint32_t)",der-pre.c,6,0,0,2,4,1,7,4,7,1,1,0,2,0,0
+Function,"der_offs(struct magic_set *,struct magic *,size_t)",der-pre.c,10,0,0,7,5,1,6,6,6,5,4,4,2,4,0
+Static Function,"der_tag(char *,size_t,uint32_t)",der-pre.c,5,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,dispatch(xprintf_struct *),vasprintf-pre.c,5,0,0,15,4903622,7,82,57,84,41,138,136,4,135,1
+Static Function,"do_auxv_note(struct magic_set *,unsigned char *,uint32_t,int,uint32_t,uint32_t,size_t,size_t,int *,size_t,int,int,off_t,int,off_t)",readelf-pre.c,17,0,0,7,89,2,23,18,23,11,43,25,3,22,0
+Static Function,"do_bid_note(struct magic_set *,unsigned char *,uint32_t,int,uint32_t,uint32_t,size_t,size_t,int *)",readelf-pre.c,8,0,0,4,19,1,10,8,17,7,16,11,3,10,0
+Static Function,"do_core_note(struct magic_set *,unsigned char *,uint32_t,int,uint32_t,uint32_t,size_t,size_t,int *,size_t,int)",readelf-pre.c,23,0,0,10,19816,4,38,37,51,22,58,58,6,57,0
+Static Function,"do_note_freebsd_version(struct magic_set *,int,void *)",readelf-pre.c,4,0,0,3,23,1,21,21,23,21,49,49,3,49,0
+Static Function,"do_note_netbsd_version(struct magic_set *,int,void *)",readelf-pre.c,4,0,0,3,11,1,10,10,11,10,17,17,4,17,0
+Static Function,"do_ops(struct magic *,intmax_t,intmax_t)",softmagic-pre.c,5,0,0,1,20,1,11,4,11,1,29,0,2,0,0
+Static Function,"do_os_note(struct magic_set *,unsigned char *,uint32_t,int,uint32_t,uint32_t,size_t,size_t,int *)",readelf-pre.c,9,0,0,7,48,2,26,22,42,26,77,77,3,77,0
+Static Function,"do_pax_note(struct magic_set *,unsigned char *,uint32_t,int,uint32_t,uint32_t,size_t,size_t,int *)",readelf-pre.c,9,0,0,5,7,1,7,7,11,6,8,8,3,8,0
+Static Function,"docprint(const char *,int)",file-pre.c,6,0,0,3,7,1,6,6,9,1,1,0,2,0,0
+Static Function,"dodynamic(struct magic_set *,void *,size_t,size_t,int,int)",readelf-pre.c,12,0,0,5,4,1,11,11,11,1,3,0,2,0,0
+Static Function,"donote(struct magic_set *,void *,size_t,size_t,int,int,size_t,int *,uint16_t *,int,off_t,int,off_t)",readelf-pre.c,22,0,0,10,712,3,45,42,47,28,49,49,3,49,0
+Static Function,"dophn_core(struct magic_set *,int,int,int,off_t,int,size_t,off_t,int *,uint16_t *)",readelf-pre.c,17,0,0,7,30,1,23,23,24,13,20,20,3,20,0
+Static Function,"dophn_exec(struct magic_set *,int,int,int,off_t,int,size_t,off_t,int,int *,uint16_t *)",readelf-pre.c,20,0,0,11,851,3,43,39,46,28,48,48,4,47,0
+Static Function,"doshn(struct magic_set *,int,int,int,off_t,int,size_t,off_t,int,int,int *,uint16_t *)",readelf-pre.c,31,0,0,16,211732,5,98,86,99,49,118,118,5,115,0
+Function,"dprintf(int,const char *)",dprintf-pre.c,3,0,0,5,3,0,3,3,3,3,2,2,1,2,0
+Static Function,eatsize(const char **),apprentice-pre.c,3,0,0,3,4,1,9,5,9,1,0,0,1,0,0
+Static Function,"encode_utf8(unsigned char *,size_t,unichar *,size_t)",ascmagic-pre.c,5,0,0,2,14,1,14,14,14,14,53,53,3,53,0
+Function,"file_apprentice(struct magic_set *,const char *,int)",apprentice-pre.c,8,0,0,15,44,2,16,13,16,9,9,9,3,9,0
+Function,"file_ascmagic_with_encoding(struct magic_set *,const struct buffer *,unichar *,size_t,const char *,const char *,int)",ascmagic-pre.c,13,0,0,13,-1522475286,12,62,60,77,50,114,112,6,112,0
+Function,"file_ascmagic(struct magic_set *,const struct buffer *,int)",ascmagic-pre.c,6,0,0,6,2,0,2,2,2,1,1,0,1,0,0
+Function,file_badread(struct magic_set *),funcs-pre.c,7,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,file_badseek(struct magic_set *),funcs-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"file_buffer(struct magic_set *,int,const char *,const void *,size_t)",funcs-pre.c,12,0,0,21,383209890,9,41,41,44,25,45,45,3,45,1
+Function,"file_check_mem(struct magic_set *,unsigned int)",funcs-pre.c,7,0,0,11,3,0,4,4,4,3,2,2,2,2,0
+Function,"file_default(struct magic_set *,size_t)",funcs-pre.c,4,0,0,2,7,1,8,8,9,7,9,9,2,9,0
+Function,"file_encoding(struct magic_set *,const struct buffer *,unichar **,size_t *,const char **,const char **,const char **)",encoding-pre.c,8,0,0,16,28672,4,23,23,23,3,12,2,2,2,0
+Function,"file_err(int,const char *)",file-pre.c,5,0,0,7,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"file_error_core(struct magic_set *,int,const char *,va_list,size_t)",funcs-pre.c,10,0,0,9,9,1,5,5,6,1,1,0,1,0,0
+Function,"file_error(struct magic_set *,int,const char *)",funcs-pre.c,22,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"file_errx(int,const char *)",file-pre.c,5,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"file_fmtcheck(struct magic_set *,const char *,const char *,const char *,size_t)",softmagic-pre.c,7,0,0,4,2,0,2,2,2,1,0,0,1,0,1
+Function,"file_fmttime(uint64_t,int,char *)",print-pre.c,6,0,0,8,16,1,5,5,5,3,6,4,1,4,1
+Function,"file_fsmagic(struct magic_set *,const char *,struct stat *)",fsmagic-pre.c,8,0,0,14,3081,3,74,68,79,62,336,335,4,335,0
+Function,file_getbuffer(struct magic_set *),funcs-pre.c,8,0,0,13,33,2,13,13,14,9,10,9,3,8,1
+Function,file_getprogname(),file-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"file_is_json(struct magic_set *,const struct buffer *)",is_json-pre.c,6,0,0,4,7,1,7,7,7,7,7,7,2,7,0
+Function,"file_is_tar(struct magic_set *,const struct buffer *)",is_tar-pre.c,7,0,0,4,36,2,9,9,10,5,4,4,1,4,0
+Function,"file_looks_utf8(const unsigned char *,size_t,unichar *,size_t *)",encoding-pre.c,7,0,0,4,192,2,20,20,21,12,30,30,4,30,0
+Function,"file_magerror(struct magic_set *,const char *)",funcs-pre.c,11,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"file_magicfind(struct magic_set *,const char *,struct mlist *)",apprentice-pre.c,11,0,0,5,10,1,7,7,7,7,8,8,5,8,0
+Function,"file_magwarn(struct magic_set *,const char *)",print-pre.c,19,0,0,6,2,0,2,2,2,1,0,0,1,0,0
+Function,file_mbswidth(const char *),file-pre.c,4,0,0,5,5,1,5,5,6,3,4,4,3,3,0
+Function,file_mdump(struct magic *),print-pre.c,29,0,0,4,1376760,6,72,28,80,1,80,0,3,0,0
+Function,file_ms_alloc(int),apprentice-pre.c,4,0,0,24,9,1,5,5,5,4,5,5,1,5,0
+Function,file_ms_free(struct magic_set *),apprentice-pre.c,8,0,0,3,3,0,3,3,3,1,1,0,1,0,1
+Function,"file_oomem(struct magic_set *,size_t)",funcs-pre.c,16,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"file_or_fd(struct magic_set *,const char *,int)",magic-pre.c,7,0,0,18,12962,4,24,23,29,15,24,24,3,23,0
+Function,"file_pipe2file(struct magic_set *,int,const void *,size_t)",compress-pre.c,5,0,0,13,21,1,9,8,9,9,10,10,3,10,0
+Function,"file_pop_buffer(struct magic_set *,file_pushbuf_t *)",funcs-pre.c,10,0,0,6,2,0,2,2,2,1,1,0,1,0,0
+Function,"file_printable(char *,size_t,const char *)",funcs-pre.c,6,0,0,3,5,1,4,4,5,4,3,3,2,3,1
+Function,file_printedlen(const struct magic_set *),funcs-pre.c,4,0,0,2,1,0,2,2,2,1,0,0,0,0,0
+Function,"file_printf(struct magic_set *,const char *)",funcs-pre.c,40,0,0,5,1,0,1,1,1,1,0,0,0,0,1
+Function,"file_pstring_get_length(const struct magic *,const char *)",apprentice-pre.c,6,0,0,4,22,1,8,4,8,6,20,20,1,20,0
+Function,file_pstring_length_size(const struct magic *),apprentice-pre.c,9,0,0,2,4,1,6,2,6,1,6,0,1,0,0
+Function,file_push_buffer(struct magic_set *),funcs-pre.c,8,0,0,8,3,0,3,3,3,3,2,2,1,2,0
+Function,"file_regcomp(file_regex_t *,const char *,int)",funcs-pre.c,10,0,0,10,1,0,3,3,3,1,0,0,0,0,0
+Function,"file_regerror(file_regex_t *,int,struct magic_set *)",funcs-pre.c,9,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"file_regexec(file_regex_t *,const char *,size_t,regmatch_t *,int)",funcs-pre.c,10,0,0,4,1,0,2,2,2,1,0,0,0,0,0
+Function,file_regfree(file_regex_t *),funcs-pre.c,9,0,0,4,2,0,2,2,2,1,0,0,1,0,1
+Function,"file_replace(struct magic_set *,const char *,const char *)",funcs-pre.c,8,0,0,9,4,1,5,5,5,4,5,5,3,5,0
+Function,"file_reset(struct magic_set *,int)",funcs-pre.c,10,0,0,9,5,1,4,4,5,1,1,0,1,0,0
+Function,file_setprogname(const char *),file-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"file_showstr(FILE *,const char *,size_t)",apprentice-pre.c,5,0,0,2,37,2,13,7,14,5,36,8,3,7,0
+Function,"file_signextend(struct magic_set *,struct magic *,uint64_t)",apprentice-pre.c,10,0,0,2,8,1,49,4,49,7,21,21,3,21,0
+Function,"file_softmagic(struct magic_set *,const struct buffer *,uint16_t *,uint16_t *,int,int)",softmagic-pre.c,13,0,0,3,12,1,5,5,5,3,3,3,2,3,1
+Static Function,"file_strncmp(const char *,const char *,size_t,uint32_t)",softmagic-pre.c,6,0,0,6,231,2,21,21,27,14,28,28,6,28,1
+Static Function,"file_strncmp16(const char *,const char *,size_t,uint32_t)",softmagic-pre.c,5,0,0,3,1,0,1,1,1,1,0,0,0,0,1
+Function,"file_trycdf(struct magic_set *,const struct buffer *)",readcdf-pre.c,13,0,0,22,738368,6,32,32,33,20,38,36,4,36,1
+Function,"file_tryelf(struct magic_set *,const struct buffer *)",readelf-pre.c,33,0,0,16,188,2,35,28,42,31,99,98,3,98,0
+Function,"file_vprintf(struct magic_set *,const char *,va_list)",funcs-pre.c,9,0,0,11,7,1,5,5,5,5,6,6,2,6,1
+Function,file_warn(const char *),file-pre.c,6,0,0,6,1,0,1,1,1,1,0,0,0,0,0
+Function,file_warnx(const char *),file-pre.c,4,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Function,"file_zmagic(struct magic_set *,const struct buffer *,const char *)",compress-pre.c,13,0,0,14,13348,4,22,20,24,17,63,63,4,61,0
+Static Function,"filter_error(unsigned char *,ssize_t)",compress-pre.c,3,0,0,8,48,2,7,7,7,1,0,0,2,0,0
+Function,"fmtcheck(const char *,const char *)",fmtcheck-pre.c,3,0,0,3,5,1,5,5,5,5,7,7,2,7,1
+Static Function,"format_decompression_error(struct magic_set *,size_t,unsigned char *)",compress-pre.c,5,0,0,4,4,1,4,4,4,1,1,0,2,0,0
+Static Function,"from_ebcdic(const unsigned char *,size_t,unsigned char *)",encoding-pre.c,4,0,0,2,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"from_oct(const char *,size_t)",is_tar-pre.c,3,0,0,3,38,2,8,8,12,5,5,5,2,5,0
+Static Function,"gcd(int,int)",getopt_long-pre.c,3,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"get_cond(const char *,const char **)",apprentice-pre.c,6,0,0,4,4,1,4,4,5,3,2,2,3,2,0
+Static Function,get_default_magic(),magic-pre.c,2,0,0,6,38,2,11,11,11,10,17,17,3,17,0
+Static Function,get_next_format_from_precision(const char **),fmtcheck-pre.c,3,0,0,4,133,2,51,48,51,27,50,49,3,49,1
+Static Function,get_next_format_from_width(const char **),fmtcheck-pre.c,2,0,0,5,6,1,8,8,8,4,4,4,3,4,1
+Static Function,"get_next_format(const char **,EFT)",fmtcheck-pre.c,3,0,0,6,34,2,16,16,17,8,11,11,3,10,1
+Static Function,"get_offset_from_virtaddr(struct magic_set *,int,int,int,off_t,int,off_t,uint64_t)",readelf-pre.c,15,0,0,5,6,1,21,21,23,5,8,8,2,8,0
+Static Function,get_op(char),apprentice-pre.c,2,0,0,1,9,1,9,2,9,1,36,0,1,0,0
+Static Function,"get_standard_integer_type(const char *,const char **)",apprentice-pre.c,3,0,0,3,21,1,14,7,14,12,36,36,2,36,0
+Static Function,"get_string_on_virtaddr(struct magic_set *,int,int,int,off_t,int,off_t,uint64_t,char *,ssize_t)",readelf-pre.c,11,0,0,6,6,1,5,5,7,4,3,3,1,3,0
+Static Function,"get_type(const struct type_tbl_s *,const char *,const char **)",apprentice-pre.c,7,0,0,3,4,1,4,4,4,3,2,2,3,2,0
+Static Function,getint(const char **),vasprintf-pre.c,2,0,0,2,4,1,3,3,4,1,0,0,1,0,0
+Static Function,"getlength(const uint8_t *,size_t *,size_t)",der-pre.c,5,0,0,1,7,1,6,6,7,5,4,4,1,4,0
+Static Function,"getopt_internal(int,char **,const char *)",getopt_long-pre.c,13,0,0,13,592,3,32,32,60,15,29,27,4,27,0
+Function,"getopt_long(int,char *const *,const char *,const struct option *,int *)",getopt_long-pre.c,20,0,0,17,1043,3,30,30,57,10,22,18,4,16,0
+Function,"getopt(int,char *const *,const char *)",getopt_long-pre.c,6,0,0,7,3,0,5,5,5,1,0,0,2,0,0
+Static Function,"getstr(struct magic_set *,struct magic *,const char *,int)",apprentice-pre.c,8,0,0,9,112,2,41,16,45,17,73,69,6,68,0
+Static Function,"gettag(const uint8_t *,size_t *,size_t)",der-pre.c,5,0,0,1,6,1,6,6,6,6,6,6,2,6,0
+Static Function,"getu16(int,uint16_t)",readelf-pre.c,5,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"getu32(int,uint32_t)",readelf-pre.c,17,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"getu64(int,uint64_t)",readelf-pre.c,11,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"getvalue(struct magic_set *,struct magic *,const char **,int)",apprentice-pre.c,12,0,0,21,149,2,35,19,35,12,25,25,4,25,0
+Function,"gmtime_r(const time_t *,struct tm *)",gmtime_r-pre.c,3,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"goodchar(unsigned char,const char *)",apprentice-pre.c,3,0,0,3,1,0,1,1,3,1,0,0,0,0,0
+Static Function,"handle_annotation(struct magic_set *,struct magic *,int)",softmagic-pre.c,8,0,0,4,12,1,11,11,14,10,16,15,2,15,0
+Static Function,"handle_mime(struct magic_set *,int,const char *)",fsmagic-pre.c,4,0,0,2,6,1,5,5,7,5,5,5,2,5,0
+Static Function,help(),file-pre.c,2,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,hextoint(int),apprentice-pre.c,2,0,0,2,5,1,5,5,7,5,4,4,1,4,0
+Static Function,init_file_tables(),apprentice-pre.c,7,0,0,3,3,0,5,5,5,1,1,0,1,0,0
+Static Function,"is_tar(const unsigned char *,size_t)",is_tar-pre.c,7,0,0,4,2052,3,14,14,14,5,4,4,1,4,0
+Static Function,json_isdigit(unsigned char),is_json-pre.c,3,0,0,1,2,0,11,2,11,1,1,0,1,0,0
+Static Function,json_isspace(const unsigned char),is_json-pre.c,2,0,0,1,2,0,5,2,5,1,1,0,1,0,0
+Static Function,json_isxdigit(unsigned char),is_json-pre.c,2,0,0,2,3,0,14,3,14,3,2,2,1,2,0
+Static Function,"json_parse_array(const unsigned char **,const unsigned char *,size_t *,size_t)",is_json-pre.c,5,0,0,3,13,1,6,5,6,6,14,11,2,10,0
+Static Function,"json_parse_const(const unsigned char **,const unsigned char *,const char *,size_t)",is_json-pre.c,5,0,0,2,6,1,4,4,5,3,1,1,2,1,0
+Static Function,"json_parse_number(const unsigned char **,const unsigned char *)",is_json-pre.c,3,0,0,3,3745,4,16,16,19,12,12,12,3,11,0
+Static Function,"json_parse_object(const unsigned char **,const unsigned char *,size_t *,size_t)",is_json-pre.c,5,0,0,5,385,3,11,10,11,11,29,26,2,25,0
+Static Function,"json_parse_string(const unsigned char **,const unsigned char *)",is_json-pre.c,4,0,0,3,22,1,19,8,19,12,45,45,5,45,0
+Static Function,"json_parse(const unsigned char **,const unsigned char *,size_t *,size_t)",is_json-pre.c,7,0,0,8,58,2,11,6,13,4,25,4,1,4,0
+Static Function,"json_skip_space(const unsigned char *,const unsigned char *)",is_json-pre.c,4,0,0,2,2,0,2,2,3,1,0,0,1,0,0
+Function,lava_get(unsigned int),file-pre.c,43,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"lava_set(unsigned int,unsigned int)",file-pre.c,20,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"load_1(struct magic_set *,int,const char *,int *,struct magic_entry_set *)",apprentice-pre.c,10,0,0,14,636,3,18,15,19,14,21,21,5,21,0
+Static Function,"load(const char *,int)",file-pre.c,3,0,0,6,4,1,4,4,4,3,2,2,1,2,0
+Function,"localtime_r(const time_t *,struct tm *)",localtime_r-pre.c,3,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"looks_ascii(const unsigned char *,size_t,unichar *,size_t *)",encoding-pre.c,4,0,0,4,5,1,4,4,4,3,3,3,2,3,0
+Static Function,"looks_extended(const unsigned char *,size_t,unichar *,size_t *)",encoding-pre.c,4,0,0,5,10,1,5,5,7,3,3,3,2,3,1
+Static Function,"looks_latin1(const unsigned char *,size_t,unichar *,size_t *)",encoding-pre.c,4,0,0,3,3,0,3,3,4,3,3,3,2,3,0
+Static Function,"looks_ucs16(const unsigned char *,size_t,unichar *,size_t *)",encoding-pre.c,6,0,0,4,32,2,9,9,12,7,12,12,2,11,0
+Static Function,"looks_utf7(const unsigned char *,size_t,unichar *,size_t *)",encoding-pre.c,4,0,0,2,4,1,7,4,10,3,3,3,3,3,0
+Static Function,"looks_utf8_with_BOM(const unsigned char *,size_t,unichar *,size_t *)",encoding-pre.c,5,0,0,3,2,0,2,2,5,1,1,0,1,0,1
+Function,"magic_buffer(struct magic_set *,const void *,size_t)",magic-pre.c,3,0,0,4,4,1,4,4,4,4,3,3,1,3,0
+Function,"magic_check(struct magic_set *,const char *)",magic-pre.c,3,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Function,magic_close(struct magic_set *),magic-pre.c,3,0,0,1,2,0,2,2,2,1,1,0,1,0,0
+Function,"magic_compile(struct magic_set *,const char *)",magic-pre.c,3,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Function,"magic_descriptor(struct magic_set *,int)",magic-pre.c,2,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"magic_entry_free(struct magic_entry *,uint32_t)",apprentice-pre.c,4,0,0,1,3,0,3,3,3,1,1,0,1,0,0
+Function,magic_errno(struct magic_set *),magic-pre.c,3,0,0,1,2,0,3,3,3,1,1,0,1,0,0
+Function,magic_error(struct magic_set *),magic-pre.c,7,0,0,1,2,0,3,3,3,1,1,0,1,0,0
+Function,"magic_file(struct magic_set *,const char *)",magic-pre.c,4,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Function,magic_getflags(struct magic_set *),magic-pre.c,2,0,0,1,2,0,2,2,2,1,1,0,1,0,0
+Function,"magic_getparam(struct magic_set *,int,void *)",magic-pre.c,9,0,0,3,9,1,9,3,9,9,29,29,1,29,0
+Function,"magic_getpath(const char *,int)",magic-pre.c,4,0,0,3,3,0,4,4,4,3,2,2,1,2,0
+Function,"magic_list(struct magic_set *,const char *)",magic-pre.c,3,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Function,"magic_load_buffers(struct magic_set *,void **,size_t *,size_t)",magic-pre.c,4,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Function,"magic_load(struct magic_set *,const char *)",magic-pre.c,3,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Function,magic_open(int),magic-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"magic_setflags(struct magic_set *,int)",magic-pre.c,3,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"magic_setparam(struct magic_set *,int,const void *)",magic-pre.c,4,0,0,9,9,1,9,3,9,9,29,29,1,29,0
+Function,magic_version(),magic-pre.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"magiccheck(struct magic_set *,struct magic *)",softmagic-pre.c,27,0,0,21,351,3,90,30,91,41,310,306,4,305,1
+Function,"main(int,char *[])",file-pre.c,11,0,0,35,70988,5,61,28,61,45,549,548,4,546,0
+Static Function,"makeerror(unsigned char **,size_t *,const char *)",compress-pre.c,4,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"match(struct magic_set *,struct magic *,uint32_t,const struct buffer *,size_t,int,int,int,uint16_t *,uint16_t *,int *,int *,int *)",softmagic-pre.c,33,0,0,20,29157012,7,50,44,70,39,128,128,6,127,1
+Static Function,maxoff_t(),apprentice-pre.c,1,0,0,1,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"mconvert(struct magic_set *,struct magic *,int)",softmagic-pre.c,10,0,0,16,41,2,65,21,65,38,600,600,2,600,1
+Static Function,"mcopy(struct magic_set *,union VALUETYPE *,int,int,const unsigned char *,uint32_t,size_t,struct magic *)",softmagic-pre.c,15,0,0,12,166,2,30,24,39,11,27,24,5,23,1
+Static Function,"mdebug(uint32_t,const char *,size_t)",softmagic-pre.c,5,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,methodname(size_t),compress-pre.c,5,0,0,1,2,0,2,2,3,1,1,0,1,0,0
+Static Function,"mget(struct magic_set *,struct magic *,const struct buffer *,const unsigned char *,size_t,size_t,unsigned int,int,int,int,uint16_t *,uint16_t *,int *,int *,int *)",softmagic-pre.c,46,0,0,26,810820,6,130,77,148,68,509,509,4,509,1
+Static Function,"mkdbname(struct magic_set *,const char *,int)",apprentice-pre.c,7,0,0,7,432,3,13,13,14,7,7,7,2,7,0
+Static Function,mlist_alloc(),apprentice-pre.c,2,0,0,4,2,0,2,2,2,1,1,0,1,0,0
+Static Function,mlist_free_one(struct mlist *),apprentice-pre.c,3,0,0,3,2,0,2,2,2,1,0,0,1,0,1
+Static Function,mlist_free(struct mlist *),apprentice-pre.c,5,0,0,2,3,0,3,3,3,1,1,0,1,0,1
+Static Function,"moffset(struct magic_set *,struct magic *,const struct buffer *,int32_t *)",softmagic-pre.c,20,0,0,9,46,2,50,10,52,18,140,137,3,137,1
+Static Function,"mprint(struct magic_set *,struct magic *)",softmagic-pre.c,24,0,0,18,212,2,91,40,92,53,674,672,4,672,1
+Static Function,"msetoffset(struct magic_set *,struct magic *,struct buffer *,const struct buffer *,size_t,unsigned int)",softmagic-pre.c,17,0,0,8,19,1,9,9,9,8,16,16,3,16,0
+Static Function,nonmagic(const char *),apprentice-pre.c,2,0,0,1,11,1,16,8,18,1,10,0,3,0,0
+Static Function,"parse_apple(struct magic_set *,struct magic_entry *,const char *)",apprentice-pre.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"parse_ext(struct magic_set *,struct magic_entry *,const char *)",apprentice-pre.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"parse_extra(struct magic_set *,struct magic_entry *,const char *,off_t,size_t,const char *,const char *,int)",apprentice-pre.c,15,0,0,6,66,2,13,13,18,4,4,3,2,3,0
+Static Function,"parse_indirect_modifier(struct magic_set *,struct magic *,const char **)",apprentice-pre.c,4,0,0,7,4,1,4,4,4,3,4,3,3,2,0
+Static Function,"parse_mime(struct magic_set *,struct magic_entry *,const char *)",apprentice-pre.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"parse_op_modifier(struct magic_set *,struct magic *,const char **,int)",apprentice-pre.c,5,0,0,7,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"parse_strength(struct magic_set *,struct magic_entry *,const char *)",apprentice-pre.c,9,0,0,6,36,2,13,9,17,7,10,10,1,10,0
+Static Function,"parse_string_modifier(struct magic_set *,struct magic *,const char **)",apprentice-pre.c,10,0,0,11,106,2,38,14,40,24,189,188,3,187,0
+Static Function,"parse(struct magic_set *,struct magic_entry *,const char *,size_t,int)",apprentice-pre.c,19,0,0,43,999999999,11,96,71,129,43,141,136,4,136,0
+Static Function,"permute_args(int,int,int,char **)",getopt_long-pre.c,7,0,0,3,4,1,5,5,5,1,1,0,3,0,0
+Function,"pread(int,void *,size_t,off_t)",pread-pre.c,11,0,0,4,4,1,4,4,4,4,3,3,1,3,1
+Static Function,"print_it(xprintf_struct *,size_t,const char *)",vasprintf-pre.c,8,0,0,10,3,0,4,4,4,3,2,2,1,2,0
+Static Function,"print_sep(struct magic_set *,int)",softmagic-pre.c,4,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"process(struct magic_set *,const char *,int)",file-pre.c,10,0,0,7,10,1,9,9,10,1,1,0,2,0,0
+Static Function,"realloc_buff(xprintf_struct *,size_t)",vasprintf-pre.c,10,0,0,7,3,0,3,3,3,3,2,2,2,2,1
+Static Function,"set_last_default(struct magic_set *,struct magic_entry *,uint32_t)",apprentice-pre.c,8,0,0,3,8,1,6,6,7,5,4,4,4,4,0
+Static Function,"set_test_type(struct magic *,struct magic *)",apprentice-pre.c,11,0,0,2,22,1,49,7,49,7,20,18,2,18,0
+Static Function,"set_text_binary(struct magic_set *,struct magic_entry *,uint32_t,uint32_t)",apprentice-pre.c,12,0,0,5,6,1,8,8,14,3,1,1,3,1,0
+Static Function,setparam(const char *),file-pre.c,4,0,0,7,6,1,4,4,4,4,4,4,2,4,0
+Function,"sread(int,void *,size_t,int)",compress-pre.c,8,0,0,6,82,2,13,12,18,11,22,20,4,18,0
+Function,"strcasestr(const char *,const char *)",strcasestr-pre.c,3,0,0,4,3,0,5,5,5,5,4,4,4,4,0
+Static Function,"string_modifier_check(struct magic_set *,struct magic *)",apprentice-pre.c,9,0,0,6,12,1,14,9,17,12,41,41,2,41,0
+Function,"strlcat(char *,const char *,size_t)",strlcat-pre.c,3,0,0,2,8,1,5,5,6,1,1,0,2,0,0
+Function,"strlcpy(char *,const char *,size_t)",strlcpy-pre.c,8,0,0,1,15,1,7,7,8,4,2,2,3,2,0
+Static Function,swap2(uint16_t),apprentice-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,swap4(uint32_t),apprentice-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,swap8(uint64_t),apprentice-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"swrite(int,const void *,size_t)",compress-pre.c,5,0,0,3,3,0,4,4,4,4,5,5,3,5,0
+Static Function,"toomany(struct magic_set *,const char *,uint16_t)",readelf-pre.c,4,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"trim_nuls(const unsigned char *,size_t)",ascmagic-pre.c,4,0,0,1,2,0,2,2,3,1,0,0,1,0,0
+Static Function,"type_s(xprintf_struct *,int,int,const char *,const char *)",vasprintf-pre.c,6,0,0,3,5,1,4,4,6,1,1,0,1,0,1
+Static Function,typesize(int),apprentice-pre.c,3,0,0,1,6,1,35,2,35,1,15,0,1,0,0
+Static Function,"uncompressbuf(int,size_t,size_t,const unsigned char *,unsigned char **,size_t *)",compress-pre.c,12,0,0,24,526,3,18,17,22,9,14,11,2,11,0
+Static Function,"uncompressgzipped(const unsigned char *,unsigned char **,size_t,size_t *)",compress-pre.c,5,0,0,3,108,2,9,9,11,4,5,5,2,5,0
+Static Function,"uncompresszlib(const unsigned char *,unsigned char **,size_t,size_t *,int)",compress-pre.c,9,0,0,21,9,1,7,7,8,5,7,7,1,7,0
+Static Function,"unreadable_info(struct magic_set *,mode_t,const char *)",magic-pre.c,4,0,0,3,28,1,9,9,9,9,9,9,3,9,0
+Static Function,"unwrap(struct magic_set *,const char *)",file-pre.c,6,0,0,11,31,1,9,9,9,3,3,3,3,3,0
+Static Function,usage(),file-pre.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,usual_char(xprintf_struct *),vasprintf-pre.c,4,0,0,9,2,0,2,2,2,1,1,0,1,0,1
+Static Function,"varexpand(struct magic_set *,char *,size_t,const char *)",softmagic-pre.c,7,0,0,5,38,2,12,12,15,9,21,21,3,20,1
+Function,"vasprintf(char **,const char *,va_list)",vasprintf-pre.c,7,0,0,8,2,0,2,2,2,1,1,0,1,0,1
+Static Function,"writechild(int [3][2],const void *,size_t)",compress-pre.c,4,0,0,5,5,1,5,4,5,5,7,7,2,7,0
+Static Function,zlibcmp(const unsigned char *),compress-pre.c,1,0,0,1,5,1,4,4,5,3,3,2,1,2,0

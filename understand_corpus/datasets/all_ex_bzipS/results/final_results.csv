@@ -1,0 +1,109 @@
+Name,File,CountInput,CountOutput,CountPathLog,CyclomaticStrict,MaxNesting,PREDICTION
+"add_pair_to_block(int *,EState *)",bzlib-pre.c,8,5,1,5,1,True
+"addFlagsFromEnvVar(int *,Cell **,Char *)",bzip2-pre.c,5,5,2,10,4,False
+"applySavedFileAttrToOutputFile(int *,IntNative)",bzip2-pre.c,8,3,0,2,1,False
+"applySavedTimeInfoToOutputFile(int *,Char *)",bzip2-pre.c,8,4,0,2,1,True
+"bsFinishWrite(int *,EState *)",compress-pre.c,5,5,0,2,1,False
+"bsPutUChar(int *,EState *,UChar)",compress-pre.c,4,1,0,1,0,False
+"bsPutUInt32(int *,EState *,UInt32)",compress-pre.c,4,1,0,1,0,False
+"bsW(int *,EState *,Int32,UInt32)",compress-pre.c,10,5,0,2,1,True
+bz_config_ok(int *),bzlib-pre.c,2,1,1,4,1,False
+"BZ2_blockSort(int *,EState *)",blocksort-pre.c,13,6,2,12,3,True
+"BZ2_bsInitWrite(int *,EState *)",compress-pre.c,1,3,0,1,0,False
+"BZ2_bz__AssertH__fail(int *,int)",bzlib-pre.c,12,3,0,2,1,False
+"BZ2_bzBuffToBuffCompress(int *,char *,unsigned int *,char *,unsigned int,int,int,int)",bzlib-pre.c,9,11,1,14,1,True
+"BZ2_bzBuffToBuffDecompress(int *,char *,unsigned int *,char *,unsigned int,int,int)",bzlib-pre.c,8,11,1,12,1,True
+"BZ2_bzclose(int *,BZFILE *)",bzlib-pre.c,6,3,1,6,2,True
+"BZ2_bzCompress(int *,bz_stream *,int)",bzlib-pre.c,13,5,1,23,2,False
+"BZ2_bzCompressEnd(int *,bz_stream *)",bzlib-pre.c,10,4,1,7,1,False
+"BZ2_bzCompressInit(int *,bz_stream *,int,int,int)",bzlib-pre.c,13,28,2,18,2,False
+"BZ2_bzDecompress(int *,bz_stream *)",bzlib-pre.c,17,9,2,20,4,False
+"BZ2_bzDecompressEnd(int *,bz_stream *)",bzlib-pre.c,10,4,1,7,1,False
+"BZ2_bzDecompressInit(int *,bz_stream *,int,int)",bzlib-pre.c,9,21,1,10,1,False
+"BZ2_bzdopen(int *,int,const char *)",bzlib-pre.c,3,2,0,1,0,False
+"BZ2_bzerror(int *,BZFILE *,int *)",bzlib-pre.c,3,2,0,2,1,False
+"BZ2_bzflush(int *,BZFILE *)",bzlib-pre.c,0,1,0,1,0,False
+BZ2_bzlibVersion(int *),bzlib-pre.c,3,1,0,1,0,False
+"BZ2_bzopen(int *,const char *,const char *)",bzlib-pre.c,3,2,0,1,0,False
+"BZ2_bzread(int *,BZFILE *,void *,int)",bzlib-pre.c,5,2,0,4,1,False
+"BZ2_bzRead(int *,int *,BZFILE *,void *,int)",bzlib-pre.c,15,13,2,39,4,True
+"BZ2_bzReadClose(int *,int *,BZFILE *)",bzlib-pre.c,9,4,2,10,2,False
+"BZ2_bzReadGetUnused(int *,int *,BZFILE *,void **,int *)",bzlib-pre.c,10,4,1,13,2,False
+"BZ2_bzReadOpen(int *,int *,FILE *,int,int,void *,int)",bzlib-pre.c,13,18,2,27,2,True
+"BZ2_bzwrite(int *,BZFILE *,void *,int)",bzlib-pre.c,4,2,0,2,1,False
+"BZ2_bzWrite(int *,int *,BZFILE *,void *,int)",bzlib-pre.c,13,10,2,29,4,True
+"BZ2_bzWriteClose(int *,int *,BZFILE *,int,unsigned int *,unsigned int *)",bzlib-pre.c,7,1,0,1,0,False
+"BZ2_bzWriteClose64(int *,int *,BZFILE *,int,unsigned int *,unsigned int *,unsigned int *,unsigned int *)",bzlib-pre.c,20,15,4,38,5,True
+"BZ2_bzWriteOpen(int *,int *,FILE *,int,int,int)",bzlib-pre.c,9,16,2,24,2,True
+"BZ2_compressBlock(int *,EState *,Bool)",compress-pre.c,13,14,2,8,2,False
+"BZ2_decompress(int *,DState *)",decompress-pre.c,66,68,49,342,7,True
+"BZ2_hbAssignCodes(int *,Int32 *,UChar *,Int32,Int32,Int32)",huffman-pre.c,5,1,1,4,3,False
+"BZ2_hbCreateDecodeTables(int *,Int32 *,Int32 *,Int32 *,UChar *,Int32,Int32,Int32)",huffman-pre.c,7,3,2,10,3,False
+"BZ2_hbMakeCodeLengths(int *,UChar *,Int32 *,Int32,Int32)",huffman-pre.c,5,2,5,26,4,False
+"BZ2_indexIntoF(int *,Int32,Int32 *)",bzlib-pre.c,4,1,0,3,2,False
+"bzopen_or_bzdopen(int *,const char *,int,const char *,int)",bzlib-pre.c,9,9,2,19,3,False
+cadvise(int *),bzip2-pre.c,5,1,0,2,1,False
+cleanUpAndFail(Int32),bzip2-pre.c,20,6,1,11,3,True
+"compress(int *,Char *)",bzip2-pre.c,16,27,3,44,3,True
+compressedStreamEOF(int *),bzip2-pre.c,5,5,0,2,1,False
+"compressStream(int *,FILE *,FILE *)",bzip2-pre.c,9,19,5,24,2,True
+configError(int *),bzip2-pre.c,6,3,0,1,0,False
+"containsDubiousChars(int *,Char *)",bzip2-pre.c,3,1,0,1,0,False
+"copy_input_until_stop(int *,EState *)",bzlib-pre.c,15,15,2,21,4,False
+"copy_output_until_stop(int *,EState *)",bzlib-pre.c,8,8,1,5,2,True
+"copyFileName(int *,Char *,Char *)",bzip2-pre.c,8,6,0,2,1,True
+"countHardLinks(int *,Char *)",bzip2-pre.c,4,2,0,2,1,False
+crcError(int *),bzip2-pre.c,3,4,0,1,0,False
+"default_bzalloc(int *,void *,Int32,Int32)",bzlib-pre.c,2,2,0,1,0,False
+"default_bzfree(int *,void *,void *)",bzlib-pre.c,1,1,0,2,1,False
+"fallbackQSort3(int *,UInt32 *,UInt32 *,Int32,Int32)",blocksort-pre.c,6,3,4,22,4,False
+"fallbackSimpleSort(int *,UInt32 *,UInt32 *,Int32,Int32)",blocksort-pre.c,5,1,1,9,3,False
+"fallbackSort(int *,UInt32 *,UInt32 *,UInt32 *,Int32,Int32)",blocksort-pre.c,8,6,9,38,5,True
+"fileExists(int *,Char *)",bzip2-pre.c,4,3,0,2,1,False
+"flush_RL(int *,EState *)",bzlib-pre.c,4,2,0,2,1,False
+"fopen_output_safely(int *,Char *,const char *)",bzip2-pre.c,4,4,0,3,1,False
+"generateMTFValues(int *,EState *)",compress-pre.c,9,4,3,15,5,False
+"handle_compress(int *,bz_stream *)",bzlib-pre.c,13,8,2,16,3,True
+"hasSuffix(int *,Char *,const Char *)",bzip2-pre.c,4,3,0,3,1,False
+"init_RL(int *,EState *)",bzlib-pre.c,2,3,0,1,0,False
+ioError(int *),bzip2-pre.c,11,4,0,1,0,False
+"isempty_RL(int *,EState *)",bzlib-pre.c,5,1,0,3,1,False
+license(int *),bzip2-pre.c,3,2,0,1,0,False
+"main(IntNative,Char *[])",bzip2-pre.c,20,38,9,101,4,True
+"mainGtU(int *,UInt32,UInt32,UChar *,UInt16 *,UInt32,Int32 *)",blocksort-pre.c,6,1,2,32,2,False
+"mainQSort3(int *,UInt32 *,UChar *,UInt16 *,Int32,Int32,Int32,Int32,Int32 *)",blocksort-pre.c,10,4,5,24,4,False
+"mainSimpleSort(int *,UInt32 *,UChar *,UInt16 *,Int32,Int32,Int32,Int32,Int32 *)",blocksort-pre.c,11,2,3,15,4,False
+"mainSort(int *,UInt32 *,UChar *,UInt16 *,UInt32 *,Int32,Int32,Int32 *)",blocksort-pre.c,10,7,8,41,6,True
+"makeMaps_d(int *,DState *)",decompress-pre.c,4,3,0,3,2,False
+"makeMaps_e(int *,EState *)",compress-pre.c,4,3,0,3,2,False
+"mapSuffix(int *,Char *,const Char *,const Char *)",bzip2-pre.c,5,5,0,2,1,False
+mkCell(int *),bzip2-pre.c,2,4,0,1,0,False
+"mmed3(int *,UChar,UChar,UChar)",blocksort-pre.c,4,1,1,4,2,False
+"myfeof(int *,FILE *)",bzip2-pre.c,4,3,0,2,1,False
+"myfeof(int *,FILE *)",bzlib-pre.c,4,4,1,4,1,False
+"myMalloc(int *,Int32)",bzip2-pre.c,4,3,0,2,1,False
+mySignalCatcher(IntNative),bzip2-pre.c,2,2,0,1,0,False
+"mySIGSEGVorSIGBUScatcher(int *,IntNative)",bzip2-pre.c,4,4,1,3,1,False
+"notAStandardFile(int *,Char *)",bzip2-pre.c,4,2,0,3,1,False
+outOfMemory(int *),bzip2-pre.c,7,3,0,1,0,False
+"pad(int *,Char *)",bzip2-pre.c,6,2,0,3,1,False
+"panic(int *,const Char *)",bzip2-pre.c,10,3,0,1,0,False
+"prepare_new_block(int *,EState *)",bzlib-pre.c,2,7,0,2,1,False
+"redundant(int *,Char *)",bzip2-pre.c,4,1,0,1,0,False
+"saveInputFileMetaInfo(int *,Char *)",bzip2-pre.c,5,2,0,2,1,False
+"sendMTFValues(int *,EState *)",compress-pre.c,18,11,16,81,5,True
+setExit(Int32),bzip2-pre.c,9,1,0,2,1,False
+showFileNames(int *),bzip2-pre.c,10,1,0,2,1,False
+"snocString(int *,Cell *,Char *)",bzip2-pre.c,7,7,0,3,2,True
+"testf(int *,Char *)",bzip2-pre.c,12,18,2,22,2,True
+"testStream(int *,FILE *)",bzip2-pre.c,10,13,3,26,3,True
+"uInt64_from_UInt32s(int *,UInt64 *,UInt32,UInt32)",bzip2-pre.c,3,2,0,1,0,False
+"uInt64_isZero(int *,UInt64 *)",bzip2-pre.c,3,1,0,3,2,False
+"uInt64_qrm10(int *,UInt64 *)",bzip2-pre.c,3,3,0,2,1,False
+"uInt64_to_double(int *,UInt64 *)",bzip2-pre.c,3,1,0,2,1,False
+"uInt64_toAscii(int *,char *,UInt64 *)",bzip2-pre.c,3,3,0,3,1,False
+"uncompress(int *,Char *)",bzip2-pre.c,17,28,4,50,4,True
+"uncompressStream(int *,FILE *,FILE *)",bzip2-pre.c,13,21,5,43,3,True
+"unRLE_obuf_to_output_FAST(int *,DState *)",bzlib-pre.c,20,16,5,55,5,True
+"unRLE_obuf_to_output_SMALL(int *,DState *)",bzlib-pre.c,22,16,5,53,4,True
+"usage(int *,Char *)",bzip2-pre.c,4,2,0,1,0,False

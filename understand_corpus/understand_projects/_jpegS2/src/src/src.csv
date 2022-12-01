@@ -1,0 +1,2333 @@
+Kind,Name,File,CountInput,CountLineInactive,CountLinePreprocessor,CountOutput,CountPath,CountPathLog,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots
+Struct,"_IO_FILE",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",example-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_FILE",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",example-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"_IO_marker",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Static Function,"__bswap_32(int *,unsigned int)",jfdctflt-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jdtrans-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jcapimin-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jdmerge-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jdmainct-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jdsample-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jutils-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jdpostct-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jchuff-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jdatasrc-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jdhuff-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jidctflt-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jdmaster-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jdapimin-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jdapistd-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jquant2-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jdcoefct-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jcmaster-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jcmainct-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jccoefct-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jcarith-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jfdctfst-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jctrans-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jcinit-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jccolor-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jcdctmgr-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jcsample-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jdinput-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jmemansi-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jerror-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jcprepct-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jidctint-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jdmarker-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jfdctint-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jcmarker-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jdcolor-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jcapistd-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jquant1-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jaricom-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jcomapi-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jdarith-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jdatadst-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jddctmgr-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jidctfst-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jmemmgr-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_32(int *,unsigned int)",jcparam-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jfdctflt-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jdtrans-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jcapimin-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jdmerge-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jdmainct-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jdsample-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jutils-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jdpostct-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jchuff-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jdatasrc-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jdhuff-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jidctflt-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jdmaster-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jdapimin-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jdapistd-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jquant2-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jdcoefct-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jcmaster-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jcmainct-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jccoefct-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jcarith-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jfdctfst-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jctrans-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jcinit-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jccolor-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jcdctmgr-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jcsample-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jdinput-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jmemansi-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jerror-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jcprepct-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jidctint-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jdmarker-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jfdctint-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jcmarker-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jdcolor-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jcapistd-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jquant1-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jaricom-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jcomapi-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jdarith-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jdatadst-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jddctmgr-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jidctfst-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jmemmgr-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"__bswap_64(int *,__uint64_t)",jcparam-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0
+Struct,"__jmp_buf_tag",example-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__locale_struct",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_internal_slist",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"__pthread_mutex_s",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Static Function,"access_virt_barray(int *,j_common_ptr,jvirt_barray_ptr,JDIMENSION,JDIMENSION,boolean)",jmemmgr-pre.c,17,0,0,9,1300,3,15,15,18,1,3,0,3,0
+Static Function,"access_virt_sarray(int *,j_common_ptr,jvirt_sarray_ptr,JDIMENSION,JDIMENSION,boolean)",jmemmgr-pre.c,17,0,0,9,1300,3,15,15,18,1,3,0,3,0
+Static Function,"add_huff_table(int *,j_compress_ptr,JHUFF_TBL **,const UINT8 *,const UINT8 *)",jcparam-pre.c,9,0,0,7,8,1,4,4,5,1,0,0,1,0
+Static Function,"alloc_barray(int *,j_common_ptr,int,JDIMENSION,JDIMENSION)",jmemmgr-pre.c,8,0,0,7,12,1,6,6,6,1,1,0,2,0
+Static Function,"alloc_fs_workspace(int *,j_decompress_ptr)",jquant1-pre.c,8,0,0,2,2,0,2,2,2,1,0,0,1,0
+Static Function,"alloc_funny_pointers(int *,j_decompress_ptr)",jdmainct-pre.c,11,0,0,2,2,0,2,2,2,1,0,0,1,0
+Static Function,"alloc_large(int *,j_common_ptr,int,size_t)",jmemmgr-pre.c,9,0,0,14,16,1,5,5,6,1,0,0,1,0
+Static Function,"alloc_sarray(int *,j_common_ptr,int,JDIMENSION,JDIMENSION)",jmemmgr-pre.c,8,0,0,7,12,1,6,6,6,1,1,0,2,0
+Static Function,"alloc_small(int *,j_common_ptr,int,size_t)",jmemmgr-pre.c,17,0,0,14,984,3,13,13,14,6,6,6,3,4
+Static Function,"arith_decode(int *,j_decompress_ptr,unsigned char *)",jdarith-pre.c,14,0,0,7,70,2,13,13,13,1,5,0,5,0
+Static Function,"arith_encode(int *,j_compress_ptr,unsigned char *,int)",jcarith-pre.c,17,0,0,8,77,2,21,21,21,3,6,3,6,3
+Struct,"backing_store_struct",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"backing_store_struct",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Static Function,"build_bg_ycc_rgb_table(int *,j_decompress_ptr)",jdmerge-pre.c,5,0,0,5,2,0,2,2,2,1,0,0,1,0
+Static Function,"build_bg_ycc_rgb_table(int *,j_decompress_ptr)",jdcolor-pre.c,5,0,0,5,2,0,2,2,2,1,0,0,1,0
+Static Function,"build_rgb_y_table(int *,j_decompress_ptr)",jdcolor-pre.c,5,0,0,2,2,0,2,2,2,1,0,0,1,0
+Static Function,"build_ycc_rgb_table(int *,j_decompress_ptr)",jdmerge-pre.c,5,0,0,5,2,0,2,2,2,1,0,0,1,0
+Static Function,"build_ycc_rgb_table(int *,j_decompress_ptr)",jdcolor-pre.c,5,0,0,5,2,0,2,2,2,1,0,0,1,0
+Static Function,"close_backing_store(int *,j_common_ptr,backing_store_ptr)",jmemansi-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0
+Static Function,"cmyk_ycck_convert(int *,j_compress_ptr,JSAMPARRAY,JSAMPIMAGE,JDIMENSION,int)",jccolor-pre.c,8,0,0,0,3,0,3,3,3,1,0,0,2,0
+Static Function,"color_quantize(int *,j_decompress_ptr,JSAMPARRAY,JSAMPARRAY,int)",jquant1-pre.c,8,0,0,0,4,1,4,4,4,1,0,0,3,0
+Static Function,"color_quantize3(int *,j_decompress_ptr,JSAMPARRAY,JSAMPARRAY,int)",jquant1-pre.c,7,0,0,0,3,0,3,3,3,1,0,0,2,0
+Static Function,"compress_data(int *,j_compress_ptr,JSAMPIMAGE)",jccoefct-pre.c,23,0,0,8,16,1,11,11,12,4,6,6,7,5
+Static Function,"compress_first_pass(int *,j_compress_ptr,JSAMPIMAGE)",jccoefct-pre.c,17,0,0,4,121,2,12,12,12,1,1,0,5,0
+Static Function,"compress_output(int *,j_compress_ptr,JSAMPIMAGE)",jccoefct-pre.c,19,0,0,8,20,1,8,8,8,4,5,5,5,5
+Static Function,"compress_output(int *,j_compress_ptr,JSAMPIMAGE)",jctrans-pre.c,21,0,0,7,36,2,11,11,12,4,6,6,6,5
+Static Function,"compute_color(int *,j_decompress_ptr,boxptr,int)",jquant2-pre.c,12,0,0,1,5,1,5,5,5,1,0,0,4,0
+Static Function,"consume_data(int *,j_decompress_ptr)",jdcoefct-pre.c,20,0,0,9,32,2,9,9,9,5,6,6,5,6
+Static Function,"consume_markers(int *,j_decompress_ptr)",jdinput-pre.c,13,0,0,11,16,1,14,12,14,9,31,31,4,30
+Static Function,"create_colorindex(int *,j_decompress_ptr)",jquant1-pre.c,11,0,0,4,38,2,8,8,8,1,1,0,3,0
+Static Function,"create_colormap(int *,j_decompress_ptr)",jquant1-pre.c,10,0,0,10,10,1,7,7,7,1,1,0,4,0
+Static Function,"create_context_buffer(int *,j_compress_ptr)",jcprepct-pre.c,12,0,0,4,3,0,3,3,3,1,0,0,2,0
+Static Function,"create_odither_tables(int *,j_decompress_ptr)",jquant1-pre.c,7,0,0,2,7,1,5,5,5,4,2,2,3,2
+Static Function,"decode_mcu(int *,j_decompress_ptr,JBLOCKROW *)",jdhuff-pre.c,28,0,0,17,99466,5,41,41,41,38,101,101,7,101
+Static Function,"decode_mcu(int *,j_decompress_ptr,JBLOCKROW *)",jdarith-pre.c,23,0,0,10,50829,5,28,28,28,17,34,34,6,32
+Static Function,"decode_mcu_AC_first(int *,j_decompress_ptr,JBLOCKROW *)",jdhuff-pre.c,27,0,0,16,166,2,20,20,20,19,40,40,8,40
+Static Function,"decode_mcu_AC_first(int *,j_decompress_ptr,JBLOCKROW *)",jdarith-pre.c,17,0,0,8,465,3,17,17,17,11,18,18,5,18
+Static Function,"decode_mcu_AC_refine(int *,j_decompress_ptr,JBLOCKROW *)",jdhuff-pre.c,28,0,0,19,299926,5,39,39,39,29,62,59,8,59
+Static Function,"decode_mcu_AC_refine(int *,j_decompress_ptr,JBLOCKROW *)",jdarith-pre.c,16,0,0,8,453,3,16,16,16,11,19,18,5,17
+Static Function,"decode_mcu_DC_first(int *,j_decompress_ptr,JBLOCKROW *)",jdhuff-pre.c,28,0,0,16,91,2,15,15,15,14,23,23,5,23
+Static Function,"decode_mcu_DC_first(int *,j_decompress_ptr,JBLOCKROW *)",jdarith-pre.c,18,0,0,10,174,2,14,14,14,7,11,11,5,9
+Static Function,"decode_mcu_DC_refine(int *,j_decompress_ptr,JBLOCKROW *)",jdhuff-pre.c,18,0,0,13,19,1,8,8,8,7,7,7,3,7
+Static Function,"decode_mcu_DC_refine(int *,j_decompress_ptr,JBLOCKROW *)",jdarith-pre.c,8,0,0,4,9,1,5,5,5,1,0,0,2,0
+Static Function,"decode_mcu_sub(int *,j_decompress_ptr,JBLOCKROW *)",jdhuff-pre.c,29,0,0,16,49735,5,40,40,40,38,101,101,7,101
+Static Function,"decompress_data(int *,j_decompress_ptr,JSAMPIMAGE)",jdcoefct-pre.c,22,0,0,4,77,2,10,10,12,6,6,6,3,5
+Static Function,"decompress_onepass(int *,j_decompress_ptr,JSAMPIMAGE)",jdcoefct-pre.c,29,0,0,9,42,2,12,12,13,7,7,7,6,7
+Static Function,"decompress_smooth_data(int *,j_decompress_ptr,JSAMPIMAGE)",jdcoefct-pre.c,27,0,0,5,2400491,6,37,37,55,8,18,12,6,9
+Static Function,"default_decompress_parms(int *,j_decompress_ptr)",jdapimin-pre.c,13,0,0,23,15,1,16,12,24,1,19,0,3,0
+Static Function,"do_barray_io(int *,j_common_ptr,jvirt_barray_ptr,boolean)",jmemmgr-pre.c,13,0,0,2,5,1,7,7,7,3,3,3,2,2
+Static Function,"do_sarray_io(int *,j_common_ptr,jvirt_sarray_ptr,boolean)",jmemmgr-pre.c,13,0,0,2,5,1,7,7,7,3,3,3,2,2
+Struct,"drand48_data",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"drand48_data",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Static Function,"dummy_consume_data(int *,j_decompress_ptr)",jdcoefct-pre.c,0,0,0,1,1,0,1,1,1,1,0,0,0,0
+Static Function,"dump_buffer_e(int *,huff_entropy_ptr)",jchuff-pre.c,9,0,0,7,2,0,2,2,2,1,0,0,1,0
+Static Function,"dump_buffer_s(int *,working_state *)",jchuff-pre.c,8,0,0,5,2,0,2,2,2,1,1,0,1,0
+Static Function,"emit_2bytes(int *,j_compress_ptr,int)",jcmarker-pre.c,14,0,0,1,1,0,1,1,1,1,0,0,0,0
+Static Function,"emit_ac_symbol(int *,huff_entropy_ptr,int,int)",jchuff-pre.c,11,0,0,2,2,0,2,2,2,1,1,0,1,0
+Static Function,"emit_adobe_app14(int *,j_compress_ptr)",jcmarker-pre.c,4,0,0,3,3,0,3,2,3,1,3,0,1,0
+Static Function,"emit_bits_e(int *,huff_entropy_ptr,unsigned int,int)",jchuff-pre.c,20,0,0,10,16,1,7,7,7,1,1,0,3,0
+Static Function,"emit_bits_s(int *,working_state *,unsigned int,int)",jchuff-pre.c,12,0,0,12,20,1,8,8,8,7,9,9,4,9
+Static Function,"emit_buffered_bits(int *,huff_entropy_ptr,char *,unsigned int)",jchuff-pre.c,7,0,0,1,3,0,3,3,3,1,1,0,1,0
+Static Function,"emit_byte(int *,int,j_compress_ptr)",jcarith-pre.c,9,0,0,6,3,0,3,3,3,1,0,0,2,0
+Static Function,"emit_byte(int *,j_compress_ptr,int)",jcmarker-pre.c,18,0,0,6,3,0,3,3,3,1,0,0,2,0
+Static Function,"emit_dac(int *,j_compress_ptr)",jcmarker-pre.c,13,0,0,3,120,2,10,10,11,1,0,0,3,0
+Static Function,"emit_dc_symbol(int *,huff_entropy_ptr,int,int)",jchuff-pre.c,9,0,0,2,2,0,2,2,2,1,1,0,1,0
+Static Function,"emit_dht(int *,j_compress_ptr,int,boolean)",jcmarker-pre.c,12,0,0,9,36,2,7,7,7,1,1,0,2,0
+Static Function,"emit_dqt(int *,j_compress_ptr,int)",jcmarker-pre.c,11,0,0,10,24,1,8,8,8,1,0,0,3,0
+Static Function,"emit_dri(int *,j_compress_ptr)",jcmarker-pre.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"emit_eobrun(int *,huff_entropy_ptr)",jchuff-pre.c,13,0,0,9,9,1,5,5,5,1,0,0,2,0
+Static Function,"emit_jfif_app0(int *,j_compress_ptr)",jcmarker-pre.c,8,0,0,3,1,0,1,1,1,1,0,0,0,0
+Static Function,"emit_lse_ict(int *,j_compress_ptr)",jcmarker-pre.c,8,0,0,6,2,0,2,2,3,1,0,0,1,0
+Static Function,"emit_marker(int *,j_compress_ptr,JPEG_MARKER)",jcmarker-pre.c,17,0,0,1,1,0,1,1,1,1,0,0,0,0
+Static Function,"emit_message(int *,j_common_ptr,int)",jerror-pre.c,6,0,0,2,4,1,4,4,5,1,1,0,2,0
+Static Function,"emit_pseudo_sos(int *,j_compress_ptr)",jcmarker-pre.c,4,0,0,3,1,0,1,1,1,1,0,0,0,0
+Static Function,"emit_restart(int *,j_compress_ptr,int)",jcarith-pre.c,18,0,0,11,5,1,4,4,5,1,0,0,2,0
+Static Function,"emit_restart_e(int *,huff_entropy_ptr,int)",jchuff-pre.c,12,0,0,9,15,1,6,6,6,1,1,0,2,0
+Static Function,"emit_restart_s(int *,working_state *,int)",jchuff-pre.c,7,0,0,7,12,1,7,7,7,6,5,5,2,5
+Static Function,"emit_sof(int *,j_compress_ptr,JPEG_MARKER)",jcmarker-pre.c,14,0,0,8,4,1,3,3,4,1,0,0,1,0
+Static Function,"emit_sos(int *,j_compress_ptr)",jcmarker-pre.c,12,0,0,3,2,0,4,4,5,1,0,0,1,0
+Static Function,"empty_mem_output_buffer(int *,j_compress_ptr)",jdatadst-pre.c,7,0,0,15,4,1,3,3,3,1,0,0,1,0
+Static Function,"empty_output_buffer(int *,j_compress_ptr)",jdatadst-pre.c,6,0,0,8,2,0,2,2,2,1,0,0,1,0
+Static Function,"encode_mcu(int *,j_compress_ptr,JBLOCKROW *)",jcarith-pre.c,22,0,0,7,29307,4,25,25,25,5,7,5,5,3
+Static Function,"encode_mcu_AC_first(int *,j_compress_ptr,JBLOCKROW *)",jchuff-pre.c,19,0,0,16,3483,4,15,15,15,4,3,3,2,2
+Static Function,"encode_mcu_AC_first(int *,j_compress_ptr,JBLOCKROW *)",jcarith-pre.c,16,0,0,5,984,3,19,19,19,10,14,14,4,14
+Static Function,"encode_mcu_AC_refine(int *,j_compress_ptr,JBLOCKROW *)",jchuff-pre.c,20,0,0,15,1215,3,15,15,18,4,2,2,2,2
+Static Function,"encode_mcu_AC_refine(int *,j_compress_ptr,JBLOCKROW *)",jcarith-pre.c,16,0,0,5,1800,3,20,20,20,14,23,23,5,21
+Static Function,"encode_mcu_DC_first(int *,j_compress_ptr,JBLOCKROW *)",jchuff-pre.c,20,0,0,16,153,2,10,10,10,1,0,0,2,0
+Static Function,"encode_mcu_DC_first(int *,j_compress_ptr,JBLOCKROW *)",jcarith-pre.c,17,0,0,7,114,2,12,12,12,1,3,0,4,0
+Static Function,"encode_mcu_DC_refine(int *,j_compress_ptr,JBLOCKROW *)",jchuff-pre.c,14,0,0,10,18,1,6,6,6,1,0,0,2,0
+Static Function,"encode_mcu_DC_refine(int *,j_compress_ptr,JBLOCKROW *)",jcarith-pre.c,10,0,0,5,6,1,4,4,4,1,0,0,2,0
+Static Function,"encode_mcu_gather(int *,j_compress_ptr,JBLOCKROW *)",jchuff-pre.c,16,0,0,5,8,1,5,5,5,1,0,0,3,0
+Static Function,"encode_mcu_huff(int *,j_compress_ptr,JBLOCKROW *)",jchuff-pre.c,22,0,0,14,22,1,8,8,8,6,6,6,3,6
+Static Function,"encode_one_block(int *,working_state *,JCOEFPTR,int,c_derived_tbl *,c_derived_tbl *)",jchuff-pre.c,13,0,0,7,1408,3,18,18,18,12,20,20,4,20
+Static Function,"error_exit(int *,j_common_ptr)",jerror-pre.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0
+Static Function,"examine_app0(int *,j_decompress_ptr,JOCTET *,unsigned int,INT32)",jdmarker-pre.c,15,0,0,12,26,1,11,9,22,1,8,0,2,0
+Static Function,"examine_app14(int *,j_decompress_ptr,JOCTET *,unsigned int,INT32)",jdmarker-pre.c,10,0,0,7,2,0,3,3,8,1,1,0,2,0
+File,"example-pre.c",example-pre.c,,0,0,,,,,,,,,,2,
+Static Function,"expand_bottom_edge(int *,JSAMPARRAY,JDIMENSION,int,int)",jcprepct-pre.c,7,0,0,1,2,0,2,2,2,1,0,0,1,0
+Static Function,"expand_right_edge(int *,JSAMPARRAY,int,JDIMENSION,JDIMENSION)",jcsample-pre.c,10,0,0,0,4,1,4,4,4,1,0,0,3,0
+Static Function,"fill_a_scan(int *,jpeg_scan_info *,int,int,int,int,int)",jcparam-pre.c,7,0,0,8,1,0,1,1,1,1,0,0,0,0
+Static Function,"fill_dc_scans(int *,jpeg_scan_info *,int,int,int)",jcparam-pre.c,6,0,0,9,3,0,3,3,3,1,1,0,2,0
+Static Function,"fill_input_buffer(int *,j_decompress_ptr)",jdatasrc-pre.c,7,0,0,11,3,0,3,3,3,1,0,0,2,0
+Static Function,"fill_inverse_cmap(int *,j_decompress_ptr,int,int,int)",jquant2-pre.c,9,0,0,2,4,1,4,4,4,1,0,0,3,0
+Static Function,"fill_mem_input_buffer(int *,j_decompress_ptr)",jdatasrc-pre.c,3,0,0,7,1,0,1,1,1,1,0,0,0,0
+Static Function,"fill_scans(int *,jpeg_scan_info *,int,int,int,int,int)",jcparam-pre.c,8,0,0,8,2,0,2,2,2,1,0,0,1,0
+Static Function,"find_best_colors(int *,j_decompress_ptr,int,int,int,int,JSAMPLE [],JSAMPLE [])",jquant2-pre.c,9,0,0,0,12,1,7,7,7,1,0,0,5,0
+Static Function,"find_biggest_color_pop(int *,boxptr,int)",jquant2-pre.c,5,0,0,1,3,0,3,3,4,1,0,0,2,0
+Static Function,"find_biggest_volume(int *,boxptr,int)",jquant2-pre.c,4,0,0,1,3,0,3,3,3,1,0,0,2,0
+Static Function,"find_nearby_colors(int *,j_decompress_ptr,int,int,int,JSAMPLE [])",jquant2-pre.c,7,0,0,1,387,3,14,14,14,1,9,0,3,0
+Static Function,"finish_input_pass(int *,j_decompress_ptr)",jdinput-pre.c,3,0,0,3,1,0,1,1,1,1,0,0,0,0
+Static Function,"finish_output_pass(int *,j_decompress_ptr)",jdmaster-pre.c,5,0,0,2,2,0,2,2,2,1,0,0,1,0
+Static Function,"finish_pass(int *,j_compress_ptr)",jcarith-pre.c,10,0,0,4,442,3,21,21,21,1,3,0,4,0
+Static Function,"finish_pass(int *,j_decompress_ptr)",jdarith-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0
+Static Function,"finish_pass1(int *,j_decompress_ptr)",jquant2-pre.c,5,0,0,3,1,0,1,1,1,1,0,0,0,0
+Static Function,"finish_pass2(int *,j_decompress_ptr)",jquant2-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0
+Static Function,"finish_pass_1_quant(int *,j_decompress_ptr)",jquant1-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0
+Static Function,"finish_pass_gather(int *,j_compress_ptr)",jchuff-pre.c,15,0,0,4,34,2,9,9,10,1,0,0,4,0
+Static Function,"finish_pass_huff(int *,j_compress_ptr)",jchuff-pre.c,14,0,0,16,3,0,3,3,3,1,1,0,2,0
+Static Function,"finish_pass_huff(int *,j_decompress_ptr)",jdhuff-pre.c,5,0,0,4,1,0,1,1,1,1,0,0,0,0
+Static Function,"finish_pass_master(int *,j_compress_ptr)",jcmaster-pre.c,6,0,0,4,6,1,6,4,6,1,3,0,2,0
+Static Function,"first_marker(int *,j_decompress_ptr)",jdmarker-pre.c,7,0,0,10,11,1,8,8,9,7,6,6,3,6
+Static Function,"flush_bits_e(int *,huff_entropy_ptr)",jchuff-pre.c,4,0,0,4,1,0,1,1,1,1,0,0,0,0
+Static Function,"flush_bits_s(int *,working_state *)",jchuff-pre.c,4,0,0,6,2,0,2,2,2,1,1,0,1,0
+Static Function,"format_message(int *,j_common_ptr,char *)",jerror-pre.c,12,0,0,3,48,2,8,8,11,3,4,3,3,2
+Static Function,"forward_DCT(int *,j_compress_ptr,jpeg_component_info *,JSAMPARRAY,JBLOCKROW,JDIMENSION,JDIMENSION,JDIMENSION)",jcdctmgr-pre.c,13,0,0,0,6,1,6,6,6,1,3,0,4,0
+Static Function,"forward_DCT_float(int *,j_compress_ptr,jpeg_component_info *,JSAMPARRAY,JBLOCKROW,JDIMENSION,JDIMENSION,JDIMENSION)",jcdctmgr-pre.c,13,0,0,0,3,0,3,3,3,1,0,0,2,0
+Static Function,"free_pool(int *,j_common_ptr,int)",jmemmgr-pre.c,24,0,0,15,80,2,9,9,10,1,0,0,3,0
+Static Function,"fullsize_downsample(int *,j_compress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY)",jcsample-pre.c,9,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"fullsize_smooth_downsample(int *,j_compress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY)",jcsample-pre.c,10,0,0,1,3,0,3,3,3,1,0,0,2,0
+Static Function,"fullsize_upsample(int *,j_decompress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY *)",jdsample-pre.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0
+Static Function,"get_byte(int *,j_decompress_ptr)",jdarith-pre.c,7,0,0,7,3,0,3,3,3,1,0,0,2,0
+Static Function,"get_dac(int *,j_decompress_ptr)",jdmarker-pre.c,9,0,0,13,215,2,17,17,18,13,17,17,4,16
+Static Function,"get_dht(int *,j_decompress_ptr)",jdmarker-pre.c,13,0,0,14,221599,5,32,32,36,18,26,26,5,25
+Static Function,"get_dqt(int *,j_decompress_ptr)",jdmarker-pre.c,19,0,0,14,236559,5,39,34,39,20,60,38,6,36
+Static Function,"get_dri(int *,j_decompress_ptr)",jdmarker-pre.c,7,0,0,11,59,2,12,12,12,11,12,12,3,12
+Static Function,"get_interesting_appn(int *,j_decompress_ptr)",jdmarker-pre.c,7,0,0,13,25397,4,23,22,23,10,16,12,4,11
+Static Function,"get_lse(int *,j_decompress_ptr)",jdmarker-pre.c,15,0,0,11,999999999,13,83,83,83,80,272,272,3,272
+Static Function,"get_sof(int *,j_decompress_ptr,boolean,boolean,boolean)",jdmarker-pre.c,24,0,0,25,718800807,9,54,54,56,34,41,41,5,41
+Static Function,"get_soi(int *,j_decompress_ptr)",jdmarker-pre.c,6,0,0,22,4,1,3,3,3,1,0,0,1,0
+Static Function,"get_sos(int *,j_decompress_ptr)",jdmarker-pre.c,23,0,0,23,332622,6,39,39,42,29,33,33,5,33
+Static Function,"gray_rgb_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,6,0,0,0,3,0,3,3,3,1,0,0,2,0
+Static Function,"grayscale_convert(int *,j_compress_ptr,JSAMPARRAY,JSAMPIMAGE,JDIMENSION,int)",jccolor-pre.c,7,0,0,0,3,0,3,3,3,1,0,0,2,0
+Static Function,"grayscale_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,7,0,0,1,1,0,1,1,1,1,0,0,0,0
+Static Function,"h2v1_downsample(int *,j_compress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY)",jcsample-pre.c,9,0,0,1,3,0,3,3,3,1,0,0,2,0
+Static Function,"h2v1_merged_upsample(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY)",jdmerge-pre.c,11,0,0,0,4,1,3,3,3,1,0,0,1,0
+Static Function,"h2v1_upsample(int *,j_decompress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY *)",jdsample-pre.c,5,0,0,0,3,0,3,3,3,1,0,0,2,0
+Static Function,"h2v2_downsample(int *,j_compress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY)",jcsample-pre.c,9,0,0,1,3,0,3,3,3,1,0,0,2,0
+Static Function,"h2v2_merged_upsample(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY)",jdmerge-pre.c,11,0,0,0,4,1,3,3,3,1,0,0,1,0
+Static Function,"h2v2_smooth_downsample(int *,j_compress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY)",jcsample-pre.c,10,0,0,1,3,0,3,3,3,1,0,0,2,0
+Static Function,"h2v2_upsample(int *,j_decompress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY *)",jdsample-pre.c,6,0,0,1,3,0,3,3,3,1,0,0,2,0
+Static Function,"htest_one_block(int *,j_compress_ptr,JCOEFPTR,int,long [],long [])",jchuff-pre.c,8,0,0,3,288,2,11,11,11,1,1,0,3,0
+Static Function,"init_destination(int *,j_compress_ptr)",jdatadst-pre.c,5,0,0,5,1,0,1,1,1,1,0,0,0,0
+Static Function,"init_error_limit(int *,j_decompress_ptr)",jquant2-pre.c,6,0,0,2,8,1,5,5,5,1,0,0,1,0
+Static Function,"init_mem_destination(int *,j_compress_ptr)",jdatadst-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0
+Static Function,"init_mem_source(int *,j_decompress_ptr)",jdatasrc-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0
+Static Function,"init_source(int *,j_decompress_ptr)",jdatasrc-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0
+Static Function,"initial_setup(int *,j_compress_ptr)",jcmaster-pre.c,26,0,0,19,8736,4,24,19,34,1,22,0,2,0
+Static Function,"initial_setup(int *,j_decompress_ptr)",jdinput-pre.c,28,0,0,24,1728,3,27,12,35,1,138,0,2,0
+Static Function,"int_downsample(int *,j_compress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY)",jcsample-pre.c,13,0,0,1,5,1,5,5,5,1,0,0,4,0
+Static Function,"int_upsample(int *,j_decompress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY *)",jdsample-pre.c,11,0,0,1,7,1,5,5,5,1,0,0,3,0
+File,"jaricom-pre.c",jaricom-pre.c,,0,0,,,,,,,,,,0,
+File,"jcapimin-pre.c",jcapimin-pre.c,,0,0,,,,,,,,,,3,
+File,"jcapistd-pre.c",jcapistd-pre.c,,0,0,,,,,,,,,,1,
+File,"jcarith-pre.c",jcarith-pre.c,,0,0,,,,,,,,,,6,
+File,"jccoefct-pre.c",jccoefct-pre.c,,0,0,,,,,,,,,,7,
+File,"jccolor-pre.c",jccolor-pre.c,,0,0,,,,,,,,,,3,
+File,"jcdctmgr-pre.c",jcdctmgr-pre.c,,0,0,,,,,,,,,,4,
+File,"jchuff-pre.c",jchuff-pre.c,,0,0,,,,,,,,,,4,
+File,"jcinit-pre.c",jcinit-pre.c,,0,0,,,,,,,,,,1,
+File,"jcmainct-pre.c",jcmainct-pre.c,,0,0,,,,,,,,,,3,
+File,"jcmarker-pre.c",jcmarker-pre.c,,0,0,,,,,,,,,,3,
+File,"jcmaster-pre.c",jcmaster-pre.c,,0,0,,,,,,,,,,6,
+File,"jcomapi-pre.c",jcomapi-pre.c,,0,0,,,,,,,,,,1,
+Function,"jcopy_block_row(int *,JBLOCKROW,JBLOCKROW,JDIMENSION)",jutils-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0
+Function,"jcopy_sample_rows(int *,JSAMPARRAY,int,JSAMPARRAY,int,int,JDIMENSION)",jutils-pre.c,13,0,0,1,2,0,2,2,2,1,0,0,1,0
+File,"jcparam-pre.c",jcparam-pre.c,,0,0,,,,,,,,,,2,
+File,"jcprepct-pre.c",jcprepct-pre.c,,0,0,,,,,,,,,,5,
+File,"jcsample-pre.c",jcsample-pre.c,,0,0,,,,,,,,,,4,
+File,"jctrans-pre.c",jctrans-pre.c,,0,0,,,,,,,,,,6,
+File,"jdapimin-pre.c",jdapimin-pre.c,,0,0,,,,,,,,,,3,
+File,"jdapistd-pre.c",jdapistd-pre.c,,0,0,,,,,,,,,,5,
+File,"jdarith-pre.c",jdarith-pre.c,,0,0,,,,,,,,,,6,
+File,"jdatadst-pre.c",jdatadst-pre.c,,0,0,,,,,,,,,,2,
+File,"jdatasrc-pre.c",jdatasrc-pre.c,,0,0,,,,,,,,,,2,
+File,"jdcoefct-pre.c",jdcoefct-pre.c,,0,0,,,,,,,,,,6,
+File,"jdcolor-pre.c",jdcolor-pre.c,,0,0,,,,,,,,,,3,
+File,"jddctmgr-pre.c",jddctmgr-pre.c,,0,0,,,,,,,,,,4,
+File,"jdhuff-pre.c",jdhuff-pre.c,,0,0,,,,,,,,,,8,
+File,"jdinput-pre.c",jdinput-pre.c,,0,0,,,,,,,,,,4,
+Function,"jdiv_round_up(int *,long,long)",jutils-pre.c,9,0,0,1,1,0,1,1,1,1,0,0,0,0
+File,"jdmainct-pre.c",jdmainct-pre.c,,0,0,,,,,,,,,,2,
+File,"jdmarker-pre.c",jdmarker-pre.c,,0,0,,,,,,,,,,6,
+File,"jdmaster-pre.c",jdmaster-pre.c,,0,0,,,,,,,,,,3,
+File,"jdmerge-pre.c",jdmerge-pre.c,,0,0,,,,,,,,,,2,
+File,"jdpostct-pre.c",jdpostct-pre.c,,0,0,,,,,,,,,,3,
+File,"jdsample-pre.c",jdsample-pre.c,,0,0,,,,,,,,,,3,
+File,"jdtrans-pre.c",jdtrans-pre.c,,0,0,,,,,,,,,,4,
+File,"jerror-pre.c",jerror-pre.c,,0,0,,,,,,,,,,3,
+File,"jfdctflt-pre.c",jfdctflt-pre.c,,0,0,,,,,,,,,,1,
+File,"jfdctfst-pre.c",jfdctfst-pre.c,,0,0,,,,,,,,,,1,
+File,"jfdctint-pre.c",jfdctint-pre.c,,0,0,,,,,,,,,,3,
+File,"jidctflt-pre.c",jidctflt-pre.c,,0,0,,,,,,,,,,2,
+File,"jidctfst-pre.c",jidctfst-pre.c,,0,0,,,,,,,,,,2,
+File,"jidctint-pre.c",jidctint-pre.c,,0,0,,,,,,,,,,2,
+Function,"jinit_1pass_quantizer(int *,j_decompress_ptr)",jquant1-pre.c,8,0,0,16,8,1,4,4,4,1,0,0,1,0
+Function,"jinit_2pass_quantizer(int *,j_decompress_ptr)",jquant2-pre.c,10,0,0,20,80,2,8,8,8,1,1,0,2,0
+Function,"jinit_arith_decoder(int *,j_decompress_ptr)",jdarith-pre.c,9,0,0,9,8,1,5,5,5,1,0,0,3,0
+Function,"jinit_arith_encoder(int *,j_compress_ptr)",jcarith-pre.c,6,0,0,8,2,0,2,2,2,1,0,0,1,0
+Function,"jinit_c_coef_controller(int *,j_compress_ptr,boolean)",jccoefct-pre.c,11,0,0,9,4,1,4,4,4,1,1,0,2,0
+Function,"jinit_c_main_controller(int *,j_compress_ptr,boolean)",jcmainct-pre.c,14,0,0,9,4,1,4,4,4,1,2,0,2,0
+Function,"jinit_c_master_control(int *,j_compress_ptr,boolean)",jcmaster-pre.c,13,0,0,18,54,2,8,8,11,1,5,0,2,0
+Function,"jinit_c_prep_controller(int *,j_compress_ptr,boolean)",jcprepct-pre.c,15,0,0,11,6,1,4,4,4,1,1,0,2,0
+Function,"jinit_color_converter(int *,j_compress_ptr)",jccolor-pre.c,11,0,0,10,800,3,43,23,46,10,49,25,3,25
+Function,"jinit_color_deconverter(int *,j_decompress_ptr)",jdcolor-pre.c,12,0,0,15,704,3,37,18,39,1,44,0,3,0
+Function,"jinit_compress_master(int *,j_compress_ptr)",jcinit-pre.c,14,0,0,18,32,2,6,6,9,1,1,0,1,0
+Function,"jinit_d_coef_controller(int *,j_decompress_ptr,boolean)",jdcoefct-pre.c,15,0,0,15,7,1,6,6,6,1,1,0,3,0
+Function,"jinit_d_main_controller(int *,j_decompress_ptr,boolean)",jdmainct-pre.c,16,0,0,11,12,1,5,5,5,1,1,0,2,0
+Function,"jinit_d_post_controller(int *,j_decompress_ptr,boolean)",jdpostct-pre.c,11,0,0,10,3,0,3,3,3,1,1,0,2,0
+Function,"jinit_downsampler(int *,j_compress_ptr)",jcsample-pre.c,17,0,0,14,32,2,10,10,15,1,6,0,3,0
+Function,"jinit_forward_dct(int *,j_compress_ptr)",jcdctmgr-pre.c,7,0,0,5,2,0,2,2,2,1,0,0,1,0
+Function,"jinit_huff_decoder(int *,j_decompress_ptr)",jdhuff-pre.c,9,0,0,9,8,1,6,6,6,1,1,0,3,0
+Function,"jinit_huff_encoder(int *,j_compress_ptr)",jchuff-pre.c,7,0,0,9,4,1,3,3,3,1,0,0,1,0
+Function,"jinit_input_controller(int *,j_decompress_ptr)",jdinput-pre.c,5,0,0,10,1,0,1,1,1,1,0,0,0,0
+Function,"jinit_inverse_dct(int *,j_decompress_ptr)",jddctmgr-pre.c,8,0,0,7,2,0,2,2,2,1,0,0,1,0
+Function,"jinit_marker_reader(int *,j_decompress_ptr)",jdmarker-pre.c,5,0,0,11,2,0,2,2,2,1,0,0,1,0
+Function,"jinit_marker_writer(int *,j_compress_ptr)",jcmarker-pre.c,7,0,0,11,1,0,1,1,1,1,0,0,0,0
+Function,"jinit_master_decompress(int *,j_decompress_ptr)",jdmaster-pre.c,5,0,0,7,1,0,1,1,1,1,0,0,0,0
+Function,"jinit_memory_mgr(int *,j_common_ptr)",jmemmgr-pre.c,6,0,0,30,64,2,8,8,10,1,0,0,3,0
+Function,"jinit_merged_upsampler(int *,j_decompress_ptr)",jdmerge-pre.c,10,0,0,12,4,1,3,3,3,1,2,0,1,0
+Function,"jinit_upsampler(int *,j_decompress_ptr)",jdsample-pre.c,19,0,0,16,34,2,8,8,12,4,5,5,2,2
+File,"jmemansi-pre.c",jmemansi-pre.c,,0,0,,,,,,,,,,1,
+File,"jmemmgr-pre.c",jmemmgr-pre.c,,0,0,,,,,,,,,,3,
+Function,"jpeg_CreateCompress(int *,j_compress_ptr,int,size_t)",jcapimin-pre.c,7,0,0,23,16,1,5,5,5,1,0,0,1,0
+Function,"jpeg_CreateDecompress(int *,j_decompress_ptr,int,size_t)",jdapimin-pre.c,7,0,0,19,16,1,5,5,5,1,0,0,1,0
+Function,"jpeg_abort(int *,j_common_ptr)",jcomapi-pre.c,9,0,0,3,5,1,4,4,4,1,2,0,1,0
+Function,"jpeg_abort_compress(int *,j_compress_ptr)",jcapimin-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_abort_decompress(int *,j_decompress_ptr)",jdapimin-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_add_quant_table(int *,j_compress_ptr,int,const unsigned int *,int,boolean)",jcparam-pre.c,11,0,0,8,72,2,8,8,10,1,0,0,2,0
+Function,"jpeg_alloc_huff_table(int *,j_common_ptr)",jcomapi-pre.c,6,0,0,3,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_alloc_quant_table(int *,j_common_ptr)",jcomapi-pre.c,6,0,0,3,1,0,1,1,1,1,0,0,0,0
+Struct,"jpeg_c_coef_controller",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_coef_controller",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_main_controller",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_c_prep_controller",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Function,"jpeg_calc_jpeg_dimensions(int *,j_compress_ptr)",jcinit-pre.c,9,0,0,10,32,2,17,17,18,1,15,0,1,0
+Function,"jpeg_calc_output_dimensions(int *,j_decompress_ptr)",jdmaster-pre.c,22,0,0,15,520,3,19,13,21,1,12,0,2,0
+Static Function,"jpeg_calc_trans_dimensions(int *,j_compress_ptr)",jctrans-pre.c,6,0,0,6,2,0,2,2,2,1,0,0,1,0
+Struct,"jpeg_color_converter",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_converter",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_deconverter",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_color_quantizer",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",example-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_common_struct",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_comp_master",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",example-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_compress_struct",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Function,"jpeg_consume_input(int *,j_decompress_ptr)",jdapimin-pre.c,7,0,0,11,7,1,12,3,12,5,6,6,2,6
+Function,"jpeg_copy_critical_parameters(int *,j_decompress_ptr,j_compress_ptr)",jctrans-pre.c,33,0,0,32,432,3,14,14,18,1,0,0,4,0
+Function,"jpeg_core_output_dimensions(int *,j_decompress_ptr)",jdinput-pre.c,13,0,0,7,32,2,17,17,17,1,15,0,1,0
+Struct,"jpeg_d_coef_controller",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_coef_controller",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_main_controller",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_d_post_controller",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decomp_master",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",example-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_decompress_struct",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Function,"jpeg_default_colorspace(int *,j_compress_ptr)",jcparam-pre.c,5,0,0,4,9,1,9,2,9,1,36,0,1,0
+Function,"jpeg_default_qtables(int *,j_compress_ptr,boolean)",jcparam-pre.c,6,0,0,1,1,0,1,1,1,1,0,0,0,0
+Struct,"jpeg_destination_mgr",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",example-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_destination_mgr",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Function,"jpeg_destroy(int *,j_common_ptr)",jcomapi-pre.c,6,0,0,3,2,0,2,2,2,1,0,0,1,0
+Function,"jpeg_destroy_compress(int *,j_compress_ptr)",jcapimin-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_destroy_decompress(int *,j_decompress_ptr)",jdapimin-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0
+Struct,"jpeg_downsampler",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_downsampler",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_decoder",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_entropy_encoder",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",example-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_error_mgr",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Function,"jpeg_fdct_10x10(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4
+Function,"jpeg_fdct_10x5(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_fdct_11x11(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4
+Function,"jpeg_fdct_12x12(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4
+Function,"jpeg_fdct_12x6(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_fdct_13x13(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4
+Function,"jpeg_fdct_14x14(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4
+Function,"jpeg_fdct_14x7(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_fdct_15x15(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4
+Function,"jpeg_fdct_16x16(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4
+Function,"jpeg_fdct_16x8(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_fdct_1x1(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_fdct_1x2(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_fdct_2x1(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_fdct_2x2(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_fdct_2x4(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_fdct_3x3(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_fdct_3x6(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_fdct_4x2(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_fdct_4x4(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_fdct_4x8(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_fdct_5x10(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,8,1,5,5,5,4,4,4,3,4
+Function,"jpeg_fdct_5x5(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_fdct_6x12(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,8,1,5,5,5,4,4,4,3,4
+Function,"jpeg_fdct_6x3(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_fdct_6x6(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_fdct_7x14(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,8,1,5,5,5,4,4,4,3,4
+Function,"jpeg_fdct_7x7(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_fdct_8x16(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4
+Function,"jpeg_fdct_8x4(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,1,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_fdct_9x9(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,8,1,5,5,5,4,4,4,3,4
+Function,"jpeg_fdct_float(int *,float *,JSAMPARRAY,JDIMENSION)",jfdctflt-pre.c,3,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_fdct_ifast(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctfst-pre.c,3,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_fdct_islow(int *,DCTELEM *,JSAMPARRAY,JDIMENSION)",jfdctint-pre.c,3,0,0,0,4,1,3,3,3,1,0,0,1,0
+Static Function,"jpeg_fill_bit_buffer(int *,bitread_working_state *,bit_buf_type,int,int)",jdhuff-pre.c,22,0,0,13,17,1,12,12,12,10,20,20,6,20
+Function,"jpeg_finish_compress(int *,j_compress_ptr)",jcapimin-pre.c,13,0,0,15,24,1,8,8,9,1,1,0,3,0
+Function,"jpeg_finish_decompress(int *,j_decompress_ptr)",jdapimin-pre.c,12,0,0,11,15,1,7,7,9,3,5,4,2,3
+Function,"jpeg_finish_output(int *,j_decompress_ptr)",jdapistd-pre.c,10,0,0,9,9,1,5,5,8,3,4,4,2,3
+Struct,"jpeg_forward_dct",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_forward_dct",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Function,"jpeg_free_large(int *,j_common_ptr,void *,size_t)",jmemansi-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_free_small(int *,j_common_ptr,void *,size_t)",jmemansi-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0
+Static Function,"jpeg_gen_optimal_table(int *,j_compress_ptr,JHUFF_TBL *,long [])",jchuff-pre.c,7,0,0,8,18688,4,20,20,23,3,2,2,3,2
+Function,"jpeg_get_large(int *,j_common_ptr,size_t)",jmemansi-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_get_small(int *,j_common_ptr,size_t)",jmemansi-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_has_multiple_scans(int *,j_decompress_ptr)",jdapimin-pre.c,6,0,0,6,2,0,2,2,3,1,0,0,1,0
+Static Function,"jpeg_huff_decode(int *,bitread_working_state *,bit_buf_type,int,d_derived_tbl *,int)",jdhuff-pre.c,20,0,0,9,15,1,7,7,7,7,7,7,3,7
+Function,"jpeg_idct_10x10(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_10x5(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_11x11(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_12x12(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_12x6(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_13x13(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_14x14(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_14x7(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_15x15(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_16x16(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_16x8(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,6,1,4,4,10,3,1,1,2,1
+Function,"jpeg_idct_1x1(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,6,0,0,0,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_idct_1x2(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,6,0,0,0,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_idct_2x1(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_idct_2x2(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_idct_2x4(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_3x3(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_3x6(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_4x2(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_4x4(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_4x8(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,6,1,4,4,10,3,1,1,2,1
+Function,"jpeg_idct_5x10(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_5x5(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_6x12(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_6x3(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_6x6(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_7x14(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_7x7(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_8x16(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_8x4(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_9x9(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,7,0,0,0,4,1,3,3,3,1,0,0,1,0
+Function,"jpeg_idct_float(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctflt-pre.c,7,0,0,0,6,1,4,4,10,3,1,1,2,1
+Function,"jpeg_idct_ifast(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctfst-pre.c,7,0,0,0,9,1,5,5,17,5,2,2,2,2
+Function,"jpeg_idct_islow(int *,j_decompress_ptr,jpeg_component_info *,JCOEFPTR,JSAMPARRAY,JDIMENSION)",jidctint-pre.c,8,0,0,0,9,1,5,5,17,5,2,2,2,2
+Function,"jpeg_input_complete(int *,j_decompress_ptr)",jdapimin-pre.c,6,0,0,6,2,0,2,2,3,1,0,0,1,0
+Struct,"jpeg_input_controller",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_input_controller",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_inverse_dct",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Static Function,"jpeg_make_c_derived_tbl(int *,j_compress_ptr,boolean,int,c_derived_tbl **)",jchuff-pre.c,13,0,0,10,600,3,14,14,18,1,0,0,2,0
+Static Function,"jpeg_make_d_derived_tbl(int *,j_decompress_ptr,boolean,int,d_derived_tbl **)",jdhuff-pre.c,13,0,0,14,19200,4,20,20,24,1,1,0,3,0
+Struct,"jpeg_marker_reader",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_reader",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",example-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_struct",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_marker_writer",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Function,"jpeg_mem_available(int *,j_common_ptr,long,long,long)",jmemansi-pre.c,5,0,0,1,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_mem_dest(int *,j_compress_ptr,unsigned char **,unsigned long *)",jdatadst-pre.c,8,0,0,21,12,1,5,5,7,1,0,0,2,0
+Function,"jpeg_mem_init(int *,j_common_ptr)",jmemansi-pre.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_mem_src(int *,j_decompress_ptr,const unsigned char *,unsigned long)",jdatasrc-pre.c,7,0,0,12,4,1,3,3,4,1,0,0,1,0
+Function,"jpeg_mem_term(int *,j_common_ptr)",jmemansi-pre.c,2,0,0,0,1,0,1,1,1,1,0,0,0,0
+Struct,"jpeg_memory_mgr",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",example-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_memory_mgr",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Function,"jpeg_new_colormap(int *,j_decompress_ptr)",jdmaster-pre.c,10,0,0,9,4,1,3,3,5,1,1,0,1,0
+Function,"jpeg_open_backing_store(int *,j_common_ptr,backing_store_ptr,long)",jmemansi-pre.c,6,0,0,9,2,0,2,2,2,1,0,0,1,0
+Struct,"jpeg_progress_mgr",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",example-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_progress_mgr",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Function,"jpeg_quality_scaling(int *,int)",jcparam-pre.c,2,0,0,1,8,1,4,4,4,1,1,0,1,0
+Function,"jpeg_read_coefficients(int *,j_decompress_ptr)",jdtrans-pre.c,12,0,0,13,60,2,10,10,14,6,7,7,4,7
+Function,"jpeg_read_header(int *,j_decompress_ptr,boolean)",jdapimin-pre.c,6,0,0,8,10,1,6,4,7,1,3,0,2,0
+Function,"jpeg_read_raw_data(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION)",jdapistd-pre.c,12,0,0,13,18,1,6,6,6,3,2,2,1,2
+Function,"jpeg_read_scanlines(int *,j_decompress_ptr,JSAMPARRAY,JDIMENSION)",jdapistd-pre.c,11,0,0,13,6,1,4,4,4,1,1,0,1,0
+Function,"jpeg_resync_to_restart(int *,j_decompress_ptr,int)",jdmarker-pre.c,5,0,0,8,26,1,10,8,13,6,16,13,3,12
+Function,"jpeg_save_markers(int *,j_decompress_ptr,int,unsigned int)",jdmarker-pre.c,8,0,0,9,30,1,8,8,12,1,4,0,2,0
+Function,"jpeg_set_colorspace(int *,j_compress_ptr,J_COLOR_SPACE)",jcparam-pre.c,11,0,0,16,24,1,20,13,21,1,36,0,2,0
+Function,"jpeg_set_defaults(int *,j_compress_ptr)",jcparam-pre.c,8,0,0,33,8,1,5,5,5,1,0,0,1,0
+Function,"jpeg_set_linear_quality(int *,j_compress_ptr,int,boolean)",jcparam-pre.c,7,0,0,1,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_set_marker_processor(int *,j_decompress_ptr,int,jpeg_marker_parser_method)",jdmarker-pre.c,6,0,0,7,3,0,3,3,4,1,2,0,1,0
+Function,"jpeg_set_quality(int *,j_compress_ptr,int,boolean)",jcparam-pre.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_simple_progression(int *,j_compress_ptr)",jcparam-pre.c,9,0,0,13,24,1,7,7,12,1,3,0,2,0
+Struct,"jpeg_source_mgr",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",example-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_source_mgr",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Function,"jpeg_start_compress(int *,j_compress_ptr,boolean)",jcapistd-pre.c,8,0,0,12,4,1,4,4,4,1,0,0,1,0
+Function,"jpeg_start_decompress(int *,j_decompress_ptr)",jdapistd-pre.c,13,0,0,15,37,2,12,12,14,8,10,10,5,10
+Function,"jpeg_start_output(int *,j_decompress_ptr,int)",jdapistd-pre.c,8,0,0,8,8,1,4,4,6,1,0,0,1,0
+Function,"jpeg_std_error(int *,struct jpeg_error_mgr *)",jerror-pre.c,3,0,0,15,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_stdio_dest(int *,j_compress_ptr,FILE *)",jdatadst-pre.c,5,0,0,7,2,0,2,2,2,1,0,0,1,0
+Function,"jpeg_stdio_src(int *,j_decompress_ptr,FILE *)",jdatasrc-pre.c,6,0,0,12,2,0,2,2,2,1,0,0,1,0
+Function,"jpeg_suppress_tables(int *,j_compress_ptr,boolean)",jcapimin-pre.c,7,0,0,2,15,1,6,6,6,1,0,0,2,0
+Struct,"jpeg_upsampler",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jpeg_upsampler",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Function,"jpeg_write_coefficients(int *,j_compress_ptr,jvirt_barray_ptr *)",jctrans-pre.c,6,0,0,11,2,0,2,2,2,1,0,0,1,0
+Function,"jpeg_write_m_byte(int *,j_compress_ptr,int)",jcapimin-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0
+Function,"jpeg_write_m_header(int *,j_compress_ptr,int,unsigned int)",jcapimin-pre.c,8,0,0,6,2,0,2,2,5,1,0,0,1,0
+Function,"jpeg_write_marker(int *,j_compress_ptr,int,const JOCTET *,unsigned int)",jcapimin-pre.c,10,0,0,6,4,1,3,3,6,1,0,0,1,0
+Function,"jpeg_write_raw_data(int *,j_compress_ptr,JSAMPIMAGE,JDIMENSION)",jcapistd-pre.c,14,0,0,14,34,2,7,7,7,3,2,2,1,2
+Function,"jpeg_write_scanlines(int *,j_compress_ptr,JSAMPARRAY,JDIMENSION)",jcapistd-pre.c,12,0,0,14,32,2,6,6,6,1,0,0,1,0
+Function,"jpeg_write_tables(int *,j_compress_ptr)",jcapimin-pre.c,6,0,0,10,2,0,2,2,2,1,0,0,1,0
+File,"jquant1-pre.c",jquant1-pre.c,,0,0,,,,,,,,,,4,
+File,"jquant2-pre.c",jquant2-pre.c,,0,0,,,,,,,,,,5,
+Function,"jround_up(int *,long,long)",jutils-pre.c,6,0,0,1,1,0,1,1,1,1,0,0,0,0
+File,"jutils-pre.c",jutils-pre.c,,0,0,,,,,,,,,,1,
+Struct,"jvirt_barray_control",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"jvirt_sarray_control",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Union,"large_pool_struct",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Static Function,"largest_input_value(int *,j_decompress_ptr,int,int,int)",jquant1-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0
+Static Function,"latch_quant_tables(int *,j_decompress_ptr)",jdinput-pre.c,10,0,0,8,5,1,4,4,6,3,1,1,2,1
+Function,"main(int,char *[])",example-pre.c,2,0,0,3,2,0,2,2,2,1,1,0,1,0
+Static Function,"make_funny_pointers(int *,j_decompress_ptr)",jdmainct-pre.c,10,0,0,0,9,1,5,5,5,1,0,0,2,0
+Static Function,"make_odither_array(int *,j_decompress_ptr,int)",jquant1-pre.c,6,0,0,2,3,0,4,4,4,1,0,0,2,0
+Static Function,"master_selection(int *,j_decompress_ptr)",jdmaster-pre.c,27,0,0,34,19008,4,19,19,26,1,6,0,2,0
+Static Function,"median_cut(int *,j_decompress_ptr,boxptr,int,int)",jquant2-pre.c,12,0,0,10,65,2,9,7,9,3,6,3,2,2
+Static Function,"merged_1v_upsample(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION *,JDIMENSION,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdmerge-pre.c,7,0,0,1,1,0,1,1,1,1,0,0,0,0
+Static Function,"merged_2v_upsample(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION *,JDIMENSION,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdmerge-pre.c,12,0,0,4,18,1,6,6,6,1,2,0,2,0
+Static Function,"my_error_exit(int *,j_common_ptr)",example-pre.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0
+Struct,"my_error_mgr",example-pre.c,,0,0,,,,,,,,,,0,
+Static Function,"new_color_map_1_quant(int *,j_decompress_ptr)",jquant1-pre.c,3,0,0,3,1,0,1,1,1,1,0,0,0,0
+Static Function,"new_color_map_2_quant(int *,j_decompress_ptr)",jquant2-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0
+Static Function,"next_marker(int *,j_decompress_ptr)",jdmarker-pre.c,11,0,0,12,59,2,15,15,15,14,20,20,5,20
+Static Function,"noop_upsample(int *,j_decompress_ptr,jpeg_component_info *,JSAMPARRAY,JSAMPARRAY *)",jdsample-pre.c,0,0,0,1,1,0,1,1,1,1,0,0,0,0
+Static Function,"null_convert(int *,j_compress_ptr,JSAMPARRAY,JSAMPIMAGE,JDIMENSION,int)",jccolor-pre.c,7,0,0,0,4,1,4,4,4,1,0,0,3,0
+Static Function,"null_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,7,0,0,0,4,1,4,4,4,1,0,0,3,0
+Static Function,"null_method(int *,j_compress_ptr)",jccolor-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0
+Static Function,"out_of_memory(int *,j_common_ptr,int)",jmemmgr-pre.c,6,0,0,6,1,0,1,1,1,1,0,0,0,0
+Static Function,"output_message(int *,j_common_ptr)",jerror-pre.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"output_pass_setup(int *,j_decompress_ptr)",jdapistd-pre.c,12,0,0,10,12,1,7,7,7,4,5,5,3,5
+Static Function,"output_value(int *,j_decompress_ptr,int,int,int)",jquant1-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0
+Static Function,"pass2_fs_dither(int *,j_decompress_ptr,JSAMPARRAY,JSAMPARRAY,int)",jquant2-pre.c,13,0,0,2,7,1,5,5,5,1,1,0,3,0
+Static Function,"pass2_no_dither(int *,j_decompress_ptr,JSAMPARRAY,JSAMPARRAY,int)",jquant2-pre.c,8,0,0,1,4,1,4,4,4,1,0,0,3,0
+Static Function,"pass_startup(int *,j_compress_ptr)",jcmaster-pre.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0
+Static Function,"per_scan_setup(int *,j_compress_ptr)",jcmaster-pre.c,22,0,0,17,72,2,11,11,12,1,1,0,3,0
+Static Function,"per_scan_setup(int *,j_decompress_ptr)",jdinput-pre.c,20,0,0,16,36,2,9,9,10,1,1,0,3,0
+Static Function,"post_process_1pass(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION *,JDIMENSION,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdpostct-pre.c,13,0,0,2,2,0,2,2,2,1,0,0,1,0
+Static Function,"post_process_2pass(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION *,JDIMENSION,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdpostct-pre.c,14,0,0,5,16,1,5,5,5,1,0,0,1,0
+Static Function,"post_process_prepass(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION *,JDIMENSION,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdpostct-pre.c,14,0,0,6,8,1,4,4,4,1,0,0,1,0
+Static Function,"pre_process_context(int *,j_compress_ptr,JSAMPARRAY,JDIMENSION *,JDIMENSION,JSAMPIMAGE,JDIMENSION *,JDIMENSION)",jcprepct-pre.c,20,0,0,8,51,2,13,13,13,4,4,4,5,4
+Static Function,"pre_process_data(int *,j_compress_ptr,JSAMPARRAY,JDIMENSION *,JDIMENSION,JSAMPIMAGE,JDIMENSION *,JDIMENSION)",jcprepct-pre.c,23,0,0,5,19,1,8,8,11,3,2,2,3,2
+Static Function,"prepare_for_output_pass(int *,j_decompress_ptr)",jdmaster-pre.c,27,0,0,16,63,2,13,13,16,1,3,0,3,0
+Static Function,"prepare_for_pass(int *,j_compress_ptr)",jcmaster-pre.c,21,0,0,22,34,2,11,9,12,5,8,7,2,7
+Static Function,"prepare_range_limit_table(int *,j_decompress_ptr)",jdmaster-pre.c,4,0,0,3,4,1,3,3,3,1,0,0,1,0
+Static Function,"prescan_quantize(int *,j_decompress_ptr,JSAMPARRAY,JSAMPARRAY,int)",jquant2-pre.c,6,0,0,0,4,1,4,4,4,1,0,0,3,0
+Static Function,"process_data_context_main(int *,j_decompress_ptr,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdmainct-pre.c,17,0,0,10,43,2,11,9,11,9,12,12,2,12
+Static Function,"process_data_crank_post(int *,j_decompress_ptr,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdmainct-pre.c,6,0,0,1,1,0,1,1,1,1,0,0,0,0
+Static Function,"process_data_simple_main(int *,j_compress_ptr,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jcmainct-pre.c,14,0,0,5,11,1,7,7,7,4,4,4,3,4
+Static Function,"process_data_simple_main(int *,j_decompress_ptr,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdmainct-pre.c,11,0,0,3,3,0,3,3,3,3,2,2,2,2
+Static Function,"process_restart(int *,j_decompress_ptr)",jdhuff-pre.c,13,0,0,8,5,1,4,4,4,1,1,0,1,0
+Static Function,"process_restart(int *,j_decompress_ptr)",jdarith-pre.c,21,0,0,11,10,1,5,5,10,1,0,0,2,0
+Union,"pthread_attr_t",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jutils-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jerror-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Union,"pthread_attr_t",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Static Function,"quantize3_ord_dither(int *,j_decompress_ptr,JSAMPARRAY,JSAMPARRAY,int)",jquant1-pre.c,9,0,0,1,3,0,3,3,3,1,0,0,2,0
+Static Function,"quantize_fs_dither(int *,j_decompress_ptr,JSAMPARRAY,JSAMPARRAY,int)",jquant1-pre.c,12,0,0,2,6,1,6,6,6,1,1,0,3,0
+Static Function,"quantize_ord_dither(int *,j_decompress_ptr,JSAMPARRAY,JSAMPARRAY,int)",jquant1-pre.c,10,0,0,2,4,1,4,4,4,1,0,0,3,0
+Struct,"random_data",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"random_data",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Function,"read_JPEG_file(int *,char *)",example-pre.c,11,0,0,18,5,1,5,5,5,3,2,2,2,2
+Static Function,"read_backing_store(int *,j_common_ptr,backing_store_ptr,void *,long,long)",jmemansi-pre.c,8,0,0,5,4,1,3,3,3,1,0,0,1,0
+Static Function,"read_markers(int *,j_decompress_ptr)",jdmarker-pre.c,6,0,0,21,105,2,70,22,70,39,480,480,4,480
+Static Function,"read_restart_marker(int *,j_decompress_ptr)",jdmarker-pre.c,7,0,0,11,7,1,5,5,5,5,5,5,2,5
+Static Function,"realize_virt_arrays(int *,j_common_ptr)",jmemmgr-pre.c,21,0,0,18,441,3,14,14,14,1,4,0,3,0
+Static Function,"reduce_script(int *,j_compress_ptr)",jcmaster-pre.c,7,0,0,2,9,1,5,5,5,3,1,1,2,1
+Static Function,"request_virt_barray(int *,j_common_ptr,int,boolean,JDIMENSION,JDIMENSION,JDIMENSION)",jmemmgr-pre.c,10,0,0,15,2,0,2,2,2,1,0,0,1,0
+Static Function,"request_virt_sarray(int *,j_common_ptr,int,boolean,JDIMENSION,JDIMENSION,JDIMENSION)",jmemmgr-pre.c,10,0,0,15,2,0,2,2,2,1,0,0,1,0
+Static Function,"reset_error_mgr(int *,j_common_ptr)",jerror-pre.c,0,0,0,3,1,0,1,1,1,1,0,0,0,0
+Static Function,"reset_input_controller(int *,j_decompress_ptr)",jdinput-pre.c,5,0,0,8,1,0,1,1,1,1,0,0,0,0
+Static Function,"reset_marker_reader(int *,j_decompress_ptr)",jdmarker-pre.c,3,0,0,8,1,0,1,1,1,1,0,0,0,0
+Static Function,"rgb1_gray_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,8,0,0,0,3,0,3,3,3,1,0,0,2,0
+Static Function,"rgb1_rgb_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,6,0,0,0,3,0,3,3,3,1,0,0,2,0
+Static Function,"rgb_convert(int *,j_compress_ptr,JSAMPARRAY,JSAMPIMAGE,JDIMENSION,int)",jccolor-pre.c,6,0,0,0,3,0,3,3,3,1,0,0,2,0
+Static Function,"rgb_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,6,0,0,0,3,0,3,3,3,1,0,0,2,0
+Static Function,"rgb_gray_convert(int *,j_compress_ptr,JSAMPARRAY,JSAMPIMAGE,JDIMENSION,int)",jccolor-pre.c,8,0,0,0,3,0,3,3,3,1,0,0,2,0
+Static Function,"rgb_gray_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,8,0,0,0,3,0,3,3,3,1,0,0,2,0
+Static Function,"rgb_rgb1_convert(int *,j_compress_ptr,JSAMPARRAY,JSAMPIMAGE,JDIMENSION,int)",jccolor-pre.c,6,0,0,0,3,0,3,3,3,1,0,0,2,0
+Static Function,"rgb_ycc_convert(int *,j_compress_ptr,JSAMPARRAY,JSAMPIMAGE,JDIMENSION,int)",jccolor-pre.c,8,0,0,0,3,0,3,3,3,1,0,0,2,0
+Static Function,"rgb_ycc_start(int *,j_compress_ptr)",jccolor-pre.c,4,0,0,2,2,0,2,2,2,1,0,0,1,0
+Static Function,"save_marker(int *,j_decompress_ptr)",jdmarker-pre.c,18,0,0,21,2544,3,20,19,21,10,19,14,4,13
+Static Function,"select_colors(int *,j_decompress_ptr,int)",jquant2-pre.c,6,0,0,16,2,0,2,2,2,1,0,0,1,0
+Static Function,"select_ncolors(int *,j_decompress_ptr,int [])",jquant1-pre.c,8,0,0,6,24,1,9,9,9,4,2,2,3,2
+Static Function,"select_scan_parameters(int *,j_compress_ptr)",jcmaster-pre.c,17,0,0,11,8,1,6,6,6,3,3,3,2,3
+Static Function,"self_destruct(int *,j_common_ptr)",jmemmgr-pre.c,3,0,0,4,2,0,2,2,2,1,0,0,1,0
+Static Function,"sep_downsample(int *,j_compress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPIMAGE,JDIMENSION)",jcsample-pre.c,10,0,0,1,2,0,2,2,2,1,0,0,1,0
+Static Function,"sep_upsample(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION *,JDIMENSION,JSAMPARRAY,JDIMENSION *,JDIMENSION)",jdsample-pre.c,16,0,0,4,24,1,6,6,6,1,0,0,2,0
+Static Function,"set_bottom_pointers(int *,j_decompress_ptr)",jdmainct-pre.c,11,0,0,1,9,1,5,5,5,1,0,0,2,0
+Static Function,"set_wraparound_pointers(int *,j_decompress_ptr)",jdmainct-pre.c,9,0,0,0,3,0,3,3,3,1,0,0,2,0
+Static Function,"skip_input_data(int *,j_decompress_ptr,long)",jdatasrc-pre.c,5,0,0,3,3,0,3,3,3,1,0,0,2,0
+Static Function,"skip_variable(int *,j_decompress_ptr)",jdmarker-pre.c,8,0,0,10,11,1,7,7,7,6,6,6,3,6
+Union,"small_pool_struct",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Static Function,"smoothing_ok(int *,j_decompress_ptr)",jdcoefct-pre.c,12,0,0,3,15,1,9,9,15,6,10,10,3,10
+Static Function,"start_iMCU_row(int *,j_compress_ptr)",jccoefct-pre.c,11,0,0,3,3,0,3,3,3,1,2,0,2,0
+Static Function,"start_iMCU_row(int *,j_compress_ptr)",jctrans-pre.c,10,0,0,3,3,0,3,3,3,1,2,0,2,0
+Static Function,"start_iMCU_row(int *,j_decompress_ptr)",jdcoefct-pre.c,11,0,0,3,3,0,3,3,3,1,2,0,2,0
+Static Function,"start_input_pass(int *,j_decompress_ptr)",jdcoefct-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"start_input_pass(int *,j_decompress_ptr)",jdinput-pre.c,6,0,0,6,1,0,1,1,1,1,0,0,0,0
+Static Function,"start_output_pass(int *,j_decompress_ptr)",jdcoefct-pre.c,6,0,0,4,3,0,3,3,4,1,1,0,2,0
+Static Function,"start_pass(int *,j_compress_ptr,boolean)",jcarith-pre.c,17,0,0,21,260,2,13,13,16,1,4,0,3,0
+Static Function,"start_pass(int *,j_decompress_ptr)",jdarith-pre.c,20,0,0,18,26260,4,25,25,38,9,17,14,4,14
+Static Function,"start_pass(int *,j_decompress_ptr)",jddctmgr-pre.c,14,0,0,8,1153,3,46,11,47,4,542,5,4,2
+Static Function,"start_pass_1_quant(int *,j_decompress_ptr,boolean)",jquant1-pre.c,12,0,0,13,15,1,10,8,10,1,8,0,2,0
+Static Function,"start_pass_2_quant(int *,j_decompress_ptr,boolean)",jquant2-pre.c,13,0,0,15,246,2,11,11,11,1,2,0,3,0
+Static Function,"start_pass_coef(int *,j_compress_ptr,J_BUF_MODE)",jccoefct-pre.c,6,0,0,7,7,1,7,5,7,1,6,0,2,0
+Static Function,"start_pass_coef(int *,j_compress_ptr,J_BUF_MODE)",jctrans-pre.c,5,0,0,5,2,0,2,2,2,1,0,0,1,0
+Static Function,"start_pass_dcolor(int *,j_decompress_ptr)",jdcolor-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0
+Static Function,"start_pass_downsample(int *,j_compress_ptr)",jcsample-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0
+Static Function,"start_pass_dpost(int *,j_decompress_ptr,J_BUF_MODE)",jdpostct-pre.c,12,0,0,9,8,1,8,6,8,1,7,0,3,0
+Static Function,"start_pass_fdctmgr(int *,j_compress_ptr)",jcdctmgr-pre.c,14,0,0,9,577,3,49,14,51,1,540,0,4,0
+Static Function,"start_pass_huff(int *,j_compress_ptr,boolean)",jchuff-pre.c,20,0,0,25,518,3,17,17,20,1,8,0,4,0
+Static Function,"start_pass_huff_decoder(int *,j_decompress_ptr)",jdhuff-pre.c,33,0,0,21,4404,4,47,41,68,9,48,14,5,14
+Static Function,"start_pass_main(int *,j_compress_ptr,J_BUF_MODE)",jcmainct-pre.c,6,0,0,9,3,0,3,3,3,1,2,0,1,0
+Static Function,"start_pass_main(int *,j_decompress_ptr,J_BUF_MODE)",jdmainct-pre.c,8,0,0,11,4,1,4,3,4,1,4,0,2,0
+Static Function,"start_pass_merged_upsample(int *,j_decompress_ptr)",jdmerge-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"start_pass_prep(int *,j_compress_ptr,J_BUF_MODE)",jcprepct-pre.c,7,0,0,7,2,0,2,2,2,1,0,0,1,0
+Static Function,"start_pass_upsample(int *,j_decompress_ptr)",jdsample-pre.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"std_huff_tables(int *,j_compress_ptr)",jcparam-pre.c,5,0,0,1,1,0,1,1,1,1,0,0,0,0
+Static Function,"term_destination(int *,j_compress_ptr)",jdatadst-pre.c,8,0,0,6,6,1,4,4,4,1,0,0,2,0
+Static Function,"term_mem_destination(int *,j_compress_ptr)",jdatadst-pre.c,6,0,0,2,1,0,1,1,1,1,0,0,0,0
+Static Function,"term_source(int *,j_decompress_ptr)",jdatasrc-pre.c,0,0,0,0,1,0,1,1,1,1,0,0,0,0
+Struct,"timespec",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timespec",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jfdctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jdtrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jcapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jdmerge-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jdmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jdsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jutils-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jdpostct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jchuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jdatasrc-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jdhuff-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jidctflt-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jdmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jdapimin-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jdapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jquant2-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jdcoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jcmaster-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jcmainct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jccoefct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jcarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jfdctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jctrans-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jcinit-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jccolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jcdctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jcsample-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jdinput-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jmemansi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jerror-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jcprepct-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jidctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jdmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jfdctint-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jcmarker-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jdcolor-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jcapistd-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jquant1-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jaricom-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jcomapi-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jdarith-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jdatadst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jddctmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jidctfst-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jmemmgr-pre.c,,0,0,,,,,,,,,,0,
+Struct,"timeval",jcparam-pre.c,,0,0,,,,,,,,,,0,
+Static Function,"transdecode_master_selection(int *,j_decompress_ptr)",jdtrans-pre.c,11,0,0,12,8,1,5,5,5,1,3,0,2,0
+Static Function,"transencode_coef_controller(int *,j_compress_ptr,jvirt_barray_ptr *)",jctrans-pre.c,6,0,0,9,2,0,2,2,2,1,0,0,1,0
+Static Function,"transencode_master_selection(int *,j_compress_ptr,jvirt_barray_ptr *)",jctrans-pre.c,7,0,0,8,2,0,2,2,2,1,1,0,1,0
+Static Function,"update_box(int *,j_decompress_ptr,boxptr)",jquant2-pre.c,12,0,0,8,233280,5,35,35,35,31,48,48,5,48
+Static Function,"use_merged_upsample(int *,j_decompress_ptr)",jdmaster-pre.c,16,0,0,1,5,1,5,5,20,5,4,4,1,4
+Static Function,"validate_script(int *,j_compress_ptr)",jcmaster-pre.c,15,0,0,6,56460,5,32,32,48,1,5,0,6,0
+Static Function,"write_backing_store(int *,j_common_ptr,backing_store_ptr,void *,long,long)",jmemansi-pre.c,8,0,0,5,4,1,3,3,3,1,0,0,1,0
+Static Function,"write_file_header(int *,j_compress_ptr)",jcmarker-pre.c,5,0,0,4,4,1,3,3,3,1,0,0,1,0
+Static Function,"write_file_trailer(int *,j_compress_ptr)",jcmarker-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0
+Static Function,"write_frame_header(int *,j_compress_ptr)",jcmarker-pre.c,13,0,0,7,280,2,12,12,18,1,5,0,3,0
+Static Function,"write_marker_byte(int *,j_compress_ptr,int)",jcmarker-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0
+Static Function,"write_marker_header(int *,j_compress_ptr,int,unsigned int)",jcmarker-pre.c,5,0,0,5,2,0,2,2,2,1,0,0,1,0
+Static Function,"write_scan_header(int *,j_compress_ptr)",jcmarker-pre.c,13,0,0,5,12,1,6,6,7,1,1,0,3,0
+Static Function,"write_tables_only(int *,j_compress_ptr)",jcmarker-pre.c,6,0,0,3,18,1,7,7,7,1,0,0,3,0
+Static Function,"ycc_rgb_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,12,0,0,0,3,0,3,3,3,1,0,0,2,0
+Static Function,"ycck_cmyk_convert(int *,j_decompress_ptr,JSAMPIMAGE,JDIMENSION,JSAMPARRAY,int)",jdcolor-pre.c,12,0,0,0,3,0,3,3,3,1,0,0,2,0

@@ -1,0 +1,665 @@
+Kind,Name,File,CountInput,CountLineInactive,CountLinePreprocessor,CountOutput,CountPath,CountPathLog,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,INJECTED
+Function,"_jq_memmem(const void *,size_t,const void *,size_t)",util-pre.c,6,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"_jq_path_append(jq_state *,jv,jv,jv)",execute-pre.c,8,0,0,11,4,1,4,4,6,3,3,2,1,2,0
+Static Function,align_round_up(size_t),execute-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,args2obj(jv),execute-pre.c,2,0,0,11,4,1,6,6,6,1,1,0,2,0,0
+Static Function,"b2d(struct dtoa_context *,Bigint *,int *)",jv_dtoa-pre.c,6,0,0,4,4,1,6,6,6,1,2,0,1,0,0
+Static Function,"Balloc(struct dtoa_context *,int)",jv_dtoa-pre.c,14,0,0,8,2,0,2,2,3,1,1,0,1,0,0
+Static Function,"Bfree(struct dtoa_context *,Bigint *)",jv_dtoa-pre.c,12,0,0,5,3,0,3,3,3,1,1,0,2,0,0
+Static Function,"bigcomp(struct dtoa_context *,U *,const char *,BCinfo *)",jv_dtoa-pre.c,15,0,0,13,244608,5,30,30,34,18,42,41,4,39,0
+Static Function,"bind_alternation_matchers(block,block)",compile-pre.c,9,0,0,23,14,1,7,7,8,1,1,0,2,0,0
+Static Function,bind_bytecoded_builtins(block),builtin-pre.c,4,0,0,14,4,1,3,3,3,1,0,0,1,0,0
+Static Function,"bind_matcher(block,block)",compile-pre.c,7,0,0,4,3,0,3,3,5,1,0,0,2,0,0
+Function,"block_append(block *,block)",compile-pre.c,8,0,0,4,3,0,3,3,3,1,1,0,2,0,0
+Static Function,"block_bind_each(block,block,int)",compile-pre.c,7,0,0,5,2,0,3,3,3,1,0,0,1,0,0
+Function,"block_bind_library(block,block,int,const char *)",compile-pre.c,10,0,0,11,6,1,6,6,7,1,0,0,2,0,0
+Function,"block_bind_referenced(block,block,int)",compile-pre.c,4,0,0,10,7,1,6,6,6,3,3,3,3,2,0
+Static Function,"block_bind_subblock(block,block,int,int)",compile-pre.c,18,0,0,12,14,1,12,12,25,1,1,0,3,0,0
+Function,"block_bind(block,block,int)",compile-pre.c,10,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"block_compile(block,struct bytecode **,struct locfile *,jv)",compile-pre.c,6,0,0,22,2,0,3,3,3,1,1,0,1,0,0
+Function,block_const_kind(block),compile-pre.c,8,0,0,4,1,0,2,2,2,1,0,0,0,0,0
+Function,block_const(block),compile-pre.c,10,0,0,4,1,0,2,2,2,1,0,0,0,0,0
+Static Function,block_count_actuals(block),compile-pre.c,6,0,0,2,3,0,6,4,7,1,1,0,2,0,0
+Static Function,block_count_formals(block),compile-pre.c,9,0,0,2,3,0,4,4,4,1,1,0,1,0,0
+Static Function,"block_count_refs(block,block)",compile-pre.c,9,0,0,1,3,0,3,3,4,1,0,0,2,0,0
+Function,block_drop_unreferenced(block),compile-pre.c,4,0,0,7,6,1,5,5,7,1,1,0,3,0,0
+Function,block_free(block),compile-pre.c,20,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"block_get_unbound_vars(block,jv *)",compile-pre.c,9,0,0,6,5,1,6,6,8,3,1,1,2,1,0
+Function,block_has_main(block),compile-pre.c,5,0,0,1,3,0,3,3,3,3,3,3,2,3,0
+Function,"block_has_only_binders_and_imports(block,int)",compile-pre.c,7,0,0,2,3,0,3,3,5,3,3,3,2,3,0
+Function,"block_has_only_binders(block,int)",compile-pre.c,9,0,0,2,3,0,3,3,4,3,3,3,2,3,0
+Function,block_is_const_inf(block),compile-pre.c,6,0,0,5,1,0,1,1,4,1,0,0,0,0,0
+Function,block_is_const(block),compile-pre.c,10,0,0,2,1,0,1,1,3,1,0,0,0,0,0
+Function,block_is_funcdef(block),compile-pre.c,3,0,0,1,2,0,2,2,3,1,1,0,1,0,0
+Function,block_is_noop(block),compile-pre.c,6,0,0,1,1,0,1,1,2,1,0,0,0,0,0
+Function,block_is_single(block),compile-pre.c,11,0,0,1,1,0,1,1,2,1,0,0,0,0,0
+Function,"block_join(block,block)",compile-pre.c,39,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"block_list_funcs(block,int)",compile-pre.c,8,0,0,6,4,1,4,4,7,1,0,0,3,0,0
+Function,block_module_meta(block),compile-pre.c,6,0,0,3,2,0,2,2,3,1,1,0,1,0,0
+Function,block_take_imports(block *),compile-pre.c,7,0,0,9,12,1,5,5,8,1,0,0,2,0,0
+Static Function,block_take(block *),compile-pre.c,9,0,0,6,3,0,3,3,3,1,2,0,1,0,0
+Static Function,"build_lib_search_chain(jq_state *,jv,jv,jv)",linker-pre.c,4,0,0,18,18,1,10,10,11,5,5,5,3,2,0
+Static Function,"builtins_bind_one(jq_state *,block *,const char *)",builtin-pre.c,5,0,0,7,2,0,2,2,2,1,0,0,1,0,0
+Function,"builtins_bind(jq_state *,block *)",builtin-pre.c,5,0,0,12,2,0,3,3,3,1,1,0,1,0,0
+Function,bytecode_free(struct bytecode *),bytecode-pre.c,11,0,0,3,5,1,4,4,4,1,1,0,1,0,0
+Function,bytecode_operation_length(uint16_t *),bytecode-pre.c,4,0,0,2,2,0,2,2,3,1,0,0,1,0,0
+Static Function,check_literal(struct jv_parser *),jv_parse-pre.c,6,0,0,10,37,2,14,12,15,11,19,17,3,16,0
+Static Function,check_object_key(block),parser-pre.c,2,0,0,9,2,0,2,2,3,1,1,0,1,0,0
+Static Function,checkerrormsg(const char *),jq_test-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,checkfail(const char *),jq_test-pre.c,2,0,0,2,1,0,1,1,2,1,0,0,0,0,0
+Static Function,classify(char),jv_parse-pre.c,2,0,0,1,4,1,12,2,12,1,6,0,1,0,0
+Static Function,"cmp(struct dtoa_context *,Bigint *,Bigint *)",jv_dtoa-pre.c,8,0,0,1,5,1,6,6,6,5,6,6,2,6,0
+Static Function,"compile(struct bytecode *,block,struct locfile *,jv,jv *)",compile-pre.c,30,0,0,38,10780,4,40,40,47,4,8,3,4,1,0
+Static Function,"constant_fold(block,block,int)",parser-pre.c,4,0,0,15,55,2,25,16,29,9,66,11,2,11,0
+Static Function,count_cfunctions(block),compile-pre.c,6,0,0,1,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"d2b(struct dtoa_context *,U *,int *,int *)",jv_dtoa-pre.c,7,0,0,8,12,1,6,6,6,1,3,0,2,0,0
+Static Function,"debug_cb(void *,jv)",main-pre.c,3,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"default_err_cb(void *,jv)",execute-pre.c,2,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"default_search(jq_state *,jv)",linker-pre.c,3,0,0,9,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"delpaths_sorted(jv,jv,int)",jv_aux-pre.c,4,0,0,15,38,2,10,10,11,7,13,13,4,12,0
+Static Function,die(),main-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"diff(struct dtoa_context *,Bigint *,Bigint *)",jv_dtoa-pre.c,8,0,0,6,9,1,6,6,6,1,2,0,1,0,0
+Static Function,"dshift(struct dtoa_context *,Bigint *,int)",jv_dtoa-pre.c,7,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"dump_code(int,struct bytecode *)",bytecode-pre.c,5,0,0,3,2,0,2,2,2,1,0,0,1,0,0
+Function,"dump_disassembly(int,struct bytecode *)",bytecode-pre.c,7,0,0,8,8,1,5,5,5,1,0,0,3,0,0
+Function,"dump_operation(struct bytecode *,uint16_t *)",bytecode-pre.c,14,0,0,10,12,1,11,11,12,1,6,0,4,0,0
+Static Function,"enter(int,int,yyscan_t)",lexer-pre.c,3,0,0,3,5,1,6,3,6,1,6,0,1,0,0
+Static Function,"escape_string(jv,const char *)",builtin-pre.c,3,0,0,12,6,1,5,5,6,1,1,0,2,0,0
+Static Function,"expand_call_arglist(block *,jv,jv *)",compile-pre.c,17,0,0,27,113,2,27,24,36,6,14,8,5,6,0
+Function,expand_path(jv),util-pre.c,2,0,0,12,3,0,4,4,6,1,1,0,2,0,0
+Static Function,"f_acos(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_acosh(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_asin(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_asinh(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_atan(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_atan2(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_atanh(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_cbrt(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_ceil(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_contains(jq_state *,jv,jv)",builtin-pre.c,2,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_copysign(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_cos(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_cosh(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_current_filename(jq_state *,jv)",builtin-pre.c,2,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_current_line(jq_state *,jv)",builtin-pre.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_debug(jq_state *,jv)",builtin-pre.c,2,0,0,3,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"f_delpaths(jq_state *,jv,jv)",builtin-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_divide(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,4,1,4,4,6,4,4,4,2,4,0
+Static Function,"f_drem(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_dump(jq_state *,jv)",builtin-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_endswith(jq_state *,jv,jv)",builtin-pre.c,3,0,0,11,3,0,3,3,5,1,2,0,1,0,0
+Static Function,"f_env(jq_state *,jv)",builtin-pre.c,2,0,0,8,4,1,4,4,4,1,1,0,2,0,0
+Static Function,"f_equal(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_erf(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_erfc(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_error(jq_state *,jv,jv)",builtin-pre.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_exp(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_exp10(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_exp2(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_expm1(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_fabs(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_fdim(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_floor(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_fma(jq_state *,jv,jv,jv,jv)",builtin-pre.c,4,0,0,7,4,1,4,4,4,4,3,3,1,3,0
+Static Function,"f_fmax(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_fmin(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_fmod(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_format(jq_state *,jv,jv)",builtin-pre.c,6,0,0,27,87,2,49,41,52,26,53,53,5,50,0
+Static Function,"f_frexp(jq_state *,jv)",builtin-pre.c,1,0,0,9,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_gamma(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_get_jq_origin(jq_state *,jv)",builtin-pre.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_get_prog_origin(jq_state *,jv)",builtin-pre.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_get_search_list(jq_state *,jv)",builtin-pre.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_getpath(jq_state *,jv,jv)",builtin-pre.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_gmtime(jq_state *,jv)",builtin-pre.c,2,0,0,15,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_greater(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_greatereq(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_group_by_impl(jq_state *,jv,jv)",builtin-pre.c,2,0,0,6,2,0,2,2,4,1,1,0,1,0,0
+Static Function,"f_halt_error(jq_state *,jv,jv)",builtin-pre.c,3,0,0,6,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_halt(jq_state *,jv)",builtin-pre.c,2,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_has(jq_state *,jv,jv)",builtin-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_hypot(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_infinite(jq_state *,jv)",builtin-pre.c,1,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_input(jq_state *,jv)",builtin-pre.c,2,0,0,8,3,0,3,3,4,3,2,2,1,2,0
+Static Function,"f_isinfinite(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,3,3,3,1,1,0,1,0,0
+Static Function,"f_isnan(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,3,3,3,1,1,0,1,0,0
+Static Function,"f_isnormal(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,3,3,3,1,1,0,1,0,0
+Static Function,"f_j0(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_j1(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_jn(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_json_parse(jq_state *,jv)",builtin-pre.c,1,0,0,8,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_keys_unsorted(jq_state *,jv)",builtin-pre.c,1,0,0,4,2,0,2,2,3,1,1,0,1,0,0
+Static Function,"f_keys(jq_state *,jv)",builtin-pre.c,1,0,0,4,2,0,2,2,3,1,1,0,1,0,0
+Static Function,"f_ldexp(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_length(jq_state *,jv)",builtin-pre.c,1,0,0,10,6,1,6,6,6,6,5,5,1,5,0
+Static Function,"f_less(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_lesseq(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_lgamma_r(jq_state *,jv)",builtin-pre.c,1,0,0,9,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_lgamma(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_localtime(jq_state *,jv)",builtin-pre.c,2,0,0,15,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_log(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_log10(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_log1p(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_log2(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_logb(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_ltrimstr(jq_state *,jv,jv)",builtin-pre.c,3,0,0,8,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_match(jq_state *,jv,jv,jv,jv)",builtin-pre.c,0,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_max_by_impl(jq_state *,jv,jv)",builtin-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_max(jq_state *,jv)",builtin-pre.c,1,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_min_by_impl(jq_state *,jv,jv)",builtin-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_min(jq_state *,jv)",builtin-pre.c,1,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_minus(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,12,12,1,11,11,13,8,4,4,6,4,0
+Static Function,"f_mktime(jq_state *,jv)",builtin-pre.c,1,0,0,10,6,1,6,6,6,6,5,5,1,5,0
+Static Function,"f_mod(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,6,3,0,3,3,4,3,3,3,2,3,0
+Static Function,"f_modf(jq_state *,jv)",builtin-pre.c,1,0,0,9,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_modulemeta(jq_state *,jv)",builtin-pre.c,2,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_multiply(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,12,11,1,7,7,12,5,5,5,2,5,0
+Static Function,"f_nan(jq_state *,jv)",builtin-pre.c,1,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_nearbyint(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_negate(jq_state *,jv)",builtin-pre.c,1,0,0,6,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_nextafter(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_nexttoward(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_notequal(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_now(jq_state *,jv)",builtin-pre.c,3,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_plus(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,9,7,1,7,7,11,7,6,6,1,6,0
+Static Function,"f_pow(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_pow10(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_remainder(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_rint(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_round(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_rtrimstr(jq_state *,jv,jv)",builtin-pre.c,3,0,0,8,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_scalb(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_scalbln(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"f_setpath(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_significand(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_sin(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_sinh(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_sort_by_impl(jq_state *,jv,jv)",builtin-pre.c,2,0,0,6,2,0,2,2,4,1,1,0,1,0,0
+Static Function,"f_sort(jq_state *,jv)",builtin-pre.c,1,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_sqrt(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_startswith(jq_state *,jv,jv)",builtin-pre.c,3,0,0,11,3,0,3,3,5,1,2,0,1,0,0
+Static Function,"f_stderr(jq_state *,jv)",builtin-pre.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_strflocaltime(jq_state *,jv,jv)",builtin-pre.c,3,0,0,12,8,1,6,6,7,6,7,7,1,7,0
+Static Function,"f_strftime(jq_state *,jv,jv)",builtin-pre.c,3,0,0,13,8,1,6,6,7,6,7,7,1,7,0
+Static Function,"f_string_explode(jq_state *,jv)",builtin-pre.c,1,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_string_implode(jq_state *,jv)",builtin-pre.c,1,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_string_indexes(jq_state *,jv,jv)",builtin-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_string_split(jq_state *,jv,jv)",builtin-pre.c,2,0,0,5,2,0,2,2,3,1,1,0,1,0,0
+Static Function,"f_strptime(jq_state *,jv,jv)",builtin-pre.c,6,0,0,16,10,1,6,6,15,3,2,2,1,2,0
+Static Function,"f_tan(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_tanh(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_tgamma(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_tonumber(jq_state *,jv)",builtin-pre.c,1,0,0,7,4,1,4,4,5,4,3,3,2,3,0
+Static Function,"f_tostring(jq_state *,jv)",builtin-pre.c,2,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_trunc(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_type(jq_state *,jv)",builtin-pre.c,1,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"f_utf8bytelength(jq_state *,jv)",builtin-pre.c,1,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_y0(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_y1(jq_state *,jv)",builtin-pre.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"f_yn(jq_state *,jv,jv,jv)",builtin-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"find_lib(jq_state *,jv,jv,const char *,jv,jv)",linker-pre.c,8,0,0,17,54,2,12,12,15,8,13,13,3,12,0
+Static Function,found_string(struct jv_parser *),jv_parse-pre.c,4,0,0,9,124,2,24,16,29,19,95,95,5,95,1
+Static Function,"fprinter(void *,const char *)",util-pre.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,frame_current(struct jq_state *),execute-pre.c,9,0,0,4,2,0,4,4,5,1,1,0,1,0,0
+Static Function,"frame_get_level(struct jq_state *,int)",execute-pre.c,7,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"frame_local_var(struct jq_state *,int,int)",execute-pre.c,11,0,0,4,1,0,3,3,3,1,0,0,0,0,0
+Static Function,frame_pop(struct jq_state *),execute-pre.c,7,0,0,9,3,0,4,4,4,1,0,0,2,0,0
+Static Function,"frame_push(struct jq_state *,struct closure,uint16_t *,int)",execute-pre.c,14,0,0,13,4,1,4,4,4,1,0,0,1,0,0
+Static Function,frame_size(struct bytecode *),execute-pre.c,5,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"gen_and(block,block)",compile-pre.c,4,0,0,7,1,0,1,1,1,1,0,0,0,0,0
+Function,"gen_array_matcher(block,block)",compile-pre.c,8,0,0,9,3,0,7,7,7,1,2,0,2,0,0
+Static Function,"gen_binop(block,block,int)",parser-pre.c,5,0,0,7,13,1,14,4,14,1,56,0,1,0,0
+Function,"gen_both(block,block)",compile-pre.c,3,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Static Function,gen_builtin_list(block),builtin-pre.c,2,0,0,8,1,0,1,1,1,1,0,0,0,0,0
+Function,"gen_call(const char *,block)",compile-pre.c,11,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"gen_cbinding(const struct cfunction *,int,block)",compile-pre.c,7,0,0,8,2,0,2,2,2,1,0,0,1,0,0
+Function,gen_collect(block),compile-pre.c,3,0,0,9,2,0,2,2,2,1,1,0,1,0,0
+Function,"gen_cond(block,block,block)",compile-pre.c,6,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Function,"gen_condbranch(block,block)",compile-pre.c,6,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,gen_const_array(block),compile-pre.c,9,0,0,8,14,1,8,8,18,6,10,10,3,9,0
+Function,"gen_const_global(jv,const char *)",compile-pre.c,4,0,0,9,1,0,2,2,2,1,0,0,0,0,0
+Function,gen_const_object(block),compile-pre.c,7,0,0,9,74,2,9,9,20,8,13,13,2,12,0
+Function,gen_const(jv),compile-pre.c,17,0,0,7,1,0,2,2,2,1,0,0,0,0,0
+Static Function,"gen_definedor_assign(block,block)",parser-pre.c,3,0,0,9,1,0,1,1,1,1,0,0,0,0,0
+Function,"gen_definedor(block,block)",compile-pre.c,4,0,0,9,1,0,1,1,1,1,0,0,0,0,0
+Function,gen_destructure_alt(block),compile-pre.c,5,0,0,5,3,0,3,3,3,1,0,0,2,0,0
+Function,"gen_destructure(block,block,block)",compile-pre.c,7,0,0,9,4,1,3,3,5,1,1,0,1,0,0
+Function,"gen_dictpair(block,block)",compile-pre.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"gen_foreach(block,block,block,block,block)",compile-pre.c,6,0,0,9,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"gen_format(block,jv)",parser-pre.c,3,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Function,"gen_function(const char *,block,block)",compile-pre.c,11,0,0,12,3,0,3,3,3,1,0,0,2,0,0
+Function,"gen_import_meta(block,block)",compile-pre.c,7,0,0,10,1,0,3,3,5,1,0,0,0,0,0
+Function,"gen_import(const char *,const char *,int)",compile-pre.c,4,0,0,10,2,0,3,3,3,1,0,0,1,0,0
+Static Function,"gen_index_opt(block,block)",parser-pre.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"gen_index(block,block)",parser-pre.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"gen_label(const char *,block)",compile-pre.c,3,0,0,10,1,0,1,1,1,1,0,0,0,0,0
+Function,gen_lambda(block),compile-pre.c,8,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"gen_location(location,struct locfile *,block)",compile-pre.c,10,0,0,4,3,0,3,3,4,1,0,0,2,0,0
+Function,gen_module(block),compile-pre.c,4,0,0,11,2,0,2,2,2,1,0,0,1,0,0
+Function,gen_noop(),compile-pre.c,21,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"gen_object_matcher(block,block)",compile-pre.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"gen_op_bound(opcode,block)",compile-pre.c,12,0,0,6,1,0,2,2,2,1,0,0,0,0,0
+Function,gen_op_pushk_under(jv),compile-pre.c,3,0,0,7,1,0,2,2,2,1,0,0,0,0,0
+Function,gen_op_simple(opcode),compile-pre.c,27,0,0,5,1,0,2,2,2,1,0,0,0,0,0
+Function,"gen_op_target(opcode,block)",compile-pre.c,12,0,0,7,1,0,3,3,3,1,0,0,0,0,0
+Function,gen_op_targetlater(opcode),compile-pre.c,4,0,0,7,1,0,2,2,2,1,0,0,0,0,0
+Function,"gen_op_unbound(opcode,const char *)",compile-pre.c,13,0,0,7,1,0,2,2,2,1,0,0,0,0,0
+Function,"gen_op_var_fresh(opcode,const char *)",compile-pre.c,10,0,0,6,1,0,2,2,2,1,0,0,0,0,0
+Function,"gen_or(block,block)",compile-pre.c,3,0,0,7,1,0,1,1,1,1,0,0,0,0,0
+Function,gen_param_regular(const char *),compile-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,gen_param(const char *),compile-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gen_reduce(block,block,block,block)",compile-pre.c,5,0,0,7,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"gen_slice_index(block,block,block,opcode)",parser-pre.c,5,0,0,7,1,0,1,1,1,1,0,0,0,0,0
+Function,gen_subexp(block),compile-pre.c,14,0,0,8,3,0,3,3,4,3,2,2,1,2,0
+Function,gen_try_handler(block),compile-pre.c,2,0,0,11,1,0,1,1,1,1,0,0,0,0,0
+Function,"gen_try(block,block)",compile-pre.c,6,0,0,4,2,0,2,2,3,1,0,0,1,0,0
+Static Function,"gen_update(block,block,int)",parser-pre.c,4,0,0,9,1,0,1,1,1,1,0,0,0,0,0
+Function,"gen_var_binding(block,const char *,block)",compile-pre.c,4,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"gen_wildvar_binding(block,const char *,block)",compile-pre.c,4,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Function,get_home(),util-pre.c,2,0,0,6,3,0,3,3,3,1,2,0,2,0,0
+Static Function,"getlevel(struct bytecode *,int)",bytecode-pre.c,4,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"hi0bits(struct dtoa_context *,ULong)",jv_dtoa-pre.c,4,0,0,1,48,2,7,7,7,3,2,2,2,2,0
+Static Function,"i2b(struct dtoa_context *,int)",jv_dtoa-pre.c,6,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"imax(int,int)",jv-pre.c,3,0,0,1,2,0,2,2,2,1,1,0,1,0,0
+Static Function,inst_block(inst *),compile-pre.c,22,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,inst_free(struct inst *),compile-pre.c,12,0,0,5,4,1,3,3,3,1,0,0,1,0,0
+Static Function,"inst_is_binder(inst *,int)",compile-pre.c,4,0,0,2,1,0,1,1,2,1,0,0,0,0,0
+Static Function,"inst_join(inst *,inst *)",compile-pre.c,5,0,0,5,1,0,4,4,5,1,0,0,0,0,0
+Static Function,inst_new(opcode),compile-pre.c,14,0,0,15,1,0,1,1,1,1,0,0,0,0,0
+Function,"inst_set_target(block,block)",compile-pre.c,8,0,0,6,1,0,4,4,4,1,0,0,0,0,0
+Static Function,"isoption(const char *,char,const char *,size_t *)",main-pre.c,4,0,0,4,12,1,7,7,9,6,5,5,1,5,0
+Static Function,isoptish(const char *),main-pre.c,2,0,0,2,1,0,1,1,3,1,0,0,0,0,0
+Function,"jq_compile_args(jq_state *,const char *,jv)",execute-pre.c,8,0,0,19,24,1,8,8,9,1,1,0,2,0,0
+Function,"jq_compile(jq_state *,const char *)",execute-pre.c,3,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"jq_dump_disassembly(jq_state *,int)",execute-pre.c,5,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_format_error(jv),execute-pre.c,3,0,0,11,12,1,8,8,10,7,8,8,2,8,0
+Function,"jq_get_attr(jq_state *,jv)",execute-pre.c,6,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"jq_get_debug_cb(jq_state *,jq_msg_cb *,void **)",execute-pre.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"jq_get_error_cb(jq_state *,jq_msg_cb *,void **)",execute-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_get_error_message(jq_state *),execute-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_get_exit_code(jq_state *),execute-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"jq_get_input_cb(jq_state *,jq_input_cb *,void **)",execute-pre.c,7,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_get_jq_origin(jq_state *),execute-pre.c,5,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_get_lib_dirs(jq_state *),execute-pre.c,4,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_get_prog_origin(jq_state *),execute-pre.c,3,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"jq_halt(jq_state *,jv,jv)",execute-pre.c,6,0,0,5,1,0,2,2,2,1,0,0,0,0,0
+Function,jq_halted(jq_state *),execute-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_init(),execute-pre.c,4,0,0,20,2,0,2,2,2,1,1,0,1,0,0
+Function,jq_next(jq_state *),execute-pre.c,24,0,0,61,11331,4,107,60,114,63,931,922,5,919,0
+Function,"jq_parse_library(struct locfile *,block *)",parser-pre.c,6,0,0,6,3,0,4,4,4,3,2,2,1,2,0
+Function,"jq_parse(struct locfile *,block *)",parser-pre.c,7,0,0,9,2,0,2,2,2,1,0,0,1,0,0
+Function,jq_realpath(jv),util-pre.c,3,0,0,8,4,1,3,3,3,1,1,0,1,0,0
+Function,"jq_report_error(jq_state *,jv)",execute-pre.c,8,0,0,2,1,0,2,2,2,1,0,0,0,0,0
+Static Function,jq_reset(jq_state *),execute-pre.c,13,0,0,12,4,1,6,6,6,1,0,0,1,0,0
+Function,"jq_set_attr(jq_state *,jv,jv)",execute-pre.c,6,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"jq_set_attrs(jq_state *,jv)",execute-pre.c,3,0,0,5,1,0,2,2,2,1,0,0,0,0,0
+Function,jq_set_colors(const char *),jv_print-pre.c,5,0,0,9,19,1,8,8,9,5,7,7,2,7,0
+Function,"jq_set_debug_cb(jq_state *,jq_msg_cb,void *)",execute-pre.c,3,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"jq_set_error_cb(jq_state *,jq_msg_cb,void *)",execute-pre.c,4,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"jq_set_input_cb(jq_state *,jq_input_cb,void *)",execute-pre.c,3,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"jq_set_nomem_handler(jq_state *,void (*)(void *),void *)",execute-pre.c,2,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"jq_start(jq_state *,jv,int)",execute-pre.c,9,0,0,11,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_teardown(jq_state **),execute-pre.c,5,0,0,6,2,0,2,2,2,1,1,0,1,0,0
+Function,"jq_testsuite(jv,int,int,char *[])",jq_test-pre.c,6,0,0,6,3,0,3,3,3,3,2,2,2,2,0
+Function,"jq_util_input_add_input(jq_util_input_state *,const char *)",util-pre.c,5,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_util_input_errors(jq_util_input_state *),util-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_util_input_free(jq_util_input_state **),util-pre.c,7,0,0,5,5,1,4,4,4,1,1,0,1,0,0
+Function,jq_util_input_get_current_filename(jq_state *),util-pre.c,3,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Function,jq_util_input_get_current_line(jq_state *),util-pre.c,3,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Function,jq_util_input_get_position(jq_state *),util-pre.c,4,0,0,8,3,0,4,4,4,3,2,2,1,2,0
+Function,"jq_util_input_init(jq_util_msg_cb,void *)",util-pre.c,4,0,0,16,2,0,2,2,2,1,0,0,1,0,0
+Function,"jq_util_input_next_input_cb(jq_state *,void *)",util-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_util_input_next_input(jq_util_input_state *),util-pre.c,11,0,0,18,160,2,17,17,26,10,22,22,4,22,0
+Static Function,jq_util_input_read_more(jq_util_input_state *),util-pre.c,15,0,0,28,14825,4,24,24,44,1,6,0,5,0,1
+Function,"jq_util_input_set_parser(jq_util_input_state *,jv_parser *,int)",util-pre.c,5,0,0,8,3,0,4,4,5,1,2,0,1,0,0
+Function,"jq_yy_create_buffer(FILE *,int,yyscan_t)",lexer-pre.c,7,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Function,"jq_yy_delete_buffer(YY_BUFFER_STATE,yyscan_t)",lexer-pre.c,9,0,0,2,5,1,5,5,5,1,1,0,1,0,0
+Function,"jq_yy_flush_buffer(YY_BUFFER_STATE,yyscan_t)",lexer-pre.c,6,0,0,6,3,0,4,4,4,1,1,0,1,0,0
+Static Function,"jq_yy_init_buffer(YY_BUFFER_STATE,FILE *,yyscan_t)",lexer-pre.c,7,0,0,9,2,0,4,4,4,1,0,0,1,0,0
+Static Function,jq_yy_load_buffer_state(yyscan_t),lexer-pre.c,13,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Function,"jq_yy_scan_buffer(char *,yy_size_t,yyscan_t)",lexer-pre.c,5,0,0,14,3,0,3,3,5,3,2,2,1,2,0
+Function,"jq_yy_scan_bytes(const char *,yy_size_t,yyscan_t)",lexer-pre.c,5,0,0,5,5,1,4,4,4,3,2,2,1,2,0
+Function,"jq_yy_scan_string(const char *,yyscan_t)",lexer-pre.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"jq_yy_switch_to_buffer(YY_BUFFER_STATE,yyscan_t)",lexer-pre.c,8,0,0,7,3,0,5,5,5,1,1,0,1,0,0
+Function,"jq_yyalloc(size_t,void *)",lexer-pre.c,8,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jq_yyensure_buffer_stack(yyscan_t),lexer-pre.c,8,0,0,7,5,1,5,5,5,5,5,5,2,5,0
+Function,"jq_yyfree(void *,void *)",lexer-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_yyget_column(yyscan_t),lexer-pre.c,4,0,0,1,2,0,3,3,3,1,1,0,1,0,0
+Function,jq_yyget_debug(yyscan_t),lexer-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_yyget_extra(yyscan_t),lexer-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_yyget_in(yyscan_t),lexer-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_yyget_leng(yyscan_t),lexer-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_yyget_lineno(yyscan_t),lexer-pre.c,4,0,0,1,2,0,3,3,3,1,1,0,1,0,0
+Function,jq_yyget_lloc(yyscan_t),lexer-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_yyget_lval(yyscan_t),lexer-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_yyget_out(yyscan_t),lexer-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_yyget_text(yyscan_t),lexer-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,jq_yylex_destroy(yyscan_t),lexer-pre.c,5,0,0,7,2,0,4,4,4,1,0,0,1,0,0
+Function,"jq_yylex_init_extra(int,yyscan_t *)",lexer-pre.c,3,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Function,jq_yylex_init(yyscan_t *),lexer-pre.c,1,0,0,6,3,0,3,3,3,3,2,2,1,2,0
+Function,"jq_yylex(YYSTYPE *,location *,yyscan_t)",lexer-pre.c,33,0,0,43,14093,4,129,70,129,61,1816,1816,6,1816,0
+Function,jq_yypop_buffer_state(yyscan_t),lexer-pre.c,4,0,0,5,5,1,7,7,7,1,1,0,1,0,0
+Function,"jq_yypush_buffer_state(YY_BUFFER_STATE,yyscan_t)",lexer-pre.c,7,0,0,8,5,1,6,6,6,1,1,0,1,0,0
+Function,"jq_yyrealloc(void *,size_t,void *)",lexer-pre.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"jq_yyrestart(FILE *,yyscan_t)",lexer-pre.c,7,0,0,5,2,0,4,4,4,1,0,0,1,0,0
+Function,"jq_yyset_column(int,yyscan_t)",lexer-pre.c,4,0,0,3,2,0,3,3,3,1,1,0,1,0,0
+Function,"jq_yyset_debug(int,yyscan_t)",lexer-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jq_yyset_extra(int,yyscan_t)",lexer-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jq_yyset_in(FILE *,yyscan_t)",lexer-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jq_yyset_lineno(int,yyscan_t)",lexer-pre.c,4,0,0,3,2,0,3,3,3,1,1,0,1,0,0
+Function,"jq_yyset_lloc(location *,yyscan_t)",lexer-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jq_yyset_lval(YYSTYPE *,yyscan_t)",lexer-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jq_yyset_out(FILE *,yyscan_t)",lexer-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jv_array_append(jv,jv)",jv-pre.c,38,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"jv_array_concat(jv,jv)",jv-pre.c,5,0,0,8,3,0,6,6,6,1,0,0,2,0,0
+Function,"jv_array_contains(jv,jv)",jv-pre.c,3,0,0,6,10,1,9,9,9,7,4,4,5,4,0
+Function,"jv_array_get(jv,int)",jv-pre.c,35,0,0,7,2,0,3,3,3,1,1,0,1,0,0
+Function,"jv_array_indexes(jv,jv)",jv-pre.c,3,0,0,9,12,1,10,10,14,1,1,0,5,0,0
+Function,jv_array_length(jv),jv-pre.c,41,0,0,5,1,0,2,2,2,1,0,0,0,0,0
+Function,"jv_array_set(jv,int,jv)",jv-pre.c,11,0,0,8,4,1,4,4,4,1,1,0,1,0,0
+Function,jv_array_sized(int),jv-pre.c,6,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"jv_array_slice(jv,int,int)",jv-pre.c,13,0,0,4,1,0,2,2,2,1,0,0,0,0,0
+Function,jv_array(),jv-pre.c,38,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_basename(jv),linker-pre.c,2,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Function,jv_bool(int),jv-pre.c,8,0,0,1,1,0,2,2,2,1,0,0,0,0,0
+Function,"jv_cmp(jv,jv)",jv_aux-pre.c,5,0,0,13,17,1,21,15,23,13,19,18,5,15,0
+Function,"jv_contains(jv,jv)",jv-pre.c,5,0,0,9,5,1,5,5,5,1,4,0,1,0,0
+Function,jv_copy(jv),jv-pre.c,115,0,0,3,2,0,2,2,6,1,0,0,1,0,0
+Function,"jv_delpaths(jv,jv)",jv_aux-pre.c,3,0,0,13,11,1,8,8,8,7,8,8,3,8,0
+Static Function,"jv_dels(jv,jv)",jv_aux-pre.c,3,0,0,17,1070,3,29,29,32,18,27,27,5,25,0
+Function,"jv_dump_string_trunc(jv,char *,size_t)",jv_print-pre.c,7,0,0,7,2,0,2,2,3,1,0,0,1,0,0
+Function,"jv_dump_string(jv,int)",jv_print-pre.c,10,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"jv_dump_term(struct dtoa_context *,jv,int,int,FILE *,jv *)",jv_print-pre.c,10,0,0,24,395648,6,53,46,54,19,48,43,6,41,0
+Function,"jv_dump(jv,int)",jv_print-pre.c,7,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jv_dumpf(jv,FILE *,int)",jv_print-pre.c,8,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"jv_equal(jv,jv)",jv-pre.c,18,0,0,7,7,1,7,5,9,1,9,0,2,0,0
+Function,jv_false(),jv-pre.c,15,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,jv_free(jv),jv-pre.c,216,0,0,5,5,1,5,5,5,1,3,0,1,0,0
+Function,jv_get_kind(jv),jv-pre.c,233,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,jv_get_refcnt(jv),jv-pre.c,8,0,0,2,2,0,4,2,4,1,1,0,1,0,0
+Function,"jv_get(jv,jv)",jv_aux-pre.c,6,0,0,20,15,1,14,14,23,1,10,0,3,0,0
+Function,"jv_getpath(jv,jv)",jv_aux-pre.c,3,0,0,11,4,1,4,4,4,4,3,3,1,3,0
+Function,"jv_group(jv,jv)",jv_aux-pre.c,5,0,0,11,4,1,7,7,7,1,1,0,3,0,0
+Function,"jv_has(jv,jv)",jv_aux-pre.c,3,0,0,13,4,1,6,6,8,1,3,0,1,0,0
+Function,"jv_identical(jv,jv)",jv-pre.c,10,0,0,4,4,1,6,3,8,1,4,0,2,0,0
+Function,jv_invalid_get_msg(jv),jv-pre.c,17,0,0,6,2,0,3,3,3,1,1,0,1,0,0
+Function,jv_invalid_has_msg(jv),jv-pre.c,10,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,jv_invalid_with_msg(jv),jv-pre.c,38,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Function,jv_invalid(),jv-pre.c,25,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,jv_is_integer(jv),jv-pre.c,2,0,0,3,3,0,3,3,5,3,2,2,1,2,0
+Static Function,jv_is_valid(jv),jv_file-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_is_valid(jv),locfile-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_is_valid(jv),jv_print-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_is_valid(jv),main-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_is_valid(jv),builtin-pre.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_is_valid(jv),jq_test-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_is_valid(jv),execute-pre.c,6,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_is_valid(jv),linker-pre.c,7,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_is_valid(jv),jv_alloc-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_is_valid(jv),jv_parse-pre.c,9,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_is_valid(jv),compile-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_is_valid(jv),lexer-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_is_valid(jv),util-pre.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_is_valid(jv),bytecode-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_is_valid(jv),jv-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_is_valid(jv),jv_dtoa-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_is_valid(jv),jv_aux-pre.c,8,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_is_valid(jv),parser-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,jv_keys_unsorted(jv),jv_aux-pre.c,3,0,0,13,4,1,5,5,5,1,1,0,2,0,0
+Function,jv_keys(jv),jv_aux-pre.c,5,0,0,21,9,1,9,9,10,3,2,2,3,2,0
+Function,jv_kind_name(jv_kind),jv-pre.c,11,0,0,2,9,1,10,3,11,1,36,0,1,0,0
+Function,"jv_load_file(const char *,int)",jv_file-pre.c,7,0,0,26,171,2,13,13,19,9,10,10,3,9,0
+Function,jv_mem_alloc_unguarded(size_t),jv_alloc-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,jv_mem_alloc(size_t),jv_alloc-pre.c,17,0,0,3,2,0,2,2,2,1,0,0,1,0,0
+Function,"jv_mem_calloc_unguarded(size_t,size_t)",jv_alloc-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"jv_mem_calloc(size_t,size_t)",jv_alloc-pre.c,8,0,0,3,2,0,2,2,2,1,0,0,1,0,0
+Function,jv_mem_free(void *),jv_alloc-pre.c,22,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"jv_mem_invalidate(void *,size_t)",locfile-pre.c,3,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"jv_mem_invalidate(void *,size_t)",jv_print-pre.c,3,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"jv_mem_invalidate(void *,size_t)",main-pre.c,3,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"jv_mem_invalidate(void *,size_t)",builtin-pre.c,3,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"jv_mem_invalidate(void *,size_t)",execute-pre.c,3,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"jv_mem_invalidate(void *,size_t)",linker-pre.c,3,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"jv_mem_invalidate(void *,size_t)",jv_alloc-pre.c,3,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"jv_mem_invalidate(void *,size_t)",jv_parse-pre.c,3,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"jv_mem_invalidate(void *,size_t)",compile-pre.c,3,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"jv_mem_invalidate(void *,size_t)",lexer-pre.c,3,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"jv_mem_invalidate(void *,size_t)",util-pre.c,3,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"jv_mem_invalidate(void *,size_t)",bytecode-pre.c,3,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"jv_mem_invalidate(void *,size_t)",jv-pre.c,3,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"jv_mem_invalidate(void *,size_t)",jv_dtoa-pre.c,3,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"jv_mem_invalidate(void *,size_t)",jv_aux-pre.c,3,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"jv_mem_invalidate(void *,size_t)",parser-pre.c,3,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Function,"jv_mem_realloc(void *,size_t)",jv_alloc-pre.c,8,0,0,3,2,0,2,2,2,1,0,0,1,0,0
+Function,jv_mem_strdup_unguarded(const char *),jv_alloc-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,jv_mem_strdup(const char *),jv_alloc-pre.c,2,0,0,3,2,0,2,2,2,1,0,0,1,0,0
+Function,jv_mem_uninit_setup(),jv_alloc-pre.c,0,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"jv_nomem_handler(jv_nomem_handler_f,void *)",jv_alloc-pre.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,jv_null(),jv-pre.c,27,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,jv_number_value(jv),jv-pre.c,96,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Function,jv_number(double),jv-pre.c,93,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"jv_object_contains(jv,jv)",jv-pre.c,3,0,0,12,4,1,7,7,7,4,2,2,3,2,0
+Function,"jv_object_delete(jv,jv)",jv-pre.c,4,0,0,5,1,0,3,3,3,1,0,0,0,0,0
+Function,"jv_object_get(jv,jv)",jv-pre.c,16,0,0,7,2,0,4,4,4,1,1,0,1,0,0
+Function,"jv_object_has(jv,jv)",jv-pre.c,4,0,0,5,1,0,4,4,4,1,0,0,0,0,0
+Function,"jv_object_iter_key(jv,int)",jv-pre.c,11,0,0,5,1,0,2,2,2,1,0,0,0,0,0
+Function,"jv_object_iter_next(jv,int)",jv-pre.c,12,0,0,5,2,0,6,6,6,3,2,2,2,2,0
+Function,"jv_object_iter_valid(jv,int)",jv-pre.c,9,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"jv_object_iter_value(jv,int)",jv-pre.c,10,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,jv_object_iter(jv),jv-pre.c,9,0,0,4,1,0,2,2,2,1,0,0,0,0,0
+Function,jv_object_length(jv),jv-pre.c,6,0,0,5,1,0,2,2,2,1,0,0,0,0,0
+Function,"jv_object_merge_recursive(jv,jv)",jv-pre.c,3,0,0,13,4,1,7,7,9,1,1,0,3,0,0
+Function,"jv_object_merge(jv,jv)",jv-pre.c,4,0,0,10,3,0,5,5,5,1,0,0,2,0,0
+Function,"jv_object_set(jv,jv,jv)",jv-pre.c,23,0,0,5,1,0,3,3,3,1,0,0,0,0,0
+Function,jv_object(),jv-pre.c,21,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"jv_parse_sized(const char *,int)",jv_parse-pre.c,6,0,0,14,10,1,6,6,7,1,4,0,2,0,0
+Function,jv_parse(const char *),jv_parse-pre.c,5,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,jv_parser_free(struct jv_parser *),jv_parse-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,jv_parser_new(int),jv_parse-pre.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,jv_parser_next(struct jv_parser *),jv_parse-pre.c,20,0,0,25,161,2,23,23,32,17,18,18,3,16,1
+Function,jv_parser_remaining(struct jv_parser *),jv_parse-pre.c,5,0,0,1,2,0,2,2,2,1,1,0,1,0,0
+Function,"jv_parser_set_buf(struct jv_parser *,const char *,int,int)",jv_parse-pre.c,12,0,0,7,4,1,5,5,8,1,2,0,3,0,1
+Function,"jv_set(jv,jv,jv)",jv_aux-pre.c,5,0,0,18,30,1,16,16,24,1,7,0,5,0,0
+Function,"jv_setpath(jv,jv,jv)",jv_aux-pre.c,4,0,0,12,4,1,4,4,4,4,3,3,1,3,0
+Function,"jv_show(jv,int)",jv_print-pre.c,3,0,0,3,2,0,4,4,5,1,0,0,1,0,0
+Function,"jv_sort(jv,jv)",jv_aux-pre.c,7,0,0,10,2,0,5,5,5,1,0,0,1,0,0
+Function,"jv_string_append_buf(jv,const char *,int)",jv-pre.c,9,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Function,"jv_string_append_codepoint(jv,uint32_t)",jv-pre.c,4,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"jv_string_append_str(jv,const char *)",jv-pre.c,5,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"jv_string_concat(jv,jv)",jv-pre.c,8,0,0,6,1,0,1,1,1,1,0,0,0,0,0
+Function,jv_string_empty(int),jv-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,jv_string_explode(jv),jv-pre.c,2,0,0,11,2,0,3,3,3,1,0,0,1,0,0
+Function,jv_string_fmt(const char *),jv-pre.c,30,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,jv_string_hash(jv),jv-pre.c,2,0,0,5,1,0,2,2,2,1,0,0,0,0,0
+Function,jv_string_implode(jv),jv-pre.c,2,0,0,10,3,0,6,6,6,1,0,0,2,0,0
+Function,"jv_string_indexes(jv,jv)",jv-pre.c,3,0,0,11,2,0,4,4,4,1,0,0,1,0,0
+Function,jv_string_length_bytes(jv),jv-pre.c,25,0,0,6,1,0,2,2,2,1,0,0,0,0,0
+Function,jv_string_length_codepoints(jv),jv-pre.c,3,0,0,8,2,0,3,3,3,1,0,0,1,0,0
+Function,"jv_string_sized(const char *,int)",jv-pre.c,15,0,0,5,1,0,2,2,2,1,0,0,0,0,1
+Function,"jv_string_slice(jv,int,int)",jv-pre.c,4,0,0,13,12,1,9,9,12,7,12,12,2,12,0
+Function,"jv_string_split(jv,jv)",jv-pre.c,5,0,0,15,7,1,9,9,10,1,1,0,3,0,0
+Function,jv_string_value(jv),jv-pre.c,52,0,0,4,1,0,2,2,2,1,0,0,0,0,0
+Function,"jv_string_vfmt(const char *,va_list)",jv-pre.c,5,0,0,7,3,0,4,4,5,3,2,2,2,2,0
+Function,jv_string(const char *),jv-pre.c,68,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jv_test(),jq_test-pre.c,3,0,0,26,4,1,62,62,62,1,0,0,1,0,0
+Function,jv_true(),jv-pre.c,18,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"jv2tm(jv,struct tm *)",builtin-pre.c,5,0,0,16,9,1,17,17,17,17,16,16,2,16,0
+Static Function,jvp_array_alloc(unsigned int),jv-pre.c,3,0,0,6,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"jvp_array_equal(jv,jv)",jv-pre.c,3,0,0,7,5,1,5,5,6,5,5,5,2,5,0
+Static Function,jvp_array_free(jv),jv-pre.c,7,0,0,6,3,0,4,4,4,1,0,0,2,0,0
+Static Function,jvp_array_length(jv),jv-pre.c,8,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Static Function,jvp_array_new(unsigned int),jv-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jvp_array_offset(jv),jv-pre.c,5,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Static Function,jvp_array_ptr(jv),jv-pre.c,7,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Static Function,"jvp_array_read(jv,int)",jv-pre.c,6,0,0,6,2,0,4,4,5,1,1,0,1,0,0
+Static Function,"jvp_array_slice(jv,int,int)",jv-pre.c,5,0,0,13,4,1,6,6,8,3,2,2,2,2,0
+Static Function,"jvp_array_write(jv *,int)",jv-pre.c,11,0,0,14,6,1,6,6,7,1,1,0,2,0,0
+Static Function,"jvp_clamp_slice_params(int,int *,int *)",jv-pre.c,5,0,0,2,64,2,7,7,7,1,0,0,1,0,0
+Function,jvp_dtoa_context_free(struct dtoa_context *),jv_dtoa-pre.c,7,0,0,5,6,1,4,4,4,1,0,0,2,0,0
+Function,jvp_dtoa_context_init(struct dtoa_context *),jv_dtoa-pre.c,5,0,0,3,2,0,2,2,2,1,0,0,1,0,0
+Function,"jvp_dtoa_fmt(struct dtoa_context *,char *,double)",jv_dtoa-pre.c,5,0,0,4,276,2,17,17,19,5,6,5,3,4,0
+Function,"jvp_dtoa(struct dtoa_context *,double,int,int,int *,int *,char **)",jv_dtoa-pre.c,14,0,0,21,999999999,18,103,98,137,52,163,163,6,156,0
+Static Function,"jvp_dump_string(jv,int,FILE *,jv *,int)",jv_print-pre.c,6,0,0,10,31,1,16,12,19,1,19,0,3,0,0
+Function,"jvp_freedtoa(struct dtoa_context *,char *)",jv_dtoa-pre.c,3,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jvp_invalid_free(jv),jv-pre.c,5,0,0,5,2,0,3,3,4,1,0,0,1,0,0
+Static Function,"jvp_object_add_slot(jv,jv,int *)",jv-pre.c,6,0,0,11,2,0,2,2,2,1,1,0,1,0,1
+Static Function,jvp_object_buckets(jv),jv-pre.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"jvp_object_delete(jv *,jv)",jv-pre.c,8,0,0,13,3,0,4,4,5,3,3,3,2,3,0
+Static Function,"jvp_object_equal(jv,jv)",jv-pre.c,5,0,0,8,7,1,5,5,5,5,7,7,2,7,0
+Static Function,"jvp_object_find_bucket(jv,jv)",jv-pre.c,6,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"jvp_object_find_slot(jv,jv,int *)",jv-pre.c,8,0,0,5,3,0,3,3,4,3,3,3,2,3,0
+Static Function,jvp_object_free(jv),jv-pre.c,7,0,0,9,4,1,5,5,5,1,0,0,3,0,0
+Static Function,"jvp_object_get_slot(jv,int)",jv-pre.c,15,0,0,5,2,0,3,3,5,1,1,0,1,0,1
+Static Function,jvp_object_length(jv),jv-pre.c,4,0,0,4,3,0,3,3,3,1,0,0,2,0,0
+Static Function,jvp_object_mask(jv),jv-pre.c,3,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Static Function,jvp_object_new(int),jv-pre.c,7,0,0,11,4,1,4,4,5,1,0,0,1,0,0
+Static Function,"jvp_object_next_slot(jv,struct object_slot *)",jv-pre.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jvp_object_ptr(jv),jv-pre.c,9,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Static Function,"jvp_object_read(jv,jv)",jv-pre.c,6,0,0,5,2,0,3,3,3,1,1,0,1,0,0
+Static Function,jvp_object_rehash(jv),jv-pre.c,6,0,0,13,3,0,7,7,7,3,1,1,2,1,0
+Static Function,jvp_object_size(jv),jv-pre.c,10,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Static Function,jvp_object_unshare(jv),jv-pre.c,8,0,0,15,4,1,6,6,6,1,1,0,2,0,0
+Static Function,"jvp_object_write(jv *,jv)",jv-pre.c,4,0,0,12,3,0,5,5,5,1,2,0,1,0,1
+Static Function,jvp_refcnt_dec(jv_refcnt *),jv-pre.c,6,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jvp_refcnt_inc(jv_refcnt *),jv-pre.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,jvp_refcnt_unshared(jv_refcnt *),jv-pre.c,6,0,0,2,1,0,2,2,2,1,0,0,0,0,0
+Static Function,jvp_string_alloc(uint32_t),jv-pre.c,5,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"jvp_string_append(jv,const char *,uint32_t)",jv-pre.c,10,0,0,10,3,0,3,3,4,1,1,0,2,0,0
+Static Function,"jvp_string_copy_replace_bad(const char *,uint32_t)",jv-pre.c,6,0,0,7,3,0,4,4,4,1,0,0,2,0,0
+Static Function,jvp_string_empty_new(uint32_t),jv-pre.c,4,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"jvp_string_equal(jv,jv)",jv-pre.c,6,0,0,6,2,0,4,4,4,1,1,0,1,0,0
+Static Function,jvp_string_free(jv),jv-pre.c,7,0,0,3,2,0,2,2,2,1,0,0,1,0,0
+Static Function,jvp_string_hash(jv),jv-pre.c,10,0,0,7,2689,3,15,13,20,5,1,1,2,1,0
+Static Function,jvp_string_length(jvp_string *),jv-pre.c,8,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"jvp_string_new(const char *,uint32_t)",jv-pre.c,5,0,0,6,2,0,2,2,2,1,0,0,1,0,1
+Static Function,jvp_string_ptr(jv),jv-pre.c,10,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Static Function,jvp_string_remaining_space(jvp_string *),jv-pre.c,3,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Function,"jvp_strtod(struct dtoa_context *,const char *,char **)",jv_dtoa-pre.c,19,0,0,30,999999999,25,155,143,187,85,324,310,6,307,0
+Function,"jvp_utf8_backtrack(const char *,const char *,int *)",jv_unicode-pre.c,5,0,0,3,7,1,6,6,9,3,2,2,1,2,0
+Function,jvp_utf8_decode_length(char),jv_unicode-pre.c,1,0,0,1,4,1,4,4,4,4,3,3,1,3,0
+Function,jvp_utf8_encode_length(int),jv_unicode-pre.c,2,0,0,1,4,1,4,4,4,4,3,3,1,3,0
+Function,"jvp_utf8_encode(int,char *)",jv_unicode-pre.c,5,0,0,4,4,1,6,6,7,1,3,0,1,0,0
+Function,"jvp_utf8_is_valid(const char *,const char *)",jv_unicode-pre.c,4,0,0,3,3,0,3,3,3,3,3,3,2,3,1
+Function,"jvp_utf8_next(const char *,const char *,int *)",jv_unicode-pre.c,13,0,0,5,29,1,13,13,15,7,6,6,3,6,1
+Function,lava_get(unsigned int),main-pre.c,16,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"lava_set(unsigned int,unsigned int)",main-pre.c,7,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"lo0bits(struct dtoa_context *,ULong *)",jv_dtoa-pre.c,2,0,0,2,51,2,10,10,10,6,7,7,2,7,0
+Static Function,"load_library(jq_state *,jv,int,int,const char *,block *,struct lib_loading_state *)",linker-pre.c,10,0,0,26,20,1,7,7,8,1,4,0,2,0,0
+Function,"load_module_meta(jq_state *,jv)",linker-pre.c,3,0,0,22,5,1,5,5,5,1,1,0,3,0,0
+Function,"load_program(jq_state *,struct locfile *,block *)",linker-pre.c,6,0,0,12,7,1,5,5,6,1,3,0,2,0,0
+Function,locfile_free(struct locfile *),locfile-pre.c,9,0,0,3,2,0,2,2,2,1,0,0,1,0,0
+Function,"locfile_get_line(struct locfile *,int)",locfile-pre.c,7,0,0,2,2,0,4,4,4,1,0,0,1,0,0
+Function,"locfile_init(jq_state *,const char *,const char *,int)",locfile-pre.c,10,0,0,12,9,1,5,5,5,1,0,0,2,0,0
+Static Function,"locfile_line_length(struct locfile *,int)",locfile-pre.c,5,0,0,2,1,0,2,2,2,1,0,0,0,0,0
+Function,"locfile_locate(struct locfile *,location,const char *)",locfile-pre.c,12,0,0,9,6,1,4,4,4,3,2,2,1,2,0
+Function,locfile_retain(struct locfile *),locfile-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"lshift(struct dtoa_context *,Bigint *,int)",jv_dtoa-pre.c,10,0,0,4,12,1,7,7,7,1,1,0,2,0,0
+Function,"main(int,char *[])",main-pre.c,6,0,0,62,999999999,22,113,113,132,63,187,187,5,176,0
+Static Function,"make_closure(struct jq_state *,uint16_t *)",execute-pre.c,11,0,0,4,2,0,5,5,5,1,1,0,1,0,0
+Static Function,make_env(jv),compile-pre.c,3,0,0,9,5,1,5,5,5,3,3,2,2,2,0
+Static Function,"make_error(struct jv_parser *,const char *)",jv_parse-pre.c,5,0,0,8,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"match(struct dtoa_context *,const char **,const char *)",jv_dtoa-pre.c,3,0,0,2,5,1,4,4,5,3,3,3,2,3,0
+Static Function,memory_exhausted(),jv_alloc-pre.c,8,0,0,3,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"minmax_by(jv,jv,int)",builtin-pre.c,7,0,0,9,7,1,7,7,7,5,5,4,2,4,0
+Static Function,"mult(struct dtoa_context *,Bigint *,Bigint *)",jv_dtoa-pre.c,10,0,0,3,48,2,8,8,9,1,0,0,3,0,0
+Static Function,"multadd(struct dtoa_context *,Bigint *,int,int)",jv_dtoa-pre.c,13,0,0,6,3,0,4,4,4,1,0,0,2,0,0
+Static Function,my_mktime(struct tm *),builtin-pre.c,3,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Static Function,my_timegm(struct tm *),builtin-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"nesting_level(struct bytecode *,inst *)",compile-pre.c,5,0,0,2,2,0,4,4,8,1,0,0,1,0,0
+Static Function,next_file(jq_util_input_state *),util-pre.c,5,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"nrv_alloc(struct dtoa_context *,const char *,char **,int)",jv_dtoa-pre.c,5,0,0,3,4,1,3,3,3,1,0,0,1,0,0
+Function,opcode_describe(opcode),bytecode-pre.c,23,0,0,1,2,0,2,2,3,1,1,0,1,0,0
+Static Function,optimize_code(struct bytecode *),execute-pre.c,4,0,0,3,3,0,3,3,3,1,1,0,2,0,0
+Static Function,optimize(struct bytecode *),execute-pre.c,4,0,0,4,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"order_cmp(jv,jv,jv,enum cmp_op)",builtin-pre.c,8,0,0,4,1,0,1,1,8,1,0,0,0,0,0
+Static Function,"parse_check_done(struct jv_parser *,jv *)",jv_parse-pre.c,4,0,0,6,2,0,2,2,3,1,1,0,1,0,0
+Static Function,parse_check_truncation(struct jv_parser *),jv_parse-pre.c,7,0,0,2,1,0,1,1,5,1,0,0,0,0,0
+Static Function,parse_is_top_num(struct jv_parser *),jv_parse-pre.c,4,0,0,2,1,0,1,1,2,1,0,0,0,0,0
+Static Function,"parse_slice(jv,jv,int *,int *)",jv_aux-pre.c,5,0,0,13,1034,3,15,15,18,4,5,5,2,5,0
+Static Function,"parse_token(struct jv_parser *,char)",jv_parse-pre.c,6,0,0,19,26,1,28,23,32,26,136,136,3,136,1
+Static Function,parser_free(struct jv_parser *),jv_parse-pre.c,8,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"parser_init(struct jv_parser *,int)",jv_parse-pre.c,6,0,0,25,4,1,3,3,3,1,2,0,1,0,0
+Static Function,parser_reset(struct jv_parser *),jv_parse-pre.c,10,0,0,12,4,1,3,3,3,1,0,0,1,0,0
+Static Function,"path_append(jq_state *,jv,jv)",execute-pre.c,7,0,0,9,2,0,3,3,4,1,1,0,1,0,0
+Static Function,"path_intact(jq_state *,jv)",execute-pre.c,6,0,0,5,2,0,2,2,3,1,1,0,1,0,0
+Static Function,path_is_relative(jv),linker-pre.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"pow5mult(struct dtoa_context *,Bigint *,int)",jv_dtoa-pre.c,8,0,0,8,38,2,8,8,8,4,3,3,2,3,0
+Static Function,"priv_fwrite(const char *,size_t,FILE *,int)",main-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"priv_fwrite(const char *,size_t,FILE *,int)",execute-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"priv_fwrite(const char *,size_t,FILE *,int)",linker-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"priv_fwrite(const char *,size_t,FILE *,int)",util-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"priv_fwrite(const char *,size_t,FILE *,int)",jv-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"process_dependencies(jq_state *,jv,jv,block *,struct lib_loading_state *)",linker-pre.c,10,0,0,22,54,2,14,14,15,6,8,8,5,7,0
+Static Function,"process(jq_state *,jv,int,int)",main-pre.c,8,0,0,24,375,3,16,16,18,1,9,0,3,0,0
+Static Function,"push(struct jv_parser *,jv)",jv_parse-pre.c,6,0,0,6,2,0,4,4,4,1,0,0,1,0,0
+Static Function,"put_buf(const char *,int,FILE *,jv *,int)",jv_print-pre.c,7,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"put_char(char,FILE *,jv *,int)",jv_print-pre.c,8,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"put_indent(int,int,FILE *,jv *,int)",jv_print-pre.c,6,0,0,1,4,1,4,4,4,1,1,0,2,0,0
+Static Function,"put_refcnt(struct dtoa_context *,int,FILE *,jv *,int)",jv_print-pre.c,6,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"put_str(const char *,FILE *,jv *,int)",jv_print-pre.c,7,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"quorem(struct dtoa_context *,Bigint *,Bigint *)",jv_dtoa-pre.c,7,0,0,4,17,1,10,10,12,1,1,0,3,0,0
+Static Function,"ratio(struct dtoa_context *,Bigint *,Bigint *)",jv_dtoa-pre.c,6,0,0,4,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"ret_error(jv,jv)",builtin-pre.c,9,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"ret_error2(jv,jv,jv)",builtin-pre.c,9,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,ret_follows(uint16_t *),execute-pre.c,2,0,0,1,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"rotl32(uint32_t,int8_t)",jv-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"run_jq_tests(jv,int,FILE *)",jq_test-pre.c,5,0,0,31,1357828,6,29,29,32,17,36,36,4,33,0
+Static Function,"rv_alloc(struct dtoa_context *,int)",jv_dtoa-pre.c,4,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"s2b(struct dtoa_context *,const char *,int,int,ULong,int)",jv_dtoa-pre.c,7,0,0,5,8,1,5,5,5,1,1,0,2,0,0
+Static Function,"scan(struct jv_parser *,char,jv *)",jv_parse-pre.c,7,0,0,24,168,2,35,31,39,21,46,45,4,45,1
+Static Function,"set_error(jq_state *,jv)",execute-pre.c,4,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,set_tm_wday(struct tm *),builtin-pre.c,5,0,0,3,8,1,4,4,4,1,0,0,1,0,0
+Static Function,set_tm_yday(struct tm *),builtin-pre.c,6,0,0,3,8,1,5,5,9,1,0,0,1,0,0
+Static Function,skip_shebang(const char *),main-pre.c,2,0,0,3,5,1,5,5,10,5,4,4,1,4,0
+Static Function,skipline(const char *),jq_test-pre.c,2,0,0,1,4,1,3,3,6,1,1,0,1,0,0
+Static Function,"slurp_lib(jq_state *,block *)",builtin-pre.c,3,0,0,9,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"sort_cmp(const void *,const void *)",jv_aux-pre.c,4,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Static Function,"sort_items(jv,jv)",jv_aux-pre.c,4,0,0,12,2,0,5,5,5,1,0,0,1,0,0
+Static Function,"stack_block_next(struct stack *,stack_ptr)",execute-pre.c,6,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"stack_block(struct stack *,stack_ptr)",execute-pre.c,15,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,stack_get_pos(jq_state *),execute-pre.c,5,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,stack_init(struct stack *),execute-pre.c,2,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"stack_pop_block(struct stack *,stack_ptr,size_t)",execute-pre.c,8,0,0,4,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"stack_pop_will_free(struct stack *,stack_ptr)",execute-pre.c,7,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,stack_pop(jq_state *),execute-pre.c,5,0,0,9,2,0,3,3,3,1,0,0,1,0,0
+Function,stack_popn(jq_state *),execute-pre.c,4,0,0,9,2,0,3,3,3,1,0,0,1,0,0
+Static Function,"stack_push_block(struct stack *,stack_ptr,size_t)",execute-pre.c,8,0,0,6,2,0,2,2,2,1,0,0,1,0,0
+Function,"stack_push(jq_state *,jv)",execute-pre.c,6,0,0,6,1,0,2,2,2,1,0,0,0,0,0
+Static Function,"stack_reallocate(struct stack *,size_t)",execute-pre.c,5,0,0,6,1,0,1,1,1,1,0,0,0,0,0
+Static Function,stack_reset(struct stack *),execute-pre.c,5,0,0,3,1,0,2,2,3,1,0,0,0,0,0
+Function,stack_restore(jq_state *),execute-pre.c,15,0,0,17,12,1,9,9,9,1,4,0,2,0,0
+Function,"stack_save(jq_state *,uint16_t *,struct stack_pos)",execute-pre.c,14,0,0,15,1,0,2,2,2,1,0,0,0,0,0
+Static Function,"stream_check_done(struct jv_parser *,jv *)",jv_parse-pre.c,7,0,0,12,4,1,4,4,5,3,3,2,2,2,0
+Static Function,stream_check_truncation(struct jv_parser *),jv_parse-pre.c,4,0,0,2,1,0,1,1,5,1,0,0,0,0,0
+Static Function,stream_is_top_num(struct jv_parser *),jv_parse-pre.c,4,0,0,2,1,0,1,1,2,1,0,0,0,0,0
+Static Function,"stream_token(struct jv_parser *,char)",jv_parse-pre.c,7,0,0,23,83,2,43,38,46,29,167,164,3,164,0
+Static Function,"string_cmp(const void *,const void *)",jv_aux-pre.c,3,0,0,5,2,0,3,3,3,1,0,0,1,0,0
+Static Function,"sulp(struct dtoa_context *,U *,BCinfo *)",jv_dtoa-pre.c,8,0,0,3,2,0,2,2,3,1,1,0,1,0,0
+Static Function,symbol_table_free(struct symbol_table *),bytecode-pre.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,tail_call_analyze(uint16_t *),execute-pre.c,2,0,0,3,5,1,5,5,5,4,4,4,2,4,0
+Static Function,"test_err_cb(void *,jv)",jq_test-pre.c,3,0,0,7,8,1,4,4,4,1,0,0,1,0,0
+Static Function,tm2jv(struct tm *),builtin-pre.c,12,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"tokenadd(struct jv_parser *,char)",jv_parse-pre.c,6,0,0,7,2,0,4,4,4,1,0,0,1,0,1
+Static Function,"try_exit(int,int,yyscan_t)",lexer-pre.c,4,0,0,3,9,1,7,4,7,6,15,15,1,15,0
+Static Function,"type_error(jv,const char *)",builtin-pre.c,74,0,0,8,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"type_error2(jv,jv,const char *)",builtin-pre.c,12,0,0,8,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"ulp(struct dtoa_context *,U *)",jv_dtoa-pre.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,unhex4(char *),jv_parse-pre.c,2,0,0,1,5,1,5,5,8,5,8,8,2,8,0
+Static Function,"usage(int,int)",main-pre.c,6,0,0,2,4,1,4,4,5,1,1,0,1,0,0
+Static Function,validate_relpath(jv),linker-pre.c,3,0,0,15,6,1,7,7,8,6,11,11,3,11,0
+Static Function,"value(struct jv_parser *,jv)",jv_parse-pre.c,8,0,0,6,5,1,5,5,6,4,6,5,2,5,0
+Static Function,"yy_fatal_error(const char *,yyscan_t)",lexer-pre.c,13,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,yy_get_next_buffer(yyscan_t),lexer-pre.c,14,0,0,17,971,3,21,21,25,13,24,22,4,20,0
+Static Function,yy_get_previous_state(yyscan_t),lexer-pre.c,12,0,0,3,7,1,6,6,6,1,0,0,3,0,0
+Static Function,yy_init_globals(yyscan_t),lexer-pre.c,4,0,0,12,1,0,1,1,1,1,0,0,0,0,0
+Static Function,yy_pop_state(yyscan_t),lexer-pre.c,5,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"yy_push_state(int,yyscan_t)",lexer-pre.c,8,0,0,7,5,1,4,4,4,3,3,2,2,2,0
+Static Function,yy_top_state(yyscan_t),lexer-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"yy_try_NUL_trans(yy_state_type,yyscan_t)",lexer-pre.c,10,0,0,3,6,1,5,5,5,1,0,0,2,0,0
+Static Function,"yydestruct(const char *,int,YYSTYPE *,location *,block *,int *,struct locfile *,struct lexer_param *)",parser-pre.c,11,0,0,2,64,2,33,3,33,1,496,0,1,0,0
+Function,"yyerror(location *,block *,int *,struct locfile *,struct lexer_param *,const char *)",parser-pre.c,5,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Function,"yylex(YYSTYPE *,location *,block *,int *,struct locfile *,struct lexer_param *)",parser-pre.c,9,0,0,12,3,0,5,5,7,1,1,0,3,0,0
+Function,"yyparse(block *,int *,struct locfile *,struct lexer_param *)",parser-pre.c,24,0,0,75,6336,4,235,75,241,21,13124,64,4,63,0
+Static Function,"yystpcpy(char *,const char *)",parser-pre.c,3,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"yysyntax_error(unsigned int *,char **,yytype_int16 *,int)",parser-pre.c,9,0,0,4,254,2,20,15,27,9,28,13,5,12,0
+Static Function,"yytnamerr(char *,const char *)",parser-pre.c,3,0,0,4,20,1,11,8,11,8,16,15,4,14,0

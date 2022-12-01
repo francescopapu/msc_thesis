@@ -1,0 +1,1092 @@
+Kind,Name,File,CountInput,CountLineInactive,CountLinePreprocessor,CountOutput,CountPath,CountPathLog,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,INJECTED
+Function,close_stream(FILE *),close-stream.c,3,0,0,6,3,0,3,3,9,1,1,0,2,0,1
+Function,rpl_fclose(FILE *),fclose.c,1,15,6,8,5,1,4,4,18,1,1,0,1,0,1
+Function,rpl_fflush(FILE *),fflush.c,1,18,6,11,5,1,5,5,9,5,4,4,1,4,1
+Function,"readlinebuffer_delim(struct linebuffer *,FILE *,char)",linebuffer.c,7,0,0,10,17,1,9,9,15,6,7,7,3,7,1
+Static Function,"check_file(const char *,const char *,char)",uniq.c,14,0,0,19,3648,4,28,28,53,8,13,13,5,12,1
+Function,"x2realloc(void *,size_t *)",xmalloc.c,5,0,0,3,1,0,1,1,3,1,0,0,0,0,1
+Function,acl_entries(int),acl_entries.c,0,28,10,1,2,0,2,2,2,1,0,0,1,0,0
+Function,acl_errno_valid(int),acl-errno-valid.c,1,4,6,1,5,1,5,2,5,1,10,0,1,0,0
+Function,free_permission_context(struct permission_context *),acl-internal.c,2,22,14,0,1,0,1,1,1,1,0,0,0,0,0
+Function,"anytostr(int,char *)",anytostr.c,0,0,0,1,2,0,2,2,2,1,1,0,1,0,0
+Function,"anytostr(int,char *)",anytostr.copy1.c,0,0,0,1,2,0,2,2,2,1,1,0,1,0,0
+Function,"anytostr(int,char *)",anytostr.copy2.c,0,0,0,1,2,0,2,2,2,1,1,0,1,0,0
+Function,"anytostr(int,char *)",anytostr.copy3.c,0,0,0,1,2,0,2,2,2,1,1,0,1,0,0
+Function,"anytostr(int,char *)",anytostr.copy4.c,0,0,0,1,2,0,2,2,2,1,1,0,1,0,0
+Function,"anytostr(int,char *)",anytostr.copy5.c,0,0,0,1,2,0,2,2,2,1,1,0,1,0,0
+Function,"areadlink_with_size(const char *,size_t)",areadlink-with-size.c,3,0,0,5,7,1,12,12,13,7,11,11,2,11,0
+Function,areadlink(const char *),areadlink.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"careadlinkatcwd(int,const char *,char *,size_t)",areadlink.c,4,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"areadlinkat(int,const char *)",areadlinkat.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,__argmatch_die(),argmatch.c,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"__xargmatch_internal(const char *,const char *,const char *const *,const char *,size_t,argmatch_exit_fn)",argmatch.c,7,0,0,4,2,0,2,2,2,1,1,0,1,0,0
+Function,"argmatch_invalid(const char *,const char *,ptrdiff_t)",argmatch.c,4,0,0,4,1,0,2,2,2,1,0,0,0,0,0
+Function,"argmatch_to_argument(const char *,const char *const *,const char *,size_t)",argmatch.c,4,0,0,2,3,0,3,3,3,3,3,3,2,3,0
+Function,"argmatch_valid(const char *const *,const char *,size_t)",argmatch.c,5,0,0,6,3,0,3,3,4,1,1,0,2,0,0
+Function,"argmatch(const char *,const char *const *,const char *,size_t)",argmatch.c,6,0,0,4,11,1,7,7,8,5,6,6,4,5,0
+Function,argv_iter_free(struct argv_iterator *),argv-iter.c,3,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,argv_iter_init_argv(char **),argv-iter.c,1,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Function,argv_iter_init_stream(FILE *),argv-iter.c,1,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Function,argv_iter_n_args(const struct argv_iterator *),argv-iter.c,5,0,0,1,1,0,2,2,2,1,0,0,0,0,0
+Function,"argv_iter(struct argv_iterator *,enum argv_iter_err *)",argv-iter.c,5,0,0,6,4,1,5,5,5,4,4,4,2,4,0
+Function,"asnprintf(char *,size_t *,const char *)",asnprintf.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"asprintf(char **,const char *)",asprintf.c,2,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"AT_FUNC_NAME(int,const char *)",at-func.c,3,2,3,5,13,1,7,7,13,6,6,6,2,6,0
+Function,"AT_FUNC_NAME(int,const char *)",at-func.copy.c,3,2,3,5,13,1,7,7,13,6,6,6,2,6,0
+Function,"AT_FUNC_NAME(int,const char *)",at-func.copy1.c,3,2,3,5,13,1,7,7,13,6,6,6,2,6,0
+Function,"AT_FUNC_NAME(int,const char *)",at-func.copy2.c,3,2,3,5,13,1,7,7,13,6,6,6,2,6,0
+Function,"AT_FUNC_NAME(int,const char *)",at-func.copy3.c,3,2,3,5,13,1,7,7,13,6,6,6,2,6,0
+Function,"AT_FUNC_NAME(int,const char *)",at-func.copy3.cc,3,2,3,10,40,2,11,11,17,6,6,6,2,6,0
+Function,"AT_FUNC_NAME(int,const char *)",at-func.copy4.c,3,2,3,5,13,1,7,7,13,6,6,6,2,6,0
+Function,"AT_FUNC_NAME(int,const char *)",at-func.copy5.c,3,2,3,5,13,1,7,7,13,6,6,6,2,6,0
+Function,"at_func2(int,const char *,int,const char *,int (*)(const char *, const char *))",at-func2.c,7,0,0,14,8871,4,47,47,83,33,70,67,3,67,0
+Static Function,"check_extension(char *,size_t,char)",backupfile.c,4,0,0,7,36,2,10,10,13,1,1,0,3,0,0
+Function,"find_backup_file_name(const char *,enum backup_type)",backupfile.c,3,0,0,6,18,1,7,5,7,5,5,5,2,5,0
+Function,"get_version(const char *,const char *)",backupfile.c,6,0,0,2,2,0,2,2,3,1,1,0,1,0,0
+Static Function,"numbered_backup(char **,size_t,size_t)",backupfile.c,6,0,0,12,130,2,11,11,17,7,5,5,2,5,0
+Function,"xget_version(const char *,const char *)",backupfile.c,2,0,0,3,2,0,2,2,3,1,1,0,1,0,0
+Function,"base64_decode_alloc_ctx(struct base64_decode_context *,const char *,size_t,char **,size_t *)",base64.c,5,0,0,6,4,1,4,4,4,3,2,2,1,2,0
+Function,base64_decode_ctx_init(struct base64_decode_context *),base64.c,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"base64_decode_ctx(struct base64_decode_context *,const char *restrict,size_t,char *restrict,size_t *)",base64.c,7,0,0,3,258,2,11,11,18,9,11,11,4,10,0
+Function,"base64_encode_alloc(const char *,size_t,char **)",base64.c,3,0,0,4,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"base64_encode_fast(const char *restrict,size_t,char *restrict)",base64.c,4,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Function,"base64_encode(const char *restrict,size_t,char *restrict,size_t)",base64.c,6,0,0,3,131,2,14,14,16,7,9,9,2,9,0
+Static Function,"decode_4(const char *restrict,size_t,char *restrict *,size_t *)",base64.c,6,0,0,4,36,2,22,22,23,12,19,19,4,19,0
+Static Function,"get_4(struct base64_decode_context *,const char *restrict *,const char *restrict,size_t *)",base64.c,6,0,0,6,18,1,7,7,8,6,5,5,3,5,0
+Function,isbase64(char),base64.c,3,0,0,2,1,0,1,1,2,1,0,0,0,0,0
+Static Function,to_uchar(char),base64.c,5,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,base_len(const char *),basename-lgpl.c,7,0,0,2,6,1,4,4,12,3,2,2,1,2,0
+Function,last_component(const char *),basename-lgpl.c,8,0,0,1,8,1,5,5,5,1,1,0,2,0,0
+Function,base_name(const char *),basename.c,1,0,0,6,5,1,4,4,4,3,2,2,1,2,0
+Function,"rotl_sz(size_t,int)",bitrotate.h,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"rotl16(uint16_t,int)",bitrotate.h,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"rotl32(uint32_t,int)",bitrotate.h,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"rotl64(uint64_t,int)",bitrotate.h,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"rotl8(uint8_t,int)",bitrotate.h,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"rotr_sz(size_t,int)",bitrotate.h,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"rotr16(uint16_t,int)",bitrotate.h,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"rotr32(uint32_t,int)",bitrotate.h,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"rotr64(uint64_t,int)",bitrotate.h,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"rotr8(uint8_t,int)",bitrotate.h,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,btowc(int),btowc.c,1,0,0,2,3,0,3,3,3,3,2,2,2,2,0
+Function,"buffer_lcm(size_t,size_t,size_t)",buffer-lcm.c,3,0,0,1,6,1,7,7,8,4,4,4,3,4,0
+Function,c_isalnum(int),c-ctype.c,3,21,6,1,1,0,1,1,4,1,0,0,0,0,0
+Function,c_isalpha(int),c-ctype.c,4,17,6,1,1,0,1,1,2,1,0,0,0,0,0
+Function,c_isascii(int),c-ctype.c,1,0,0,1,1,0,1,1,2,1,0,0,0,0,0
+Function,c_isblank(int),c-ctype.c,1,0,0,1,1,0,1,1,2,1,0,0,0,0,0
+Function,c_iscntrl(int),c-ctype.c,1,25,3,1,1,0,1,1,2,1,0,0,0,0,0
+Function,c_isdigit(int),c-ctype.c,6,8,3,1,1,0,1,1,2,1,0,0,0,0,0
+Function,c_isgraph(int),c-ctype.c,1,25,3,1,1,0,1,1,2,1,0,0,0,0,0
+Function,c_islower(int),c-ctype.c,1,11,3,1,1,0,1,1,2,1,0,0,0,0,0
+Function,c_isprint(int),c-ctype.c,1,25,3,1,1,0,1,1,2,1,0,0,0,0,0
+Function,c_ispunct(int),c-ctype.c,1,13,3,1,1,0,1,1,6,1,0,0,0,0,0
+Function,c_isspace(int),c-ctype.c,4,0,0,1,1,0,1,1,6,1,0,0,0,0,0
+Function,c_isupper(int),c-ctype.c,1,11,3,1,1,0,1,1,2,1,0,0,0,0,0
+Function,c_isxdigit(int),c-ctype.c,3,13,6,1,1,0,1,1,4,1,0,0,0,0,0
+Function,c_tolower(int),c-ctype.c,5,30,3,1,1,0,2,2,3,1,0,0,0,0,0
+Function,c_toupper(int),c-ctype.c,3,30,3,1,1,0,2,2,3,1,0,0,0,0,0
+Function,"c_strcasecmp(const char *,const char *)",c-strcasecmp.c,5,0,0,2,5,1,7,7,7,5,4,4,2,4,0
+Function,"c_strncasecmp(const char *,const char *,size_t)",c-strncasecmp.c,3,0,0,2,5,1,7,7,9,5,4,4,2,4,0
+Static Function,c_locale(),c-strtod.c,2,0,0,3,2,0,2,2,2,1,0,0,1,0,0
+Function,"c_strtod(const char *,char **)",c-strtod.c,2,26,3,4,3,0,3,3,3,1,1,0,2,0,0
+Static Function,c_locale(),c-strtod.copy.c,2,0,0,3,2,0,2,2,2,1,0,0,1,0,0
+Function,"c_strtod(const char *,char **)",c-strtod.copy.c,2,26,3,4,3,0,3,3,3,1,1,0,2,0,0
+Function,"rpl_calloc(size_t,size_t)",calloc.c,2,2,4,3,3,0,3,3,4,3,3,3,2,3,0
+Function,"canon_host_r(const char *,int *)",canon-host.c,4,0,0,6,4,1,5,5,6,1,1,0,2,0,0
+Function,canon_host(const char *),canon-host.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,ch_strerror(),canon-host.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"canonicalize_filename_mode(const char *,canonicalize_mode_t)",canonicalize.c,4,0,0,17,8016004,7,49,49,79,21,84,84,6,80,0
+Static Function,"seen_triple(Hash_table **,const char *,const struct stat *)",canonicalize.c,4,0,0,6,5,1,4,4,4,4,3,3,2,3,0
+Function,"careadlinkat(int,const char *,char *,size_t,const struct allocator *,ssize_t (*)(int, const char *, char *, size_t))",careadlinkat.c,10,0,0,7,160,2,18,18,20,10,21,21,4,21,0
+Static Function,"cdb_advance_fd(struct cd_buf *,const char *)",chdir-long.c,2,0,0,4,2,0,2,2,2,1,1,0,1,0,0
+Static Function,cdb_fchdir(const struct cd_buf *),chdir-long.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,cdb_free(const struct cd_buf *),chdir-long.c,4,0,0,2,3,0,3,3,3,3,3,3,2,3,0
+Static Function,cdb_init(struct cd_buf *),chdir-long.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,chdir_long(char *),chdir-long.c,2,0,0,13,114,2,18,18,19,18,43,43,2,43,0
+Static Function,find_non_slash(const char *),chdir-long.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_chown(const char *,uid_t,gid_t)",chown.c,3,70,10,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,is_cjk_encoding(const char *),cjk.h,2,0,0,2,2,0,2,2,10,1,1,0,1,0,0
+Function,dup_cloexec(int),cloexec.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"set_cloexec_flag(int,_Bool)",cloexec.c,6,14,3,2,3,0,4,4,5,3,2,2,2,2,0
+Function,rpl_close(int),close.c,1,3,5,2,1,0,1,1,1,1,0,0,0,0,0
+Function,closedir(DIR *),closedir.c,7,10,8,1,1,0,1,1,1,1,0,0,0,0,0
+Function,close_stdin_set_file_name(const char *),closein.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,close_stdin(),closein.c,3,0,0,10,36,2,7,7,8,1,2,0,2,0,0
+Function,close_stdout_set_file_name(const char *),closeout.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,close_stdout_set_ignore_EPIPE(_Bool),closeout.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,close_stdout(),closeout.c,6,0,0,6,4,1,4,4,6,3,3,2,2,2,0
+Function,"copy_acl(const char *,int,const char *,int,mode_t)",copy-acl.c,5,0,0,6,3,0,3,2,3,1,3,0,1,0,0
+Function,"creat_safer(const char *,mode_t)",creat-safer.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,cycle_check_init(struct cycle_check_state *),cycle-check.c,0,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"cycle_check(struct cycle_check_state *,const struct stat *)",cycle-check.c,9,0,0,7,5,1,5,5,7,5,5,5,2,5,0
+Static Function,is_zero_or_power_of_two(uintmax_t),cycle-check.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"di_ent_compare(const void *,const void *)",di-set.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,di_ent_free(void *),di-set.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"di_ent_hash(const void *,size_t)",di-set.c,3,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"di_ino_hash(const void *,size_t)",di-set.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,di_set_alloc(),di-set.c,1,0,0,7,3,0,3,3,3,3,2,2,2,2,0
+Function,di_set_free(struct di_set *),di-set.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"di_set_insert(struct di_set *,dev_t,ino_t)",di-set.c,3,0,0,4,3,0,3,3,3,3,2,2,1,2,0
+Function,"di_set_lookup(struct di_set *,dev_t,ino_t)",di-set.c,3,0,0,4,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"map_device(struct di_set *,dev_t)",di-set.c,8,0,0,8,8,1,6,6,6,5,7,6,2,6,0
+Static Function,"map_inode_number(struct di_set *,ino_t)",di-set.c,5,0,0,5,4,1,4,4,5,4,3,3,2,3,0
+Function,"dirchownmod(int,const char *,mode_t,uid_t,gid_t,mode_t,mode_t)",dirchownmod.c,11,0,0,11,24,1,13,13,18,1,2,0,4,0,0
+Function,dirfd(DIR *),dirfd.c,2,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Function,dir_len(const char *),dirname-lgpl.c,2,0,0,2,3,0,6,6,9,3,2,2,2,2,0
+Function,mdir_name(const char *),dirname-lgpl.c,3,0,0,4,3,0,3,3,7,1,1,0,1,0,0
+Function,dir_name(const char *),dirname.c,2,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,dtotimespec(double),dtotimespec.c,2,0,0,2,4,1,12,12,12,3,2,2,2,2,0
+Function,"dup_safer_flag(int,int)",dup-safer-flag.c,3,0,0,2,1,0,2,2,2,1,0,0,0,0,0
+Function,dup_safer(int),dup-safer.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,rpl_dup(int),dup.c,1,2,2,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_dup2(int,int)",dup2.c,2,3,6,4,6,1,5,5,6,1,1,0,1,0,0
+Function,"error_at_line(int,int,const char *,unsigned int,const char *)",error.c,10,13,14,6,5,1,5,5,9,3,3,2,2,2,0
+Static Function,flush_stdout(),error.c,2,4,5,2,2,0,2,2,3,1,0,0,1,0,0
+Static Function,is_open(int),error.c,2,6,6,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,print_errno_message(int),error.c,2,6,11,3,2,0,2,2,2,1,0,0,1,0,0
+Function,"euidaccess(const char *,int)",euidaccess.c,2,106,9,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"add_exclude_file(void (*)(struct exclude *, const char *, int),struct exclude *,const char *,int,char)",exclude.c,6,0,0,4,5,1,4,4,6,3,3,3,1,3,0
+Function,"add_exclude_fp(void (*)(struct exclude *, const char *, int, void *),struct exclude *,FILE *,int,char,void *)",exclude.c,6,0,0,8,42,2,11,11,12,7,6,6,5,6,0
+Function,"add_exclude(struct exclude *,const char *,int)",exclude.c,14,0,0,18,56,2,14,14,20,4,7,5,4,5,0
+Static Function,"call_addfn(struct exclude *,const char *,int,void *)",exclude.c,4,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Function,"exclude_add_pattern_buffer(struct exclude *,char *)",exclude.c,5,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Function,"exclude_fnmatch(const char *,const char *,int)",exclude.c,4,0,0,1,4,1,5,5,7,1,0,0,3,0,0
+Static Function,"exclude_patopts(const struct patopts *,const char *)",exclude.c,7,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Function,"excluded_file_name(const struct exclude *,const char *)",exclude.c,6,0,0,6,14,1,8,8,8,7,10,10,3,10,0
+Static Function,"file_name_matches(const struct exclude_segment *,const char *,char *)",exclude.c,7,0,0,5,13,1,8,8,8,7,9,9,4,9,0
+Static Function,"file_pattern_matches(const struct exclude_segment *,const char *)",exclude.c,7,0,0,2,3,0,3,3,3,3,3,3,2,3,0
+Static Function,"fnmatch_no_wildcards(const char *,const char *,int)",exclude.c,3,0,0,8,9,1,9,9,10,5,4,4,3,4,0
+Function,"fnmatch_pattern_has_wildcards(const char *,int)",exclude.c,3,0,0,1,10,1,18,6,20,10,41,41,3,41,0
+Static Function,free_exclude_segment(struct exclude_segment *),exclude.c,11,0,0,3,5,1,5,4,5,1,1,0,3,0,0
+Function,free_exclude(struct exclude *),exclude.c,6,0,0,2,4,1,3,3,3,1,0,0,1,0,0
+Static Function,"new_exclude_segment(struct exclude *,enum exclude_type,int)",exclude.c,5,0,0,9,3,0,5,4,5,1,1,0,1,0,0
+Function,new_exclude(),exclude.c,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"string_compare_ci(const void *,const void *)",exclude.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"string_compare(const void *,const void *)",exclude.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,string_free(void *),exclude.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"string_hasher_ci(const void *,size_t)",exclude.c,8,0,0,8,3,0,3,3,4,1,1,0,2,0,0
+Static Function,"string_hasher(const void *,size_t)",exclude.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,unescape_pattern(char *),exclude.c,2,0,0,1,1,0,2,2,3,1,0,0,1,0,0
+Function,"fadvise(FILE *,fadvice_t)",fadvise.c,3,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Function,"fdadvise(int,off_t,off_t,fadvice_t)",fadvise.c,5,0,2,1,1,0,1,1,1,1,0,0,0,0,0
+Function,_gl_directory_name(int),fchdir.c,5,0,0,3,4,1,4,4,6,1,2,0,2,0,0
+Function,"_gl_register_dup(int,int)",fchdir.c,5,0,0,9,5,1,5,5,9,1,3,0,2,0,0
+Function,"_gl_register_fd(int,const char *)",fchdir.c,3,0,0,9,4,1,4,4,7,4,4,4,2,4,0
+Function,_gl_unregister_fd(int),fchdir.c,4,0,0,3,2,0,2,2,3,1,0,0,1,0,0
+Static Function,ensure_dirs_slot(size_t),fchdir.c,6,0,0,7,5,1,5,5,5,3,3,3,2,3,0
+Function,fchdir(int),fchdir.c,19,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Static Function,get_name(const char *),fchdir.c,2,0,0,6,3,0,3,3,6,3,2,2,1,2,0
+Static Function,"lchmod_rpl(const char *,mode_t)",fchmodat.c,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"fchown(int,uid_t,gid_t)",fchown-stub.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_fcntl(int,int)",fcntl.c,2,60,18,6,13,1,7,7,10,5,7,7,4,7,0
+Function,"fd_reopen(int,const char *,int,mode_t)",fd-reopen.c,4,0,0,5,2,0,2,2,3,1,1,0,1,0,0
+Function,"fd_safer_flag(int,int)",fd-safer-flag.c,2,0,0,4,2,0,2,2,3,1,0,0,1,0,0
+Function,fd_safer(int),fd-safer.c,7,0,0,4,2,0,2,2,3,1,0,0,1,0,0
+Function,fdatasync(int),fdatasync.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_fdopen(int,const char *)",fdopen.c,2,0,0,3,3,0,3,3,3,1,1,0,2,0,0
+Function,rpl_fdopendir(int),fdopendir.c,2,0,0,4,3,0,3,3,3,3,2,2,1,2,0
+Function,"fdutimensat(int,int,const char *,const struct timespec [2],int)",fdutimensat.c,5,0,0,4,8,1,4,4,7,1,0,0,1,0,0
+Static Function,clear_ungetc_buffer(FILE *),fflush.c,2,14,5,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"update_fpos_cache(FILE *,off_t)",fflush.c,1,18,5,0,1,0,1,1,1,1,0,0,0,0,0
+Function,"file_has_acl(const char *,const struct stat *)",file-has-acl.c,0,452,23,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"record_file(Hash_table *,const char *,const struct stat *)",file-set.c,6,0,0,8,4,1,4,4,4,3,2,2,1,2,0
+Function,"seen_file(const Hash_table *,const char *,const struct stat *)",file-set.c,6,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Function,file_type(const struct stat *),file-type.c,3,0,0,14,23,1,24,24,24,23,22,22,1,22,0
+Function,"filemodestring(const struct stat *,char *)",filemode.c,3,0,0,3,6,1,6,6,6,1,4,0,1,0,0
+Static Function,ftypelet(mode_t),filemode.c,2,0,0,9,14,1,14,14,16,14,13,13,1,13,0
+Function,"strmode(mode_t,char *)",filemode.c,2,0,0,2,1,0,16,16,16,1,0,0,0,0,0
+Static Function,longest_relative_suffix(const char *),filenamecat-lgpl.c,2,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"mfile_name_concat(const char *,const char *,char **)",filenamecat-lgpl.c,7,0,0,8,3,0,3,3,5,1,1,0,1,0,0
+Function,"file_name_concat(const char *,const char *,char **)",filenamecat.c,3,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"filevercmp(const char *,const char *)",filevercmp.c,2,0,0,5,13,1,15,15,21,10,9,9,1,9,0
+Static Function,match_suffix(const char **),filevercmp.c,2,0,0,3,7,1,7,7,9,1,2,0,3,0,0
+Static Function,order(unsigned char),filevercmp.c,2,0,0,3,4,1,4,4,4,4,3,3,1,3,0
+Static Function,"verrevcmp(const char *,size_t,const char *,size_t)",filevercmp.c,5,0,0,3,98,2,13,13,18,7,14,14,3,14,0
+Function,"fnmatch(const char *,const char *,int)",fnmatch.c,3,0,3,14,13,1,11,11,12,10,27,26,5,26,0
+Static Function,is_char_class(const wchar_t *),fnmatch.c,1,4,6,2,3,0,95,4,95,4,5,5,2,5,0
+Function,"fopen_safer(const char *,const char *)",fopen-safer.c,4,0,0,8,5,1,5,5,7,5,6,6,3,6,0
+Static Function,"orig_fopen(const char *,const char *)",fopen.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_fopen(const char *,const char *)",fopen.c,2,53,4,2,1,0,1,1,1,1,0,0,0,0,0
+Function,__fpending(FILE *),fpending.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,fpurge(FILE *),fpurge.c,2,107,23,2,1,0,1,1,1,1,0,0,0,0,0
+Function,freadahead(FILE *),freadahead.c,2,62,19,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"freadptr(FILE *,size_t *)",freadptr.c,2,83,16,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"freadptrinc(FILE *,size_t)",freadseek.c,1,29,17,0,1,0,1,1,1,1,0,0,0,0,0
+Function,"freadseek(FILE *,size_t)",freadseek.c,3,0,0,10,29,1,14,14,16,12,24,24,3,24,0
+Function,"freopen_safer(const char *,const char *,FILE *)",freopen-safer.c,5,0,0,7,960,3,14,12,17,4,3,0,2,0,0
+Static Function,protect_fd(int),freopen-safer.c,2,0,0,4,3,0,3,3,3,1,1,0,2,0,0
+Static Function,"orig_freopen(const char *,const char *,FILE *)",freopen.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_freopen(const char *,const char *,FILE *)",freopen.c,3,6,4,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"frexp(double,int *)",frexp.c,2,0,0,3,109,2,12,12,14,7,8,6,3,4,0
+Function,"fseek(FILE *,long,int)",fseek.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"fseeko(FILE *,off_t,int)",fseeko.c,8,102,41,3,2,0,2,2,2,1,1,0,1,0,0
+Function,fseterr(FILE *),fseterr.c,1,44,13,0,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"orig_fstat(int,struct stat *)",fstat.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_fstat(int,struct stat *)",fstat.c,2,5,2,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"orig_fstatat(int,const char *,struct stat *,int)",fstatat.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"stat_func(const char *,struct stat *)",fstatat.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"get_fs_usage(const char *,const char *,struct fs_usage *)",fsusage.c,15,123,27,12,4,1,27,27,38,4,4,4,2,4,0
+Static Function,statvfs_works(),fsusage.c,2,0,0,3,2,0,2,2,3,1,0,0,1,0,0
+Function,ftell(FILE *),ftell.c,2,0,0,3,2,0,2,2,3,1,1,0,1,0,0
+Function,ftello(FILE *),ftello.c,4,39,19,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"ftoastr(char *,size_t,int,int,float)",ftoastr.c,5,0,0,3,3,0,6,6,9,3,2,2,2,2,0
+Function,"ftoastr(char *,size_t,int,int,float)",ftoastr.copy.c,5,0,0,3,3,0,6,6,9,3,2,2,2,2,0
+Function,"ftoastr(char *,size_t,int,int,float)",ftoastr.copy2.c,5,0,0,3,3,0,6,6,9,3,2,2,2,2,0
+Static Function,"AD_compare(const void *,const void *)",fts-cycle.c,4,0,0,1,1,0,1,1,2,1,0,0,0,0,0
+Static Function,"AD_hash(const void *,size_t)",fts-cycle.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"enter_dir(int *,int *)",fts-cycle.c,2,0,0,5,6,1,6,6,6,5,6,6,3,6,0
+Static Function,free_dir(int *),fts-cycle.c,0,0,0,0,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"leave_dir(int *,int *)",fts-cycle.c,2,0,0,4,6,1,7,7,7,6,7,7,4,7,0
+Static Function,setup_dir(int *),fts-cycle.c,0,0,0,1,4,1,4,4,4,4,5,5,2,5,0
+Static Function,"AD_compare(const void *,const void *)",fts-cycle.copy.c,4,0,0,1,1,0,1,1,2,1,0,0,0,0,0
+Static Function,"AD_hash(const void *,size_t)",fts-cycle.copy.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"enter_dir(int *,int *)",fts-cycle.copy.c,2,0,0,5,6,1,6,6,6,5,6,6,3,6,0
+Static Function,free_dir(int *),fts-cycle.copy.c,0,0,0,0,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"leave_dir(int *,int *)",fts-cycle.copy.c,2,0,0,4,6,1,7,7,7,6,7,7,4,7,0
+Static Function,setup_dir(int *),fts-cycle.copy.c,0,0,0,1,4,1,4,4,4,4,5,5,2,5,0
+Static Function,"cwd_advance_fd(FTS *,int,_Bool)",fts.c,10,0,0,5,6,1,7,7,8,3,3,2,2,2,0
+Static Function,dirent_inode_sort_may_be_useful(int),fts.c,3,0,0,2,3,0,4,3,4,3,2,2,1,2,0
+Static Function,"diropen(const FTS *,const char *)",fts.c,8,0,0,4,2,0,3,3,3,1,0,0,1,0,0
+Static Function,fd_ring_clear(I_ring *),fts.c,3,0,0,3,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"fts_alloc(FTS *,const char *,size_t)",fts.c,7,0,0,13,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"fts_build(FTS *,int)",fts.c,24,0,0,38,35145125,8,55,55,84,17,41,34,4,32,0
+Function,"fts_children(FTS *,int)",fts.c,9,0,0,10,24,1,11,11,14,9,10,9,2,9,0
+Function,fts_close(FTS *),fts.c,13,0,0,9,240,2,14,14,14,1,2,0,3,0,0
+Static Function,"fts_compar(const void *,const void *)",fts.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"fts_compare_ino(const struct _ftsent **,const struct _ftsent **)",fts.c,4,0,0,1,1,0,3,3,3,1,0,0,0,0,0
+Static Function,fts_lfree(FTSENT *),fts.c,8,0,0,2,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"fts_load(FTS *,FTSENT *)",fts.c,6,0,0,8,2,0,2,2,4,1,0,0,1,0,0
+Static Function,fts_maxarglen(char *const *),fts.c,2,0,0,2,3,0,3,3,3,1,0,0,2,0,0
+Function,"fts_open(char *const *,int,int (*)(const FTSENT **, const FTSENT **))",fts.c,8,1,3,27,37636,5,25,25,34,12,21,18,4,17,0
+Static Function,"fts_padjust(FTS *,FTSENT *)",fts.c,11,0,1,2,9,1,8,8,8,1,0,0,3,0,0
+Static Function,"fts_palloc(FTS *,size_t)",fts.c,6,0,0,7,3,0,3,3,3,3,2,2,1,2,0
+Function,fts_read(FTS *),fts.c,25,0,0,33,47274,5,53,53,71,25,68,63,5,63,0
+Static Function,"fts_safe_changedir(FTS *,FTSENT *,int,const char *)",fts.c,11,0,0,10,66,2,12,12,21,7,9,9,3,9,0
+Static Function,"fts_set_stat_required(FTSENT *,_Bool)",fts.c,5,0,0,4,2,0,4,4,4,3,2,2,2,2,0
+Function,"fts_set(FTS *,FTSENT *,int)",fts.c,1,0,0,4,2,0,2,2,6,1,1,0,1,0,0
+Static Function,"fts_sort(FTS *,FTSENT *,size_t)",fts.c,9,0,0,8,9,1,6,6,8,3,2,2,2,2,0
+Static Function,"fts_stat(FTS *,FTSENT *,_Bool)",fts.c,14,0,0,9,34,2,12,12,18,9,15,15,3,15,0
+Static Function,"LCO_compare(const void *,const void *)",fts.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"LCO_hash(const void *,size_t)",fts.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,leaf_optimization_applies(int),fts.c,3,0,0,2,4,1,4,3,4,4,3,3,1,3,0
+Static Function,link_count_optimize_ok(const FTSENT *),fts.c,9,0,0,11,12,1,9,9,9,9,8,8,2,8,0
+Static Function,"opendirat(int,const char *,int,int *)",fts.c,4,0,0,7,3,0,3,3,3,1,2,0,1,0,0
+Static Function,restore_initial_cwd(FTS *),fts.c,6,0,0,4,1,0,4,4,5,1,0,0,0,0,0
+Static Function,"set_stat_type(struct stat *,unsigned int)",fts.c,2,0,0,2,8,1,8,2,8,1,28,0,1,0,0
+Function,"full_write(int,const void *,size_t)",full-write.c,3,0,0,3,5,1,4,4,4,4,4,4,2,4,0
+Function,"full_write(int,const void *,size_t)",full-write.copy.c,3,0,0,3,5,1,4,4,4,4,4,4,2,4,0
+Function,"futimens(int,const struct timespec [2])",futimens.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,rpl_gai_strerror(int),gai_strerror.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"get_permissions(const char *,int,mode_t,struct permission_context *)",get-permissions.c,3,241,14,4,1,0,1,1,1,1,0,0,0,0,0
+Function,freeaddrinfo(struct addrinfo *),getaddrinfo.c,4,5,2,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"getaddrinfo(const char *restrict,const char *restrict,const struct addrinfo *restrict,struct addrinfo **restrict)",getaddrinfo.c,20,16,23,20,552,3,28,26,38,20,33,32,3,32,0
+Function,"getnameinfo(const struct sockaddr *restrict,socklen_t,char *restrict,socklen_t,char *restrict,socklen_t,int)",getaddrinfo.c,11,3,14,4,35,2,16,13,27,15,30,30,3,30,0
+Static Function,validate_family(int),getaddrinfo.c,2,0,4,1,4,1,4,4,4,4,3,3,1,3,0
+Function,"rpl_getcwd(char *,size_t)",getcwd.c,7,56,22,19,2392584,6,34,34,51,25,54,54,4,53,0
+Function,"getdelim(char **,size_t *,int,FILE *)",getdelim.c,6,0,0,6,112,2,13,13,16,10,17,17,3,17,0
+Function,getdtablesize(),getdtablesize.c,1,0,0,2,2,0,2,2,7,1,1,0,1,0,0
+Static Function,"map_to_failure(int,security_context_t *)",getfilecon.c,5,0,0,5,3,0,3,3,4,3,2,2,1,2,0
+Function,"rpl_fgetfilecon(int,security_context_t *)",getfilecon.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_getfilecon(const char *,security_context_t *)",getfilecon.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_lgetfilecon(const char *,security_context_t *)",getfilecon.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_getgroups(int,gid_t *)",getgroups.c,2,0,0,6,11,1,12,12,13,9,13,13,3,13,0
+Function,"gethostname(char *,size_t)",gethostname.c,4,1,3,4,3,0,3,3,3,1,1,0,1,0,0
+Function,gethrxtime(),gethrxtime.c,2,11,8,4,2,0,2,2,2,1,1,0,1,0,0
+Function,"getline(char **,size_t *,FILE *)",getline.c,6,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"getloadavg(double [],int)",getloadavg.c,1,435,91,5,29,1,10,10,13,6,8,8,3,8,0
+Function,getlogin(),getlogin.c,0,5,2,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"getndelim2(char **,size_t *,size_t,size_t,int,int,FILE *)",getndelim2.c,7,0,0,10,54001,5,29,29,34,14,26,24,4,24,0
+Static Function,"_getopt_initialize(int,char **,const char *,struct _getopt_data *,int)",getopt.c,6,27,2,8,4,1,4,4,5,1,3,0,1,0,0
+Function,"_getopt_internal_r(int,char **,const char *,const struct option *,int *,int,struct _getopt_data *,int)",getopt.c,26,212,61,24,63032273,8,84,84,116,33,84,70,6,68,0
+Function,"_getopt_internal(int,char **,const char *,const struct option *,int *,int,int)",getopt.c,16,0,0,8,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"exchange(char **,struct _getopt_data *)",getopt.c,6,19,2,3,5,1,5,5,6,1,1,0,3,0,0
+Function,"getopt(int,char *const *,const char *)",getopt.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"_getopt_long_only_r(int,char **,const char *,const struct option *,int *,struct _getopt_data *)",getopt1.c,6,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"_getopt_long_r(int,char **,const char *,const struct option *,int *,struct _getopt_data *)",getopt1.c,6,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"getopt_long_only(int,char *const *,const char *,const struct option *,int *)",getopt1.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"getopt_long(int,char *const *,const char *,const struct option *,int *)",getopt1.c,7,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,call_fclose(void *),getpass.c,2,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,gnu_getpass(const char *),getpass.c,3,0,6,13,40,2,8,8,8,1,2,0,3,0,0
+Static Function,"dcnpgettext_expr(const char *,const char *,const char *,const char *,unsigned long,int)",gettext.h,6,11,9,4,2,0,3,3,4,1,1,0,1,0,0
+Static Function,"dcpgettext_expr(const char *,const char *,const char *,int)",gettext.h,4,11,9,4,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"npgettext_aux(const char *,const char *,const char *,const char *,unsigned long,int)",gettext.h,6,3,4,2,2,0,3,3,4,1,1,0,1,0,0
+Static Function,"pgettext_aux(const char *,const char *,const char *,int)",gettext.h,4,3,4,2,2,0,2,2,2,1,1,0,1,0,0
+Function,gettime(struct timespec *),gettime.c,6,1,5,5,2,0,2,2,2,1,1,0,1,0,0
+Function,"gettimeofday(struct timeval *restrict,void *restrict)",gettimeofday.c,4,33,18,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"getugroups(int,gid_t *,const char *,gid_t)",getugroups.c,7,0,0,7,522,3,14,14,15,11,20,20,5,20,0
+Function,endusershell(),getusershell.c,1,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Function,getusershell(),getusershell.c,5,0,0,6,9,1,7,7,7,7,8,8,2,8,0
+Static Function,"readname(char **,size_t *,FILE *)",getusershell.c,4,0,0,5,10,1,5,5,7,3,2,2,2,2,0
+Function,setusershell(),getusershell.c,1,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"gl_linked_get_at(gl_list_t,size_t)",gl_anylinked_list2.h,7,0,0,2,5,1,5,5,5,1,2,0,2,0,0
+Static Function,"gl_linked_indexof_from_to(gl_list_t,size_t,size_t,const void *)",gl_anylinked_list2.h,10,87,3,2,13,1,8,8,9,7,10,10,3,10,0
+Static Function,gl_linked_iterator_free(gl_list_iterator_t *),gl_anylinked_list2.h,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"gl_linked_iterator_from_to(gl_list_t,size_t,size_t)",gl_anylinked_list2.h,9,3,2,6,13,1,10,10,12,1,3,0,2,0,0
+Static Function,"gl_linked_iterator_next(gl_list_iterator_t *,const void **,gl_list_node_t *)",gl_anylinked_list2.h,6,0,0,5,3,0,3,3,3,1,1,0,2,0,0
+Static Function,gl_linked_iterator(gl_list_t),gl_anylinked_list2.h,5,3,2,5,1,0,1,1,1,1,0,0,0,0,0
+Static Function,gl_linked_list_free(gl_list_t),gl_anylinked_list2.h,6,1,2,1,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"gl_linked_next_node(gl_list_t,gl_list_node_t)",gl_anylinked_list2.h,4,0,0,1,1,0,2,2,2,1,0,0,0,0,0
+Static Function,"gl_linked_node_nx_set_value(gl_list_t,gl_list_node_t,const void *)",gl_anylinked_list2.h,1,29,3,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"gl_linked_node_value(gl_list_t,gl_list_node_t)",gl_anylinked_list2.h,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"gl_linked_nx_add_after(gl_list_t,gl_list_node_t,const void *)",gl_anylinked_list2.h,3,12,4,6,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"gl_linked_nx_add_at(gl_list_t,size_t,const void *)",gl_anylinked_list2.h,7,12,4,7,6,1,6,6,6,3,3,2,2,2,0
+Static Function,"gl_linked_nx_add_before(gl_list_t,gl_list_node_t,const void *)",gl_anylinked_list2.h,4,12,4,6,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"gl_linked_nx_add_first(gl_list_t,const void *)",gl_anylinked_list2.h,4,12,4,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"gl_linked_nx_add_last(gl_list_t,const void *)",gl_anylinked_list2.h,5,12,4,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"gl_linked_nx_create_empty(gl_list_implementation_t,gl_listelement_equals_fn,gl_listelement_hashcode_fn,gl_listelement_dispose_fn,_Bool)",gl_anylinked_list2.h,6,8,4,12,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"gl_linked_nx_create(gl_list_implementation_t,gl_listelement_equals_fn,gl_listelement_hashcode_fn,gl_listelement_dispose_fn,_Bool,size_t,const void **)",gl_anylinked_list2.h,9,25,6,14,4,1,5,5,5,4,5,5,2,4,0
+Static Function,"gl_linked_nx_set_at(gl_list_t,size_t,const void *)",gl_anylinked_list2.h,7,29,3,3,5,1,5,5,5,1,2,0,2,0,0
+Static Function,"gl_linked_previous_node(gl_list_t,gl_list_node_t)",gl_anylinked_list2.h,4,0,0,1,1,0,2,2,2,1,0,0,0,0,0
+Static Function,"gl_linked_remove_at(gl_list_t,size_t)",gl_anylinked_list2.h,9,1,2,7,9,1,6,6,6,1,2,0,2,0,0
+Static Function,"gl_linked_remove_node(gl_list_t,gl_list_node_t)",gl_anylinked_list2.h,9,2,2,6,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"gl_linked_remove(gl_list_t,const void *)",gl_anylinked_list2.h,3,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"gl_linked_search_from_to(gl_list_t,size_t,size_t,const void *)",gl_anylinked_list2.h,11,117,3,2,13,1,8,8,9,7,10,10,3,10,0
+Static Function,gl_linked_size(gl_list_t),gl_anylinked_list2.h,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"gl_linked_sortedlist_indexof_from_to(gl_list_t,gl_listelement_compar_fn,size_t,size_t,const void *)",gl_anylinked_list2.h,9,0,0,2,18,1,9,9,10,6,8,7,3,7,0
+Static Function,"gl_linked_sortedlist_indexof(gl_list_t,gl_listelement_compar_fn,const void *)",gl_anylinked_list2.h,5,0,0,1,5,1,4,4,4,4,6,6,2,6,0
+Static Function,"gl_linked_sortedlist_nx_add(gl_list_t,gl_listelement_compar_fn,const void *)",gl_anylinked_list2.h,5,0,0,3,3,0,3,3,3,3,3,3,2,3,0
+Static Function,"gl_linked_sortedlist_remove(gl_list_t,gl_listelement_compar_fn,const void *)",gl_anylinked_list2.h,5,0,0,2,5,1,4,4,4,4,6,6,2,6,0
+Static Function,"gl_linked_sortedlist_search_from_to(gl_list_t,gl_listelement_compar_fn,size_t,size_t,const void *)",gl_anylinked_list2.h,9,0,0,2,18,1,9,9,10,6,8,7,3,7,0
+Static Function,"gl_linked_sortedlist_search(gl_list_t,gl_listelement_compar_fn,const void *)",gl_anylinked_list2.h,5,0,0,1,5,1,4,4,4,4,6,6,2,6,0
+Function,gl_list_free(gl_list_t),gl_list.h,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_get_at(gl_list_t,size_t)",gl_list.h,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_indexof_from_to(gl_list_t,size_t,size_t,const void *)",gl_list.h,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_indexof_from(gl_list_t,size_t,const void *)",gl_list.h,4,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_indexof(gl_list_t,const void *)",gl_list.h,3,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,gl_list_iterator_free(gl_list_iterator_t *),gl_list.h,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_iterator_from_to(gl_list_t,size_t,size_t)",gl_list.h,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_iterator_next(gl_list_iterator_t *,const void **,gl_list_node_t *)",gl_list.h,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,gl_list_iterator(gl_list_t),gl_list.h,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_next_node(gl_list_t,gl_list_node_t)",gl_list.h,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_node_nx_set_value(gl_list_t,gl_list_node_t,const void *)",gl_list.h,5,0,2,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_node_value(gl_list_t,gl_list_node_t)",gl_list.h,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_nx_add_after(gl_list_t,gl_list_node_t,const void *)",gl_list.h,5,0,2,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_nx_add_at(gl_list_t,size_t,const void *)",gl_list.h,5,0,2,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_nx_add_before(gl_list_t,gl_list_node_t,const void *)",gl_list.h,5,0,2,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_nx_add_first(gl_list_t,const void *)",gl_list.h,4,0,2,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_nx_add_last(gl_list_t,const void *)",gl_list.h,4,0,2,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_nx_create_empty(gl_list_implementation_t,gl_listelement_equals_fn,gl_listelement_hashcode_fn,gl_listelement_dispose_fn,_Bool)",gl_list.h,6,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_nx_create(gl_list_implementation_t,gl_listelement_equals_fn,gl_listelement_hashcode_fn,gl_listelement_dispose_fn,_Bool,size_t,const void **)",gl_list.h,8,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_nx_set_at(gl_list_t,size_t,const void *)",gl_list.h,5,0,2,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_previous_node(gl_list_t,gl_list_node_t)",gl_list.h,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_remove_at(gl_list_t,size_t)",gl_list.h,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_remove_node(gl_list_t,gl_list_node_t)",gl_list.h,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_remove(gl_list_t,const void *)",gl_list.h,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_search_from_to(gl_list_t,size_t,size_t,const void *)",gl_list.h,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_search_from(gl_list_t,size_t,const void *)",gl_list.h,4,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_search(gl_list_t,const void *)",gl_list.h,3,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,gl_list_size(gl_list_t),gl_list.h,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_sortedlist_indexof_from_to(gl_list_t,gl_listelement_compar_fn,size_t,size_t,const void *)",gl_list.h,6,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_sortedlist_indexof(gl_list_t,gl_listelement_compar_fn,const void *)",gl_list.h,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_sortedlist_nx_add(gl_list_t,gl_listelement_compar_fn,const void *)",gl_list.h,5,0,2,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_sortedlist_remove(gl_list_t,gl_listelement_compar_fn,const void *)",gl_list.h,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_sortedlist_search_from_to(gl_list_t,gl_listelement_compar_fn,size_t,size_t,const void *)",gl_list.h,6,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_sortedlist_search(gl_list_t,gl_listelement_compar_fn,const void *)",gl_list.h,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"shaGL_OPENSSL_NAME_buffer(const char *,int,void *)",gl_openssl.h,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"shaGL_OPENSSL_NAME_finish_ctx(struct _gl_ctx *,void *)",gl_openssl.h,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,shaGL_OPENSSL_NAME_init_ctx(struct _gl_ctx *),gl_openssl.h,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Function,"shaGL_OPENSSL_NAME_process_block(const void *,int,struct _gl_ctx *)",gl_openssl.h,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"shaGL_OPENSSL_NAME_process_bytes(const void *,int,struct _gl_ctx *)",gl_openssl.h,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"shaGL_OPENSSL_NAME_read_ctx(const struct _gl_ctx *,void *)",gl_openssl.h,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"gl_list_add_after(gl_list_t,gl_list_node_t,const void *)",gl_xlist.h,3,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"gl_list_add_at(gl_list_t,size_t,const void *)",gl_xlist.h,3,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"gl_list_add_before(gl_list_t,gl_list_node_t,const void *)",gl_xlist.h,3,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"gl_list_add_first(gl_list_t,const void *)",gl_xlist.h,2,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"gl_list_add_last(gl_list_t,const void *)",gl_xlist.h,2,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"gl_list_create_empty(gl_list_implementation_t,gl_listelement_equals_fn,gl_listelement_hashcode_fn,gl_listelement_dispose_fn,_Bool)",gl_xlist.h,5,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"gl_list_create(gl_list_implementation_t,gl_listelement_equals_fn,gl_listelement_hashcode_fn,gl_listelement_dispose_fn,_Bool,size_t,const void **)",gl_xlist.h,7,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"gl_list_node_set_value(gl_list_t,gl_list_node_t,const void *)",gl_xlist.h,3,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Function,"gl_list_set_at(gl_list_t,size_t,const void *)",gl_xlist.h,3,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"gl_sortedlist_add(gl_list_t,gl_listelement_compar_fn,const void *)",gl_xlist.h,3,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,free_group_info(const struct group_info *),group-member.c,4,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Static Function,get_group_info(struct group_info *),group-member.c,4,0,0,5,4,1,5,5,6,1,0,0,3,0,0
+Function,group_member(gid_t),group-member.c,2,0,0,3,3,0,3,3,3,3,2,2,2,2,0
+Function,hard_locale(int),hard-locale.c,2,0,0,5,6,1,6,6,10,1,1,0,4,0,0
+Function,"hash_pjw(const void *,size_t)",hash-pjw.c,3,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"triple_compare_ino_str(const void *,const void *)",hash-triple.c,5,0,0,2,1,0,2,2,4,1,0,0,0,0,0
+Function,"triple_compare(const void *,const void *)",hash-triple.c,5,0,0,2,1,0,2,2,4,1,0,0,0,0,0
+Function,triple_free(void *),hash-triple.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"triple_hash_no_name(const void *,size_t)",hash-triple.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"triple_hash(const void *,size_t)",hash-triple.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,allocate_entry(Hash_table *),hash.c,5,1,3,4,2,0,2,2,2,1,1,0,1,0,0
+Static Function,check_tuning(Hash_table *),hash.c,10,0,0,3,3,0,3,3,9,3,2,2,1,2,0
+Static Function,"compute_bucket_size(size_t,const Hash_tuning *)",hash.c,6,0,0,2,5,1,5,5,5,4,3,3,2,3,0
+Static Function,"free_entry(Hash_table *,struct hash_entry *)",hash.c,5,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Function,hash_clear(Hash_table *),hash.c,7,0,0,7,8,1,6,6,6,1,0,0,4,0,0
+Function,"hash_delete(Hash_table *,const void *)",hash.c,13,0,2,8,7,1,8,8,8,1,1,0,5,0,0
+Function,"hash_do_for_each(const Hash_table *,Hash_processor,void *)",hash.c,6,0,0,1,5,1,5,5,5,5,6,6,4,6,0
+Static Function,"hash_find_entry(Hash_table *,const void *,struct hash_entry **,_Bool)",hash.c,7,0,0,7,8,1,8,8,10,5,6,6,3,5,0
+Function,hash_free(Hash_table *),hash.c,15,3,3,2,30,1,8,8,9,1,0,0,4,0,0
+Function,"hash_get_entries(const Hash_table *,void **,size_t)",hash.c,6,0,0,2,5,1,5,5,5,5,6,6,4,6,0
+Function,hash_get_first(const Hash_table *),hash.c,5,0,0,2,5,1,5,5,5,5,5,5,2,5,0
+Function,hash_get_max_bucket_length(const Hash_table *),hash.c,6,0,0,1,6,1,5,5,5,1,0,0,3,0,0
+Function,hash_get_n_buckets_used(const Hash_table *),hash.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,hash_get_n_buckets(const Hash_table *),hash.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,hash_get_n_entries(const Hash_table *),hash.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"hash_get_next(const Hash_table *,const void *)",hash.c,5,0,0,2,4,1,5,5,6,5,5,5,2,5,0
+Function,"hash_initialize(size_t,const Hash_tuning *,Hash_hasher,Hash_comparator,Hash_data_freer)",hash.c,16,1,2,16,68,2,8,8,8,5,7,7,1,7,0
+Function,"hash_insert_if_absent(Hash_table *,const void *,const void **)",hash.c,13,0,0,11,15,1,12,12,12,10,14,14,3,14,0
+Function,"hash_insert(Hash_table *,const void *)",hash.c,9,0,0,2,1,0,3,3,3,1,0,0,0,0,0
+Function,"hash_lookup(const Hash_table *,const void *)",hash.c,9,0,0,3,4,1,4,4,5,4,4,4,2,4,0
+Function,"hash_print_statistics(const Hash_table *,FILE *)",hash.c,2,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Function,"hash_rehash(Hash_table *,size_t)",hash.c,13,1,2,17,6,1,6,6,7,6,5,5,1,5,0
+Function,hash_reset_tuning(Hash_tuning *),hash.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"hash_string(const char *,size_t)",hash.c,3,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,hash_table_ok(const Hash_table *),hash.c,7,0,0,1,8,1,5,5,6,1,1,0,3,0,0
+Static Function,is_prime(size_t),hash.c,2,0,0,1,2,0,3,3,4,1,0,0,1,0,0
+Static Function,next_prime(size_t),hash.c,2,0,0,2,4,1,3,3,4,1,0,0,1,0,0
+Static Function,"raw_comparator(const void *,const void *)",hash.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"raw_hasher(const void *,size_t)",hash.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"safe_hasher(const Hash_table *,const void *)",hash.c,8,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"transfer_entries(Hash_table *,Hash_table *,_Bool)",hash.c,8,0,0,7,20,1,8,8,8,6,9,9,4,8,0
+Function,"heap_alloc(int (*)(const void *, const void *),size_t)",heap.c,3,0,0,7,2,0,3,3,3,1,0,0,1,0,0
+Static Function,"heap_default_compare(const void *,const void *)",heap.c,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,heap_free(struct heap *),heap.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"heap_insert(struct heap *,void *)",heap.c,6,0,0,6,2,0,2,2,2,1,0,0,1,0,0
+Function,heap_remove_top(struct heap *),heap.c,4,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"heapify_down(void **,size_t,size_t,int (*)(const void *, const void *))",heap.c,4,0,0,2,5,1,4,4,5,3,2,2,2,2,0
+Static Function,"heapify_up(void **,size_t,int (*)(const void *, const void *))",heap.c,3,0,0,1,2,0,2,2,3,1,0,0,1,0,0
+Static Function,"adjust_value(int,long double)",human.c,3,0,0,1,2,0,2,2,4,1,0,0,1,0,0
+Static Function,default_block_size(),human.c,2,0,0,2,1,0,2,2,2,1,0,0,0,0,0
+Static Function,"group_number(char *,size_t,const char *,const char *)",human.c,5,0,0,3,9,1,6,6,6,3,2,2,2,2,0
+Function,"human_options(const char *,int *,uintmax_t *)",human.c,3,0,0,4,2,0,2,2,2,1,0,0,1,0,0
+Function,"human_readable(uintmax_t,char *,int,uintmax_t,uintmax_t)",human.c,9,0,0,8,5880,4,36,36,51,9,11,11,5,10,0
+Static Function,"humblock(const char *,uintmax_t *,int *)",human.c,5,0,0,7,17,1,9,9,13,6,7,7,5,7,0
+Function,i_ring_empty(const I_ring *),i-ring.c,5,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"i_ring_init(I_ring *,int)",i-ring.c,2,0,0,6,2,0,2,2,2,1,0,0,1,0,0
+Function,i_ring_pop(I_ring *),i-ring.c,7,0,0,7,3,0,3,3,3,1,2,0,1,0,0
+Function,"i_ring_push(I_ring *,int)",i-ring.c,7,0,0,6,2,0,2,2,2,1,0,0,1,0,0
+Function,rpl_iconv_close(iconv_t),iconv_close.c,1,12,3,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"mapping_hash(const char *,unsigned int)",iconv_open-aix.h,3,3,4,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"mapping_lookup(const char *,unsigned int)",iconv_open-aix.h,5,0,3,2,5,1,5,5,8,5,4,4,4,4,0
+Static Function,"mapping_hash(const char *,unsigned int)",iconv_open-hpux.h,3,3,4,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"mapping_lookup(const char *,unsigned int)",iconv_open-hpux.h,5,0,3,2,5,1,5,5,8,5,4,4,4,4,0
+Static Function,"mapping_hash(const char *,unsigned int)",iconv_open-irix.h,3,3,4,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"mapping_lookup(const char *,unsigned int)",iconv_open-irix.h,5,0,3,2,5,1,5,5,8,5,4,4,4,4,0
+Static Function,"mapping_hash(const char *,unsigned int)",iconv_open-osf.h,3,3,4,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"mapping_lookup(const char *,unsigned int)",iconv_open-osf.h,5,0,3,2,5,1,5,5,8,5,4,4,4,4,0
+Static Function,"mapping_hash(const char *,unsigned int)",iconv_open-solaris.h,3,3,4,1,2,0,6,2,6,1,0,0,1,0,0
+Function,"mapping_lookup(const char *,unsigned int)",iconv_open-solaris.h,5,0,3,2,5,1,5,5,8,5,4,4,4,4,0
+Function,"rpl_iconv_open(const char *,const char *)",iconv_open.c,2,56,6,4,8,1,6,6,6,6,7,7,2,7,0
+Function,"rpl_iconv(iconv_t,char **,size_t *,char **,size_t *)",iconv.c,5,164,3,2,1,0,1,1,1,1,0,0,0,0,0
+Function,getgidbyname(const char *),idcache.c,8,7,2,11,11,1,6,6,8,6,7,7,2,7,0
+Function,getgroup(gid_t),idcache.c,7,0,0,9,6,1,6,6,6,3,2,2,2,2,0
+Function,getuidbyname(const char *),idcache.c,8,7,2,11,11,1,6,6,8,6,7,7,2,7,0
+Function,getuser(uid_t),idcache.c,7,0,0,9,6,1,6,6,6,3,2,2,2,2,0
+Function,"rpl_inet_ntop(int,const void *restrict,char *restrict,socklen_t)",inet_ntop.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"ino_compare(const void *,const void *)",ino-map.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"ino_hash(const void *,size_t)",ino-map.c,3,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,ino_map_alloc(size_t),ino-map.c,3,0,0,7,3,0,3,3,3,3,2,2,2,2,0
+Function,ino_map_free(struct ino_map *),ino-map.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"ino_map_insert(struct ino_map *,ino_t)",ino-map.c,8,0,0,8,8,1,6,6,6,5,7,6,2,6,0
+Function,isapipe(int),isapipe.c,3,0,0,5,5,1,6,6,10,5,5,5,3,5,0
+Function,isatty(int),isatty.c,1,0,0,3,4,1,4,4,4,4,3,3,2,3,0
+Static Function,IsConsoleHandle(int),isatty.c,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,__ctype_b_loc(),isblank.c,18,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,rpl_isnand(double),isnan.c,3,65,14,3,2,0,50,50,51,1,1,0,1,0,0
+Function,rpl_isnand(double),isnan.copy1.c,3,65,14,3,2,0,50,50,51,1,1,0,1,0,0
+Function,rpl_isnand(double),isnan.copy2.c,3,65,14,3,2,0,50,50,51,1,1,0,1,0,0
+Function,rpl_isnand(double),isnan.copy3.c,3,65,14,3,2,0,50,50,51,1,1,0,1,0,0
+Function,iswblank(wint_t),iswblank.c,1,0,0,1,1,0,1,1,2,1,0,0,0,0,0
+Function,"_Qp_itoq(long double *,int)",itold.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_lchown(const char *,uid_t,gid_t)",lchown.c,3,27,6,2,1,0,1,1,1,1,0,0,0,0,0
+Function,freebuffer(struct linebuffer *),linebuffer.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,initbuffer(struct linebuffer *),linebuffer.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"readlinebuffer(struct linebuffer *,FILE *)",linebuffer.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_link(const char *,const char *)",link.c,3,0,0,9,8,1,8,8,11,8,11,11,3,11,0
+Static Function,"linkat_follow(int,const char *,int,const char *)",linkat.c,5,0,0,7,44,2,11,11,14,6,10,10,3,10,0
+Function,"rpl_linkat(int,const char *,int,const char *,int)",linkat.c,5,25,4,4,5,1,5,5,6,5,4,4,2,4,0
+Static Function,get_charset_aliases(),localcharset.c,2,118,11,16,1183,3,19,19,24,12,19,19,7,17,0
+Function,locale_charset(),localcharset.c,4,174,13,5,12,1,5,5,7,3,2,2,2,2,0
+Function,localeconv(),localeconv.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,glthread_once_singlethreaded(pthread_once_t *),lock.c,3,0,0,1,2,0,2,2,2,1,1,0,1,0,0
+Function,glthread_recursive_lock_init_multithreaded(gl_recursive_lock_t *),lock.c,1,0,0,5,5,1,5,5,5,5,4,4,1,4,0
+Function,"parse_long_options(int,char **,const char *,const char *,const char *,void (*)(int))",long-options.c,9,0,0,6,4,1,4,3,5,4,2,2,2,2,0
+Function,"rpl_lseek(int,off_t,int)",lseek.c,4,13,6,4,3,0,3,3,3,3,2,2,1,2,0
+Static Function,"orig_lstat(const char *,struct stat *)",lstat.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_lstat(const char *,struct stat *)",lstat.c,3,0,0,5,4,1,4,4,5,4,3,3,1,3,0
+Function,rpl_malloc(size_t),malloc.c,1,4,4,2,1,0,1,1,1,1,0,0,0,0,0
+Function,freea(void *),malloca.c,6,0,0,1,5,1,5,5,5,5,5,5,4,5,0
+Function,mmalloca(size_t),malloca.c,5,5,5,6,3,0,3,3,3,3,2,2,2,2,0
+Function,is_basic(char),mbchar.h,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"mb_copy(mbchar_t *,const mbchar_t *)",mbchar.h,10,0,0,6,4,1,3,3,3,1,1,0,1,0,0
+Function,mb_width_aux(wint_t),mbchar.h,1,0,0,3,1,0,3,3,3,1,0,0,0,0,0
+Function,"mbiter_multi_copy(struct mbiter_multi *,const struct mbiter_multi *)",mbiter.h,7,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Function,mbiter_multi_next(struct mbiter_multi *),mbiter.h,10,0,0,11,21,1,11,11,11,10,22,22,4,22,0
+Function,"mbiter_multi_reloc(struct mbiter_multi *,ptrdiff_t)",mbiter.h,1,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"mbrlen(const char *,size_t,mbstate_t *)",mbrlen.c,4,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Function,"rpl_mbrtowc(wchar_t *,const char *,size_t,mbstate_t *)",mbrtowc.c,4,56,11,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"ambsalign(const char *,size_t *,mbs_align_t,int)",mbsalign.c,4,0,0,5,5,1,4,4,4,4,4,4,2,4,0
+Static Function,"mbs_align_pad(char *,const char *,size_t)",mbsalign.c,4,0,0,2,2,0,2,2,3,1,0,0,1,0,0
+Function,"mbsalign(const char *,char *,size_t,size_t *,mbs_align_t,int)",mbsalign.c,7,0,0,13,17024,4,20,18,23,12,26,26,3,26,0
+Static Function,wc_ensure_printable(wchar_t *),mbsalign.c,2,0,0,2,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"wc_truncate(wchar_t *,size_t)",mbsalign.c,3,0,0,3,5,1,4,4,4,3,2,2,2,2,0
+Function,"mbscasecmp(const char *,const char *)",mbscasecmp.c,10,0,0,12,12,1,21,21,26,10,13,13,3,13,0
+Function,mbsinit(const mbstate_t *),mbsinit.c,7,0,0,1,1,0,1,1,2,1,0,0,0,0,0
+Function,mbslen(const char *),mbslen.c,7,0,0,9,3,0,3,3,4,1,1,0,2,0,0
+Function,"mbsrtowcs(wchar_t *,const char **,size_t,mbstate_t *)",mbsrtowcs-impl.h,6,0,0,6,104,2,19,19,21,10,32,25,3,23,0
+Static Function,"knuth_morris_pratt_multibyte(const char *,const char *,const char **)",mbsstr.c,9,0,0,15,97,2,19,19,27,13,24,24,4,24,0
+Function,"mbsstr(const char *,const char *)",mbsstr.c,9,0,0,15,88,2,30,30,46,25,73,73,6,73,0
+Function,"gnu_mbswidth(const char *,int)",mbswidth.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"mbsnwidth(const char *,size_t,int)",mbswidth.c,4,0,0,8,60,2,112,21,112,20,82,82,7,82,0
+Function,"mbtowc(wchar_t *,const char *,size_t)",mbtowc-impl.h,4,0,0,5,4,1,5,5,6,3,2,2,2,2,0
+Function,"mbuiter_multi_copy(struct mbuiter_multi *,const struct mbuiter_multi *)",mbuiter.h,6,0,0,6,2,0,2,2,2,1,1,0,1,0,0
+Function,mbuiter_multi_next(struct mbuiter_multi *),mbuiter.h,14,0,0,14,21,1,11,11,11,10,22,22,4,22,0
+Function,"mbuiter_multi_reloc(struct mbuiter_multi *,ptrdiff_t)",mbuiter.h,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"md5_buffer(const char *,size_t,void *)",md5.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"md5_finish_ctx(struct md5_ctx *,void *)",md5.c,8,0,0,6,2,0,3,3,3,1,0,0,1,0,0
+Function,md5_init_ctx(struct md5_ctx *),md5.c,2,0,0,7,1,0,1,1,1,1,0,0,0,0,0
+Function,"md5_process_block(const void *,size_t,struct md5_ctx *)",md5.c,11,0,4,5,2,0,66,66,66,1,0,0,2,0,0
+Function,"md5_process_bytes(const void *,size_t,struct md5_ctx *)",md5.c,7,0,3,3,36,2,9,9,9,1,1,0,3,0,0
+Function,"md5_read_ctx(const struct md5_ctx *,void *)",md5.c,7,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"md5_stream(FILE *,void *)",md5.c,2,0,0,10,23,1,9,9,9,8,20,20,4,20,0
+Static Function,"set_uint32(char *,uint32_t)",md5.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"memcasecmp(const void *,const void *,size_t)",memcasecmp.c,4,0,0,2,3,0,5,5,5,3,3,3,2,3,0
+Function,"memchr(const void *,int,size_t)",memchr.c,10,0,0,1,73,2,10,10,11,7,8,8,3,8,0
+Function,"memchr2(const void *,int,int,size_t)",memchr2.c,5,0,0,2,74,2,11,11,14,8,9,9,3,9,0
+Function,"memcmp2(const char *,size_t,const char *,size_t)",memcmp2.c,4,0,0,2,4,1,5,5,5,1,1,0,2,0,0
+Function,"memcoll(char *,size_t,char *,size_t)",memcoll.c,5,0,0,6,2,0,2,2,3,1,1,0,1,0,0
+Function,"memcoll0(const char *,size_t,const char *,size_t)",memcoll.c,5,0,0,4,2,0,2,2,3,1,1,0,1,0,0
+Static Function,"strcoll_loop(const char *,size_t,const char *,size_t)",memcoll.c,6,0,0,4,4,1,4,4,5,4,6,6,2,6,0
+Function,"mempcpy(void *,const void *,size_t)",mempcpy.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"memrchr(const void *,int,size_t)",memrchr.c,4,0,0,1,73,2,10,10,11,7,8,8,3,8,0
+Function,"mgetgroups(const char *,gid_t,gid_t **)",mgetgroups.c,3,0,2,8,93,2,18,18,24,10,16,16,3,15,0
+Static Function,"realloc_groupbuf(gid_t *,size_t)",mgetgroups.c,3,0,0,3,2,0,3,3,3,1,1,0,1,0,0
+Function,"mkancesdirs(char *,struct savewd *,int (*)(const char *, const char *, void *),void *)",mkancesdirs.c,4,0,0,3,65,2,14,12,20,10,10,10,5,10,0
+Function,"make_dir_parents(char *,struct savewd *,int (*)(const char *, const char *, void *),void *,mode_t,void (*)(const char *, void *),mode_t,uid_t,gid_t,_Bool)",mkdir-p.c,10,0,0,11,113,2,19,19,28,11,23,21,5,21,0
+Function,"rpl_mkdir(const char *,mode_t)",mkdir.c,2,12,2,7,5,1,4,4,5,3,3,3,2,3,0
+Function,"rpl_mkfifo(const char *,mode_t)",mkfifo.c,2,8,2,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_mknod(const char *,mode_t,dev_t)",mknod.c,3,18,4,2,1,0,1,1,1,1,0,0,0,0,0
+Function,mkstemp_safer(char *),mkstemp-safer.c,1,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,mkstemp(char *),mkstemp.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"guess_time_tm(long_int,long_int,int,int,int,const time_t *,const struct tm *)",mktime.c,13,0,0,3,3,0,22,22,25,3,2,2,2,2,0
+Static Function,"isdst_differ(int,int)",mktime.c,3,0,0,1,1,0,1,1,3,1,0,0,0,0,0
+Static Function,leapyear(long_int),mktime.c,2,0,0,1,1,0,1,1,3,1,0,0,0,0,0
+Function,"mktime_internal(struct tm *,struct tm *(*)(const time_t *, struct tm *),time_t *)",mktime.c,12,0,0,9,1370,3,35,35,64,16,23,23,5,23,0
+Function,mktime(struct tm *),mktime.c,6,4,2,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"ranged_convert(struct tm *(*)(const time_t *, struct tm *),time_t *,struct tm *)",mktime.c,3,0,0,3,7,1,6,6,8,1,1,0,3,0,0
+Static Function,"time_t_add_ok(time_t,time_t)",mktime.c,3,0,0,2,3,0,16,16,20,3,2,2,1,2,0
+Static Function,"time_t_avg(time_t,time_t)",mktime.c,4,0,0,1,1,0,3,3,9,1,0,0,0,0,0
+Static Function,"time_t_int_add_ok(time_t,int)",mktime.c,3,0,0,1,2,0,7,7,14,1,1,0,1,0,0
+Static Function,"ydhms_diff(long_int,long_int,int,int,int,int,int,int,int,int)",mktime.c,12,0,0,1,1,0,7,7,25,1,0,0,0,0,0
+Static Function,"make_node_op_equals(mode_t,mode_t)",modechange.c,4,0,0,7,1,0,1,1,1,1,0,0,0,0,0
+Function,"mode_adjust(mode_t,_Bool,mode_t,const struct mode_change *,mode_t *)",modechange.c,10,0,0,2,42,2,16,12,16,1,6,0,3,0,0
+Function,mode_compile(const char *),modechange.c,1,0,0,10,847,3,41,20,50,29,91,91,5,91,0
+Function,mode_create_from_ref(const char *),modechange.c,2,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,octal_to_mode(unsigned int),modechange.c,2,0,0,1,1,0,14,14,25,1,0,0,0,0,0
+Static Function,dev_from_mount_options(const char *),mountlist.c,2,18,2,1,1,0,1,1,1,1,0,0,0,0,0
+Function,free_mount_entry(struct mount_entry *),mountlist.c,6,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,read_file_system_list(_Bool),mountlist.c,8,493,36,28,41,2,12,12,48,10,17,17,3,17,0
+Static Function,unescape_tab(char *),mountlist.c,2,0,0,2,3,0,3,3,10,1,1,0,2,0,0
+Static Function,"mpsort_into_tmp(const void **restrict,size_t,const void **restrict,comparison_function)",mpsort.c,5,0,0,3,5,1,5,5,5,5,7,7,3,7,0
+Static Function,"mpsort_with_tmp(const void **restrict,size_t,const void **restrict,comparison_function)",mpsort.c,6,0,0,4,13,1,9,9,9,6,9,9,4,8,0
+Function,"mpsort(const void **,size_t,comparison_function)",mpsort.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"nanosleep(const struct timespec *,struct timespec *)",nanosleep.c,5,0,1,4,5,1,5,5,6,4,4,4,3,4,0
+Static Function,ctype_codeset(),nl_langinfo.c,1,11,2,4,5,1,5,5,6,1,1,0,4,0,0
+Function,nl_langinfo(nl_item),nl_langinfo.c,20,1,3,7,41,2,78,9,78,41,736,736,2,736,0
+Static Function,num_processors_via_affinity_mask(),nproc.c,1,99,13,3,3,0,3,3,3,3,2,2,2,2,0
+Function,num_processors(enum nproc_query),nproc.c,1,46,14,7,94,2,15,15,17,10,12,12,5,12,0
+Function,"_obstack_allocated_p(struct obstack *,void *)",obstack.c,5,0,0,1,2,0,2,2,4,1,0,0,1,0,0
+Function,"_obstack_begin_1(struct obstack *,size_t,size_t,void *(*)(void *, size_t),void (*)(void *, void *),void *)",obstack.c,6,0,0,8,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"_obstack_begin_worker(struct obstack *,size_t,size_t)",obstack.c,7,0,0,14,8,1,21,21,21,1,0,0,1,0,0
+Function,"_obstack_begin(struct obstack *,size_t,size_t,void *(*)(size_t),void (*)(void *))",obstack.c,6,0,0,7,1,0,1,1,1,1,0,0,0,0,0
+Function,"_obstack_free(struct obstack *,void *)",obstack.c,6,0,0,8,6,1,4,4,6,3,3,3,1,3,0
+Function,_obstack_memory_used(struct obstack *),obstack.c,4,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"_obstack_newchunk(struct obstack *,size_t)",obstack.c,12,0,0,12,32,2,10,10,12,1,0,0,1,0,0
+Static Function,"call_chunkfun(struct obstack *,size_t)",obstack.c,7,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"call_freefun(struct obstack *,void *)",obstack.c,7,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Static Function,print_and_abort(),obstack.c,2,1,3,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"open_safer(const char *,int)",open-safer.c,3,0,0,5,2,0,2,2,2,1,0,0,1,0,0
+Function,"open(const char *,int)",open.c,9,89,12,4,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"orig_open(const char *,int,mode_t)",open.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,openat_restore_fail(int),openat-die.c,3,0,2,3,1,0,1,1,1,1,0,0,0,0,0
+Function,openat_save_fail(int),openat-die.c,3,0,2,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"openat_proc_name(char [4032],int,const char *)",openat-proc.c,11,0,0,6,13,1,9,9,9,5,5,4,3,4,0
+Function,"openat_safer(int,const char *,int)",openat-safer.c,5,0,0,5,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"orig_openat(int,const char *,int,mode_t)",openat.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_openat(int,const char *,int)",openat.c,3,58,4,4,2,0,2,2,2,1,0,0,1,0,0
+Function,opendir_safer(const char *),opendir-safer.c,3,2,3,8,5,1,5,5,6,1,1,0,4,0,0
+Function,opendir(const char *),opendir.c,2,87,6,1,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"apply_relative_time(parser_control *,relative_time,int)",parse-datetime.c,10,0,0,9,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"digits_to_date_time(parser_control *,textint)",parse-datetime.c,9,0,0,14,4,1,4,4,8,1,3,0,3,0,0
+Static Function,get_tz(char [100]),parse-datetime.c,2,0,0,5,2,0,3,3,3,1,0,0,1,0,0
+Static Function,"lookup_word(const parser_control *,char *)",parse-datetime.c,10,0,0,7,1918,3,22,22,25,18,24,24,3,23,0
+Static Function,"lookup_zone(const parser_control *,const char *)",parse-datetime.c,7,0,0,2,15,1,7,7,7,7,9,9,2,9,0
+Static Function,"mktime_ok(const struct tm *,const struct tm *,time_t)",parse-datetime.c,10,0,0,2,3,0,3,3,3,3,2,2,2,2,0
+Function,"parse_datetime(struct timespec *,const char *,const struct timespec *)",parse-datetime.c,44,22,11,50,174190466,8,42,42,52,27,60,60,4,60,0
+Static Function,"set_hhmmss(parser_control *,long,long,time_t,long)",parse-datetime.c,5,0,0,6,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"time_zone_hhmm(parser_control *,textint,long)",parse-datetime.c,6,0,0,4,8,1,5,5,6,1,1,0,1,0,0
+Static Function,"to_hour(long,int)",parse-datetime.c,3,0,0,1,4,1,9,7,12,4,3,3,1,3,0
+Static Function,to_uchar(char),parse-datetime.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,to_year(textint),parse-datetime.c,4,0,0,1,3,0,4,4,4,1,1,0,1,0,0
+Static Function,"yydestruct(const char *,int,YYSTYPE *,parser_control *)",parse-datetime.c,5,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"yyerror(const parser_control *,const char *)",parse-datetime.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"yylex(union YYSTYPE *,parser_control *)",parse-datetime.c,8,0,0,15,4609,4,39,39,46,27,64,64,6,63,0
+Function,yyparse(parser_control *),parse-datetime.c,22,56,166,42,6336,4,109,38,115,19,2693,59,4,58,0
+Function,physmem_available(),physmem.c,3,69,14,4,3,0,3,3,4,3,2,2,1,2,0
+Function,physmem_total(),physmem.c,3,69,16,3,3,0,3,3,4,3,2,2,1,2,0
+Function,pipe_safer(int [2]),pipe-safer.c,1,1,3,5,4,1,4,4,4,4,5,5,3,5,0
+Static Function,"posix_time_parse(struct tm *,const char *,unsigned int)",posixtm.c,4,0,0,10,187,2,14,14,17,13,15,15,3,15,0
+Function,"posixtime(time_t *,const char *,unsigned int)",posixtm.c,8,0,0,8,10,1,7,7,7,7,8,8,2,8,0
+Static Function,"year(struct tm *,const int *,size_t,unsigned int)",posixtm.c,5,0,0,6,8,1,8,6,8,8,22,22,3,22,0
+Function,posix2_version(),posixver.c,1,0,0,3,3,0,5,5,6,1,0,0,2,0,0
+Function,"printf_fetchargs(va_list,arguments *)",printf-args.c,9,37,10,24,26,1,27,6,27,24,277,277,3,277,0
+Function,"printf_frexp(double,int *)",printf-frexp.c,1,97,3,4,2,0,2,2,2,1,0,0,1,0,0
+Function,"printf_parse(const char *,char_directives *,arguments *)",printf-parse.c,18,50,27,27,999999999,16,142,122,159,68,354,339,7,336,0
+Function,priv_set_remove_linkdir(),priv-set.h,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,priv_set_restore_linkdir(),priv-set.h,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,set_program_name(const char *),progname.c,3,0,4,7,4,1,5,5,6,1,1,0,2,0,0
+Static Function,"mbsstr_trimmed_wordbounded(const char *,const char *)",propername.c,10,0,0,15,114,2,20,20,29,13,29,29,6,29,0
+Function,"proper_name_utf8(const char *,const char *)",propername.c,2,0,6,14,48,2,16,16,22,3,5,3,3,3,0
+Function,proper_name(const char *),propername.c,1,0,0,7,3,0,4,4,4,3,3,3,2,3,0
+Static Function,_unsetenv(const char *),putenv.c,3,12,5,5,4,1,5,5,8,1,2,0,3,0,0
+Function,putenv(char *),putenv.c,2,39,5,8,10,1,6,6,7,6,6,6,2,6,0
+Function,"qcopy_acl(const char *,int,const char *,int,mode_t)",qcopy-acl.c,6,0,0,4,2,0,2,2,2,1,1,0,1,0,0
+Function,"qset_acl(const char *,int,mode_t)",qset-acl.c,4,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Function,clone_quoting_options(struct quoting_options *),quotearg.c,2,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Function,get_quoting_style(struct quoting_options *),quotearg.c,3,0,0,1,1,0,2,2,2,1,0,0,0,0,0
+Static Function,"gettext_quote(const char *,enum quoting_style)",quotearg.c,3,0,0,4,4,1,7,7,7,4,3,3,1,3,0
+Function,"quote_mem(const char *,size_t)",quotearg.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"quote_n_mem(int,const char *,size_t)",quotearg.c,6,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"quote_n(int,const char *)",quotearg.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,quote(const char *),quotearg.c,9,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"quotearg_alloc_mem(const char *,size_t,size_t *,const struct quoting_options *)",quotearg.c,11,0,0,5,2,0,4,4,4,1,0,0,1,0,0
+Function,"quotearg_alloc(const char *,size_t,const struct quoting_options *)",quotearg.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"quotearg_buffer_restyled(char *,size_t,const char *,size_t,enum quoting_style,int,const unsigned int *,const char *,const char *)",quotearg.c,12,0,1,12,31780161,8,218,96,243,59,349,349,8,349,0
+Function,"quotearg_buffer(char *,size_t,const char *,size_t,const struct quoting_options *)",quotearg.c,11,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Function,"quotearg_char_mem(const char *,size_t,char)",quotearg.c,6,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"quotearg_char(const char *,char)",quotearg.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"quotearg_colon_mem(const char *,size_t)",quotearg.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,quotearg_colon(const char *),quotearg.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"quotearg_custom_mem(const char *,const char *,const char *,size_t)",quotearg.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"quotearg_custom(const char *,const char *,const char *)",quotearg.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,quotearg_free(),quotearg.c,5,0,0,6,8,1,4,4,4,1,0,0,1,0,0
+Function,"quotearg_mem(const char *,size_t)",quotearg.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"quotearg_n_custom_mem(int,const char *,const char *,const char *,size_t)",quotearg.c,8,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"quotearg_n_custom(int,const char *,const char *,const char *)",quotearg.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"quotearg_n_mem(int,const char *,size_t)",quotearg.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"quotearg_n_options(int,const char *,size_t,const struct quoting_options *)",quotearg.c,22,0,0,13,11,1,9,9,9,4,3,3,2,3,0
+Function,"quotearg_n_style_mem(int,enum quoting_style,const char *,size_t)",quotearg.c,6,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"quotearg_n_style(int,enum quoting_style,const char *)",quotearg.c,5,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"quotearg_n(int,const char *)",quotearg.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"quotearg_style_mem(enum quoting_style,const char *,size_t)",quotearg.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"quotearg_style(enum quoting_style,const char *)",quotearg.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,quotearg(const char *),quotearg.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,quoting_options_from_style(enum quoting_style),quotearg.c,3,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"set_char_quoting(struct quoting_options *,char,int)",quotearg.c,6,0,0,1,1,0,2,2,2,1,0,0,0,0,0
+Function,"set_custom_quoting(struct quoting_options *,const char *,const char *)",quotearg.c,5,0,0,4,4,1,3,3,4,1,1,0,1,0,0
+Function,"set_quoting_flags(struct quoting_options *,int)",quotearg.c,4,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Function,"set_quoting_style(struct quoting_options *,enum quoting_style)",quotearg.c,3,0,0,2,1,0,2,2,2,1,0,0,0,0,0
+Function,rpl_raise(int),raise.c,1,3,5,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"ind(const isaac_word *,isaac_word)",rand-isaac.c,3,0,0,1,2,0,2,2,2,1,1,0,1,0,0
+Function,"isaac_refill(struct isaac_state *,isaac_word [256])",rand-isaac.c,7,0,1,5,1,0,19,19,19,1,0,0,1,0,0
+Function,isaac_seed(struct isaac_state *),rand-isaac.c,3,5,2,6,4,1,11,11,11,1,0,0,1,0,0
+Static Function,just(isaac_word),rand-isaac.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"min(size_t,size_t)",rand-isaac.c,2,0,0,1,1,0,2,2,2,1,0,0,0,0,0
+Function,randint_all_free(struct randint_source *),randint.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"randint_all_new(const char *,size_t)",randint.c,3,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Function,randint_free(struct randint_source *),randint.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"randint_genmax(struct randint_source *,randint)",randint.c,7,0,0,6,7,1,7,7,7,4,4,4,3,4,0
+Function,randint_get_source(const struct randint_source *),randint.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,randint_new(struct randread_source *),randint.c,2,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Static Function,shift_left(randint),randint.c,2,0,0,1,1,0,2,2,2,1,0,0,0,0,0
+Static Function,shift_right(randint),randint.c,1,0,0,1,1,0,2,2,2,1,0,0,0,0,0
+Static Function,"randint_choose(struct randint_source *,randint)",randint.h,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,ceil_lg(size_t),randperm.c,2,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"randperm_bound(size_t,size_t)",randperm.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"randperm_new(struct randint_source *,size_t,size_t)",randperm.c,3,0,0,10,21,1,9,8,10,5,10,8,3,8,0
+Static Function,"sparse_cmp_(const void *,const void *)",randperm.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,sparse_free(sparse_map *),randperm.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"sparse_hash_(const void *,size_t)",randperm.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,sparse_new(size_t),randperm.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"sparse_swap(sparse_map *,size_t *,size_t,size_t)",randperm.c,5,0,0,7,12,1,5,5,5,3,2,2,1,2,0
+Static Function,"swap(size_t *,size_t,size_t)",randperm.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"get_nonce(void *,size_t,size_t)",randread.c,4,4,3,8,96,2,14,14,14,1,0,0,2,0,0
+Static Function,randread_error(const void *),randread.c,2,0,0,5,2,0,3,3,3,1,0,0,1,0,0
+Function,randread_free(struct randread_source *),randread.c,3,0,0,4,1,0,2,2,2,1,0,0,0,0,0
+Function,"randread_new(const char *,size_t)",randread.c,8,0,0,9,6,1,6,6,6,4,4,3,3,3,0
+Function,"randread_set_handler_arg(struct randread_source *,const void *)",randread.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"randread_set_handler(struct randread_source *,void (*)(const void *))",randread.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"randread(struct randread_source *,void *,size_t)",randread.c,7,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"readisaac(struct isaac *,void *,size_t)",randread.c,9,0,0,4,6,1,6,6,6,6,7,7,4,7,0
+Static Function,"readsource(struct randread_source *,unsigned char *,size_t)",randread.c,6,0,0,4,3,0,4,4,4,3,2,2,2,2,0
+Static Function,"simple_new(FILE *,const void *)",randread.c,3,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Function,"fread_file(FILE *,size_t *)",read-file.c,4,0,0,11,49,2,13,13,15,10,16,16,4,15,0
+Static Function,"internal_read_file(const char *,size_t *,const char *)",read-file.c,5,0,0,6,4,1,4,4,4,3,2,2,2,2,0
+Function,"read_binary_file(const char *,size_t *)",read-file.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"read_file(const char *,size_t *)",read-file.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,readdir(DIR *),readdir.c,4,0,0,2,4,1,4,4,4,1,3,0,1,0,0
+Function,"rpl_readlink(const char *,char *,size_t)",readlink.c,3,13,2,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_readlinkat(int,const char *,char *,size_t)",readlinkat.c,4,13,2,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"get_nth_bit(size_t,const word *)",readtokens.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,init_tokenbuffer(token_buffer *),readtokens.c,1,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"readtoken(FILE *,const char *,size_t,token_buffer *)",readtokens.c,7,0,0,9,40,2,8,8,10,5,7,7,2,7,0
+Function,"readtokens(FILE *,size_t,const char *,size_t,char ***,size_t **)",readtokens.c,6,0,0,10,20,1,6,6,6,3,4,3,2,2,0
+Static Function,"set_nth_bit(size_t,word *)",readtokens.c,2,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Function,readtokens0_free(struct Tokens *),readtokens0.c,6,0,0,3,8,1,4,4,7,1,3,0,1,0,0
+Function,readtokens0_init(struct Tokens *),readtokens0.c,4,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Function,"readtokens0(FILE *,struct Tokens *)",readtokens0.c,10,0,0,11,544,3,16,16,16,3,2,2,4,2,0
+Static Function,save_token(struct Tokens *),readtokens0.c,10,0,0,6,16,1,7,7,7,1,0,0,1,0,0
+Static Function,"desirable_utmp_entry(const STRUCT_UTMP *,int)",readutmp.c,8,0,0,3,3,0,3,3,11,3,2,2,1,2,0
+Function,extract_trimmed_name(const STRUCT_UTMP *),readutmp.c,2,0,0,4,2,0,2,2,3,1,0,0,1,0,0
+Function,"read_utmp(const char *,size_t *,STRUCT_UTMP **,int)",readutmp.c,2,0,0,9,4,1,4,4,4,1,0,0,3,0,0
+Function,"rpl_realloc(void *,size_t)",realloc.c,2,12,6,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,free_dfa_content(int *),regcomp.c,0,3,4,0,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"init_dfa(int *,int)",regcomp.c,0,32,12,1,3,0,3,3,3,3,2,2,2,2,0
+Static Function,"re_compile_fastmap_iter(int *,const int *,char *)",regcomp.c,0,85,10,0,1,0,1,1,1,1,0,0,0,0,0
+Function,re_compile_fastmap(struct re_pattern_buffer *),regcomp.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"re_compile_internal(int *,const char *,int,int)",regcomp.c,0,6,4,1,64,2,7,7,7,4,4,4,1,4,0
+Function,"re_compile_pattern(const char *,int,struct re_pattern_buffer *)",regcomp.c,0,0,1,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"re_set_fastmap(char *,int,int)",regcomp.c,1,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Function,"regerror(int,const int *)",regcomp.c,0,0,1,2,4,1,4,4,4,1,1,0,2,0,0
+Static Function,free_dfa_content(int *),regcomp.copy1.c,0,3,4,0,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"init_dfa(int *,int)",regcomp.copy1.c,0,32,12,1,3,0,3,3,3,3,2,2,2,2,0
+Static Function,"re_compile_fastmap_iter(int *,const int *,char *)",regcomp.copy1.c,0,85,10,0,1,0,1,1,1,1,0,0,0,0,0
+Function,re_compile_fastmap(struct re_pattern_buffer *),regcomp.copy1.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"re_compile_internal(int *,const char *,int,int)",regcomp.copy1.c,0,6,4,1,64,2,7,7,7,4,4,4,1,4,0
+Function,"re_compile_pattern(const char *,int,struct re_pattern_buffer *)",regcomp.copy1.c,0,0,1,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"re_set_fastmap(char *,int,int)",regcomp.copy1.c,1,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Function,"regerror(int,const int *)",regcomp.copy1.c,0,0,1,2,4,1,4,4,4,1,1,0,2,0,0
+Static Function,"bitset_clear(bitset_t,Idx)",regex_internal.h,1,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"bitset_contain(const bitset_t,Idx)",regex_internal.h,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"bitset_copy(bitset_t,const bitset_t)",regex_internal.h,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,bitset_empty(bitset_t),regex_internal.h,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"bitset_mask(bitset_t,const bitset_t)",regex_internal.h,1,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"bitset_merge(bitset_t,const bitset_t)",regex_internal.h,1,0,0,0,2,0,2,2,2,1,0,0,1,0,0
+Static Function,bitset_not(bitset_t),regex_internal.h,1,0,0,0,4,1,3,3,3,1,0,0,1,0,0
+Static Function,bitset_set_all(bitset_t),regex_internal.h,1,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"bitset_set(bitset_t,Idx)",regex_internal.h,1,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"re_string_char_size_at(const re_string_t *,Idx)",regex_internal.h,5,0,0,1,4,1,4,4,4,4,3,3,2,3,0
+Static Function,"re_string_elem_size_at(const re_string_t *,Idx)",regex_internal.h,0,17,3,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"re_string_wchar_at(const re_string_t *,Idx)",regex_internal.h,5,0,0,1,2,0,2,2,2,1,1,0,1,0,0
+Static Function,prune_impossible_nodes(int *),regexec.c,0,1,2,1,48,2,10,10,10,10,16,16,3,16,0
+Static Function,"re_copy_regs(struct re_registers *,int *,int,int)",regexec.c,0,0,0,1,6,1,6,6,6,1,2,0,3,0,0
+Static Function,"re_search_2_stub(struct re_pattern_buffer *,const char *,int,const char *,int,int,int,struct re_registers *,int,int)",regexec.c,2,1,3,3,5,1,5,5,5,5,6,6,3,6,0
+Static Function,"re_search_internal(const int *,const char *,int,int,int,int,size_t,int [],int)",regexec.c,1,22,14,1,161440,5,32,28,32,29,75,75,5,75,0
+Static Function,"re_search_stub(struct re_pattern_buffer *,const char *,int,int,int,int,struct re_registers *,int)",regexec.c,2,0,0,2,289,2,12,12,12,1,6,0,2,0,0
+Static Function,prune_impossible_nodes(int *),regexec.copy.c,0,1,2,1,48,2,10,10,10,10,16,16,3,16,0
+Static Function,"re_copy_regs(struct re_registers *,int *,int,int)",regexec.copy.c,0,0,0,1,6,1,6,6,6,1,2,0,3,0,0
+Static Function,"re_search_2_stub(struct re_pattern_buffer *,const char *,int,const char *,int,int,int,struct re_registers *,int,int)",regexec.copy.c,2,1,3,3,5,1,5,5,5,5,6,6,3,6,0
+Static Function,"re_search_internal(const int *,const char *,int,int,int,int,size_t,int [],int)",regexec.copy.c,1,22,14,1,161440,5,32,28,32,29,75,75,5,75,0
+Static Function,"re_search_stub(struct re_pattern_buffer *,const char *,int,int,int,int,struct re_registers *,int)",regexec.copy.c,2,0,0,2,289,2,12,12,12,1,6,0,2,0,0
+Static Function,prune_impossible_nodes(int *),regexec.copy1.c,0,1,2,1,48,2,10,10,10,10,16,16,3,16,0
+Static Function,"re_copy_regs(struct re_registers *,int *,int,int)",regexec.copy1.c,0,0,0,1,6,1,6,6,6,1,2,0,3,0,0
+Static Function,"re_search_2_stub(struct re_pattern_buffer *,const char *,int,const char *,int,int,int,struct re_registers *,int,int)",regexec.copy1.c,2,1,3,3,5,1,5,5,5,5,6,6,3,6,0
+Static Function,"re_search_internal(const int *,const char *,int,int,int,int,size_t,int [],int)",regexec.copy1.c,1,22,14,1,161440,5,32,28,32,29,75,75,5,75,0
+Static Function,"re_search_stub(struct re_pattern_buffer *,const char *,int,int,int,int,struct re_registers *,int)",regexec.copy1.c,2,0,0,2,289,2,12,12,12,1,6,0,2,0,0
+Function,rpl_remove(const char *),remove.c,1,0,0,4,2,0,2,2,3,1,0,0,1,0,0
+Function,"rpl_rename(const char *,const char *)",rename.c,3,121,11,6,13,1,10,10,14,7,8,8,2,8,0
+Function,rewinddir(DIR *),rewinddir.c,1,0,0,1,3,0,2,2,2,1,1,0,2,0,0
+Function,rpl_rmdir(const char *),rmdir.c,1,0,0,4,6,1,4,4,9,1,1,0,1,0,0
+Function,get_root_dev_ino(struct dev_ino *),root-dev-ino.c,3,0,0,5,2,0,2,2,2,1,1,0,1,0,0
+Function,rpmatch(const char *),rpmatch.c,2,4,5,3,5,1,5,5,5,5,4,4,1,4,0
+Static Function,"try(const char *,const char *,char **,regex_t *)",rpmatch.c,5,0,0,8,7,1,5,5,6,4,4,4,2,4,0
+Function,"safe_read(int,void *,size_t)",safe-read.c,3,0,0,3,5,1,5,5,6,5,7,7,2,5,0
+Function,"safe_read(int,void *,size_t)",safe-read.copy1.c,3,0,0,3,5,1,5,5,6,5,7,7,2,5,0
+Function,"same_name(const char *,const char *)",same.c,5,24,4,9,5,1,4,4,6,1,0,0,2,0,0
+Function,free_cwd(struct saved_cwd *),save-cwd.c,11,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Function,restore_cwd(const struct saved_cwd *),save-cwd.c,4,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,save_cwd(struct saved_cwd *),save-cwd.c,4,0,0,7,4,1,4,4,4,1,1,0,1,0,0
+Static Function,"direntry_cmp_inode(const void *,const void *)",savedir.c,3,0,0,1,1,0,2,2,2,1,0,0,0,0,0
+Static Function,"direntry_cmp_name(const void *,const void *)",savedir.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"savedir(const char *,enum savedir_option)",savedir.c,2,0,0,6,3,0,3,3,3,3,2,2,2,2,0
+Function,"streamsavedir(DIR *,enum savedir_option)",savedir.c,7,0,2,15,80,2,16,16,16,9,13,13,5,12,0
+Function,"savewd_chdir(struct savewd *,const char *,int,int [2])",savewd.c,9,0,0,9,80,2,17,13,23,9,23,23,5,23,0
+Static Function,savewd_delegating(const struct savewd *),savewd.c,5,0,0,1,1,0,1,1,2,1,0,0,0,0,0
+Function,savewd_finish(struct savewd *),savewd.c,6,0,0,4,6,1,8,4,8,6,16,16,2,16,0
+Function,"savewd_process_files(int,char **,int (*)(char *, struct savewd *, void *),void *)",savewd.c,3,0,0,5,90,2,10,10,12,3,2,2,3,2,0
+Function,"savewd_restore(struct savewd *,int)",savewd.c,8,0,0,13,13,1,13,9,13,11,34,33,4,32,0
+Static Function,savewd_save(struct savewd *),savewd.c,5,0,0,10,21,1,13,8,14,10,24,24,4,24,0
+Function,savewd_errno(const struct savewd *),savewd.h,5,0,0,1,1,0,2,2,2,1,0,0,0,0,0
+Function,savewd_init(struct savewd *),savewd.h,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"fgetfilecon(int,security_context_t *)",se-selinux.in.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,freecon(security_context_t),se-selinux.in.h,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,fsetfilecon(int),se-selinux.in.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,getcon(security_context_t *),se-selinux.in.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,getfilecon(const char *),se-selinux.in.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,getfscreatecon(security_context_t *),se-selinux.in.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,lgetfilecon(const char *),se-selinux.in.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,lsetfilecon(const char *),se-selinux.in.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,matchpathcon(const char *),se-selinux.in.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,security_check_context_raw(security_context_t),se-selinux.in.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,security_check_context(security_context_t),se-selinux.in.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,security_compute_create(security_context_t),se-selinux.in.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,setexeccon(security_context_t),se-selinux.in.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,setfilecon(const char *),se-selinux.in.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,setfscreatecon(security_context_t),se-selinux.in.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,secure_getenv(const char *),secure_getenv.c,1,1,3,2,2,0,2,2,2,1,1,0,1,0,0
+Function,"rpl_select(int,fd_set *,fd_set *,fd_set *,struct timeval *)",select.c,6,0,0,4,6,1,5,5,12,4,4,4,2,4,0
+Function,"fgetfilecon(int,security_context_t *)",selinux.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,freecon(security_context_t),selinux.h,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"fsetfilecon(int,security_context_t)",selinux.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,getcon(security_context_t *),selinux.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"getfilecon(const char *,security_context_t *)",selinux.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,getfscreatecon(security_context_t *),selinux.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"lgetfilecon(const char *,security_context_t *)",selinux.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"lsetfilecon(const char *,security_context_t)",selinux.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"matchpathcon(const char *,mode_t,security_context_t *)",selinux.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,security_check_context_raw(security_context_t),selinux.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,security_check_context(security_context_t),selinux.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"security_compute_create(security_context_t,security_context_t,security_class_t,security_context_t *)",selinux.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,setexeccon(security_context_t),selinux.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"setfilecon(const char *,security_context_t)",selinux.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,setfscreatecon(security_context_t),selinux.h,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"set_acl(const char *,int,mode_t)",set-acl.c,3,0,0,6,2,0,2,2,2,1,0,0,1,0,0
+Function,"chmod_or_fchmod(const char *,int,mode_t)",set-permissions.c,4,0,0,3,2,0,2,2,3,1,1,0,1,0,0
+Function,"set_permissions(struct permission_context *,const char *,int)",set-permissions.c,6,33,8,3,7,1,6,6,7,3,2,2,2,2,0
+Function,"rpl_setenv(const char *,const char *,int)",setenv.c,3,0,0,11,4,1,5,5,9,1,1,0,2,0,0
+Function,settime(const struct timespec *),settime.c,3,7,6,6,2,0,2,2,3,1,1,0,1,0,0
+Static Function,"set_uint32(char *,uint32_t)",sha1.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"sha1_buffer(const char *,size_t,void *)",sha1.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"sha1_finish_ctx(struct sha1_ctx *,void *)",sha1.c,8,0,0,6,2,0,3,3,3,1,0,0,1,0,0
+Function,sha1_init_ctx(struct sha1_ctx *),sha1.c,2,0,0,8,1,0,1,1,1,1,0,0,0,0,0
+Function,"sha1_process_block(const void *,size_t,struct sha1_ctx *)",sha1.c,12,0,3,6,3,0,83,83,83,1,0,0,2,0,0
+Function,"sha1_process_bytes(const void *,size_t,struct sha1_ctx *)",sha1.c,7,0,3,3,36,2,9,9,9,1,1,0,3,0,0
+Function,"sha1_read_ctx(const struct sha1_ctx *,void *)",sha1.c,8,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"sha1_stream(FILE *,void *)",sha1.c,2,0,0,10,23,1,9,9,9,8,20,20,4,20,0
+Static Function,"set_uint32(char *,uint32_t)",sha256.c,5,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"sha224_buffer(const char *,size_t,void *)",sha256.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"sha224_finish_ctx(struct sha256_ctx *,void *)",sha256.c,4,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,sha224_init_ctx(struct sha256_ctx *),sha256.c,2,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"sha224_read_ctx(const struct sha256_ctx *,void *)",sha256.c,4,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Function,"sha224_stream(FILE *,void *)",sha256.c,2,0,0,10,23,1,9,9,9,8,20,20,4,20,0
+Function,"sha256_buffer(const char *,size_t,void *)",sha256.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,sha256_conclude_ctx(struct sha256_ctx *),sha256.c,7,0,0,4,2,0,3,3,3,1,0,0,1,0,0
+Function,"sha256_finish_ctx(struct sha256_ctx *,void *)",sha256.c,4,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,sha256_init_ctx(struct sha256_ctx *),sha256.c,2,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"sha256_process_block(const void *,size_t,struct sha256_ctx *)",sha256.c,10,0,7,2,3,0,67,67,67,1,0,0,2,0,0
+Function,"sha256_process_bytes(const void *,size_t,struct sha256_ctx *)",sha256.c,9,0,3,3,36,2,9,9,9,1,1,0,3,0,0
+Function,"sha256_read_ctx(const struct sha256_ctx *,void *)",sha256.c,4,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Function,"sha256_stream(FILE *,void *)",sha256.c,2,0,0,10,23,1,9,9,9,8,20,20,4,20,0
+Static Function,"set_uint64(char *,u64)",sha512.c,5,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"sha384_buffer(const char *,size_t,void *)",sha512.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"sha384_finish_ctx(struct sha512_ctx *,void *)",sha512.c,4,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,sha384_init_ctx(struct sha512_ctx *),sha512.c,2,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"sha384_read_ctx(const struct sha512_ctx *,void *)",sha512.c,4,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Function,"sha384_stream(FILE *,void *)",sha512.c,2,0,0,10,23,1,9,9,9,8,20,20,4,20,0
+Function,"sha512_buffer(const char *,size_t,void *)",sha512.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,sha512_conclude_ctx(struct sha512_ctx *),sha512.c,7,0,0,5,2,0,3,3,3,1,0,0,1,0,0
+Function,"sha512_finish_ctx(struct sha512_ctx *,void *)",sha512.c,4,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,sha512_init_ctx(struct sha512_ctx *),sha512.c,2,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"sha512_process_block(const void *,size_t,struct sha512_ctx *)",sha512.c,10,0,6,3,3,0,83,83,83,1,0,0,2,0,0
+Function,"sha512_process_bytes(const void *,size_t,struct sha512_ctx *)",sha512.c,9,0,3,3,36,2,9,9,9,1,1,0,3,0,0
+Function,"sha512_read_ctx(const struct sha512_ctx *,void *)",sha512.c,4,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Function,"sha512_stream(FILE *,void *)",sha512.c,2,0,0,10,23,1,9,9,9,8,20,20,4,20,0
+Function,get_handler(const struct sigaction *),sig-handler.h,5,0,2,1,2,0,2,2,2,1,1,0,1,0,0
+Function,"sig2str(int,char *)",sig2str.c,5,0,0,5,11,1,6,6,7,4,5,5,2,4,0
+Function,"str2sig(const char *,int *)",sig2str.c,2,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Static Function,str2signum(const char *),sig2str.c,5,0,0,6,13,1,9,9,16,9,15,15,3,15,0
+Static Function,sigaction_handler(int),sigaction.c,6,0,0,8,6,1,5,5,7,1,2,0,2,0,0
+Function,"sigaction(int,const struct sigaction *restrict,struct sigaction *restrict)",sigaction.c,7,2,2,11,22,1,10,10,17,10,16,16,3,16,0
+Function,gl_signbitd(double),signbitd.c,1,13,5,3,4,1,28,28,28,4,3,3,1,3,0
+Function,gl_signbitf(float),signbitf.c,1,13,5,3,4,1,28,28,28,4,3,3,1,3,0
+Function,gl_signbitl(long double),signbitl.c,1,13,5,3,4,1,28,28,28,4,3,3,1,3,0
+Static Function,blocked_handler(int),sigprocmask.c,1,0,0,2,2,0,2,2,3,1,0,0,1,0,0
+Function,"rpl_signal(int,handler_t)",sigprocmask.c,3,2,2,4,3,0,3,3,7,3,3,3,2,3,0
+Function,"sigaddset(sigset_t *,int)",sigprocmask.c,2,2,2,2,2,0,2,2,3,1,1,0,1,0,0
+Function,"sigdelset(sigset_t *,int)",sigprocmask.c,1,2,2,2,2,0,2,2,3,1,1,0,1,0,0
+Function,sigemptyset(sigset_t *),sigprocmask.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,sigfillset(sigset_t *),sigprocmask.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"sigismember(const sigset_t *,int)",sigprocmask.c,1,2,2,1,2,0,2,2,3,1,2,0,1,0,0
+Function,sigpending(sigset_t *),sigprocmask.c,0,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"sigprocmask(int,const sigset_t *,sigset_t *)",sigprocmask.c,8,0,0,7,268,2,15,13,15,9,17,17,5,17,0
+Static Function,is_smack_enabled(),smack.h,0,1,3,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,smack_new_label_from_self(char **),smack.h,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,smack_set_label_for_self(const char *),smack.h,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"snprintf(char *,size_t,const char *)",snprintf.c,9,0,0,8,7,1,6,6,6,3,2,2,2,2,0
+Function,gl_sockets_cleanup(),sockets.c,0,9,2,1,1,0,1,1,1,1,0,0,0,0,0
+Function,gl_sockets_startup(int),sockets.c,0,18,2,1,1,0,1,1,1,1,0,0,0,0,0
+Function,get_stat_atime_ns(const struct stat *),stat-time.h,5,3,4,1,1,0,1,1,1,1,0,0,0,0,0
+Function,get_stat_atime(const struct stat *),stat-time.h,6,4,3,1,1,0,1,1,1,1,0,0,0,0,0
+Function,get_stat_birthtime_ns(const struct stat *),stat-time.h,1,3,4,1,1,0,1,1,1,1,0,0,0,0,0
+Function,get_stat_birthtime(const struct stat *),stat-time.h,1,23,7,3,1,0,1,1,1,1,0,0,0,0,0
+Function,get_stat_ctime_ns(const struct stat *),stat-time.h,4,3,4,1,1,0,1,1,1,1,0,0,0,0,0
+Function,get_stat_ctime(const struct stat *),stat-time.h,2,4,3,1,1,0,1,1,1,1,0,0,0,0,0
+Function,get_stat_mtime_ns(const struct stat *),stat-time.h,5,3,4,1,1,0,1,1,1,1,0,0,0,0,0
+Function,get_stat_mtime(const struct stat *),stat-time.h,6,4,3,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"orig_stat(const char *,struct stat *)",stat.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_stat(const char *,struct stat *)",stat.c,2,50,4,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"stpcpy(char *,const char *)",stpcpy.c,4,0,0,1,1,0,2,2,2,1,0,0,1,0,0
+Function,"stpncpy(char *,const char *,size_t)",stpncpy.c,3,0,0,2,306,2,13,13,13,12,27,27,3,27,0
+Static Function,"knuth_morris_pratt(const unsigned char *,const unsigned char *,size_t,const unsigned char **)",str-kmp.h,4,0,0,5,31,1,13,13,13,9,10,10,3,9,0
+Static Function,"critical_factorization(const unsigned char *,size_t,size_t *)",str-two-way.h,4,0,0,2,51,2,11,11,11,3,8,2,3,2,0
+Static Function,"two_way_long_needle(const unsigned char *,size_t,const unsigned char *,size_t)",str-two-way.h,5,0,0,4,208,2,19,19,26,10,15,15,4,15,0
+Static Function,"two_way_short_needle(const unsigned char *,size_t,const unsigned char *,size_t)",str-two-way.h,5,0,0,4,22,1,14,14,20,8,13,13,4,13,0
+Function,strdup(const char *),strdup.c,13,0,0,4,2,0,2,2,2,1,1,0,1,0,0
+Function,strerror(int),strerror.c,1,0,1,6,4,1,4,4,5,4,3,3,1,3,0
+Static Function,"iso_week_days(int,int)",strftime.c,3,0,1,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"memcpy_lowcase(char *,const char *,size_t)",strftime.c,4,0,0,3,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"memcpy_uppcase(char *,const char *,size_t)",strftime.c,4,0,0,3,2,0,2,2,2,1,0,0,1,0,0
+Function,"nstrftime(char *,size_t,const char *,const struct tm *,int,int)",strftime.c,6,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"strftime_case_(_Bool,char *,size_t,const char *,const struct tm *,int,int)",strftime.c,19,239,95,9,120510459,8,267,215,291,121,3395,3365,10,3358,0
+Static Function,"iso_week_days(int,int)",strftime.copy.c,3,0,1,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"memcpy_lowcase(char *,const char *,size_t)",strftime.copy.c,4,0,0,3,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"memcpy_uppcase(char *,const char *,size_t)",strftime.copy.c,4,0,0,3,2,0,2,2,2,1,0,0,1,0,0
+Function,"nstrftime(char *,size_t,const char *,const struct tm *,int,int)",strftime.copy.c,6,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"strftime_case_(_Bool,char *,size_t,const char *,const struct tm *,int,int)",strftime.copy.c,19,239,95,9,120510459,8,267,215,291,121,3395,3365,10,3358,0
+Function,"mem_cd_iconv(const char *,size_t,iconv_t,char **,size_t *)",striconv.c,7,18,16,8,141,2,15,15,16,14,28,28,3,28,0
+Function,"str_cd_iconv(const char *,iconv_t)",striconv.c,4,33,7,7,338,3,16,16,16,13,49,43,4,41,0
+Function,"str_iconv(const char *,const char *,const char *)",striconv.c,4,14,5,8,6,1,6,6,7,5,5,5,3,5,0
+Function,"strintcmp(const char *,const char *)",strintcmp.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,strip_trailing_slashes(char *),stripslash.c,2,0,0,3,2,0,2,2,2,1,0,0,1,0,0
+Function,"strncat(char *,const char *,size_t)",strncat.c,3,0,0,2,4,1,3,3,4,1,0,0,1,0,0
+Function,"strndup(const char *,size_t)",strndup.c,3,0,0,4,2,0,2,2,2,1,1,0,1,0,0
+Function,"strnlen(const char *,size_t)",strnlen.c,4,0,0,2,1,0,2,2,2,1,0,0,0,0,0
+Function,"strnlen1(const char *,size_t)",strnlen1.c,4,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"fraccompare(const char *,const char *,char)",strnumcmp-in.h,4,0,0,1,16,1,11,11,13,9,19,19,3,19,0
+Static Function,"numcompare(const char *,const char *,int,int)",strnumcmp-in.h,6,0,0,2,150,2,43,43,58,12,18,18,4,18,0
+Function,"strnumcmp(const char *,const char *,int,int)",strnumcmp.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"strpbrk(const char *,const char *)",strpbrk.c,2,0,0,1,4,1,4,4,4,4,5,5,3,5,0
+Static Function,free_key_mem(void *),strsignal.c,3,0,0,4,2,0,4,4,4,3,2,2,2,2,0
+Static Function,getbuffer(),strsignal.c,6,0,0,6,5,1,8,8,8,6,7,7,5,7,0
+Static Function,init(),strsignal.c,3,19,8,3,2,0,4,4,4,3,2,2,2,2,0
+Function,strsignal(int),strsignal.c,2,0,4,10,6,1,8,8,13,4,5,3,2,3,0
+Function,"strstr(const char *,const char *)",strstr.c,3,0,0,4,10,1,7,7,9,5,4,4,1,4,0
+Static Function,locale_isspace(char),strtod.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"parse_number(const char *,int,int,int,char,char **)",strtod.c,6,0,0,9,51,2,12,12,15,5,9,9,2,8,0
+Static Function,"scale_radix_exp(double,int,long)",strtod.c,4,0,0,4,9,1,11,11,13,9,14,14,5,14,0
+Function,"strtod(const char *,char **)",strtod.c,4,0,0,14,400,3,22,22,39,1,8,0,4,0,0
+Static Function,"underlying_strtod(const char *,char **)",strtod.c,3,0,1,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"strtoimax(const char *,char **,int)",strtoimax.c,3,1,3,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"strtoimax(const char *,char **,int)",strtoimax.copy1.c,3,1,3,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"__strtol_internal(const char *,char **,int,int)",strtol.c,4,44,13,5,24001,4,25,25,35,10,23,18,2,17,0
+Function,"strtol(const char *,char **,int)",strtol.c,13,1,2,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"__strtol_internal(const char *,char **,int,int)",strtol.copy1.c,4,44,13,5,24001,4,25,25,35,10,23,18,2,17,0
+Function,"strtol(const char *,char **,int)",strtol.copy1.c,13,1,2,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"__strtol_internal(const char *,char **,int,int)",strtol.copy2.c,4,44,13,5,24001,4,25,25,35,10,23,18,2,17,0
+Function,"strtol(const char *,char **,int)",strtol.copy2.c,13,1,2,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"__strtol_internal(const char *,char **,int,int)",strtol.copy3.c,4,44,13,5,24001,4,25,25,35,10,23,18,2,17,0
+Function,"strtol(const char *,char **,int)",strtol.copy3.c,13,1,2,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_symlink(const char *,const char *)",symlink.c,2,0,0,5,3,0,3,3,4,1,1,0,2,0,0
+Static Function,"check_x_suffix(const char *,size_t)",tempname.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"gen_tempname_len(char *,int,int,int,size_t)",tempname.c,6,0,0,4,5,1,5,3,5,5,14,13,2,13,0
+Function,"gen_tempname(char *,int,int,int)",tempname.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"try_dir(char *,void *)",tempname.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"try_file(char *,void *)",tempname.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"try_nocreate(char *,void *)",tempname.c,1,0,0,3,2,0,3,3,3,1,0,0,1,0,0
+Function,"try_tempname_len(char *,int,void *,int (*)(char *, void *),size_t)",tempname.c,7,1,4,7,9,1,7,7,8,6,10,10,2,10,0
+Function,"try_tempname(char *,int,void *,int (*)(char *, void *))",tempname.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"copy_tm_result(struct tm *,const struct tm *)",time_r.c,4,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Function,"gmtime_r(const time_t *restrict,struct tm *restrict)",time_r.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"localtime_r(const time_t *restrict,struct tm *restrict)",time_r.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"make_timespec(time_t,long)",timespec.h,3,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"timespec_cmp(struct timespec,struct timespec)",timespec.h,4,0,0,1,1,0,3,3,3,1,0,0,0,0,0
+Function,timespec_sign(struct timespec),timespec.h,3,0,0,1,1,0,2,2,3,1,0,0,0,0,0
+Function,timespectod(struct timespec),timespec.h,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"trim2(const char *,int)",trim.c,10,0,0,15,163,2,17,17,33,8,7,7,4,5,0
+Function,"u8_mbtoucr(ucs4_t *,const uint8_t *,size_t)",u8-mbtoucr.c,2,138,4,2,18,1,18,18,27,18,64,64,8,64,0
+Function,"u8_uctomb_aux(uint8_t *,ucs4_t,int)",u8-uctomb-aux.c,3,8,5,2,18,1,10,8,11,10,12,12,2,12,0
+Static Function,"exit_failure_callback(unsigned int,const char *,void *)",unicodeio.c,2,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"fallback_failure_callback(unsigned int,const char *,void *)",unicodeio.c,2,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Function,"fwrite_success_callback(const char *,size_t,void *)",unicodeio.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"print_unicode_char(FILE *,unsigned int,int)",unicodeio.c,3,0,0,1,1,0,2,2,2,1,0,0,0,0,0
+Function,"unicode_to_mb(unsigned int,long (*)(const char *, size_t, void *),long (*)(unsigned int, const char *, void *),void *)",unicodeio.c,3,2,13,6,44,2,10,10,11,7,8,8,3,8,0
+Static Function,"different(char *,char *,size_t,size_t)",uniq.c,8,0,0,4,12,1,5,5,7,3,2,2,1,2,0
+Static Function,find_field(const struct linebuffer *),uniq.c,6,0,0,3,5,1,5,5,8,1,0,0,2,0,0
+Function,lava_get(unsigned int),uniq.c,8,0,1,2,2,0,2,2,3,1,1,0,1,0,0
+Function,"lava_set(unsigned int,unsigned int)",uniq.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"main(int,char **)",uniq.c,16,0,0,32,90,2,38,16,48,24,188,187,4,186,0
+Static Function,"size_opt(const char *,const char *)",uniq.c,3,0,0,4,2,0,4,3,4,1,1,0,1,0,0
+Function,usage(int),uniq.c,5,0,0,7,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"writeline(const struct linebuffer *,_Bool,uintmax_t)",uniq.c,11,0,0,2,3,0,5,5,5,1,1,0,1,0,0
+Static Function,"u8_uctomb(uint8_t *,ucs4_t,int)",unistr.h,4,0,0,3,2,0,2,2,3,1,1,0,1,0,0
+Function,rpl_unlink(const char *),unlink.c,2,6,2,8,11,1,7,7,11,5,6,6,3,6,0
+Function,"rpl_unlinkat(int,const char *,int)",unlinkat.c,4,6,2,8,12,1,8,8,12,6,7,7,3,7,0
+Function,rpl_unsetenv(const char *),unsetenv.c,1,0,2,5,3,0,3,3,5,1,1,0,1,0,0
+Function,"parse_user_spec(const char *,uid_t *,gid_t *,char **,char **)",userspec.c,5,0,0,3,3,0,4,4,7,1,0,0,2,0,0
+Static Function,"parse_with_separator(const char *,const char *,uid_t *,gid_t *,char **,char **)",userspec.c,11,6,2,16,3456,4,26,26,34,1,6,0,4,0,0
+Static Function,"dev_info_compare(const void *,const void *)",utimecmp.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"dev_info_hash(const void *,size_t)",utimecmp.c,3,0,0,1,2,0,5,5,6,1,1,0,1,0,0
+Function,"utimecmp(const char *,const struct stat *,const struct stat *,int)",utimecmp.c,12,10,2,17,4964,4,35,35,41,22,39,39,7,38,0
+Function,"fdutimens(int,const char *,const struct timespec [2])",utimens.c,13,20,31,18,4066,4,30,30,42,16,20,18,5,18,0
+Function,"lutimens(const char *,const struct timespec [2])",utimens.c,6,19,8,11,164,2,16,16,22,11,13,12,3,12,0
+Static Function,"update_timespec(const struct stat *,struct timespec *[2])",utimens.c,5,0,0,5,11,1,7,7,9,3,4,2,1,2,0
+Function,"utimens(const char *,const struct timespec [2])",utimens.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,validate_timespec(struct timespec [2]),utimens.c,4,0,0,3,10,1,6,6,15,1,1,0,2,0,0
+Function,"lutimensat(int,const char *,const struct timespec [2])",utimens.h,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"rpl_utimensat(int,const char *,const struct timespec [2],int)",utimensat.c,5,13,6,7,24,1,10,10,18,7,12,10,3,10,0
+Function,"vasnprintf(char *,size_t *,const char *,va_list)",vasnprintf.c,45,3092,301,22,999999999,16,193,133,211,115,1138,1121,8,1118,0
+Function,"vasprintf(char **,const char *,va_list)",vasprintf.c,4,0,0,5,3,0,3,3,3,3,2,2,1,2,0
+Function,"verror_at_line(int,int,const char *,unsigned int,const char *,va_list)",verror.c,7,0,0,7,3,0,3,3,3,1,3,0,2,0,0
+Function,"verror(int,int,const char *,va_list)",verror.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,emit_bug_reporting_address(),version-etc.c,1,4,5,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"version_etc_ar(FILE *,const char *,const char *,const char *,const char *const *)",version-etc.c,5,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"version_etc_arn(FILE *,const char *,const char *,const char *,const char *const *,size_t)",version-etc.c,9,6,5,4,22,1,12,3,12,11,56,55,1,55,0
+Function,"version_etc_va(FILE *,const char *,const char *,const char *,va_list)",version-etc.c,7,0,0,1,2,0,2,2,3,1,0,0,1,0,0
+Function,"version_etc(FILE *,const char *,const char *,const char *)",version-etc.c,5,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"vfprintf(FILE *,const char *,va_list)",vfprintf.c,5,0,0,6,7,1,6,6,6,4,3,3,2,3,0
+Function,"vprintf(const char *,va_list)",vprintf.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,set_winsock_errno(),w32sock.h,0,0,0,1,2,0,2,2,3,1,1,0,1,0,0
+Function,"wcrtomb(char *,wchar_t,mbstate_t *)",wcrtomb.c,3,0,0,4,4,1,4,4,5,4,3,3,2,3,0
+Function,"wcswidth(const wchar_t *,size_t)",wcswidth-impl.h,3,0,0,2,9,1,5,5,5,5,14,11,2,10,0
+Function,wcwidth(wchar_t),wcwidth.c,5,1,4,4,2,0,2,2,2,1,1,0,1,0,0
+Function,"uc_width(ucs4_t,const char *)",width.c,5,0,0,2,19,1,12,12,40,11,19,19,4,19,0
+Function,can_write_any_file(),write-any-file.c,0,1,3,2,2,0,2,2,2,1,0,0,1,0,0
+Function,xalloc_die(),xalloc-die.c,35,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"x2nrealloc(void *,size_t *,size_t)",xalloc.h,11,0,0,4,4,1,4,4,4,3,3,3,2,3,0
+Function,xcharalloc(size_t),xalloc.h,3,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Function,"xnmalloc(size_t,size_t)",xalloc.h,10,0,0,3,2,0,3,3,3,1,1,0,1,0,0
+Function,"xnrealloc(void *,size_t,size_t)",xalloc.h,6,0,0,3,2,0,3,3,3,1,1,0,1,0,0
+Function,xasprintf(const char *),xasprintf.c,1,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"__xdectoint(const char *,int,int,const char *,const char *,int)",xdectoint.c,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"__xnumtoint(const char *,int,int,int,const char *,const char *,int)",xdectoint.c,3,2,2,4,12,1,9,9,9,1,3,0,3,0,0
+Function,"__xdectoint(const char *,int,int,const char *,const char *,int)",xdectoint.copy1.c,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"__xnumtoint(const char *,int,int,int,const char *,const char *,int)",xdectoint.copy1.c,3,2,2,4,12,1,9,9,9,1,3,0,3,0,0
+Function,"__xdectoint(const char *,int,int,const char *,const char *,int)",xdectoint.copy2.c,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"__xnumtoint(const char *,int,int,int,const char *,const char *,int)",xdectoint.copy2.c,3,2,2,4,12,1,9,9,9,1,3,0,3,0,0
+Function,"xfreopen(const char *,const char *,FILE *)",xfreopen.c,7,0,0,5,2,0,6,6,6,1,0,0,1,0,0
+Function,"cycle_warning_required(const FTS *,const FTSENT *)",xfts.c,4,0,1,1,1,0,1,1,5,1,0,0,0,0,0
+Function,"xfts_open(char *const *,int,int (*)(const FTSENT **, const FTSENT **))",xfts.c,3,0,0,5,3,0,3,3,3,3,4,3,2,3,0
+Function,xgetcwd(),xgetcwd.c,1,0,0,4,2,0,2,2,3,1,1,0,1,0,0
+Function,"xgetgroups(const char *,gid_t,gid_t **)",xgetgroups.c,3,0,0,4,2,0,2,2,3,1,1,0,1,0,0
+Function,xgethostname(),xgethostname.c,0,0,0,5,5,1,5,5,8,5,9,9,3,9,0
+Function,"xcalloc(size_t,size_t)",xmalloc.c,2,0,0,3,2,0,3,3,7,1,1,0,1,0,0
+Function,xmalloc(size_t),xmalloc.c,29,0,0,3,2,0,2,2,3,1,1,0,1,0,0
+Function,"xmemdup(const void *,size_t)",xmalloc.c,6,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"xrealloc(void *,size_t)",xmalloc.c,8,0,0,4,3,0,3,3,5,3,2,2,1,2,0
+Function,xstrdup(const char *),xmalloc.c,8,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,xzalloc(size_t),xmalloc.c,3,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"collate_error(int,const char *,size_t,const char *,size_t)",xmemcoll.c,8,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"xmemcoll(char *,size_t,char *,size_t)",xmemcoll.c,5,0,0,4,2,0,2,2,2,1,0,0,1,0,0
+Function,"xmemcoll0(const char *,size_t,const char *,size_t)",xmemcoll.c,4,0,0,4,2,0,2,2,2,1,0,0,1,0,0
+Function,xnanosleep(double),xnanosleep.c,1,0,0,4,5,1,4,4,5,4,6,6,2,6,0
+Function,"xfprintf(FILE *restrict,const char *restrict)",xprintf.c,2,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,xprintf(const char *restrict),xprintf.c,1,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"xvfprintf(FILE *restrict,const char *restrict,va_list)",xprintf.c,5,0,0,6,2,0,2,2,3,1,0,0,1,0,0
+Function,"xvprintf(const char *restrict,va_list)",xprintf.c,5,0,0,6,2,0,2,2,3,1,0,0,1,0,0
+Function,xreadlink(const char *),xreadlink.c,1,0,0,4,2,0,2,2,3,1,1,0,1,0,0
+Function,"xmax(size_t,size_t)",xsize.h,3,0,2,1,1,0,2,2,2,1,0,0,0,0,0
+Function,"xsum(size_t,size_t)",xsize.h,7,0,2,1,1,0,2,2,2,1,0,0,0,0,0
+Function,"xsum3(size_t,size_t,size_t)",xsize.h,3,0,2,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"xsum4(size_t,size_t,size_t,size_t)",xsize.h,5,0,2,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"xmem_cd_iconv(const char *,size_t,iconv_t,char **,size_t *)",xstriconv.c,5,0,0,4,2,0,2,2,3,1,1,0,1,0,0
+Function,"xstr_cd_iconv(const char *,iconv_t)",xstriconv.c,2,0,0,4,2,0,2,2,3,1,1,0,1,0,0
+Function,"xstr_iconv(const char *,const char *,const char *)",xstriconv.c,4,0,0,4,2,0,2,2,3,1,1,0,1,0,0
+Function,"xstrndup(const char *,size_t)",xstrndup.c,3,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"xstrtod(const char *,const char **,double *,double (*)(const char *, char **))",xstrtod.c,2,0,0,4,6,1,4,4,7,1,1,0,2,0,0
+Function,"xstrtod(const char *,const char **,double *,double (*)(const char *, char **))",xstrtod.copy1.c,2,0,0,4,6,1,4,4,7,1,1,0,2,0,0
+Static Function,"xstrtol_error(enum strtol_error,int,char,const struct option *,const char *,int)",xstrtol-error.c,8,0,0,3,7,1,6,3,6,4,7,6,1,6,0
+Function,"xstrtol_fatal(enum strtol_error,int,char,const struct option *,const char *)",xstrtol-error.c,6,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"bkm_scale_by_power(long *,int,int)",xstrtol.c,4,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"bkm_scale(long *,int)",xstrtol.c,4,0,0,2,3,0,3,3,4,3,2,2,1,2,0
+Function,"xstrtol(const char *,char **,int,long *,const char *)",xstrtol.c,4,0,0,9,1161,3,35,18,38,23,106,105,4,105,0
+Static Function,"bkm_scale_by_power(long *,int,int)",xstrtol.copy.c,4,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"bkm_scale(long *,int)",xstrtol.copy.c,4,0,0,2,3,0,3,3,4,3,2,2,1,2,0
+Function,"xstrtol(const char *,char **,int,long *,const char *)",xstrtol.copy.c,4,0,0,9,1161,3,35,18,38,23,106,105,4,105,0
+Static Function,"bkm_scale_by_power(long *,int,int)",xstrtol.copy2.c,4,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"bkm_scale(long *,int)",xstrtol.copy2.c,4,0,0,2,3,0,3,3,4,3,2,2,1,2,0
+Function,"xstrtol(const char *,char **,int,long *,const char *)",xstrtol.copy2.c,4,0,0,9,1161,3,35,18,38,23,106,105,4,105,0
+Static Function,"bkm_scale_by_power(long *,int,int)",xstrtol.copy3.c,4,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"bkm_scale(long *,int)",xstrtol.copy3.c,4,0,0,2,3,0,3,3,4,3,2,2,1,2,0
+Function,"xstrtol(const char *,char **,int,long *,const char *)",xstrtol.copy3.c,4,0,0,9,1161,3,35,18,38,23,106,105,4,105,0
+Static Function,"bkm_scale_by_power(long *,int,int)",xstrtol.copy4.c,4,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"bkm_scale(long *,int)",xstrtol.copy4.c,4,0,0,2,3,0,3,3,4,3,2,2,1,2,0
+Function,"xstrtol(const char *,char **,int,long *,const char *)",xstrtol.copy4.c,4,0,0,9,1161,3,35,18,38,23,106,105,4,105,0
+Function,"xtime_make(xtime_t,long)",xtime.h,3,0,0,1,2,0,2,2,2,1,1,0,1,0,0
+Function,xtime_nonnegative_nsec(xtime_t),xtime.h,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,xtime_nonnegative_sec(xtime_t),xtime.h,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,xtime_nsec(xtime_t),xtime.h,1,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,xtime_sec(xtime_t),xtime.h,1,0,0,2,1,0,3,3,3,1,0,0,0,0,0
+Static Function,"xstrcat(size_t,va_list)",xvasprintf.c,3,0,0,9,6,1,5,5,6,1,1,0,1,0,0
+Function,"xvasprintf(const char *,va_list)",xvasprintf.c,4,0,0,5,16,1,7,7,7,7,10,10,2,10,0
+Function,yesno(),yesno.c,1,6,3,4,3,0,3,3,3,1,1,0,2,0,0

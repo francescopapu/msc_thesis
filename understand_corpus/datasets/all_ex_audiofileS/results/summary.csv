@@ -1,0 +1,139 @@
+"afGetAESChannelData(int *,AFfilehandle,int,unsigned char [24])",aes-pre.c,True
+"afSetAESChannelData(int *,AFfilehandle,int,unsigned char [24])",aes-pre.c,True
+"af_virtual_file_new_for_file(int *,FILE *)",af_vfs-pre.c,True
+"_af_aiff_complete_setup(int *,AFfilesetup)",aiff-pre.c,True
+"_af_aiff_read_init(int *,AFfilesetup,AFfilehandle)",aiff-pre.c,True
+"ParseAESD(int *,AFfilehandle,AFvirtualfile *,uint32_t,size_t)",aiff-pre.c,True
+"ParseMiscellaneous(int *,AFfilehandle,AFvirtualfile *,uint32_t,size_t)",aiff-pre.c,True
+"ParseSSND(int *,AFfilehandle,AFvirtualfile *,uint32_t,size_t)",aiff-pre.c,True
+"WriteCOMM(int *,const AFfilehandle)",aiffwrite-pre.c,True
+"WriteFVER(int *,AFfilehandle)",aiffwrite-pre.c,True
+"WriteSSND(int *,AFfilehandle)",aiffwrite-pre.c,True
+"AUpvnew(int *,int)",aupv-pre.c,True
+"AUpvsetval(int *,AUpvlist,int,void *)",aupv-pre.c,True
+"_af_avr_complete_setup(int *,AFfilesetup)",avr-pre.c,True
+"afGetCompression(int *,AFfilehandle,int)",compression-pre.c,True
+"afReadFrames(int *,AFfilehandle,int,void *,int)",data-pre.c,True
+"_af_print_chunk(int *,_AFchunk *)",debug-pre.c,True
+"_af_print_filehandle(int *,AFfilehandle)",debug-pre.c,True
+"_af_print_tracks(int *,AFfilehandle)",debug-pre.c,True
+Name,File,PREDICTION
+"afGetByteOrder(int *,AFfilehandle,int)",format-pre.c,True
+"afGetDataOffset(int *,AFfilehandle,int)",format-pre.c,True
+"afGetFileFormat(int *,AFfilehandle,int *)",format-pre.c,True
+"afGetFrameCount(int *,AFfilehandle,int)",format-pre.c,True
+"afGetSampleFormat(int *,AFfilehandle,int,int *,int *)",format-pre.c,True
+"afGetTrackBytes(int *,AFfilehandle,int)",format-pre.c,True
+"afGetVirtualByteOrder(int *,AFfilehandle,int)",format-pre.c,True
+"afGetVirtualFrameSize(int *,AFfilehandle,int,int)",format-pre.c,True
+"afGetVirtualSampleFormat(int *,AFfilehandle,int,int *,int *)",format-pre.c,True
+"afSetChannelMatrix(int *,AFfilehandle,int,double *)",format-pre.c,True
+"afSetVirtualChannels(int *,AFfilehandle,int,int)",format-pre.c,True
+"afSetVirtualSampleFormat(int *,AFfilehandle,int,int,int)",format-pre.c,True
+"_af_iff_complete_setup(int *,AFfilesetup)",iff-pre.c,True
+"WriteBODY(int *,AFfilehandle)",iffwrite-pre.c,True
+"WriteVHDR(int *,const AFfilehandle)",iffwrite-pre.c,True
+"afGetInstIDs(int *,AFfilehandle,int *)",instrument-pre.c,True
+"_af_ircam_read_init(int *,AFfilesetup,AFfilehandle)",ircam-pre.c,True
+"_af_ircam_recognize(int *,AFvirtualfile *)",ircam-pre.c,True
+"afGetLoopEndFrame(int *,AFfilehandle,int,int)",loop-pre.c,True
+"afGetLoopIDs(int *,AFfilehandle,int,int *)",loop-pre.c,True
+"afGetLoopStartFrame(int *,AFfilehandle,int,int)",loop-pre.c,True
+"afSetLoopEndFrame(int *,AFfilehandle,int,int,AFframecount)",loop-pre.c,True
+"afSetLoopMode(int *,AFfilehandle,int,int,int)",loop-pre.c,True
+"afSetLoopStartFrame(int *,AFfilehandle,int,int,AFframecount)",loop-pre.c,True
+"getLoop(int *,AFfilehandle,int,int,_Bool)",loop-pre.c,True
+"_af_marker_find_by_id(int *,_Track *,int)",marker-pre.c,True
+"afGetMarkComment(int *,AFfilehandle,int,int)",marker-pre.c,True
+"afGetMarkIDs(int *,AFfilehandle,int,int [])",marker-pre.c,True
+"afGetMarkName(int *,AFfilehandle,int,int)",marker-pre.c,True
+"afGetMarkPosition(int *,AFfilehandle,int,int)",marker-pre.c,True
+"afInitMarkIDs(int *,AFfilesetup,int,int [],int)",marker-pre.c,True
+"afGetMiscIDs(int *,AFfilehandle,int *)",misc-pre.c,True
+"afInitMiscIDs(int *,AFfilesetup,int *,int)",misc-pre.c,True
+"afReadMisc(int *,AFfilehandle,int,void *,int)",misc-pre.c,True
+"_AFg711initdecompress(int *,_Track *,AFvirtualfile *,_Bool,_Bool,AFframecount *)",modules_g711-pre.c,True
+"_af_ima_adpcm_format_ok(int *,_AudioFormat *)",modules_ima-pre.c,True
+"ima_adpcm_decode_block(int *,ima_adpcm_data *,const uint8_t *,int16_t *)",modules_ima-pre.c,True
+"ima_adpcm_run_pull(int *,_AFmoduleinst *)",modules_ima-pre.c,True
+"_af_ms_adpcm_format_ok(int *,_AudioFormat *)",modules_msadpcm-pre.c,True
+"_af_ms_adpcm_init_decompress(int *,_Track *,AFvirtualfile *,_Bool,_Bool,AFframecount *)",modules_msadpcm-pre.c,True
+"ms_adpcm_decode_sample(int *,struct ms_adpcm_state *,uint8_t,const int16_t *)",modules_msadpcm-pre.c,True
+"_af_pcm_format_ok(int *,_AudioFormat *)",modules_pcm-pre.c,True
+"pcmreset2(int *,_AFmoduleinst *)",modules_pcm-pre.c,True
+"pcmrun_pull(int *,_AFmoduleinst *)",modules_pcm-pre.c,True
+"pcmrun_push(int *,_AFmoduleinst *)",modules_pcm-pre.c,True
+"_af_initfloatrebufferf2v(int *,AFframecount,_Bool)",modules_rebuffer-pre.c,True
+"_af_initint2rebufferf2v(int *,AFframecount,_Bool)",modules_rebuffer-pre.c,True
+"floatrebufferf2vmax_pull(int *,struct _AFmoduleinst *)",modules_rebuffer-pre.c,True
+"floatrebufferf2vrun_pull(int *,struct _AFmoduleinst *)",modules_rebuffer-pre.c,True
+"floatrebufferv2fmax_push(int *,struct _AFmoduleinst *)",modules_rebuffer-pre.c,True
+"floatrebufferv2frun_push(int *,struct _AFmoduleinst *)",modules_rebuffer-pre.c,True
+"floatrebufferv2fsync1(int *,struct _AFmoduleinst *)",modules_rebuffer-pre.c,True
+"floatrebufferv2fsync2(int *,struct _AFmoduleinst *)",modules_rebuffer-pre.c,True
+"int2rebufferf2vmax_pull(int *,struct _AFmoduleinst *)",modules_rebuffer-pre.c,True
+"int2rebufferf2vrun_pull(int *,struct _AFmoduleinst *)",modules_rebuffer-pre.c,True
+"int2rebufferv2fmax_push(int *,struct _AFmoduleinst *)",modules_rebuffer-pre.c,True
+"int2rebufferv2frun_push(int *,struct _AFmoduleinst *)",modules_rebuffer-pre.c,True
+"int2rebufferv2fsync1(int *,struct _AFmoduleinst *)",modules_rebuffer-pre.c,True
+"int2rebufferv2fsync2(int *,struct _AFmoduleinst *)",modules_rebuffer-pre.c,True
+"_AFsetupmodules(int *,AFfilehandle,_Track *)",modules-pre.c,True
+"addfilereadmods(int *,current_state *,_Track *,AFfilehandle)",modules-pre.c,True
+"addfilewritemods(int *,current_state *,_Track *,AFfilehandle)",modules-pre.c,True
+"addmod(int *,current_state *,_AFmoduleinst)",modules-pre.c,True
+"arrangemodules(int *,_AFfilehandle *,_Track *)",modules-pre.c,True
+"disposefilemods(int *,_Track *)",modules-pre.c,True
+"disposemodules(int *,_Track *)",modules-pre.c,True
+"initpcmmod(int *,const _AFmodule *,_PCMInfo *,_PCMInfo *)",modules-pre.c,True
+"real_char3_to_schar3run(int *,_AFchunk *,_AFchunk *,void *)",modules-pre.c,True
+"real_char3_to_uchar3run(int *,_AFchunk *,_AFchunk *,void *)",modules-pre.c,True
+"swap2run(int *,_AFchunk *,_AFchunk *,void *)",modules-pre.c,True
+"swap3run(int *,_AFchunk *,_AFchunk *,void *)",modules-pre.c,True
+"swap4run(int *,_AFchunk *,_AFchunk *,void *)",modules-pre.c,True
+"swap8run(int *,_AFchunk *,_AFchunk *,void *)",modules-pre.c,True
+"_af_next_complete_setup(int *,AFfilesetup)",next-pre.c,True
+"next_write_header(int *,AFfilehandle)",nextwrite-pre.c,True
+"_af_nist_read_init(int *,AFfilesetup,AFfilehandle)",nist-pre.c,True
+"_af_nist_write_init(int *,AFfilesetup,AFfilehandle)",nistwrite-pre.c,True
+"WriteNISTHeader(int *,AFfilehandle)",nistwrite-pre.c,True
+"_af_identify(int *,AFvirtualfile *,int *)",openclose-pre.c,True
+"_afOpenFile(int *,int,AFvirtualfile *,const char *,AFfilehandle *,AFfilesetup)",openclose-pre.c,True
+"afOpenNamedFD(int *,int,const char *,AFfilesetup,const char *)",openclose-pre.c,True
+"freeFileHandle(int *,AFfilehandle)",openclose-pre.c,True
+"afInitPCMMapping(int *,AFfilesetup,int,double,double,double,double)",pcm-pre.c,True
+"afSetTrackPCMMapping(int *,AFfilehandle,int,double,double,double,double)",pcm-pre.c,True
+"afSetVirtualPCMMapping(int *,AFfilehandle,int,double,double,double,double)",pcm-pre.c,True
+"_afQueryFileFormat(int *,int,int,int,int)",query-pre.c,True
+"_afQueryMarker(int *,int,int,int,int)",query-pre.c,True
+"afQueryDouble(int *,int,int,int,int,int)",query-pre.c,True
+"afQueryLong(int *,int,int,int,int,int)",query-pre.c,True
+"afQueryPointer(int *,int,int,int,int,int)",query-pre.c,True
+"_af_raw_write_init(int *,AFfilesetup,AFfilehandle)",raw-pre.c,True
+"_af_filesetup_copy(int *,AFfilesetup,AFfilesetup,_Bool)",setup-pre.c,True
+"_af_filesetup_make_handle(int *,AFfilesetup,AFfilehandle)",setup-pre.c,True
+"_af_setup_free_instruments(int *,AFfilesetup)",setup-pre.c,True
+"_af_setup_free_loops(int *,AFfilesetup,int)",setup-pre.c,True
+"_af_setup_free_markers(int *,AFfilesetup,int)",setup-pre.c,True
+"afFreeFileSetup(int *,AFfilesetup)",setup-pre.c,True
+"afInitFileFormat(int *,AFfilesetup,int)",setup-pre.c,True
+"afInitSampleFormat(int *,AFfilesetup,int,int,int)",setup-pre.c,True
+afNewFileSetup(int *),setup-pre.c,True
+"copyaudiodata(int *,AFfilehandle,AFfilehandle,int,AFframecount)",sfconvert-pre.c,True
+"main(int,char **)",sfconvert-pre.c,True
+"_af_calloc(int *,size_t,size_t)",util-pre.c,True
+"_af_malloc(int *,size_t)",util-pre.c,True
+"_af_pv_getlong(int *,AUpvlist,int,long *)",util-pre.c,True
+"_af_realloc(int *,void *,size_t)",util-pre.c,True
+"_af_strdup(int *,char *)",util-pre.c,True
+"af_read_uint16_be(int *,uint16_t *,AFvirtualfile *)",util-pre.c,True
+"af_read_uint32_be(int *,uint32_t *,AFvirtualfile *)",util-pre.c,True
+"af_read_uint32_le(int *,uint32_t *,AFvirtualfile *)",util-pre.c,True
+"af_write_uint16_be(int *,const uint16_t *,AFvirtualfile *)",util-pre.c,True
+"af_write_uint32_be(int *,const uint32_t *,AFvirtualfile *)",util-pre.c,True
+"_af_wave_complete_setup(int *,AFfilesetup)",wave-pre.c,True
+"_af_wave_read_init(int *,AFfilesetup,AFfilehandle)",wave-pre.c,True
+"ParseCues(int *,AFfilehandle,AFvirtualfile *,uint32_t,size_t)",wave-pre.c,True
+"ParseFormat(int *,AFfilehandle,AFvirtualfile *,uint32_t,size_t)",wave-pre.c,True
+"_af_wave_update(int *,AFfilehandle)",wavewrite-pre.c,True
+"WriteData(int *,AFfilehandle)",wavewrite-pre.c,True
+"WriteFrameCount(int *,AFfilehandle)",wavewrite-pre.c,True

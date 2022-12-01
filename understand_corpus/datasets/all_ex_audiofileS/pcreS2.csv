@@ -1,0 +1,246 @@
+Kind,Name,File,CountInput,CountLineInactive,CountLinePreprocessor,CountOutput,CountPath,CountPathLog,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,INJECTED
+Function,"_pcre2_auto_possessify_8(int *,PCRE2_UCHAR8 *,BOOL,const compile_block_8 *)",auto_possess-pre.c,8,0,0,4,827,3,107,18,117,9,55,20,5,19,0
+Function,"_pcre2_check_escape_8(int *,PCRE2_SPTR8 *,PCRE2_SPTR8,uint32_t *,int *,uint32_t,BOOL,compile_block_8 *)",compile-pre.c,15,0,0,7,2881,3,92,74,148,54,292,285,6,281,0
+Function,"_pcre2_extuni_8(int *,uint32_t,PCRE2_SPTR8,PCRE2_SPTR8,PCRE2_SPTR8,BOOL,int *)",extuni-pre.c,13,0,0,1,9129,4,24,24,27,7,17,9,6,7,0
+Function,"_pcre2_find_bracket_8(int *,PCRE2_SPTR8,BOOL,int)",find_bracket-pre.c,7,0,0,1,32,2,87,15,92,9,20,18,5,17,0
+Function,"_pcre2_is_newline_8(int *,PCRE2_SPTR8,uint32_t,PCRE2_SPTR8,uint32_t *,BOOL)",newline-pre.c,9,0,0,2,56,2,20,13,22,8,21,16,3,16,0
+Function,"_pcre2_jit_free_8(int *,void *,pcre2_memctl *)",jit_compile-pre.c,3,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Function,"_pcre2_jit_free_rodata_8(int *,void *,void *)",jit_compile-pre.c,2,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Function,"_pcre2_jit_get_size_8(int *,void *)",jit_compile-pre.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,_pcre2_jit_get_target_8(int *),jit_compile-pre.c,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"_pcre2_memctl_malloc_8(int *,size_t,pcre2_memctl *)",context-pre.c,12,0,0,5,3,0,4,4,4,1,2,0,1,0,0
+Function,"_pcre2_ord2utf_8(int *,uint32_t,PCRE2_UCHAR8 *)",ord2utf-pre.c,11,0,0,1,6,1,4,4,4,3,2,2,2,2,0
+Function,"_pcre2_script_run_8(int *,PCRE2_SPTR8,PCRE2_SPTR8,BOOL)",script_run-pre.c,10,0,0,1,5911,4,40,32,46,27,88,81,6,79,0
+Function,"_pcre2_strcmp_8(int *,PCRE2_SPTR8,PCRE2_SPTR8)",string_utils-pre.c,4,0,0,1,3,0,3,3,4,3,3,3,2,3,0
+Function,"_pcre2_strcmp_c8_8(int *,PCRE2_SPTR8,const char *)",string_utils-pre.c,4,0,0,1,3,0,3,3,4,3,3,3,2,3,0
+Function,"_pcre2_strcpy_c8_8(int *,PCRE2_UCHAR8 *,const char *)",string_utils-pre.c,3,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"_pcre2_strlen_8(int *,PCRE2_SPTR8)",string_utils-pre.c,6,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"_pcre2_strncmp_8(int *,PCRE2_SPTR8,PCRE2_SPTR8,size_t)",string_utils-pre.c,7,0,0,1,3,0,3,3,3,3,3,3,2,3,0
+Function,"_pcre2_strncmp_c8_8(int *,PCRE2_SPTR8,const char *,size_t)",string_utils-pre.c,6,0,0,1,3,0,3,3,3,3,3,3,2,3,0
+Function,"_pcre2_study_8(int *,pcre2_real_code_8 *)",study-pre.c,8,0,0,5,19,1,9,7,10,7,12,12,3,12,0
+Function,"_pcre2_valid_utf_8(int *,PCRE2_SPTR8,size_t,size_t *)",valid_utf-pre.c,8,0,0,2,135,2,36,28,43,35,189,189,3,189,0
+Function,"_pcre2_was_newline_8(int *,PCRE2_SPTR8,uint32_t,PCRE2_SPTR8,uint32_t *,BOOL)",newline-pre.c,8,0,0,2,104,2,21,14,23,8,21,16,3,16,0
+Function,"_pcre2_xclass_8(int *,uint32_t,PCRE2_SPTR8,BOOL)",xclass-pre.c,12,0,0,1,475,3,82,45,106,38,370,357,5,356,0
+Function,"main(int,char **)",pcre2test-pre.c,42,0,0,99,999999999,10,73,72,105,47,169,167,4,163,0
+Function,"main(int,char **)",pcre2grep-pre.c,70,0,0,83,999999999,21,122,121,152,64,155,146,7,132,0
+Function,"pcre2_callout_enumerate_8(int *,const pcre2_code_8 *,int (*)(int *, pcre2_callout_enumerate_block_8 *, void *),void *)",pattern_info-pre.c,11,0,0,8,16,1,87,10,89,14,48,48,3,48,0
+Function,"pcre2_code_copy_8(int *,const pcre2_code_8 *)",compile-pre.c,9,0,0,4,4,1,4,4,4,3,2,2,1,2,0
+Function,"pcre2_code_copy_with_tables_8(int *,const pcre2_code_8 *)",compile-pre.c,7,0,0,7,4,1,4,4,4,4,3,3,1,3,0
+Function,"pcre2_code_free_8(int *,pcre2_code_8 *)",compile-pre.c,14,0,0,2,9,1,6,6,6,1,0,0,4,0,0
+Function,"pcre2_compile_8(int *,PCRE2_SPTR8,size_t,uint32_t,int *,size_t *,pcre2_compile_context_8 *)",compile-pre.c,49,0,0,84,999999999,17,92,81,112,50,141,141,7,137,1
+Function,"pcre2_compile_context_copy_8(int *,pcre2_compile_context_8 *)",context-pre.c,5,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"pcre2_compile_context_create_8(int *,pcre2_general_context_8 *)",context-pre.c,5,0,0,2,3,0,3,3,3,1,1,0,1,0,0
+Function,"pcre2_compile_context_free_8(int *,pcre2_compile_context_8 *)",context-pre.c,6,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"pcre2_config_8(int *,uint32_t,void *)",config-pre.c,9,0,0,4,34,2,35,7,35,19,153,153,2,153,0
+Function,"pcre2_convert_context_copy_8(int *,pcre2_convert_context_8 *)",context-pre.c,5,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"pcre2_convert_context_create_8(int *,pcre2_general_context_8 *)",context-pre.c,4,0,0,2,3,0,3,3,3,1,1,0,1,0,0
+Function,"pcre2_convert_context_free_8(int *,pcre2_convert_context_8 *)",context-pre.c,5,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"pcre2_converted_pattern_free_8(int *,PCRE2_UCHAR8 *)",convert-pre.c,4,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"pcre2_dfa_match_8(int *,const pcre2_code_8 *,PCRE2_SPTR8,size_t,size_t,uint32_t,pcre2_match_data_8 *,pcre2_match_context_8 *,int *,size_t)",dfa_match-pre.c,57,0,0,51,999999999,11,89,84,151,49,102,101,8,97,0
+Function,"pcre2_general_context_copy_8(int *,pcre2_general_context_8 *)",context-pre.c,5,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"pcre2_general_context_create_8(int *,void *(*)(int *, size_t, void *),void (*)(int *, void *, void *),void *)",context-pre.c,5,0,0,5,8,1,4,4,4,1,1,0,1,0,0
+Function,"pcre2_general_context_free_8(int *,pcre2_general_context_8 *)",context-pre.c,5,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"pcre2_get_error_message_8(int *,int,PCRE2_UCHAR8 *,size_t)",error-pre.c,7,0,0,2,34,2,9,9,9,6,9,9,2,7,0
+Function,"pcre2_get_mark_8(int *,pcre2_match_data_8 *)",match_data-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_get_ovector_count_8(int *,pcre2_match_data_8 *)",match_data-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_get_ovector_pointer_8(int *,pcre2_match_data_8 *)",match_data-pre.c,5,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_get_startchar_8(int *,pcre2_match_data_8 *)",match_data-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_jit_compile_8(int *,pcre2_code_8 *,uint32_t)",jit_compile-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_jit_free_unused_memory_8(int *,pcre2_general_context_8 *)",jit_compile-pre.c,2,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_jit_match_8(int *,const pcre2_code_8 *,PCRE2_SPTR8,size_t,size_t,uint32_t,pcre2_match_data_8 *,pcre2_match_context_8 *)",jit_compile-pre.c,9,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_jit_stack_assign_8(int *,pcre2_match_context_8 *,pcre2_jit_callback_8,void *)",jit_compile-pre.c,4,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_jit_stack_create_8(int *,size_t,size_t,pcre2_general_context_8 *)",jit_compile-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_jit_stack_free_8(int *,pcre2_jit_stack_8 *)",jit_compile-pre.c,3,0,0,0,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_maketables_8(int *,pcre2_general_context_8 *)",maketables-pre.c,6,0,0,7,270469,5,24,24,25,1,1,0,2,0,0
+Function,"pcre2_match_8(int *,const pcre2_code_8 *,PCRE2_SPTR8,size_t,size_t,uint32_t,pcre2_match_data_8 *,pcre2_match_context_8 *)",match-pre.c,68,0,0,63,1144842396,11,103,93,163,48,112,105,9,103,0
+Function,"pcre2_match_context_copy_8(int *,pcre2_match_context_8 *)",context-pre.c,5,0,0,3,2,0,2,2,2,1,1,0,1,0,0
+Function,"pcre2_match_context_create_8(int *,pcre2_general_context_8 *)",context-pre.c,5,0,0,2,3,0,3,3,3,1,1,0,1,0,0
+Function,"pcre2_match_context_free_8(int *,pcre2_match_context_8 *)",context-pre.c,6,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"pcre2_match_data_create_8(int *,uint32_t,pcre2_general_context_8 *)",match_data-pre.c,8,0,0,3,4,1,3,3,3,1,1,0,1,0,0
+Function,"pcre2_match_data_create_from_pattern_8(int *,const pcre2_code_8 *,pcre2_general_context_8 *)",match_data-pre.c,6,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Function,"pcre2_match_data_free_8(int *,pcre2_match_data_8 *)",match_data-pre.c,9,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"pcre2_pattern_convert_8(int *,PCRE2_SPTR8,size_t,uint32_t,PCRE2_UCHAR8 **,size_t *,pcre2_convert_context_8 *)",convert-pre.c,9,0,0,8,134,2,14,12,22,10,17,17,2,17,0
+Function,"pcre2_pattern_info_8(int *,const pcre2_code_8 *,uint32_t,void *)",pattern_info-pre.c,26,0,0,2,72,2,68,16,68,39,506,506,2,506,0
+Function,"pcre2_regcomp(int *,regex_t *,const char *,int)",pcre2posix-pre.c,10,0,0,11,896,3,15,15,15,7,10,10,3,10,0
+Function,"pcre2_regerror(int *,int,const regex_t *,char *,size_t)",pcre2posix-pre.c,7,0,0,2,2,0,3,3,5,1,1,0,1,0,0
+Function,"pcre2_regexec(int *,const regex_t *,const char *,size_t,regmatch_t [],int)",pcre2posix-pre.c,12,0,0,8,592,3,22,15,24,13,41,41,2,41,0
+Function,"pcre2_regfree(int *,regex_t *)",pcre2posix-pre.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_serialize_decode_8(int *,pcre2_code_8 **,int32_t,const uint8_t *,pcre2_general_context_8 *)",serialize-pre.c,17,0,0,9,20,1,15,15,18,12,16,16,3,16,0
+Function,"pcre2_serialize_encode_8(int *,const pcre2_code_8 **,int32_t,uint8_t **,size_t *,pcre2_general_context_8 *)",serialize-pre.c,14,0,0,10,14,1,11,11,13,9,14,14,2,14,0
+Function,"pcre2_serialize_free_8(int *,uint8_t *)",serialize-pre.c,4,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"pcre2_serialize_get_number_of_codes_8(int *,const uint8_t *)",serialize-pre.c,6,0,0,1,5,1,5,5,5,5,4,4,1,4,0
+Function,"pcre2_set_bsr_8(int *,pcre2_compile_context_8 *,uint32_t)",context-pre.c,2,0,0,3,2,0,3,2,3,1,1,0,1,0,0
+Function,"pcre2_set_callout_8(int *,pcre2_match_context_8 *,int (*)(int *, pcre2_callout_block_8 *, void *),void *)",context-pre.c,4,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_set_character_tables_8(int *,pcre2_compile_context_8 *,const unsigned char *)",context-pre.c,3,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_set_compile_extra_options_8(int *,pcre2_compile_context_8 *,uint32_t)",context-pre.c,3,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_set_compile_recursion_guard_8(int *,pcre2_compile_context_8 *,int (*)(int *, uint32_t, void *),void *)",context-pre.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_set_depth_limit_8(int *,pcre2_match_context_8 *,uint32_t)",context-pre.c,4,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_set_glob_escape_8(int *,pcre2_convert_context_8 *,uint32_t)",context-pre.c,2,0,0,4,2,0,2,2,4,1,1,0,1,0,0
+Function,"pcre2_set_glob_separator_8(int *,pcre2_convert_context_8 *,uint32_t)",context-pre.c,2,0,0,3,2,0,2,2,4,1,1,0,1,0,0
+Function,"pcre2_set_heap_limit_8(int *,pcre2_match_context_8 *,uint32_t)",context-pre.c,3,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_set_match_limit_8(int *,pcre2_match_context_8 *,uint32_t)",context-pre.c,3,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_set_max_pattern_length_8(int *,pcre2_compile_context_8 *,size_t)",context-pre.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_set_newline_8(int *,pcre2_compile_context_8 *,uint32_t)",context-pre.c,3,0,0,3,2,0,7,2,7,1,1,0,1,0,0
+Function,"pcre2_set_offset_limit_8(int *,pcre2_match_context_8 *,size_t)",context-pre.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_set_parens_nest_limit_8(int *,pcre2_compile_context_8 *,uint32_t)",context-pre.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_set_recursion_limit_8(int *,pcre2_match_context_8 *,uint32_t)",context-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_set_recursion_memory_management_8(int *,pcre2_match_context_8 *,void *(*)(int *, size_t, void *),void (*)(int *, void *, void *),void *)",context-pre.c,5,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_set_substitute_callout_8(int *,pcre2_match_context_8 *,void (*)(int *, pcre2_substitute_callout_block_8 *, void *),void *)",context-pre.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Function,"pcre2_substitute_8(int *,const pcre2_code_8 *,PCRE2_SPTR8,size_t,size_t,uint32_t,pcre2_match_data_8 *,pcre2_match_context_8 *,PCRE2_SPTR8,size_t,PCRE2_UCHAR8 *,size_t *)",substitute-pre.c,26,0,0,23,999999999,19,137,132,178,82,762,737,9,728,0
+Function,"pcre2_substring_copy_byname_8(int *,pcre2_match_data_8 *,PCRE2_SPTR8,PCRE2_UCHAR8 *,size_t *)",substring-pre.c,10,0,0,3,6,1,6,6,6,6,6,6,3,6,0
+Function,"pcre2_substring_copy_bynumber_8(int *,pcre2_match_data_8 *,uint32_t,PCRE2_UCHAR8 *,size_t *)",substring-pre.c,9,0,0,5,3,0,3,3,3,3,2,2,1,2,0
+Function,"pcre2_substring_free_8(int *,PCRE2_UCHAR8 *)",substring-pre.c,4,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"pcre2_substring_get_byname_8(int *,pcre2_match_data_8 *,PCRE2_SPTR8,PCRE2_UCHAR8 **,size_t *)",substring-pre.c,10,0,0,3,6,1,6,6,6,6,6,6,3,6,0
+Function,"pcre2_substring_get_bynumber_8(int *,pcre2_match_data_8 *,uint32_t,PCRE2_UCHAR8 **,size_t *)",substring-pre.c,7,0,0,6,3,0,3,3,3,3,2,2,1,2,0
+Function,"pcre2_substring_length_byname_8(int *,pcre2_match_data_8 *,PCRE2_SPTR8,size_t *)",substring-pre.c,9,0,0,3,6,1,6,6,6,6,6,6,3,6,0
+Function,"pcre2_substring_length_bynumber_8(int *,pcre2_match_data_8 *,uint32_t,size_t *)",substring-pre.c,14,0,0,2,20,1,12,12,13,10,16,16,2,16,0
+Function,"pcre2_substring_list_free_8(int *,PCRE2_SPTR8 *)",substring-pre.c,4,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Function,"pcre2_substring_list_get_8(int *,pcre2_match_data_8 *,PCRE2_UCHAR8 ***,size_t **)",substring-pre.c,8,0,0,5,133,2,12,12,12,3,3,2,2,2,0
+Function,"pcre2_substring_nametable_scan_8(int *,const pcre2_code_8 *,PCRE2_SPTR8,PCRE2_SPTR8 *,PCRE2_SPTR8 *)",substring-pre.c,11,0,0,4,21,1,10,10,10,8,12,12,4,11,0
+Function,"pcre2_substring_number_from_name_8(int *,const pcre2_code_8 *,PCRE2_SPTR8)",substring-pre.c,4,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"regcomp(int *,regex_t *,const char *,int)",pcre2posix-pre.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"regerror(int *,int,const regex_t *,char *,size_t)",pcre2posix-pre.c,7,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"regexec(int *,const regex_t *,const char *,size_t,regmatch_t [],int)",pcre2posix-pre.c,7,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Function,"regfree(int *,regex_t *)",pcre2posix-pre.c,3,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Function,"valid_utf(PCRE2_SPTR8,size_t,size_t *)",pcre2test-pre.c,4,0,0,2,135,2,36,28,43,35,189,189,3,189,0
+Static Function,"add_list_to_class(int *,uint8_t *,PCRE2_UCHAR8 **,uint32_t,compile_block_8 *,const uint32_t *,unsigned int)",compile-pre.c,8,0,0,5,4,1,4,4,4,1,0,0,3,0,0
+Static Function,"add_list_to_class_internal(int *,uint8_t *,PCRE2_UCHAR8 **,uint32_t,compile_block_8 *,const uint32_t *,unsigned int)",compile-pre.c,8,0,0,2,4,1,4,4,4,1,0,0,3,0,0
+Static Function,"add_name_to_table(int *,compile_block_8 *,PCRE2_SPTR8,int,unsigned int,uint32_t)",compile-pre.c,8,0,0,4,5,1,4,4,5,3,2,2,2,2,0
+Static Function,"add_not_list_to_class(int *,uint8_t *,PCRE2_UCHAR8 **,uint32_t,compile_block_8 *,const uint32_t *)",compile-pre.c,7,0,0,2,6,1,6,6,6,1,0,0,2,0,0
+Static Function,"add_number(int *,int,omstr *)",pcre2grep-pre.c,7,0,0,7,4,1,3,3,3,1,0,0,1,0,0
+Static Function,"add_pattern(int *,char *,size_t,patstr *)",pcre2grep-pre.c,9,0,0,11,10,1,5,5,5,1,1,0,1,0,0
+Static Function,"add_to_class(int *,uint8_t *,PCRE2_UCHAR8 **,uint32_t,compile_block_8 *,uint32_t,uint32_t)",compile-pre.c,9,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"add_to_class_internal(int *,uint8_t *,PCRE2_UCHAR8 **,uint32_t,compile_block_8 *,uint32_t,uint32_t)",compile-pre.c,14,0,0,6,420,3,20,20,25,6,9,6,5,4,0
+Static Function,"backchars(uint8_t *,size_t,uint32_t,BOOL)",pcre2test-pre.c,6,0,0,1,7,1,8,8,11,3,2,2,3,2,0
+Static Function,c_option(const char *),pcre2test-pre.c,8,0,0,9,53,2,18,14,19,5,17,6,3,5,0
+Static Function,"callout_callback(pcre2_callout_enumerate_block_8 *,void *)",pcre2test-pre.c,13,0,0,3,4,1,5,5,5,4,3,3,3,3,0
+Static Function,"callout_function(pcre2_callout_block_8 *,void *)",pcre2test-pre.c,31,0,0,7,1980825,6,32,30,37,12,16,12,3,11,0
+Static Function,"check_char_prop(int *,uint32_t,unsigned int,unsigned int,BOOL)",auto_possess-pre.c,13,0,0,1,13,1,39,6,44,13,47,47,3,47,0
+Static Function,"check_lookbehinds(int *,compile_block_8 *)",compile-pre.c,4,0,0,4,27,1,66,6,67,14,70,70,3,70,0
+Static Function,"check_match_limit(uint8_t *,size_t,int,const char *)",pcre2test-pre.c,17,0,0,11,127,2,15,15,18,7,20,17,3,16,0
+Static Function,"check_modifier(modstruct *,int,patctl *,datctl *,uint32_t)",pcre2test-pre.c,15,0,0,2,85,2,24,14,27,4,18,4,2,4,0
+Static Function,"check_posix_name(int *,PCRE2_SPTR8,int)",compile-pre.c,6,0,0,2,3,0,3,3,4,3,3,3,2,3,0
+Static Function,"check_posix_syntax(int *,PCRE2_SPTR8,PCRE2_SPTR8,PCRE2_SPTR8 *)",compile-pre.c,3,0,0,2,5,1,5,5,10,5,9,9,2,9,0
+Static Function,"closedirectory(int *,directory_type *)",pcre2grep-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"compare_opcodes(int *,PCRE2_SPTR8,BOOL,const compile_block_8 *,const uint32_t *,PCRE2_SPTR8,int *)",auto_possess-pre.c,17,0,0,4,198250,5,181,66,221,83,803,761,5,755,0
+Static Function,"compile_branch(int *,uint32_t *,PCRE2_UCHAR8 **,uint32_t **,int *,uint32_t *,int32_t *,uint32_t *,int32_t *,branch_chain_8 *,compile_block_8 *,size_t *)",compile-pre.c,41,0,0,33,1987326,10,350,242,424,122,1706,1613,8,1605,1
+Static Function,"compile_pattern(int *,patstr *,int,int,const char *,int)",pcre2grep-pre.c,13,0,0,10,45,2,10,10,10,6,7,5,3,5,0
+Static Function,"compile_regex(int *,uint32_t,PCRE2_UCHAR8 **,uint32_t **,int *,uint32_t,uint32_t *,int32_t *,uint32_t *,int32_t *,branch_chain_8 *,compile_block_8 *,size_t *)",compile-pre.c,20,0,0,20,11545,4,25,25,33,7,13,10,6,9,1
+Static Function,"convert_glob(int *,uint32_t,PCRE2_SPTR8,size_t,BOOL,PCRE2_UCHAR8 *,size_t,size_t *,BOOL,pcre2_convert_context_8 *)",convert-pre.c,15,0,0,13,46663921,8,37,37,56,18,51,51,5,47,0
+Static Function,"convert_glob_char_in_class(int *,int,PCRE2_UCHAR8)",convert-pre.c,3,0,0,2,14,1,14,2,16,1,91,0,1,0,0
+Static Function,"convert_glob_parse_class(int *,PCRE2_SPTR8 *,PCRE2_SPTR8,pcre2_output_context *)",convert-pre.c,5,0,0,3,25,1,11,11,14,9,12,12,4,12,0
+Static Function,"convert_glob_parse_range(int *,PCRE2_SPTR8 *,PCRE2_SPTR8,pcre2_output_context *,BOOL,PCRE2_UCHAR8,BOOL,PCRE2_UCHAR8,BOOL)",convert-pre.c,10,0,0,9,79978,5,45,45,63,16,56,42,5,40,0
+Static Function,"convert_glob_print_commit(int *,pcre2_output_context *)",convert-pre.c,3,0,0,4,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"convert_glob_print_separator(int *,pcre2_output_context *,PCRE2_UCHAR8,BOOL)",convert-pre.c,7,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"convert_glob_print_wildcard(int *,pcre2_output_context *,PCRE2_UCHAR8,BOOL)",convert-pre.c,5,0,0,5,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"convert_glob_write(int *,pcre2_output_context *,PCRE2_UCHAR8)",convert-pre.c,10,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"convert_glob_write_str(int *,pcre2_output_context *,size_t)",convert-pre.c,10,0,0,3,2,0,3,3,3,1,0,0,2,0,0
+Static Function,"convert_posix(int *,uint32_t,PCRE2_SPTR8,size_t,BOOL,PCRE2_UCHAR8 *,size_t,size_t *,BOOL,pcre2_convert_context_8 *)",convert-pre.c,11,0,0,5,7709,4,69,55,80,55,237,237,8,233,0
+Static Function,"copy_and_get(BOOL,int)",pcre2test-pre.c,15,0,0,17,156832,5,32,32,36,22,45,45,4,43,0
+Static Function,"decode_modifiers(uint8_t *,int,patctl *,datctl *)",pcre2test-pre.c,26,0,0,15,844033,6,81,69,115,61,527,526,6,519,0
+Static Function,"decode_number(int *,char *,option_item *,BOOL)",pcre2grep-pre.c,8,0,0,8,36,2,8,8,9,1,2,0,2,0,0
+Static Function,"default_free(int *,void *,void *)",context-pre.c,2,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"default_malloc(int *,size_t,void *)",context-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,display_modifiers(),pcre2test-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"display_one_modifier(modstruct *,BOOL)",pcre2test-pre.c,5,0,0,1,1,0,2,2,4,1,0,0,0,0,0
+Static Function,"display_output_text(int *,PCRE2_SPTR8,BOOL,PCRE2_SPTR8,size_t *,size_t)",pcre2grep-pre.c,9,0,0,4,127,2,26,26,34,1,14,0,5,0,0
+Static Function,"display_selected_modifiers(BOOL,const char *)",pcre2test-pre.c,6,0,0,3,36,2,15,7,15,5,5,5,3,5,0
+Static Function,"do_after_lines(int *,unsigned long,char *,char *,const char *)",pcre2grep-pre.c,11,0,0,4,35,2,8,8,11,4,2,2,3,2,0
+Static Function,"do_callout(int *,PCRE2_SPTR8,size_t *,PCRE2_SPTR8,PCRE2_SPTR8,dfa_match_block_8 *,size_t,size_t *)",dfa_match-pre.c,14,0,0,12,3,0,4,4,4,1,2,0,1,0,0
+Static Function,"do_callout(int *,heapframe *,match_block_8 *,size_t *)",match-pre.c,16,0,0,15,3,0,4,4,4,1,2,0,1,0,0
+Static Function,"end_of_line(int *,char *,char *,int *)",pcre2grep-pre.c,9,0,0,2,55,2,35,23,43,21,77,70,4,67,0
+Static Function,expand_input_buffers(),pcre2test-pre.c,6,0,0,8,2,0,2,2,3,1,1,0,1,0,0
+Static Function,"extend_inputline(FILE *,uint8_t *,const char *)",pcre2test-pre.c,8,0,0,10,10,1,8,8,11,6,10,10,3,10,0
+Static Function,"fill_buffer(int *,void *,int,char *,int,BOOL)",pcre2grep-pre.c,7,0,0,3,1,0,2,2,2,1,0,0,0,0,0
+Static Function,"find_dupname_details(int *,PCRE2_SPTR8,uint32_t,int *,int *,int *,compile_block_8 *)",compile-pre.c,10,0,0,9,30,1,9,9,11,7,7,7,2,7,0
+Static Function,"find_firstassertedcu(int *,PCRE2_SPTR8,int32_t *,uint32_t)",compile-pre.c,4,0,0,3,21,1,32,14,36,16,48,48,3,48,0
+Static Function,"find_minlength(int *,const pcre2_real_code_8 *,PCRE2_SPTR8,PCRE2_SPTR8,BOOL,recurse_check *,int *,int *)",study-pre.c,16,0,0,5,1413,3,236,62,256,68,720,717,8,712,0
+Static Function,"find_recurse(int *,PCRE2_SPTR8,BOOL)",compile-pre.c,5,0,0,1,29,1,84,12,86,4,9,5,5,4,0
+Static Function,"find_text_end(int *,const pcre2_code_8 *,PCRE2_SPTR8 *,PCRE2_SPTR8,BOOL)",substitute-pre.c,7,0,0,3,27,1,19,14,24,11,31,31,4,31,0
+Static Function,"first_significant_code(int *,PCRE2_SPTR8,BOOL)",compile-pre.c,6,0,0,1,11,1,22,7,23,11,45,45,3,45,0
+Static Function,"free_file_chain(int *,fnstr *)",pcre2grep-pre.c,3,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"free_pattern_chain(int *,patstr *)",pcre2grep-pre.c,5,0,0,2,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"get_branchlength(int *,uint32_t **,int *,int *,parsed_recurse_check *,compile_block_8 *)",compile-pre.c,23,0,0,12,4745,4,94,38,103,56,709,709,5,705,0
+Static Function,"get_chr_property_list(int *,PCRE2_SPTR8,BOOL,const uint8_t *,uint32_t *)",auto_possess-pre.c,12,0,0,3,559,3,65,24,76,9,46,22,3,22,0
+Static Function,"get_grouplength(int *,uint32_t **,BOOL,int *,int *,int,parsed_recurse_check *,compile_block_8 *)",compile-pre.c,11,0,0,5,55,2,12,12,13,9,16,16,3,16,0
+Static Function,"get_othercase_range(int *,uint32_t *,uint32_t,uint32_t *,uint32_t *)",compile-pre.c,8,0,0,4,13,1,7,7,8,7,8,8,2,8,0
+Static Function,"get_repeat_base(int *,PCRE2_UCHAR8)",auto_possess-pre.c,3,0,0,1,1,0,6,6,6,1,0,0,0,0,0
+Static Function,"get_ucp(int *,PCRE2_SPTR8 *,BOOL *,uint16_t *,uint16_t *,int *,compile_block_8 *)",compile-pre.c,12,0,0,7,592,3,14,14,15,12,35,35,3,34,0
+Static Function,"get_ucpname_8(unsigned int,unsigned int)",pcre2test-pre.c,10,0,0,1,3,0,4,4,5,3,2,2,2,2,0
+Static Function,"grep_or_recurse(int *,char *,BOOL,BOOL)",pcre2grep-pre.c,16,0,0,17,18,1,17,17,25,10,15,15,4,14,0
+Static Function,"handle_option(int *,int,int)",pcre2grep-pre.c,8,0,0,26,28,1,28,3,28,1,351,0,2,0,0
+Static Function,help(int *),pcre2grep-pre.c,5,0,0,3,7,1,5,5,6,1,2,0,3,0,0
+Static Function,"internal_dfa_match(int *,dfa_match_block_8 *,PCRE2_SPTR8,PCRE2_SPTR8,size_t,size_t *,uint32_t,int *,int,uint32_t,int *)",dfa_match-pre.c,49,0,0,22,999999999,10,985,490,1241,476,14093,14062,8,14049,0
+Static Function,"is_anchored(int *,PCRE2_SPTR8,unsigned int,compile_block_8 *,int,BOOL)",compile-pre.c,11,0,0,2,15,1,17,17,33,16,53,53,3,53,0
+Static Function,"is_file_tty(int *,FILE *)",pcre2grep-pre.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"is_startline(int *,PCRE2_SPTR8,unsigned int,compile_block_8 *,int,BOOL)",compile-pre.c,11,0,0,2,54,2,26,20,40,16,44,43,4,43,0
+Static Function,is_stdout_tty(int *),pcre2grep-pre.c,2,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"isdirectory(int *,char *)",pcre2grep-pre.c,3,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Static Function,"isregfile(int *,char *)",pcre2grep-pre.c,3,0,0,2,2,0,2,2,2,1,1,0,1,0,0
+Static Function,jit_callback(void *),pcre2test-pre.c,1,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"manage_callouts(int *,PCRE2_SPTR8,uint32_t **,BOOL,uint32_t *,compile_block_8 *)",compile-pre.c,7,0,0,3,6,1,4,4,6,1,1,0,2,0,1
+Static Function,"match(int *,PCRE2_SPTR8,PCRE2_SPTR8,size_t *,uint16_t,uint16_t,size_t,match_block_8 *)",match-pre.c,76,0,0,51,999999999,14,2294,1582,2757,1336,132033,131310,10,131156,0
+Static Function,"match_patterns(int *,char *,size_t,unsigned int,size_t,int *)",pcre2grep-pre.c,15,0,0,8,68,2,9,9,12,4,5,5,2,5,0
+Static Function,"match_ref(int *,size_t,BOOL,heapframe *,match_block_8 *,size_t *)",match-pre.c,19,0,0,3,195,2,30,30,32,20,55,51,6,47,0
+Static Function,"more_workspace(int *,RWS_anchor **,unsigned int,dfa_match_block_8 *)",dfa_match-pre.c,11,0,0,7,7,1,5,5,5,4,5,5,2,5,0
+Static Function,"my_free(void *,void *)",pcre2test-pre.c,7,0,0,5,9,1,6,6,6,4,2,2,4,2,0
+Static Function,"my_malloc(size_t,void *)",pcre2test-pre.c,5,0,0,6,4,1,4,4,4,1,2,0,3,0,0
+Static Function,"open_file(uint8_t *,const char *,FILE **)",pcre2test-pre.c,5,0,0,8,12,1,5,5,6,3,2,2,1,2,0
+Static Function,"opendirectory(int *,char *)",pcre2grep-pre.c,2,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"ord2utf8(uint32_t,uint8_t *)",pcre2test-pre.c,5,0,0,1,7,1,5,5,5,4,3,3,2,3,0
+Static Function,"ordin(int *,int)",pcre2grep-pre.c,2,0,0,3,16,1,6,4,7,1,6,0,1,0,0
+Static Function,"parse_grep_colors(int *,const char *)",pcre2grep-pre.c,2,0,0,2,7,1,5,5,7,3,2,2,1,2,0
+Static Function,"parse_regex(int *,PCRE2_SPTR8,uint32_t,BOOL *,compile_block_8 *)",compile-pre.c,49,0,0,36,999999999,21,377,288,518,218,3186,3153,8,3131,1
+Static Function,"parsed_skip(int *,uint32_t *,uint32_t)",compile-pre.c,5,0,0,1,29,1,38,10,39,15,86,86,3,85,0
+Static Function,"pattern_info(int,void *,BOOL)",pcre2test-pre.c,11,0,0,3,4,1,4,4,5,1,1,0,2,0,0
+Static Function,"pchar(uint32_t,BOOL,FILE *)",pcre2test-pre.c,6,0,0,4,8,1,10,10,12,4,5,4,3,4,0
+Static Function,"pchars8(PCRE2_SPTR8,int,BOOL,FILE *)",pcre2test-pre.c,12,0,0,3,8,1,5,5,6,4,2,2,3,2,0
+Static Function,"pcre2_printint_8(pcre2_code_8 *,FILE *,BOOL)",pcre2test-pre.c,11,0,0,6,71667,5,184,50,196,49,583,563,7,558,0
+Static Function,"pcre2grep(int *,void *,int,const char *,const char *)",pcre2grep-pre.c,39,0,0,26,999999999,12,88,88,117,25,61,59,9,55,0
+Static Function,"pcre2grep_callout(int *,pcre2_callout_block_8 *,void *)",pcre2grep-pre.c,8,0,0,10,695,3,35,35,45,19,51,48,6,47,0
+Static Function,"pcre2grep_exit(int *,int)",pcre2grep-pre.c,9,0,0,2,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"previous_line(int *,char *,char *)",pcre2grep-pre.c,7,0,0,1,540,3,31,19,38,12,23,23,5,22,0
+Static Function,"print_char_8(FILE *,PCRE2_SPTR8,BOOL)",pcre2test-pre.c,6,0,0,2,14,1,8,8,9,5,7,6,3,5,0
+Static Function,"print_custring_8(FILE *,PCRE2_SPTR8)",pcre2test-pre.c,3,0,0,1,3,0,3,3,4,1,1,0,2,0,0
+Static Function,"print_custring_bylen_8(FILE *,PCRE2_SPTR8,PCRE2_UCHAR8)",pcre2test-pre.c,4,0,0,1,3,0,3,3,4,1,1,0,2,0,0
+Static Function,"print_error_message(int,const char *,const char *)",pcre2test-pre.c,11,0,0,4,2,0,2,2,2,1,1,0,1,0,0
+Static Function,print_jit_target(FILE *),pcre2test-pre.c,3,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"print_match(int *,const void *,int)",pcre2grep-pre.c,7,0,0,2,9,1,5,5,5,1,1,0,1,0,0
+Static Function,"print_newline_config(uint32_t,BOOL)",pcre2test-pre.c,4,0,0,1,4,1,3,3,3,1,1,0,1,0,0
+Static Function,"print_prop_8(FILE *,PCRE2_SPTR8,const char *,const char *)",pcre2test-pre.c,7,0,0,2,3,0,4,4,4,1,1,0,2,0,0
+Static Function,print_unicode_version(FILE *),pcre2test-pre.c,3,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Static Function,print_version(FILE *),pcre2test-pre.c,4,0,0,1,2,0,2,2,2,1,0,0,1,0,0
+Static Function,"prmsg(const char **,const char *)",pcre2test-pre.c,5,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,process_command(),pcre2test-pre.c,17,0,0,35,393,3,49,40,55,29,158,157,5,154,0
+Static Function,process_data(),pcre2test-pre.c,58,0,0,68,999999999,19,236,214,301,88,344,325,9,313,0
+Static Function,process_pattern(),pcre2test-pre.c,51,0,0,60,999999999,13,127,123,143,67,126,126,7,122,0
+Static Function,"read_name(int *,PCRE2_SPTR8 *,PCRE2_SPTR8,uint32_t,size_t *,PCRE2_SPTR8 *,uint32_t *,int *,compile_block_8 *)",compile-pre.c,7,0,0,6,60,2,9,9,14,8,14,14,2,14,0
+Static Function,"read_number(int *,PCRE2_SPTR8 *,PCRE2_SPTR8,int32_t,uint32_t,uint32_t,int *,int *)",compile-pre.c,8,0,0,4,88,2,11,11,17,8,11,11,2,10,0
+Static Function,"read_one_line(int *,char *,int,FILE *)",pcre2grep-pre.c,13,0,0,4,4194308,7,24,24,45,3,2,2,2,2,1
+Static Function,"read_pattern_file(int *,char *,patstr **,patstr **)",pcre2grep-pre.c,16,0,0,15,67371013,8,33,33,52,9,14,14,4,14,1
+Static Function,"read_repeat_counts(int *,PCRE2_SPTR8 *,PCRE2_SPTR8,uint32_t *,uint32_t *,int *)",compile-pre.c,8,0,0,6,352,3,11,11,15,8,11,11,3,11,0
+Static Function,"readdirectory(int *,directory_type *)",pcre2grep-pre.c,3,0,0,3,4,1,4,4,5,4,4,4,2,4,0
+Static Function,"scan_modifiers(const uint8_t *,unsigned int)",pcre2test-pre.c,5,0,0,3,6,1,6,6,6,4,5,5,3,4,0
+Static Function,"serial_error(int,const char *)",pcre2test-pre.c,4,0,0,3,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"set_lookbehind_lengths(int *,uint32_t **,int *,int *,parsed_recurse_check *,compile_block_8 *)",compile-pre.c,9,0,0,5,5,1,5,5,5,3,2,2,3,2,0
+Static Function,"set_nottype_bits(int *,pcre2_real_code_8 *,int,unsigned int)",study-pre.c,5,0,0,1,6,1,4,4,4,1,0,0,2,0,0
+Static Function,"set_start_bits(int *,pcre2_real_code_8 *,PCRE2_SPTR8,BOOL)",study-pre.c,8,0,0,7,490,3,204,34,210,51,826,815,7,814,0
+Static Function,"set_table_bit(int *,pcre2_real_code_8 *,PCRE2_SPTR8,BOOL,BOOL)",study-pre.c,11,0,0,3,28,1,10,10,10,1,5,0,3,0,0
+Static Function,"set_type_bits(int *,pcre2_real_code_8 *,int,unsigned int)",study-pre.c,6,0,0,2,8,1,5,5,5,1,1,0,2,0,0
+Static Function,"show_compile_extra_options(uint32_t,const char *,const char *)",pcre2test-pre.c,6,0,0,1,2,0,7,7,7,1,1,0,1,0,0
+Static Function,"show_compile_options(uint32_t,const char *,const char *)",pcre2test-pre.c,6,0,0,1,2,0,31,31,31,1,1,0,1,0,0
+Static Function,"show_controls(uint32_t,uint32_t,const char *)",pcre2test-pre.c,6,0,0,1,1,0,43,43,43,1,0,0,0,0,0
+Static Function,show_framesize(),pcre2test-pre.c,3,0,0,2,1,0,1,1,1,1,0,0,0,0,0
+Static Function,show_match_options(uint32_t),pcre2test-pre.c,3,0,0,1,1,0,12,12,12,1,0,0,0,0,0
+Static Function,show_memory_info(),pcre2test-pre.c,7,0,0,2,4,1,3,3,3,1,0,0,1,0,0
+Static Function,"show_ovector(size_t *,uint32_t)",pcre2test-pre.c,4,0,0,1,4,1,4,4,6,1,2,0,2,0,0
+Static Function,show_pattern_info(),pcre2test-pre.c,15,0,0,14,999999999,10,58,50,68,12,53,25,5,25,0
+Static Function,"stack_guard(uint32_t,void *)",pcre2test-pre.c,4,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"strcmpic(int *,const char *,const char *)",pcre2grep-pre.c,3,0,0,2,3,0,3,3,4,3,3,3,2,3,0
+Static Function,"strncmpic(const uint8_t *,const uint8_t *,int)",pcre2test-pre.c,5,0,0,2,3,0,3,3,3,3,3,3,2,3,0
+Static Function,"substitute_callout_function(pcre2_substitute_callout_block_8 *,void *)",pcre2test-pre.c,5,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"syntax_check_output_text(int *,PCRE2_SPTR8,BOOL)",pcre2grep-pre.c,5,0,0,3,38,2,20,20,25,12,31,31,6,31,0
+Static Function,"test_incexc(int *,char *,patstr *,patstr *)",pcre2grep-pre.c,8,0,0,3,9,1,6,6,6,6,7,7,2,7,0
+Static Function,usage(),pcre2test-pre.c,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0
+Static Function,"usage(int *,int)",pcre2grep-pre.c,7,0,0,2,3,0,3,3,3,1,0,0,2,0,0
+Static Function,"utf82ord(PCRE2_SPTR8,uint32_t *)",pcre2test-pre.c,6,0,0,2,45,2,10,10,11,10,10,10,2,10,0
